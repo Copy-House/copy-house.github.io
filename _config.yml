@@ -1,3 +1,16 @@
 theme: jekyll-theme-minimal
 title: Copy House Homepage
 description: This is the copyhouse website
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-feed
+
+feed:
+  collections:
+    - insights
+
+collections:
+  clients:
+    output: false

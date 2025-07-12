@@ -7,9 +7,19 @@
   {% include header.html %}
 
   <main>
-    {% include components/hero.html %}
+    {% include components/panel_banner_insight.html %}
 
-    {{ content }}
+    <div class="section no-padding-bottom white-smoke">
+      <div class="container small push-60 w-container">
+        <div class="rich-text-block-5 w-richtext">
+
+          {{ content }}
+
+        </div>
+        <div class="container small w-condition-invisible w-container">
+          <div class="w-dyn-bind-empty w-video w-embed"></div>
+        </div>
+      </div>
 
   </main>
 

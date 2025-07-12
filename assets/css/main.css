@@ -2416,7 +2416,7 @@ a {
 }
 
 .section.hero._1 {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb48db23f305e_purple-arrows.png");
+  background-image: url("/assets/images_old/64258141788bb48db23f305e_purple-arrows.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2425,7 +2425,7 @@ a {
 }
 
 .section.hero._2 {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb4ffce3f307c_content-marketing-strategy-and-consultancy.png");
+  background-image: url("/assets/images_old/64258141788bb4ffce3f307c_content-marketing-strategy-and-consultancy.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2434,7 +2434,7 @@ a {
 
 .section.hero._3 {
   background-color: #151515;
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb481363f3098_specialist-content-writing-services.png");
+  background-image: url("/assets/images_old/64258141788bb481363f3098_specialist-content-writing-services.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2442,7 +2442,7 @@ a {
 }
 
 .section.hero._4 {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb46b5e3f30ae_content-design-service.png");
+  background-image: url("/assets/images_old/64258141788bb46b5e3f30ae_content-design-service.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2450,7 +2450,7 @@ a {
 }
 
 .section.hero._5 {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb43e483f30b9_pay-it-forward-thursdays.png");
+  background-image: url("/assets/images_old/64258141788bb43e483f30b9_pay-it-forward-thursdays.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2458,7 +2458,7 @@ a {
 }
 
 .section.hero.case-study {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64918add2af7b1dffe875c1a_pexels-cottonbro-studio-4065621.jpg");
+  background-image: url("/assets/images_old/64918add2af7b1dffe875c1a_pexels-cottonbro-studio-4065621.jpg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2473,7 +2473,7 @@ a {
 }
 
 .section.hero.case-studies {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb42fde3f30e9_case-study-hero.png");
+  background-image: url("/assets/images_old/64258141788bb42fde3f30e9_case-study-hero.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2684,7 +2684,7 @@ a {
 }
 
 .section.purple-chevron {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb48db23f305e_purple-arrows.png");
+  background-image: url("/assets/images_old/64258141788bb48db23f305e_purple-arrows.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2700,7 +2700,7 @@ a {
 }
 
 .section.large-hero.about {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb43a4d3f30ce_about-copyhouse.png");
+  background-image: url("/assets/images_old/64258141788bb43a4d3f30ce_about-copyhouse.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2737,7 +2737,7 @@ a {
 }
 
 .section.testimonial {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb45b693f30e4_testimonial-image.png");
+  background-image: url("/assets/images_old/64258141788bb45b693f30e4_testimonial-image.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2916,7 +2916,7 @@ a {
   z-index: 1;
   -webkit-text-fill-color: inherit;
   object-fit: fill;
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb4c0893f3062_back-slant-bottom.svg");
+  background-image: url("/assets/images_old/64258141788bb4c0893f3062_back-slant-bottom.svg");
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2998,21 +2998,21 @@ a {
 }
 
 .serv-acc-image._1 {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb46d8d3f3077_content-marketing-whiteboard.png");
+  background-image: url("/assets/images_old/64258141788bb46d8d3f3077_content-marketing-whiteboard.png");
   background-position: 50%;
   background-size: cover;
 }
 
 .serv-acc-image._2 {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb4b1b53f3078_content-writing-services.png");
+  background-image: url("/assets/images_old/64258141788bb4b1b53f3078_content-writing-services.png");
 }
 
 .serv-acc-image._3 {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb4a9bc3f3079_content-design.png");
+  background-image: url("/assets/images_old/64258141788bb4a9bc3f3079_content-design.png");
 }
 
 .serv-acc-image._4 {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb4ab603f307a_pay-it-forward.png");
+  background-image: url("/assets/images_old/64258141788bb4ab603f307a_pay-it-forward.png");
 }
 
 .serv-acc-about {
@@ -3060,7 +3060,7 @@ a {
 }
 
 .arrow {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb42e9e3f3060_drop-down-arrow.png");
+  background-image: url("/assets/images_old/64258141788bb42e9e3f3060_drop-down-arrow.png");
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -3072,7 +3072,7 @@ a {
 
 .top-black-slant {
   z-index: 10;
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb408af3f3061_black-slant-top.svg");
+  background-image: url("/assets/images_old/64258141788bb408af3f3061_black-slant-top.svg");
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3110,7 +3110,7 @@ a {
 }
 
 .plus {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb457813f3063_plus.svg");
+  background-image: url("/assets/images_old/64258141788bb457813f3063_plus.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3347,7 +3347,7 @@ a {
 
 .fb-bottom {
   background-color: #191919;
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb409e13f306c_footer-background.svg");
+  background-image: url("/assets/images_old/64258141788bb409e13f306c_footer-background.svg");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3473,7 +3473,7 @@ a {
 }
 
 .tick-item {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb405b13f307e_ch-tick.svg");
+  background-image: url("/assets/images_old/64258141788bb405b13f307e_ch-tick.svg");
   background-position: 24px 4px;
   background-repeat: no-repeat;
   background-size: auto;
@@ -3484,7 +3484,7 @@ a {
 
 .tick-item.white {
   color: var(--white);
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb41ca13f30b7_ch-white-tick.svg");
+  background-image: url("/assets/images_old/64258141788bb41ca13f30b7_ch-white-tick.svg");
 }
 
 .push-20 {
@@ -3499,7 +3499,7 @@ a {
 .bottom-grey-slant {
   z-index: 10;
   color: #0000;
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb47b833f307f_grey-slant-bottom.svg");
+  background-image: url("/assets/images_old/64258141788bb47b833f307f_grey-slant-bottom.svg");
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3518,7 +3518,7 @@ a {
 
 .bottom-black-slant-invert {
   z-index: 10;
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb47f5e3f3080_back-slant-bottom-invert.svg");
+  background-image: url("/assets/images_old/64258141788bb47f5e3f3080_back-slant-bottom-invert.svg");
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3667,7 +3667,7 @@ a {
   z-index: 10;
   clear: both;
   mix-blend-mode: normal;
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb4d32e3f3083_back-slant-top-invert.svg");
+  background-image: url("/assets/images_old/64258141788bb4d32e3f3083_back-slant-top-invert.svg");
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3708,19 +3708,19 @@ a {
 }
 
 .serv-tab-image.content-writing {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb4b1b53f3078_content-writing-services.png");
+  background-image: url("/assets/images_old/64258141788bb4b1b53f3078_content-writing-services.png");
 }
 
 .serv-tab-image.pay-it-forward {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb4ab603f307a_pay-it-forward.png");
+  background-image: url("/assets/images_old/64258141788bb4ab603f307a_pay-it-forward.png");
 }
 
 .serv-tab-image.b2b-events {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb487f83f3084_b2b-small.png");
+  background-image: url("/assets/images_old/64258141788bb487f83f3084_b2b-small.png");
 }
 
 .serv-tab-image.content-marketing {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb46d8d3f3077_content-marketing-whiteboard.png");
+  background-image: url("/assets/images_old/64258141788bb46d8d3f3077_content-marketing-whiteboard.png");
 }
 
 .serv-tab-title {
@@ -3923,7 +3923,7 @@ a {
 }
 
 .vs {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb4f0ab3f30b3_VS.svg");
+  background-image: url("/assets/images_old/64258141788bb4f0ab3f30b3_VS.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -3934,7 +3934,7 @@ a {
 }
 
 .portait-image {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb4bc453f30b5_offset-border-portrait.svg");
+  background-image: url("/assets/images_old/64258141788bb4bc453f30b5_offset-border-portrait.svg");
   background-position: 100% 0;
   background-repeat: no-repeat;
   background-size: auto;
@@ -3946,7 +3946,7 @@ a {
 
 .top-grey-slant-invert {
   z-index: 10;
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb4f1653f30b8_grey-slant-top.svg");
+  background-image: url("/assets/images_old/64258141788bb4f1653f30b8_grey-slant-top.svg");
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3979,7 +3979,7 @@ a {
 }
 
 .instructor-image {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb413703f30ba_kathryn-on-purple.png");
+  background-image: url("/assets/images_old/64258141788bb413703f30ba_kathryn-on-purple.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -4000,7 +4000,7 @@ a {
   text-align: center;
   letter-spacing: .18px;
   text-transform: uppercase;
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb4bd453f30bb_connect-with-kathryn.svg");
+  background-image: url("/assets/images_old/64258141788bb4bd453f30bb_connect-with-kathryn.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -4021,7 +4021,7 @@ a {
 
 .bottom-grey-slant-invert {
   z-index: 10;
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb4b3963f30c9_grey-slant-bottom-invert.svg");
+  background-image: url("/assets/images_old/64258141788bb4b3963f30c9_grey-slant-bottom-invert.svg");
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4065,7 +4065,7 @@ a {
 }
 
 .price-title.popular {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb472273f30cc_popular-bar-new.svg");
+  background-image: url("/assets/images_old/64258141788bb472273f30cc_popular-bar-new.svg");
   background-position: 100% 0;
   background-repeat: no-repeat;
   background-size: auto;
@@ -4098,7 +4098,7 @@ a {
 
 .green-tick-item {
   color: var(--black);
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb416c33f30cb_green-tick.svg");
+  background-image: url("/assets/images_old/64258141788bb416c33f30cb_green-tick.svg");
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -4158,7 +4158,7 @@ a {
 }
 
 .member-image {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/649432e4ddcfe6d7b108592b_New%20website%20photos.png");
+  background-image: url("/assets/images_old/649432e4ddcfe6d7b108592b_New%20website%20photos.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4411,7 +4411,7 @@ a {
 
 .author-border {
   z-index: 0;
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb441d93f30e5_author-border.svg");
+  background-image: url("/assets/images_old/64258141788bb441d93f30e5_author-border.svg");
   background-position: 50%;
   background-size: auto;
   width: 100px;
@@ -4421,7 +4421,7 @@ a {
 }
 
 .cta-block {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb492883f30e6_cta-box.png");
+  background-image: url("/assets/images_old/64258141788bb492883f30e6_cta-box.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4528,7 +4528,7 @@ a {
 
 .home-hero-background-backup {
   z-index: -2;
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb409d03f30ea_home-hero.png");
+  background-image: url("/assets/images_old/64258141788bb409d03f30ea_home-hero.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4537,7 +4537,7 @@ a {
 }
 
 .equals {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb46d993f30ee_equals.svg");
+  background-image: url("/assets/images_old/64258141788bb46d993f30ee_equals.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4553,7 +4553,7 @@ a {
 
 .specialism-container {
   background-color: var(--black);
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb4a5a93f30f0_icon-box.svg");
+  background-image: url("/assets/images_old/64258141788bb4a5a93f30f0_icon-box.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -4637,7 +4637,7 @@ a {
 }
 
 .portfolio-item {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb418393f3135_365.png");
+  background-image: url("/assets/images_old/64258141788bb418393f3135_365.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4646,7 +4646,7 @@ a {
 }
 
 .portfolio-preview {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb418393f3135_365.png");
+  background-image: url("/assets/images_old/64258141788bb418393f3135_365.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4763,7 +4763,7 @@ a {
 }
 
 .popular-tag {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb472273f30cc_popular-bar-new.svg");
+  background-image: url("/assets/images_old/64258141788bb472273f30cc_popular-bar-new.svg");
   background-position: 100% 0;
   background-repeat: no-repeat;
   background-size: auto;
@@ -4773,7 +4773,7 @@ a {
 
 .top-black-slant-invert-bottom {
   z-index: 10;
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb4d32e3f3083_back-slant-top-invert.svg");
+  background-image: url("/assets/images_old/64258141788bb4d32e3f3083_back-slant-top-invert.svg");
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -4788,7 +4788,7 @@ a {
 }
 
 .arrow-group {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb4213a3f3112_arrow-group.svg");
+  background-image: url("/assets/images_old/64258141788bb4213a3f3112_arrow-group.svg");
   background-position: 0%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -4798,7 +4798,7 @@ a {
 }
 
 .quote-top {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb40fa03f3113_quote-top.svg");
+  background-image: url("/assets/images_old/64258141788bb40fa03f3113_quote-top.svg");
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -5864,7 +5864,7 @@ a {
 .top-black-slant-invert-copy {
   z-index: 10;
   clear: both;
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb4d32e3f3083_back-slant-top-invert.svg");
+  background-image: url("/assets/images_old/64258141788bb4d32e3f3083_back-slant-top-invert.svg");
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6185,7 +6185,7 @@ a {
 .section-17 {
   -webkit-text-fill-color: inherit;
   background-color: #0000;
-  background-image: linear-gradient(#000, #0000 50%, #000), url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb409d03f30ea_home-hero.png");
+  background-image: linear-gradient(#000, #0000 50%, #000), url("/assets/images_old/64258141788bb409d03f30ea_home-hero.png");
   background-position: 0 0, 0 0;
   background-repeat: repeat, repeat;
   background-size: auto, cover;
@@ -6263,7 +6263,7 @@ a {
 
 .section-20 {
   background-color: var(--black);
-  background-image: linear-gradient(#000, #0000 51%, #000), url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb409d03f30ea_home-hero.png");
+  background-image: linear-gradient(#000, #0000 51%, #000), url("/assets/images_old/64258141788bb409d03f30ea_home-hero.png");
   background-position: 0 0, 0 0;
   background-size: auto, cover;
   padding: 60px;
@@ -6462,7 +6462,7 @@ a {
 
 .form {
   border: 1px none var(--purple);
-  background-image: linear-gradient(#000, #0000 50%, #000), url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb409d03f30ea_home-hero.png");
+  background-image: linear-gradient(#000, #0000 50%, #000), url("/assets/images_old/64258141788bb409d03f30ea_home-hero.png");
   background-position: 0 0, 0 0;
   background-size: auto, cover;
   border-radius: 1px;
@@ -7125,7 +7125,7 @@ a {
 }
 
 .specialism-container-2 {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb4a5a93f30f0_icon-box.svg");
+  background-image: url("/assets/images_old/64258141788bb4a5a93f30f0_icon-box.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -7148,7 +7148,7 @@ a {
 }
 
 .specialism-container-3 {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/64258141788bb4a5a93f30f0_icon-box.svg");
+  background-image: url("/assets/images_old/64258141788bb4a5a93f30f0_icon-box.svg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: auto;
@@ -7266,7 +7266,7 @@ a {
 }
 
 .link-block-4 {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/65285b9d35e6881190adefb6_f6579e48dcc78de2250fc0ee2e66bd4a.png");
+  background-image: url("/assets/images_old/65285b9d35e6881190adefb6_f6579e48dcc78de2250fc0ee2e66bd4a.png");
   background-position: 0 0;
   background-size: contain;
   width: 50px;
@@ -7274,7 +7274,7 @@ a {
 }
 
 .link-block-5 {
-  background-image: url("https://cdn.prod.website-files.com/64258141788bb46b413f301f/65285b9d3fea6f3b51b92dfe_c57cb1b70480e101109a89a8201ac6c8.png");
+  background-image: url("/assets/images_old/65285b9d3fea6f3b51b92dfe_c57cb1b70480e101109a89a8201ac6c8.png");
   background-position: 0 0;
   background-size: contain;
   width: 50px;

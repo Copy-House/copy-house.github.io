@@ -9,18 +9,10 @@
   <main>
     {% include components/panel_banner.html %}
 
-    <div class="section_blog-post">
-      <div class="padding-global">
-        <div class="container-large">
-          <div class="padding-section-large">
-            <div class="blog-post_component">
-              <div class="blog-post_content-wrapper">
-                <div class="blog-post_content">
-                  {{ content }}
-                </div>
-              </div>
-            </div>
-          </div>
+    <div class="section no-padding-bottom">
+      <div class="container small push-60 w-container">
+        <div class="black-copy w-richtext">
+          {{ content }}
         </div>
       </div>
     </div>
@@ -32,3 +24,4 @@
 </body>
 
 </html>
+

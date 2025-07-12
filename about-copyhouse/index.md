@@ -2,6 +2,6 @@
 layout: about
 
 panel_banner:
-  h1: Marketing Insights
-  p: Discover content marketing insights, advice, and downloadable resources from the specialists at CopyHouse.
+  h1: About Us
+  p: We're a friendly bunch of creatives and technology specialists.
 ---

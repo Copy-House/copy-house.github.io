@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en-GB">
+
+{% include head.html %}
+
+<body>
+  {% include header.html %}
+
+  <main>
+    {% include components/panel_banner.html %}
+
+    <section class="panel">
+      <div class="wrapper">
+        <div class="[ flow ] [ flow-space-700 ]">
+
+          <ul class="[ grid ] [ lg:grid-cols-2 ]" role="list">
+
+            {% comment %}
+            Assumes you have a "case_studies" collection in your _config.yml
+            Each case study is a markdown file in a "_case_studies" folder.
+            {% endcomment %}
+
+            {% assign studies = site.case_studies | sort: "date" | reverse %}
+            {% for entry in studies %}
+            <li class="case-study-preview">
+
+              <div class="preview-image" {% if entry.image %}style="background-image:url('{{ entry.image }}')" {% endif
+                %}>
+                <div class="div-block-15"></div>
+                {% if entry.logo %}
+                <div class="client-logo list" {% if entry.logo_bg_color
+                  %}style="background-color:{{ entry.logo_bg_color }}" {% endif %}>
+                  <div class="client-logo-inner" style="background-image:url('{{ entry.logo }}')"></div>
+                </div>
+                {% endif %}
+              </div>
+
+              <div class="preview-information">
+                <div class="div-block-24">
+                  <h3 class="no-top-bottom push-30">{{ entry.title }}</h3>
+                  {% if entry.summary %}
+                  <div class="push-30">{{ entry.summary }}</div>
+                  {% endif %}
+                </div>
+                <div class="div-block-25">
+                  <a href="{{ entry.url }}" class="button invert w-button">Read case study</a>
+                </div>
+              </div>
+
+            </li>
+            {% endfor %}
+          </ul>
+
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+  {% include footer.html %}
+
+</body>
+
+</html>

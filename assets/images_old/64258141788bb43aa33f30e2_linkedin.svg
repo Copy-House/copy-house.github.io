@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16.83" height="16.594" viewBox="0 0 16.83 16.594">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_207" data-name="Rectangle 207" width="16.83" height="16.594" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="LinkedIN" clip-path="url(#clip-path)">
+    <path id="Path_116" data-name="Path 116" d="M3.811,1.8A1.794,1.794,0,0,1,1.87,3.6,1.773,1.773,0,0,1,0,1.8,1.786,1.786,0,0,1,1.917,0,1.779,1.779,0,0,1,3.811,1.8M.095,5.018h3.6V16.594H.095Z" transform="translate(0 0)" fill="#fff"/>
+    <path id="Path_117" data-name="Path 117" d="M37.071,34.541c0-1.444-.047-2.651-.094-3.693H40.1l.166,1.61h.071a4.157,4.157,0,0,1,3.575-1.87c2.367,0,4.142,1.586,4.142,4.995v6.841h-3.6V36.009c0-1.491-.521-2.509-1.823-2.509a1.976,1.976,0,0,0-1.846,1.349,2.594,2.594,0,0,0-.119.9v6.675h-3.6Z" transform="translate(-31.225 -25.83)" fill="#fff"/>
+  </g>
+</svg>

@@ -9,6 +9,37 @@
   <main>
     {% include components/panel_banner.html %}
 
+    <section class="section-white">
+      <div class="w-layout-blockcontainer container-48 w-container">
+        <div class="w-dyn-list">
+          <div role="list" class="w-dyn-items">
+
+            {% assign insight = site.insights | sort: "date" | reverse %}
+            {% for entry in insight %}
+
+            <div role="listitem" class="collection-item-12 w-dyn-item"><a
+                href="{{ entry.url }}" class="w-inline-block">
+                <div class="w-layout-blockcontainer container-47 w-container">
+                  <h3 class="heading-61">Featured Article</h3>
+                  <h3 class="featured-date">{{ entry.date }}</h3>
+                  <h3 class="featured-heading">{{ entry.title }}</h3>
+                  <div class="featured-description">{{ entry.meta_description }}</div>
+                </div>
+              </a><a
+                style="background-image:url('{{ entry.image }}')"
+                href="{{ entry.url }}"
+                class="featured-article-link-block w-inline-block">
+                <div class="w-layout-blockcontainer featured-article-overlay w-container"></div>
+              </a>
+            </div>
+
+            {{ endfor }}
+
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   {% include footer.html %}

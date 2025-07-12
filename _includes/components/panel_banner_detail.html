@@ -1,19 +1,15 @@
-<div
-  style="background-image:url('{{ page.image }}')"
-  class="section hero case-study slant">
+<div style="background-image:url('{{ page.image }}')" class="section hero case-study slant">
   <div class="container w-container">
     <div class="case-study-hero">
       <div class="case-study-hero-column">
-        <h1 class="heading">{{ page.title }}</h1>
+        <h1 class="heading-3">{{ page.title }}</h1>
       </div>
       <div class="case-study-hero-column">
-        {% if page.logo and page.logo != "" %}
         <div style="background-color:white" class="client-logo">
-          <div
-            style="background-image:url('{{ page.logo }}')"
-            class="client-logo-inner"></div>
+          {% if page.logo and page.logo != "" %}
+          <div style="background-image:url('{{ page.logo }}')" class="client-logo-inner"></div>
+          {% endif %}
         </div>
-        {% endif %}
       </div>
     </div>
   </div>
@@ -21,18 +17,16 @@
   <div class="case-study-share relative-above">
     <div class="share-buttons">
       <div class="share-button">
-        <div class="share">Share</div><img
-          src="/assets/images_old/64258141788bb42ffb3f30e1_twitter.svg"
-          loading="lazy" alt="" class="social-share-icon">
+        <div class="share">Share</div><img src="/assets/images_old/64258141788bb42ffb3f30e1_twitter.svg" loading="lazy"
+          alt="" class="social-share-icon">
         <div class="social-share-code w-embed"><a class="w-inline-block social-share-code"
             href="https://twitter.com/intent/tweet?" target="_blank" alt="Tweet This" title="Tweet"
             onclick="window.open('https://twitter.com/intent/tweet?text=%20Check this out! ' + encodeURIComponent(document.URL) + '&amp;t=' + encodeURIComponent(document.URL), 'targetWindow', 'toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;"></a>
         </div>
       </div>
       <div class="share-button">
-        <div class="share">Share</div><img
-          src="/assets/images_old/64258141788bb43aa33f30e2_linkedin.svg"
-          loading="lazy" alt="" class="social-share-icon">
+        <div class="share">Share</div><img src="/assets/images_old/64258141788bb43aa33f30e2_linkedin.svg" loading="lazy"
+          alt="" class="social-share-icon">
         <div class="social-share-code w-embed"><a class="w-inline-block social-share-code"
             href="http://www.linkedin.com/shareArticle?mini=true&amp;url=&amp;title=&amp;summary=&amp;source="
             target="_blank" title="Share on LinkedIn"
@@ -40,9 +34,8 @@
           </a></div>
       </div>
       <div class="share-button">
-        <div class="share">Share</div><img
-          src="/assets/images_old/64258141788bb476e43f30e3_facebook.svg"
-          loading="lazy" alt="" class="social-share-icon">
+        <div class="share">Share</div><img src="/assets/images_old/64258141788bb476e43f30e3_facebook.svg" loading="lazy"
+          alt="" class="social-share-icon">
         <div class="social-share-code w-embed"><a class="w-inline-block social-share-code"
             href="https://www.facebook.com/sharer/sharer.php?u=&amp;t=" title="Share on Facebook" target="_blank"
             onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&amp;t=' + encodeURIComponent(document.URL), 'targetWindow', 'toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); 

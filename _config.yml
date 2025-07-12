@@ -10,3 +10,6 @@ plugins:
 collections:
   clients:
     output: false
+  insights:
+    output: true
+    permalink: /insights/:path/

@@ -13,3 +13,6 @@ collections:
   insights:
     output: true
     permalink: /insights/:path/
+  case-studies:
+    output: true
+    permalink: /case-studies/:path/

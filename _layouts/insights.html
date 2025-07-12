@@ -21,7 +21,7 @@
                 href="{{ entry.url }}" class="w-inline-block">
                 <div class="w-layout-blockcontainer container-47 w-container">
                   <h3 class="heading-61">Featured Article</h3>
-                  <h3 class="featured-date">{{ entry.date }}</h3>
+                  <h3 class="featured-date">{{ entry.date | date: "%d %b %Y" }}</h3>
                   <h3 class="featured-heading">{{ entry.title }}</h3>
                   <div class="featured-description">{{ entry.meta_description }}</div>
                 </div>

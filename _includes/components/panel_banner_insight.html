@@ -7,11 +7,13 @@
         <h1 class="heading">{{ page.title }}</h1>
       </div>
       <div class="case-study-hero-column">
+        {% if page.logo and page.logo != "" %}
         <div style="background-color:white" class="client-logo">
           <div
             style="background-image:url('{{ page.logo }}')"
             class="client-logo-inner"></div>
         </div>
+        {% endif %}
       </div>
     </div>
   </div>

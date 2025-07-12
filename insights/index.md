@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: insights
 
 title: Content Marketing Insights for Tech & FinTech | CopyHouse
 description: "Explore the latest insights and expert analysis from CopyHouse. Our blog covers cutting-edge trends in content marketing, technology, and FinTech to help you stay ahead."

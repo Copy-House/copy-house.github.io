@@ -16,11 +16,11 @@
           <ul class="[ grid ] [ lg:grid-cols-2 ]" role="list">
 
             {% comment %}
-            Assumes you have a "case_studies" collection in your _config.yml
-            Each case study is a markdown file in a "_case_studies" folder.
+            Assumes you have a "case-studies" collection in your _config.yml
+            Each case study is a markdown file in a "_case-studies" folder.
             {% endcomment %}
 
-            {% assign studies = site.case_studies | sort: "date" | reverse %}
+            {% assign studies = site.case-studies | sort: "date" | reverse %}
             {% for entry in studies %}
             <li class="case-study-preview">
 

@@ -9,53 +9,42 @@
   <main>
     {% include components/panel_banner.html %}
 
-    <section class="panel">
-      <div class="wrapper">
-        <div class="[ flow ] [ flow-space-700 ]">
-
-          <ul class="[ grid ] [ lg:grid-cols-2 ]" role="list">
-
-            {% comment %}
-            Assumes you have a "case-studies" collection in your _config.yml
-            Each case study is a markdown file in a "_case-studies" folder.
-            {% endcomment %}
+    <div class="section white-smoke">
+      <div class="container w-container">
+        <div class="collection-list-wrapper-4 w-dyn-list">
+          <div fs-cmsload-mode="load-under" fs-cmsfilter-element="list" fs-cmsload-element="list" role="list"
+            class="collection-list-6 w-dyn-items">
 
             {% assign studies = site.case-studies | sort: "date" | reverse %}
             {% for entry in studies %}
-            <li class="case-study-preview">
 
-              <div class="preview-image" {% if entry.image %}style="background-image:url('{{ entry.image }}')" {% endif
-                %}>
-                <div class="div-block-15"></div>
-                {% if entry.logo %}
-                <div class="client-logo list" {% if entry.logo_bg_color
-                  %}style="background-color:{{ entry.logo_bg_color }}" {% endif %}>
-                  <div class="client-logo-inner" style="background-image:url('{{ entry.logo }}')"></div>
+            <div id="w-node-bb3b17bf-6c02-e01a-b57d-e2fd3eb02476-9189da40" role="listitem"
+              class="collection-item-4 w-dyn-item">
+              <div class="case-study-preview">
+                <div style="background-image:url('{{ entry.image }}')" class="preview-image">
+                  <div class="div-block-15"></div>
+                  <div style="background-color:white" class="client-logo list">
+                    <div style="background-image:url('{{ entry.logo }}')" class="client-logo-inner"></div>
+                  </div>
                 </div>
-                {% endif %}
-              </div>
-
-              <div class="preview-information">
-                <div class="div-block-24">
-                  <h3 class="no-top-bottom push-30">{{ entry.title }}</h3>
-                  {% if entry.summary %}
-                  <div class="push-30">{{ entry.summary }}</div>
-                  {% endif %}
-                </div>
-                <div class="div-block-25">
-                  <a href="{{ entry.url }}" class="button invert w-button">Read case study</a>
+                <div class="preview-information">
+                  <div class="div-block-24">
+                    <h3 class="no-top-bottom push-30">{{ entry.title }}</h3>
+                    <div class="push-30">{{ entry.summary }}</div>
+                  </div>
+                  <div class="div-block-25"><a href="{{ entry.url }}" class="button invert w-button">Read case study</a>
+                  </div>
+                  <div fs-cmsfilter-field="TYPE" class="filter">Finance</div>
                 </div>
               </div>
+            </div>
 
-            </li>
             {% endfor %}
-          </ul>
-
+            
+          </div>
         </div>
       </div>
-    </section>
-
-
+    </div>  
   </main>
 
   {% include footer.html %}

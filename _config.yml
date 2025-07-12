@@ -7,10 +7,6 @@ plugins:
   - jekyll-redirect-from
   - jekyll-feed
 
-feed:
-  collections:
-    - insights
-
 collections:
   clients:
     output: false

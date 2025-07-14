@@ -9,12 +9,17 @@
   <main>
     {% include components/panel_banner.html %}
 
-    {% include components/panel_image_text.html %}
-    {% include components/panel_text_image.html %}
+    {% assign panel_index = 0 %}
+    {% include components/panel_image_text.html index=panel_index %}
+    {% increment panel_index %}
+
+    {% include components/panel_image_text.html index=panel_index %}
+    {% increment panel_index %}
 
     {% include components/panel_icongrid.html %}
 
-    {% include components/panel_image_text.html %}
+    {% include components/panel_image_text.html index=panel_index %}
+    {% increment panel_index %}
 
     {% include components/panel_contact_form.html %}
 

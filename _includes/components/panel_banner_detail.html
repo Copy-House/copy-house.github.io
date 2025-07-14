@@ -4,13 +4,13 @@
       <div class="case-study-hero-column">
         <h1 class="heading-3">{{ page.title }}</h1>
       </div>
+      {% if page.logo and page.logo != "" %}
       <div class="case-study-hero-column">
         <div style="background-color:white" class="client-logo">
-          {% if page.logo and page.logo != "" %}
           <div style="background-image:url('{{ page.logo }}')" class="client-logo-inner"></div>
-          {% endif %}
         </div>
       </div>
+      {% endif %}
     </div>
   </div>
   <div class="purple-overlay"></div>

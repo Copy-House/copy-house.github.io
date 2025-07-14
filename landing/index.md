@@ -2,8 +2,8 @@
 layout: landing
 
 panel_banner:
-  h1: About Us
-  p: We're a friendly bunch of creatives and technology specialists.
+  h1: Landing Page
+  p: This is the landing page
 
 
 panel_image_text:

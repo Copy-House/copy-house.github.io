@@ -3,36 +3,16 @@
         <h2 class="heading-43 left">Latest Insights</h2>
         <div class="collection-list-wrapper-10 w-dyn-list">
             <div role="list" class="collection-list-15 w-dyn-items w-row">
-                <div role="listitem" class="recent-insight w-dyn-item w-col w-col-4"><a
-                        href="/insights/google-vs-generative-ai-copyhouse" class="w-inline-block"><img alt=""
-                            loading="lazy"
-                            src="https://cdn.prod.website-files.com/64258141788bb4a6ff3f3045/6874d7731f6116aee4365473_markus-spiske-ViC0envGdTU-unsplash.jpg"
-                            height="270" class="image-54">
-                        <h6 class="heading-58">Google vs. Generative AI | CopyHouse</h6>
-                        <p class="paragraph-13">We take a look at how generative AI replacing Google searches affects
-                            SEO-driven content marketing, as well as Google’s new quality rating guidelines. </p>
-                    </a></div>
-                <div role="listitem" class="recent-insight w-dyn-item w-col w-col-4"><a
-                        href="/insights/rise-of-community-led-brand-growth-copyhouse" class="w-inline-block"><img alt=""
-                            loading="lazy"
-                            src="https://cdn.prod.website-files.com/64258141788bb4a6ff3f3045/685a93aaf72b43d75e12c8dd_Untitled%20design%20(35).png"
-                            height="270" class="image-54">
-                        <h6 class="heading-58">Rise of Community-Led Brand Growth | CopyHouse</h6>
-                        <p class="paragraph-13">Discover why more and more brands are looking beyond the feed and
-                            investing in community-led growth to optimise marketing spend. </p>
-                    </a></div>
-                <div role="listitem" class="recent-insight w-dyn-item w-col w-col-4"><a
-                        href="/insights/why-brands-are-reclaiming-their-audience" class="w-inline-block"><img alt=""
-                            loading="lazy"
-                            src="https://cdn.prod.website-files.com/64258141788bb4a6ff3f3045/682b0c92ed96d8d2dfb2f147_social%20(23).png"
-                            height="270"
-                            sizes="(max-width: 479px) 96vw, (max-width: 767px) 97vw, (max-width: 1439px) 31vw, 313.328125px"
-                            srcset="https://cdn.prod.website-files.com/64258141788bb4a6ff3f3045/682b0c92ed96d8d2dfb2f147_social%20(23)-p-500.png 500w, https://cdn.prod.website-files.com/64258141788bb4a6ff3f3045/682b0c92ed96d8d2dfb2f147_social%20(23)-p-800.png 800w, https://cdn.prod.website-files.com/64258141788bb4a6ff3f3045/682b0c92ed96d8d2dfb2f147_social%20(23)-p-1080.png 1080w, https://cdn.prod.website-files.com/64258141788bb4a6ff3f3045/682b0c92ed96d8d2dfb2f147_social%20(23).png 1200w"
-                            class="image-54">
-                        <h6 class="heading-58">Why Brands Are Reclaiming Their Audiences</h6>
-                        <p class="paragraph-13">Learn about the influencer bubble could be about to burst, as brands
-                            move away from using content marketing influencers.</p>
-                    </a></div>
+                {% assign latest_insights = site.insights | sort: "date" | reverse %}
+                {% for entry in latest_insights limit:3 %}
+                <div role="listitem" class="recent-insight w-dyn-item w-col w-col-4">
+                    <a href="{{ entry.url }}" class="w-inline-block">
+                        <img alt="{{ entry.title }}" loading="lazy" src="{{ entry.image }}" height="270" class="image-54">
+                        <h6 class="heading-58">{{ entry.title }}</h6>
+                        <p class="paragraph-13">{{ entry.meta_description }}</p>
+                    </a>
+                </div>
+                {% endfor %}
             </div>
         </div>
     </div>

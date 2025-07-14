@@ -12,4 +12,7 @@ panels_image_text:
   - title: Second title
     text: "Second paragraph"
     image: "/assets/images_old/second_image.png"
+  - title: Third title
+    text: "Third paragraph"
+    image: "/assets/images_old/third_image.png"
 ---

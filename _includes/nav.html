@@ -1,0 +1,29 @@
+{% assign is_active = page.url startswith item.url %}
+
+<nav class="navbar ms-auto" id="navbarHeader">
+  <ul class="navbar-nav gap-5" role="list">
+    {% for item in site.data.navigation %}
+    {% assign is_active = page.url == item.url %}
+
+    {% if item.submenu %}
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle {% if is_active %}active{% endif %}" href="{{ item.url }}" id="dropdown{{ forloop.index }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        {{ item.name }}
+      </a>
+
+      <ul class="dropdown-menu" aria-labelledby="dropdown{{ forloop.index }}">
+        {% for sub in item.submenu %}
+        {% assign sub_active = page.url == sub.url %}
+        <li><a class="nav-link dropdown-item {% if sub_active %}active{% endif %}" href="{{ sub.url }}">{{ sub.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </li>
+    {% else %}
+    <li class="nav-item">
+      <a href="{{ item.url }}" title="{{ item.title }}" class="nav-link {% if is_active %}current{% endif %}">{{ item.name }}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+
+  </ul>
+</nav>

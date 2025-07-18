@@ -1,4 +1,4 @@
-theme: jekyll-theme-minimal
+theme: null
 title: Copy House Homepage
 description: This is the copyhouse website
 
@@ -7,12 +7,23 @@ plugins:
   - jekyll-redirect-from
   - jekyll-feed
 
+sass:
+  load_paths:
+    - _sass
+  style: compressed
+
+port: 4001
+
 collections:
-  clients:
+  addresses:
+    output: true
+  services:
+    output: true
+  about-copyhouse:
     output: false
+  case-studies:
+    output: true
+    permalink: /work/:path/
   insights:
     output: true
     permalink: /insights/:path/
-  case-studies:
-    output: true
-    permalink: /case-studies/:path/

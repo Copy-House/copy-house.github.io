@@ -1,0 +1,31 @@
+// Site Brand Color.
+$gray-100:    #f8f8f8;
+$gray-300:    #d7d9d9;
+$gray-600:    #707070;
+$gray-700:    #333333;
+$gray-800:    #131313;
+$gray-900:    #151515;
+$black:       #0a0a0a;
+
+
+$blue:        #8000ff;
+$indigo:      #7e0bf7;
+$purple:      #7b1cfb;
+$orange:      #fa9527;
+
+$info:          $orange;
+
+// Fonts
+$font-family-sans-serif: 'Aeonik', sans-serif;
+$headings-font-weight: 700;
+
+$font-size-md:    $font-size-base * 1.5;
+
+$display-font-sizes: (
+  1: 4.375rem,
+  2: 3.875rem,
+  3: 4rem,
+  4: 3.125rem,
+  5: 3rem,
+  6: 2.625rem,
+);

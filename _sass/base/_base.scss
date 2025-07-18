@@ -1,0 +1,38 @@
+/**
+* @Files
+* Base Style.
+*/
+
+.focus-style {
+  outline-offset: rem(3);
+  outline: rem(3) solid $body-color;
+}
+
+a, button, .btn {
+  &:focus {
+    @extend .focus-style;
+  }
+  &:focus:not(:focus-visible) {
+    outline: 0 none;
+  }
+  &:focus-visible {
+    @extend .focus-style;
+  }
+}
+p, ul, ol, pre, table, blockquote {
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  margin: 0;
+}
+

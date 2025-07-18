@@ -1,0 +1,31 @@
+---
+# Jekyll requires this front matter to compile the file!
+---
+
+/************* Functions / Variables *************/
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+@import 'base/variables';
+
+/****************** Bootstrap ******************/
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/root";
+
+@import "bootstrap/scss/utilities";
+/*! purgecss start ignore */
+@import "bootstrap/scss/reboot";
+/*! purgecss end ignore */
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/helpers";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar";
+
+/* Custom Site Style */
+/* Base Styles */
+@import 'base/mixins';
+
+@import "custom";

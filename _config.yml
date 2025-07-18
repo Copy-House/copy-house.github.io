@@ -12,8 +12,6 @@ sass:
     - _sass
   style: compressed
 
-port: 4001
-
 collections:
   addresses:
     output: true

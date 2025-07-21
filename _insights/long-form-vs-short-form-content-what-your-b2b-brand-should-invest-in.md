@@ -1,4 +1,5 @@
 ---
+layout: insight
 title: "Long Form vs Short Form Content – What Your B2B Brand Should Invest In"
 meta_description: "Explore the benefits and drawbacks of long-form and short-form content for B2B brands, and learn how to choose the right format for each stage of the sales funnel."
 slug: "long-form-vs-short-form-content-b2b"

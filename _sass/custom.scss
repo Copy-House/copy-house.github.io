@@ -15,18 +15,21 @@
 /* Bootstrap Core */
 @import "bootstrap/maps";
 @import "bootstrap/mixins";
-@import "bootstrap/root";
 @import "bootstrap/utilities";
+@import "bootstrap/root";
 
 /* Optional Bootstrap Parts */
 @import "bootstrap/reboot";
+@import "bootstrap/type";
+@import "bootstrap/images";
 @import "bootstrap/containers";
 @import "bootstrap/grid";
-@import "bootstrap/helpers";
-@import "bootstrap/images";
+@import "bootstrap/buttons";
+@import "bootstrap/transitions";
+@import "bootstrap/dropdown";
 @import "bootstrap/nav";
 @import "bootstrap/navbar";
-@import "bootstrap/dropdown";
+@import "bootstrap/helpers";
 
 /* Bootstrap Utilities Generator */
 @import "bootstrap/utilities/api";
@@ -42,3 +45,4 @@
 @import 'layout/footer';
 
 /* Module Styles */
+@import 'module/hero';

@@ -1,7 +1,3 @@
-- name: Home
-  url: /
-  title: Explore our services and expertise
-
 - name: What We Do
   url: javascript:;
   title: Explore our services and expertise

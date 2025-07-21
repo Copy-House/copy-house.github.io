@@ -3,30 +3,36 @@
 * Base Style.
 */
 
-.focus-style {
-  outline-offset: rem(3);
-  outline: rem(3) solid $body-color;
+:root {
+  --bs-indigo-900: #8000ff;
+  --bs-indigo-800:  #7e0bf7;
+  @include make-css-var("header-height", 6.25rem);
+
+  @include media-breakpoint-up(lg) {
+    @include make-css-var("header-height", 7.5rem);
+  }
 }
 
+.focus-style {
+  outline-offset: rem(4);
+  outline: rem(3) solid var(--bs-white);
+}
+
+%focus,
 a, button, .btn {
   &:focus {
     @extend .focus-style;
+    box-shadow: unset;
   }
   &:focus:not(:focus-visible) {
     outline: 0 none;
   }
   &:focus-visible {
     @extend .focus-style;
+    box-shadow: unset;
   }
 }
-p, ul, ol, pre, table, blockquote {
-  a {
-    text-decoration: none;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
+
 img {
   max-width: 100%;
   height: auto;
@@ -36,3 +42,45 @@ figure {
   margin: 0;
 }
 
+// button style
+.btn {
+  &-white {
+    --bs-btn-color: var(--bs-indigo-900);
+    --bs-btn-bg: var(--bs-white);
+    --bs-btn-border-width: 0;
+
+    &:hover {
+      color: $white;
+      background-image: linear-gradient($indigo-900, $blue);
+    }
+  }
+}
+
+%gradient-4,
+.gradient-4 {
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(267deg, #9130f1, #b11a9a 13%, #f38a31 86%, $orange);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+%gradient-2,
+.gradient-2 {
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(247deg, $indigo-900, $orange);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.section-triangle {
+  background-color: var(--#{$prefix}dark);
+  @include relative(z-index 1);
+  &:after {
+    content: "";
+    width: 100%;
+    height: rem(80);
+    background-color: inherit;
+    clip-path: polygon(0 0, 100% 100%, 0% 100%);
+    @include absolute(bottom 0 left 0 z-index -1);
+  }
+}

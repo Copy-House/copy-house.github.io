@@ -1,4 +1,5 @@
 ---
+layout: insight
 title: "Content Creation: In-House vs Agency"
 meta_description: "Explore the pros and cons of in-house vs agency content creation and discover which is the best fit for your marketing strategy and business goals."
 slug: "content-creation-in-house-vs-agency"

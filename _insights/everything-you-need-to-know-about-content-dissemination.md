@@ -1,8 +1,8 @@
 ---
 layout: insight
-title: "Everything You Need To Know About Content Dissemination | CopyHouse"
+title: "Everything You Need To Know About Content Dissemination"
 meta_description: "Discover how to maximise the impact of your content using social selling, email drip campaigns and newsletters to generate leads and boost engagement."
-image: "/assets/images_old/content-dissemination-guide.png"
+image: /assets/images_old/content-dissemination-guide.png
 author: CopyHouse
 date: 25-10-31
 ---

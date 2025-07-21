@@ -1,4 +1,5 @@
 ---
+layout: insight
 title: "How Can B2B Marketers Adapt To Gen-Z Buyers?"
 meta_description: "Discover how B2B marketers can connect with Gen-Z buyers through digital-first strategies, influencer collaboration, and purpose-driven content that speaks their language."
 slug: "b2b-marketing-for-gen-z"

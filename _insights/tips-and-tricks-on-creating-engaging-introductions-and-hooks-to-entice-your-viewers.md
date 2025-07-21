@@ -56,7 +56,7 @@ Avoid fluff. Readers need a simple, clear message—**what’s in it for them**.
 
 Know your audience. They need to *see themselves* in your content. Make it relevant and valuable to their world.
 
-[Check out our blog on creating customer avatars](#) to discover how to define your target reader.
+[Check out our blog on creating customer avatars](https://copy-house.github.io/insights/building-your-b2b-customer-avatar/) to discover how to define your target reader.
 
 ### Speak Directly to the Reader
 

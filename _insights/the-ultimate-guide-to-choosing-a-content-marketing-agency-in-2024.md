@@ -1,4 +1,5 @@
 ---
+layout: insight
 title: "The Ultimate Guide to Choosing a Content Marketing Agency in 2024"
 meta_description: "Explore how to find the right content marketing agency in 2024, from strategy and scalability to sector-specific expertise and ROI transparency."
 slug: "choosing-content-marketing-agency-2024"

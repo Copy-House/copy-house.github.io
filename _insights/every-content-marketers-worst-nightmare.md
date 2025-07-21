@@ -7,7 +7,7 @@ author: CopyHouse
 date: 2025-07-21
 ---
 
-# Every Content Marketers’ Worst Nightmares
+# Every Content Marketers’ Worst Nightmare
 
 Ever wonder what keeps our copywriters and content design team up at night? In light of Halloween, we’re pulling back the curtain and sharing the content marketing nightmares that haunt even the most seasoned pros.
 

@@ -1,4 +1,5 @@
 ---
+layout: insight
 title: "Everything You Need to Know About SEO"
 meta_description: "Learn the fundamentals of SEO, including its role in content marketing, keyword research, formatting best practices, and how to improve your rankings."
 slug: "everything-you-need-to-know-about-seo"

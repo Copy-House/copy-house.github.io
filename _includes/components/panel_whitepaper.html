@@ -1,10 +1,27 @@
-<section class="hero-stack-2">
-    <div class="container-55">
-      <div class="hero-wrapper-two">
-        <h1 class="heading-71"><strong class="bold-text-5">Ready to Tackle Misinformation with Confidence?</strong></h1>
-        <p class="margin-bottom-24px-4"><strong class="bold-text-4">In an age of digital noise, misinformation spreads fast - and marketers are under pressure to act responsibly without losing momentum. Our latest whitepaper cuts through the complexity and offers a clear strategy for pushing back with integrity.</strong></p>
-        <a href="https://www.linkedin.com/smart-links/AQHYi5LXqqJNcA" class="button-primary-5 w-button"><strong class="bold-text-3">Download “The Mischief of Misinformation” today</strong></a>
-        <img class="hero-image shadow-two" src="/assets/images_old/685a67d5b6a3fb81482548b5_Untitled%20design%20(32).png" alt="" sizes="(max-width: 800px) 100vw, 800px" loading="lazy" srcset="/assets/images_old/685a67d5b6a3fb81482548b5_Untitled%20design%20(32)-p-500.png 500w, /assets/images_old/685a67d5b6a3fb81482548b5_Untitled%20design%20(32).png 800w"/>
+{% assign panel_whitepaper = page.panel_whitepaper %}
+
+<section class="panel-whitepaper border-bottom border-light rounded-4 py-lg-10 py-8">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="col-12 col-md-8">
+        <div class="panel-whitepaper__head text-white text-white px-lg-7">
+          <h2 class="display-4">
+            {{ panel_whitepaper.heading }}
+          </h2>
+          <p>
+            {{ panel_whitepaper.description }}
+          </p>
+          <a href="{{ panel_whitepaper.cta_url}}" class="btn btn-white btn-large">
+            {{ panel_whitepaper.cta_text}}
+          </a>
+        </div>
+        <figure class="panel-whitepaper__body mt-5 px-lg-7">
+          <img class="rounded-3 opacity-76"
+               src="{% asset_path {{ panel_whitepaper.image }} /{{ panel_whitepaper.folder }} %}"
+               alt="{{ panel_whitepaper.image_alt }}"
+               loading="lazy">
+        </figure>
       </div>
     </div>
+  </div>
 </section>

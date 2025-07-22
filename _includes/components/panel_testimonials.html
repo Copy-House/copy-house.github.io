@@ -1,27 +1,19 @@
-<div class="section large-padding gradient-purple slant">
-  <div class="container above w-container"></div>
-  <div class="w-layout-blockcontainer w-container">
-    <div class="quote-block">
-      <div class="quote first">
-        <div class="quote-top"></div>
-        <div class="quote-inner">
-          <div class="quote-text push-40">Open banking is a relatively new technology that some may struggle to understand fully. We wanted to partner with an agency that could grasp the complexity of the topic. CopyHouse demonstrated a strong ability to turn high-tech subjects into digestible content, which made them the perfect fit for us.</div>
-          <div class="quote-bottom">
-            <div class="quote-byline">Elias Pitsavos</div>
-            <div class="quote-byline-company">Klarna</div>
+<section class="blockquote mt-5 pt-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      {% for item in site.data.testimonials %}
+      <div class="col-12 col-lg-4 d-flex">
+        <blockquote class="d-flex flex-column">
+          <div class="blockquote_body">
+            <p>{{ item.text }}</p>
           </div>
-        </div>
-      </div>
-      <div class="quote">
-        <div class="quote-top"></div>
-        <div class="quote-inner">
-          <div class="quote-text push-40">You’re feeding our thought process and capturing the [...] personality perfectly - it’s really refreshing for us here<strong>.</strong></div>
-          <div class="quote-bottom">
-            <div class="quote-byline">Joanna Brunt</div>
-            <div class="quote-byline-company">Travelex</div>
+          <div class="blockquote_footer fs-6 text-uppercase mt-auto">
+            <span class="blockquote_author d-block fw-bold">{{ item.author }}</span>
+            <span class="blockquote_company d-block">{{ item.company }}</span>
           </div>
-        </div>
+        </blockquote>
       </div>
+      {% endfor %}
     </div>
   </div>
-</div>
+</section>

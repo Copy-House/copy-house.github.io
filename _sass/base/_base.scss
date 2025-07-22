@@ -54,6 +54,18 @@ figure {
       background-image: linear-gradient($indigo-900, $blue);
     }
   }
+  &-large {
+    padding: rem(12) rem(25);
+    font-size: rem(15);
+    line-height: rem(40);
+    text-transform: uppercase;
+    @include border-radius(20px);
+    &:hover {
+      color: $indigo-900;
+      background-color: #43464d;
+      background-image: unset;
+    }
+  }
 }
 
 %gradient-4,
@@ -118,4 +130,9 @@ figure {
       padding-bottom: rem(180);
     }
   }
+}
+
+//opacity
+.opacity-76 {
+  opacity: 0.76;
 }

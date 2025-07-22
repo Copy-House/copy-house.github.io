@@ -1,13 +1,16 @@
-<h1 class="heading-49">The Tech Specialists Trusted By:</h1>
-<div class="section black slant">
-  <div class="container w-container"></div>
-  <div class="clients-wrapper">
-    <img src="/assets/images_old/649db50e957e80405de56adc_Travelex_Worldwide_Money_Logo.png" loading="lazy" width="140" sizes="(max-width: 479px) 100vw, 140px" alt="Arise Health logo" srcset="/assets/images_old/649db50e957e80405de56adc_Travelex_Worldwide_Money_Logo-p-500.png 500w, /assets/images_old/649db50e957e80405de56adc_Travelex_Worldwide_Money_Logo-p-800.png 800w, /assets/images_old/649db50e957e80405de56adc_Travelex_Worldwide_Money_Logo-p-1080.png 1080w, /assets/images_old/649db50e957e80405de56adc_Travelex_Worldwide_Money_Logo-p-1600.png 1600w, /assets/images_old/649db50e957e80405de56adc_Travelex_Worldwide_Money_Logo.png 2000w" class="clients-image"/>
-    <img src="/assets/images_old/649db51ab70647e9220cf252_worldfirst-logo-banner-(1).png" loading="lazy" width="140" sizes="(max-width: 479px) 100vw, 140px" alt="Arise Health logo" srcset="/assets/images_old/649db51ab70647e9220cf252_worldfirst-logo-banner-(1)-p-500.png 500w, /assets/images_old/649db51ab70647e9220cf252_worldfirst-logo-banner-(1)-p-800.png 800w, /assets/images_old/649db51ab70647e9220cf252_worldfirst-logo-banner-(1).png 1080w" class="clients-image"/>
-    <img src="/assets/images_old/649db5323bb90d20e7c8c288_Cigna-Logo.png" loading="lazy" width="140" sizes="(max-width: 479px) 100vw, 140px" alt="Arise Health logo" srcset="/assets/images_old/649db5323bb90d20e7c8c288_Cigna-Logo-p-500.png 500w, /assets/images_old/649db5323bb90d20e7c8c288_Cigna-Logo-p-800.png 800w, /assets/images_old/649db5323bb90d20e7c8c288_Cigna-Logo-p-1080.png 1080w, /assets/images_old/649db5323bb90d20e7c8c288_Cigna-Logo-p-1600.png 1600w, /assets/images_old/649db5323bb90d20e7c8c288_Cigna-Logo.png 2000w" class="clients-image"/>
-    <img src="/assets/images_old/649db541732900d8d440935e_brand_guide_logo.png" loading="lazy" width="140" alt="The Paak logo" class="clients-image"/>
-    <img src="/assets/images_old/649db571610d7d85e875c62b_2560px-Klarna_Logo_black.svg.png" loading="lazy" width="140" sizes="(max-width: 479px) 100vw, 140px" alt="OE logo" srcset="/assets/images_old/649db571610d7d85e875c62b_2560px-Klarna_Logo_black.svg-p-500.png 500w, /assets/images_old/649db571610d7d85e875c62b_2560px-Klarna_Logo_black.svg-p-800.png 800w, /assets/images_old/649db571610d7d85e875c62b_2560px-Klarna_Logo_black.svg-p-1080.png 1080w, /assets/images_old/649db571610d7d85e875c62b_2560px-Klarna_Logo_black.svg-p-1600.png 1600w, /assets/images_old/649db571610d7d85e875c62b_2560px-Klarna_Logo_black.svg-p-2000.png 2000w, /assets/images_old/649db571610d7d85e875c62b_2560px-Klarna_Logo_black.svg.png 2560w" class="clients-image"/>
-    <img src="/assets/images_old/649db581267d293c10f62124_631b45dc8a806b0a419d8ddc_Untitled-2.png" loading="lazy" width="140" sizes="(max-width: 479px) 100vw, 140px" alt="2020INC logo" srcset="/assets/images_old/649db581267d293c10f62124_631b45dc8a806b0a419d8ddc_Untitled-2-p-500.png 500w, /assets/images_old/649db581267d293c10f62124_631b45dc8a806b0a419d8ddc_Untitled-2.png 786w" class="clients-image"/>
+<section class="panel-client mt-5">
+  <div class="container">
+    <h2 class="text-center text-white h4">{{ page.panel_client.heading }}</h2>
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-9">
+        <ul class="row list-unstyled align-items-center mt-5">
+          {% for item in site.data.clients %}
+            <li class="col p-3">
+              <img src="{% asset_path {{ item.image }} /logos %}" loading="lazy" width="140" alt="{{ item.alt }}">
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
   </div>
-  <div class="container-10"></div>
-</div>
+</section>

@@ -24,4 +24,15 @@ intro_paragraphs:
   - We exist to facilitate the adoption of cutting-edge technology by creating <span class="gradient-2">high-quality content</span> that connects you with your audience, starting important conversations and building better relationships.
   - The most <span class="gradient-2">successful</span> businesses use CopyHouse to tell their stories and make their voices heard.
 
+panel_whitepaper:
+  heading: "Ready to Tackle Misinformation with Confidence?"
+  description: In an age of digital noise, misinformation spreads fast - and marketers are under pressure to act responsibly without losing momentum. Our latest whitepaper cuts through the complexity and offers a clear strategy for pushing back with integrity.
+  cta_url: "https://www.linkedin.com/smart-links/AQHYi5LXqqJNcA"
+  cta_text: "Download “The Mischief of Misinformation” today"
+  image: "tackle-misinformation.png"
+  image_alt: "tackle misinformation"
+  folder: "panel-whitepaper"
+
+panel_client:
+  heading: "Technology"
 ---

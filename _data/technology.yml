@@ -1,0 +1,20 @@
+title: Technology Content Marketing Specialist Agency
+subtitle: We stay up-to-date on emerging technologies and make complex ideas simple to understand. Whether you're B2B or B2C, working with CopyHouse will help you say 'goodbye' to uncertainty and 'hello' to a content marketing strategy that leverages your position in an ever-changing marketplace.
+
+technologies:
+  - name: Fintech
+    image: fintech-image.png
+    alt: Technology Fintech
+
+  - name: Blockchain
+    image: blockchain-image.png
+    alt: Technology Blockchain
+
+  - name: Artificial Intelligence
+    image: ai-logo.png
+    alt: Technology Artificial Intelligence
+
+  - name: Software Development
+    image: software-dev.png
+    alt: Technology Software Development
+

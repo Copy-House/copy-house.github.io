@@ -1,28 +1,24 @@
-<div class="section largest-padding gradient-purple slant">
-  <div class="bottom-black-slant-invert"></div>
-  <div class="w-layout-blockcontainer w-container">
-    <div class="heading-small margin-bottom-32px">Technology Content Marketing Specialist Agency</div>
-    <div class="grey-text-3 max-80 push-60">We stay up-to-date on emerging technologies and make complex ideas simple to understand. Whether you're B2B or B2C, working with CopyHouse will help you say ‘goodbye’ to uncertainty and ‘hello’ to a content marketing strategy that leverages your position in an ever-changing marketplace.</div>
-  </div>
-  <div class="w-layout-blockcontainer w-container">
-    <div class="w-layout-grid grid-11">
-      <div>
-        <div id="w-node-_064dcd05-70b5-cd66-8d25-fddb01fb0cf6-9189da3a"><img src="/assets/images_old/64258141788bb40bcd3f30ef_fintech.png" loading="lazy" alt="" class="image-45"/></div>
+<section class="section our-technology section-triangle section-triangle--bottom section-triangle--top gradient-purple largest-padding pt-lg-12" aria-labelledby="technologies-heading">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-9">
+        <div class="our-technology__head mx-lg-auto col-lg-11 mb-7">
+          <h2 id="technologies-heading" class="text-center my-5">{{ site.data.technology.title }}</h2>
+          <p>{{ site.data.technology.subtitle }}</p>
+        </div>
+        <div class="text-center p-4 border border-white bg-black rounded-4">
+          <ul class="grid list-unstyled row row-cols-1 row-cols-md-2 row-cols-lg-4 justify-content-center g-4">
+            {% for item in site.data.technology.technologies %}
+              <li class="col">
+                <div class="text-white h-100 d-grid align-items-center justify-content-center">
+                  <img src="{% asset_path {{ item.image }} /ai-images %}" loading="lazy" width="125" alt="{{ item.alt }}" class="img-fluid mx-auto mb-3">
+                  <span class="h4 d-block mt-auto mb-0">{{ item.name }}</span>
+                </div>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
-      <div>
-        <div id="w-node-_064dcd05-70b5-cd66-8d25-fddb01fb0cfb-9189da3a"><img src="/assets/images_old/64258141788bb430f13f3105_blockchain.png" loading="lazy" alt="" class="image-46"/></div>
-      </div>
-      <div>
-        <div id="w-node-_064dcd05-70b5-cd66-8d25-fddb01fb0d00-9189da3a"><img src="/assets/images_old/64258141788bb490193f3106_ai.png" loading="lazy" alt="" class="image-47"/></div>
-      </div>
-      <div>
-        <div id="w-node-_064dcd05-70b5-cd66-8d25-fddb01fb0d05-9189da3a"><img src="/assets/images_old/64258141788bb49f423f3107_software-dev.png" loading="lazy" alt="" class="image-44"/></div>
-      </div>
-      <h4 class="specialism-title-2">Fintech</h4>
-      <h4 class="specialism-title-2">Blockchain</h4>
-      <h4 class="specialism-title-2">Artificial Intelligence</h4>
-      <h4 class="specialism-title-2">Software Development</h4>
     </div>
   </div>
-  <div class="top-black-slant-invert"></div>
-</div>
+</section>

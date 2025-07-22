@@ -4,22 +4,27 @@ solutions:
     url: /services/content-marketing-strategy-and-consultancy
     image: content-marketing-strategy.png
     alt: Content Marketing Strategy
+
   - name: Specialist Content Writing
     url: /services/content-marketing-strategy-and-consultancy
     image: specialist-content-writing.png
     alt: Specialist Content Writing
+
   - name: Social Media Marketing
     url: /services/content-marketing-strategy-and-consultancy
     image: social-media-marketing.png
     alt: Social Media Marketing
+
   - name: Branding and Design
     url: /services/content-marketing-strategy-and-consultancy
     image: branding-design.png
     alt: Branding and Design
+
   - name: PR Services
     url: /services/content-marketing-strategy-and-consultancy
     image: PR-services.png
     alt: PR Services
+
 button:
   text: Find Out More
   url: /services/content-marketing-solutions

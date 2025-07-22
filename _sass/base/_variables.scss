@@ -18,6 +18,21 @@ $info:          $orange;
 $light:         $white;
 $dark:          $gray-900;
 
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
+// Body
+$body-color:                $white;
+$body-bg:                   $gray-900;
+
 // spacer-variables-maps
 $spacer: 1rem;
 $spacers: (
@@ -55,6 +70,18 @@ $display-font-family: null;
 $display-font-style:  null;
 $display-font-weight: 700;
 $display-line-height: $headings-line-height;
+
+$h2-font-size:                $font-size-base * 2.1875;
+
+// scss-docs-start font-sizes
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size
+);
 
 $spacers: (
   0: 0,

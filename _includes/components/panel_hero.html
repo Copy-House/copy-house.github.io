@@ -1,6 +1,6 @@
 {% assign video = page.hero_video %}
 
-<section class="hero-banner text-white text-center d-flex justify-content-center align-items-center position-relative section-triangle">
+<section class="hero-banner text-white text-center d-flex justify-content-center align-items-center position-relative section-triangle--bottom">
   <div class="hero-banner__video h-100 position-absolute z-n1"
     data-poster-url="{% asset_path {{ video.poster }} /{{ video.folder }} %}"
     data-video-urls="{% asset_path {{ video.mp4 }} /{{ video.folder }} %}"
@@ -27,7 +27,7 @@
       {{ page.hero.heading }} <span class="gradient-4">{{ page.hero.highlight }}</span>
     </h1>
     <p>{{ page.hero.subheading }}</p>
-    <a href="{{ page.hero.cta_url }}" title="{{ page.hero.cta_text }}" class="btn btn-white text-uppercase mt-5">
+    <a href="{{ page.hero.cta_url }}" title="{{ page.hero.cta_text }}" class="btn btn-white text-uppercase mt-6">
       {{ page.hero.cta_text }}
     </a>
   </div>

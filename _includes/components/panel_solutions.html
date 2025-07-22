@@ -1,7 +1,7 @@
-<section class="section our-solution section-triangle section-triangle--bottom section-triangle--top gradient-purple largest-padding" aria-labelledby="solutions-heading">
+<section class="section our-solution section-triangle section-triangle--bottom section-triangle--top gradient-purple largest-padding pt-lg-12" aria-labelledby="solutions-heading">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 col-md-10">
+      <div class="col-12 col-md-9">
         <div class="our-solution__inner text-center p-6 border border-white bg-dark rounded-5">
           <h2 id="solutions-heading" class="my-5 my-lg-7">{{ site.data.solutions.title }}</h2>
 
@@ -9,7 +9,7 @@
             {% for item in site.data.solutions.solutions %}
               <li class="col">
                 <a href="{{ item.url }}" class="d-block text-decoration-none text-white">
-                  <img src="{% asset_path {{ item.image }} /solutions %}" loading="lazy" width="125" alt="{{ item.alt }}">
+                  <img src="{% asset_path {{ item.image }} /ai-images %}" loading="lazy" width="125" alt="{{ item.alt }}">
                   <span class="d-block mt-2">{{ item.name }}</span>
                 </a>
               </li>

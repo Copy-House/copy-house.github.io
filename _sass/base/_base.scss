@@ -99,6 +99,17 @@ figure {
   &.gradient-purple {
     background-image: linear-gradient(to bottom, var(--bs-purple), var(--bs-blue));
   }
+  &.gradient-blue {
+    background-color: var(--bs-gray-900);
+    background-image: linear-gradient(
+      to bottom,
+      var(--bs-gray-900) 2%,
+      var(--bs-purple) 67%,
+      var(--bs-black) 100%
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   &.largest-padding {
     padding-top: rem(100);
     padding-bottom: rem(100);

@@ -1,39 +1,28 @@
-<div class="div-block-46">
-  <section class="section-23">
-    <h2 class="h1-white-2">Our Work</h2>
-    <div class="container-30 w-clearfix">
-      <div class="testimonial-wrapper-four">
-        <div class="testimonial-right">
-          <img src="/assets/images_old/650b1360b059d4d4284f2b0d_meta_PNG7.png" loading="lazy" width="144" sizes="(max-width: 479px) 100vw, 144px" alt="" srcset="/assets/images_old/650b1360b059d4d4284f2b0d_meta_PNG7-p-500.png 500w, /assets/images_old/650b1360b059d4d4284f2b0d_meta_PNG7-p-800.png 800w, /assets/images_old/650b1360b059d4d4284f2b0d_meta_PNG7.png 1549w" class="image-39"/>
-          <div class="div-block-47"></div>
-          <div class="heading-small margin-bottom-32px">Helping Meta to Define <span class="gradient-5">Brand Suitability</span></div>
-          <p class="testimonial-text-four-2">Creating a definition requires a clear and commonly-held understanding of a particular topic, item or subject matter. However, how do you go about defining an ideology that, by its very nature, means different things to different people?<br/>As one of the foremost names in online advertising, and social media, Meta’s words carry significant weight. As such, they knew that when it came to delivering a definitive and cohesive stance on brand suitability, how to protect it and how it differs from brand safety, Meta knew it had to get its messaging right.</p>
-          <a href="/case-studies/increasing-linkedin-impressions-by-4-706-for-pastdue" class="button-5 button w-button">read More</a>
+<section class="section our-work gradient-blue py-7">
+  <div class="container">
+    <h2 class="text-center mb-6">Our Work</h2>
+    <div class="row justify-content-center">
+      {% for item in site.data.case_studies %}
+      <article class="col-12 col-lg-9 mb-7">
+        <div class="our-work__inner bg-black shadow rounded-3 px-4 py-5 p-lg-6 text-center">
+          <figure class="mb-7">
+            <img
+              src="{% asset_path {{ item.image }} /logos %}"
+              width="{{ item.width }}"
+              alt="{{ item.alt }}"
+              class="image-fluid"
+              loading="lazy"
+            />
+          </figure>
+          <h3 class="mb-6">{{ item.title | markdownify | remove: '<p>' | remove: '</p>' }}</h3>
+          <p class="text-start">{{ item.description }}</p>
+          <a href="{{ item.url }}" class="btn btn-white d-md-inline-block d-block text-uppercase mt-4">Read More</a>
         </div>
-      </div>
+      </article>
+      {% endfor %}
     </div>
-    <div class="container-30">
-      <div class="testimonial-wrapper-four">
-        <div class="testimonial-right">
-          <img src="/assets/images_old/650b11b976ea2f094361ec2b_Daco_4839718.png" loading="lazy" width="93" sizes="93px" alt="" srcset="/assets/images_old/650b11b976ea2f094361ec2b_Daco_4839718-p-500.png 500w, /assets/images_old/650b11b976ea2f094361ec2b_Daco_4839718-p-800.png 800w, /assets/images_old/650b11b976ea2f094361ec2b_Daco_4839718.png 907w" class="image-40"/>
-          <div class="heading-small margin-bottom-32px"><span class="gradient-5">Effective </span>Healthcare Marketing for Cigna<span class="gradient-5"></span></div>
-          <p class="testimonial-text-four-2">During the three-year window, we delivered more than 50 separate projects and became an integral part of their global marketing team. CopyHouse is proud to have been a part of its journey, offering digital marketing support across a wide range of business verticals. As a content marketing agency, we’re now well-versed in healthcare marketing campaigns, with many of our writers having worked with Cigna.</p>
-          <a href="/case-studies/supporting-cigna-with-ad-hoc-healthcare-marketing" class="button-5 button w-button">Read More</a>
-        </div>
-      </div>
+    <div class="my-4 text-center">
+      <a href="/case-studies" class="btn btn-white text-uppercase">View Case Studies</a>
     </div>
-    <div class="container-30 w-clearfix">
-      <div class="testimonial-wrapper-four">
-        <div class="testimonial-right">
-          <img src="/assets/images_old/650b11b976ea2f094361ec25_pastdue-logo.png" loading="lazy" width="181" alt="" class="image-41"/>
-          <div class="heading-small margin-bottom-32px">Increasing LinkedIn impressions by <span class="gradient-5">4,706%</span> for Pastdue</div>
-          <p class="testimonial-text-four-2">Through our partnership with Pastdue, CopyHouse helped the company transform their marketing efforts, from a reactive and inconsistent approach to a robust and strategic plan. By investing in their branding and social media strategy, Pastdue achieved a significant increase in impressions, engagement, and brand awareness on LinkedIn. With a consistent brand identity and a long-term content plan, Pastdue is well-positioned to continue expanding their reach and attracting new customers in the years to come.</p>
-          <a href="/case-studies/increasing-linkedin-impressions-by-4-706-for-pastdue" class="button-5 button w-button">read More</a>
-        </div>
-      </div>
-    </div>
-    <div class="w-layout-blockcontainer container-31 w-clearfix w-container">
-        <a href="/case-studies" class="button-9 w-button">view case studies</a>
-    </div>
-  </section>
-</div>
+  </div>
+</section>

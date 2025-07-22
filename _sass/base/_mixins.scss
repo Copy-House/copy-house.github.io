@@ -413,3 +413,21 @@ $global-path: "/assets/images/";
   -o-transition: $args;
   transition: $args;
 }
+
+// Prefixed CSS var shorthand
+@function css-var($var, $include-prefix: true) {
+  @if $include-prefix {
+    @return var(--#{$prefix}#{$var});
+  } @else {
+    @return var(--#{$var});
+  }
+}
+
+// Create CSS var
+@mixin make-css-var($name, $value, $include-prefix: true) {
+  @if $include-prefix {
+    --#{$prefix}#{$name}: #{$value};
+  } @else {
+    --#{$name}: #{$value};
+  }
+}

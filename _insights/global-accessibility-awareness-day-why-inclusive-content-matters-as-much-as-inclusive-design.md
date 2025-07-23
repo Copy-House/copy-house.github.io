@@ -2,7 +2,7 @@
 layout: insight
 title: "Global Accessibility Awareness Day: Why Inclusive Content Matters As Much As Inclusive Design"
 meta_description: "Today, 15th May, marks Global Accessibility Awareness Day (GAAD) — our vital annual reminder that the digital world must be open and usable for everyone, regardless of ability."
-image: "/assets/images_old/682b0add3adf615a47884eea_social%20(21).png"
+image: "/assets/images_old/insight-header.webp"
 author: CopyHouse
 date: 24-06-25
 ---

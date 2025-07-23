@@ -2,6 +2,7 @@
 layout: insight
 title: "Every Content Marketers’ Worst Nightmare"
 meta_description: "Explore the scariest mistakes in content marketing — from keyword stuffing to cheesy sales lines — and learn how to avoid them like a pro."
+image: "/assets/images_old/insight-header.webp"
 keywords: ["personal branding", "tech marketing", "thought leadership", "LinkedIn marketing", "B2B strategy"]
 author: CopyHouse
 date: 2025-07-21

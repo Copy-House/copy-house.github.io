@@ -2,9 +2,10 @@
 layout: insight
 title: "The Ultimate Guide to Choosing a Content Marketing Agency in 2024"
 meta_description: "Explore how to find the right content marketing agency in 2024, from strategy and scalability to sector-specific expertise and ROI transparency."
+image: "/assets/images_old/insight-header.webp"
 slug: "choosing-content-marketing-agency-2024"
 keywords: ["content marketing agency", "B2B marketing", "agency partnerships", "2024 marketing strategy"]
-author: Daf
+author: CopyHouse
 date: 2025-07-21
 ---
 

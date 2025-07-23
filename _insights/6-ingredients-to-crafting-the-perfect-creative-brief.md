@@ -2,7 +2,7 @@
 layout: insight
 title: "6 Ingredients to Crafting the Perfect Creative Brief | CH"
 meta_description: "In this article, we share our top tips for clients looking to craft a genuinely useful brief for the content marketers they choose to work with."
-image: "/assets/images_old/682b0add3adf615a47884eea_social%20(21).png"
+image: "/assets/images_old/insight-header.webp"
 author: CopyHouse
 date: 24-06-25
 ---

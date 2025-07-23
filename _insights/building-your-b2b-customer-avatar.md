@@ -2,9 +2,10 @@
 layout: insight
 title: "A Step-by-Step Guide on Building Your B2B Customer Avatar"
 meta_description: "Discover how to create a detailed B2B customer avatar with this practical step-by-step guide, helping you target the right audience effectively."
+image: "/assets/images_old/insight-header.webp"
 slug: "building-your-b2b-customer-avatar"
 keywords: ["buyer persona", "customer avatar", "B2B marketing", "content marketing strategy"]
-author: Daf
+author: CopyHouse
 date: 2025-07-21
 ---
 

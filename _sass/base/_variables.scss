@@ -25,6 +25,8 @@ $indigo-800:  #7e0bf7;
 $purple:      #7b1cfb;
 $orange:      #fa9527;
 
+$secondary:     $gray-300;
+
 // scss-docs-start colors-map
 $colors: (
   "blue":       $blue,
@@ -60,8 +62,8 @@ $theme-colors: (
 );
 
 // Body
-$body-color:                $white;
-$body-bg:                   $gray-900;
+$body-color:    $white;
+$body-bg:       $gray-900;
 
 // spacer-variables-maps
 $spacer: 1rem;
@@ -85,7 +87,7 @@ $spacers: (
 $font-family-sans-serif: 'Aeonik', sans-serif;
 $headings-font-weight: 700;
 
-$font-size-md:    $font-size-base * 1.5;
+$font-size-md:    $font-size-base * 1.375;
 
 $line-height-base:            1.25;
 
@@ -125,12 +127,11 @@ $grid-gutter-width:           2.5rem;
 $container-padding-x: $grid-gutter-width;
 
 // focus-ring-variables
-$focus-ring-width:      0.125rem;
-$focus-ring-opacity:    1;
-$focus-ring-color:      rgba(var(--#{$prefix}white-rgb), $focus-ring-opacity);
-$focus-ring-blur:       0;
-$focus-ring-box-shadow: 0 0 $focus-ring-blur $focus-ring-width $focus-ring-color;
-
+$focus-ring-width:            0.125rem;
+$focus-ring-opacity:          1;
+$focus-ring-color:            rgba(var(--#{$prefix}white-rgb), $focus-ring-opacity);
+$focus-ring-blur:             0;
+$focus-ring-box-shadow:       0 0 $focus-ring-blur $focus-ring-width $focus-ring-color;
 
 // Buttons + Forms
 $input-btn-padding-y:         0.5625rem;
@@ -138,10 +139,18 @@ $input-btn-padding-x:         1.25rem;
 $input-btn-font-size:         $font-weight-bold;
 $input-btn-line-height:       $line-height-base;
 
+$input-btn-padding-y-lg:      0.875rem;
+$input-btn-padding-x-lg:      1.25rem;
+
 $btn-font-weight:             $font-weight-bold;
 $btn-padding-y:               $input-btn-padding-y;
 $btn-padding-x:               $input-btn-padding-x;
 $btn-line-height:             $input-btn-line-height;
+
+$btn-padding-y-lg:            $input-btn-padding-y-lg;
+$btn-padding-x-lg:            $input-btn-padding-x-lg;
+$btn-font-size-lg:            $input-btn-font-size-lg;
+$btn-border-radius-lg:        3px;
 
 // Navs
 $nav-link-padding-y:                0;
@@ -169,7 +178,6 @@ $navbar-dark-active-color:          $nav-link-active-color;
 $navbar-dark-icon-color:            $white;
 $navbar-dark-toggler-icon-bg:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-icon-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
 
-
 // Dropdowns
 //
 // Dropdown menu container and contents.
@@ -191,3 +199,19 @@ $dropdown-link-active-bg:           transparent;
 
 $dropdown-item-padding-y:           $spacer * 1.125;
 $dropdown-item-padding-x:           $spacer * 1.125;
+
+// Forms
+// scss-docs-start form-label-variables
+$form-label-margin-bottom:              .25rem;
+$form-label-font-size:                  $small-font-size;
+$form-label-color:                      $secondary;
+// scss-docs-end form-label-variables
+
+// scss-docs-start form-input-variables
+$input-font-size:                       $small-font-size;
+$input-padding-y:                       0.5rem;
+
+$input-bg:                              var(--#{$prefix}gray-700);
+$input-border-color:                    var(--#{$prefix}gray-600);
+
+$input-border-radius:                   10px;

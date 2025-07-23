@@ -1,43 +1,75 @@
-<div class="w-layout-blockcontainer w-container">
-  <div class="section footer">
-    <div class="container w-container">
-      <div class="push-50">
-        <div class="form-block">
-          <div class="push-50 push-30-mobile w-row">
-            <div class="column-48 push-30-mobile w-col w-col-6 w-col-small-small-stack w-col-tiny-tiny-stack">
-              <h2 class="push-30-mobile">Are you ready to discover the CopyHouse difference?</h2>
-            </div>
-            <div class="column-49 w-col w-col-6 w-col-small-small-stack w-col-tiny-tiny-stack">
-              <div class="grey-text">Meet with our digital marketing consultants today and get ready to find out why working with CopyHouse is an intelligent business decision.</div>
-            </div>
-          </div>
-          <div class="w-form">
-            <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form-3" data-wf-page-id="65ca812e8ccc6a4f9189da3a" data-wf-element-id="a4b89f6e-11c5-9e7e-e3d2-16da27df44fe">
-              <div class="w-row">
-                <div class="form-field-column w-col w-col-6"><label for="First-Name-3" class="field-label">First Name</label><input class="text-field w-input" maxlength="256" name="First-Name" data-name="First Name" placeholder="" type="text" id="First-Name-3"/></div>
-                <div class="form-field-column w-col w-col-6"><label for="last-name-2" class="field-label">Last Name</label><input class="text-field w-input" maxlength="256" name="last-name-2" data-name="Last Name 2" placeholder="" type="text" id="last-name-2"/></div>
+<section class="section contact-section largest-padding pt-lg-12">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-9">
+        <div class="p-7 border border-primary bg-black rounded-3">
+
+          <header class="row mb-7 align-items-center">
+            <h2 class="col-md-5 mb-4 mb-lg-0">{{ site.data.contact.heading }}</h2>
+            <p class="col-md-7 px-md-8 px-lg-12 text-secondary">{{ site.data.contact.description }}</p>
+          </header>
+
+          <form class="row g-3" method="POST" action="{{ site.data.contact.formspree_action }}">
+            {% for field in site.data.contact.fields %}
+              {% assign col_size = '6' %}
+              {% if field.type == 'textarea' or field.type == 'email' %}
+                {% assign col_size = '12' %}
+              {% endif %}
+
+              <div class="col-md-{{ col_size }}">
+                <label for="{{ field.id }}" class="form-label">
+                  {{ field.label }}{% if field.note %} <span>{{ field.note }}</span>{% endif %}
+                </label>
+
+                {% if field.type == 'textarea' %}
+                  <textarea
+                    name="{{ field.name }}"
+                    id="{{ field.id }}"
+                    rows="{{ field.rows | default: 4 }}"
+                    class="form-control"
+                    maxlength="5000"
+                    autocomplete="off"
+                    {% if field.required %}required{% endif %}>
+                  </textarea>
+                {% else %}
+                  <input
+                    type="{{ field.type }}"
+                    name="{{ field.name }}"
+                    id="{{ field.id }}"
+                    class="form-control"
+                    maxlength="256"
+                    autocomplete="{% if field.autocomplete %}{{ field.autocomplete }}{% else %}off{% endif %}"
+                    {% if field.required %}required{% endif %}>
+                {% endif %}
               </div>
-              <label for="Email-4" class="field-label">Email*</label><input class="text-field w-input" maxlength="256" name="Email" data-name="Email" placeholder="" type="email" id="Email-4" required=""/>
-              <label for="last-name-2" class="field-label">Message</label><textarea id="message-2" name="message-2" maxlength="5000" data-name="field" placeholder="" class="text-field push-50 w-input"></textarea>
-              <div class="w-form-formrecaptcha recaptcha-2 push-30-mobile g-recaptcha g-recaptcha-error g-recaptcha-disabled g-recaptcha-invalid-key"></div>
-              <div class="w-row">
-                <div class="w-col w-col-9">
-                  <div class="push-30"><label class="w-checkbox checkbox-field"><input id="Updates-News-2" type="checkbox" name="Updates-News-2" data-name="Updates News 2" class="w-checkbox-input"/><span class="field-label w-form-label" for="Updates-News-2">I’d like to stay in touch with CopyHouse updates and news.</span></label></div>
-                  <div class="form-privacy">CopyHouse is committed to protecting and respecting your privacy, and we’ll only use your personal information to administer your account and to provide the services you requested from us. You can unsubscribe from these communications at any time. For more information on how to unsubscribe, our privacy practices, and how we are committed to protecting and respecting your privacy, please review our Privacy Policy.</div>
-                </div>
-                <div class="right-align w-clearfix w-col w-col-3"><input type="submit" data-wait="Please wait..." class="button invert w-button" value="Submit"/></div>
+            {% endfor %}
+
+
+            <div class="col-md-8">
+              <div class="form-check mb-5 mt-3">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  name="{{ site.data.contact.checkbox.name }}"
+                  id="{{ site.data.contact.checkbox.id }}">
+                <label class="form-check-label text-secondary text-body-sm" for="{{ site.data.contact.checkbox.id }}">
+                  {{ site.data.contact.checkbox.label }}
+                </label>
               </div>
-            </form>
-            <div class="w-form-done">
-              <div>Thank you! Your submission has been received!</div>
+              <div class="form-privacy text-secondary text-body-sm">
+                {{ site.data.contact.privacy_note }}
+              </div>
             </div>
-            <div class="w-form-fail">
-              <div>Oops! Something went wrong while submitting the form.</div>
+
+            <div class="col-md-3 text-center text-md-end mt-5">
+              <button type="submit" class="btn btn-primary btn-lg text-base text-uppercase">
+                Submit
+              </button>
             </div>
-          </div>
+          </form>
+
         </div>
       </div>
     </div>
-    <div class="footer-background"></div>
   </div>
-</div>
+</section>

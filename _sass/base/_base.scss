@@ -41,6 +41,23 @@ img {
 figure {
   margin: 0;
 }
+// Fonts
+.text-base {
+  @include font-size($font-size-base);
+}
+
+.text-body-lg {
+  @include font-size($font-size-lg);
+}
+
+.text-body-md {
+  line-height: 1.36;
+  @include font-size($font-size-md);
+}
+
+.text-body-sm {
+  @include font-size($font-size-sm);
+}
 
 // button style
 .btn {
@@ -64,6 +81,15 @@ figure {
       color: $indigo-900;
       background-color: #43464d;
       background-image: unset;
+    }
+  }
+  &-lg {
+
+  }
+  &-primary {
+    &:hover {
+      background-color: $white;
+      color: var(--bs-purple);
     }
   }
 }

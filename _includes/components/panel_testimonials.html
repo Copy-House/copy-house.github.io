@@ -1,19 +1,23 @@
-<section class="blockquote mt-5 pt-5">
+<section class="section testimonial-section pt-5">
   <div class="container">
     <div class="row justify-content-center">
-      {% for item in site.data.testimonials %}
-      <div class="col-12 col-lg-4 d-flex">
-        <blockquote class="d-flex flex-column">
-          <div class="blockquote_body">
-            <p>{{ item.text }}</p>
+      <div class="col-12 col-md-11 col-lg-9">
+        <div class="row justify-content-between">
+          {% for item in site.data.testimonials %}
+          <div class="col-12 col-lg-6 d-flex">
+            <blockquote class="d-flex flex-column mb-0 border border-white rounded-3 p-6 position-relative">
+              <div class="blockquote_body text-body-md fw-bold mb-4">
+                <p>{{ item.text }}</p>
+              </div>
+              <div class="blockquote_footer fs-6 text-uppercase mt-auto">
+                <span class="blockquote_author d-block fw-bold">{{ item.author }}</span>
+                <span class="blockquote_company d-block">{{ item.company }}</span>
+              </div>
+            </blockquote>
           </div>
-          <div class="blockquote_footer fs-6 text-uppercase mt-auto">
-            <span class="blockquote_author d-block fw-bold">{{ item.author }}</span>
-            <span class="blockquote_company d-block">{{ item.company }}</span>
-          </div>
-        </blockquote>
+          {% endfor %}
+        </div>
       </div>
-      {% endfor %}
     </div>
   </div>
 </section>

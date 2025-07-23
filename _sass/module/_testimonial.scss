@@ -1,0 +1,19 @@
+/**
+* @Files
+* Testimonial module Style.
+*/
+
+.testimonial-section {
+  blockquote {
+    &::before {
+      content: '';
+      background-color: var(--bs-dark);
+      background-image: url(../images/icons/quote-icon.png);
+      background-repeat: no-repeat;
+      background-position: top left;
+      width: rem(91);
+      height: rem(68);
+      @include absolute(top -26px left 26px);
+    }
+  }
+}

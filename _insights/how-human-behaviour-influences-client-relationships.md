@@ -2,7 +2,7 @@
 layout: insight
 title: "How Human Behaviour Influences Client Relationships | CH"
 meta_description: "In this article, we share our top tips as an agency for navigating the thorny issue of working with clients."
-image: "/assets/images_old/682b0add3adf615a47884eea_social%20(21).png"
+image: "/assets/images_old/insight-header.webp"
 author: CopyHouse
 date: 24-06-25
 ---

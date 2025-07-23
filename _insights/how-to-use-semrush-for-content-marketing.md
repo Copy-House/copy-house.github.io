@@ -2,7 +2,7 @@
 layout: insight
 title: "How to Use Semrush to Accelerate Your Content Marketing Strategy | CopyHouse"
 meta_description: "Learn how Semrush can supercharge your content marketing strategy and help your brand rank higher in search results."
-image: "/assets/images_old/682b0add3adf615a47884eea_social%20(22).png"
+image: "/assets/images_old/insight-header.webp"
 author: CopyHouse
 date: 25-06-25
 ---

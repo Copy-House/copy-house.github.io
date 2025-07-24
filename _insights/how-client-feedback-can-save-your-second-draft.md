@@ -1,6 +1,6 @@
 ---
 layout: insight
-title: "How Client Feedback Can Save Your Second Draft | CopyHouse"
+title: "How Client Feedback Can Save Your Second Draft"
 meta_description: "Discover how client feedback can save your second content marketing draft, and why it may be crucial to collaborate on copywriting briefs."
 image: "/assets/images_old/insight-header.webp"
 author: CopyHouse

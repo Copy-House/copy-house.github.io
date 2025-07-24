@@ -5,8 +5,8 @@ meta_description: "Explore the benefits and drawbacks of long-form and short-for
 image: "/assets/images_old/insight-header.webp"
 slug: "long-form-vs-short-form-content-b2b"
 keywords: ["B2B content strategy", "long-form content", "short-form content", "sales funnel content", "content marketing"]
-author: Daf
-date: 2025-07-21
+author: CopyHouse
+date: 2025-03-08
 ---
 
 # Long Form vs Short Form Content – What Your B2B Brand Should Invest In

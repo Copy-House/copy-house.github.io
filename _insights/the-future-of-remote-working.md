@@ -1,10 +1,10 @@
 ---
 layout: insight
-title: "The Future of Remote Working | CopyHouse"
+title: "The Future of Remote Working"
 meta_description: "Explore why remote working is the new norm for businesses and professionals — and how CopyHouse leads the way with its remote-first approach."
 image: "/assets/images_old/insight-header.webp"
 author: CopyHouse
-date: 24-06-25
+date: 2023-03-26
 ---
 
 # The future of remote working

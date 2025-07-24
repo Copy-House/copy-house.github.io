@@ -5,7 +5,7 @@ meta_description: "Explore the pros and cons of in-house vs agency content creat
 image: "/assets/images_old/insight-header.webp"
 slug: "content-creation-in-house-vs-agency"
 keywords: ["content marketing", "in-house vs agency", "content strategy", "B2B marketing"]
-author: Daf
+author: CopyHouse
 date: 2025-05-21
 ---
 

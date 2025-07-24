@@ -5,8 +5,8 @@ meta_description: "Learn why refreshing your existing website content is a power
 image: "/assets/images_old/insight-header.webp"
 slug: "refresh-content-for-seo"
 keywords: ["SEO", "content refresh", "content marketing", "B2B SEO", "website optimisation"]
-author: Daf
-date: 2025-07-21
+author: CopyHouse
+date: 2025-05-02
 ---
 
 # How to Refresh Your Content to Improve Your SEO Rankings

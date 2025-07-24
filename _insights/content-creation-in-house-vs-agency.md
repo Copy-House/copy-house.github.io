@@ -3,8 +3,6 @@ layout: insight
 title: "Content Creation: In-House vs Agency"
 meta_description: "Explore the pros and cons of in-house vs agency content creation and discover which is the best fit for your marketing strategy and business goals."
 image: "/assets/images_old/insight-header.webp"
-slug: "content-creation-in-house-vs-agency"
-keywords: ["content marketing", "in-house vs agency", "content strategy", "B2B marketing"]
 author: CopyHouse
 date: 2025-05-21
 ---

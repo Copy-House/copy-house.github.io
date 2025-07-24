@@ -6,7 +6,7 @@ image: "/assets/images_old/insight-header.webp"
 slug: "b2b-vs-b2c-content-marketing-agencies"
 keywords: ["B2B marketing", "B2C marketing", "content marketing agency", "copywriting", "marketing strategy"]
 author: Copyhouse
-date: 2025-07-21
+date: 2024-11-21
 ---
 
 # B2C & B2B Content Marketing Agencies: What’s the Difference?

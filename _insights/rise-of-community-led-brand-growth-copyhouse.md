@@ -4,7 +4,7 @@ title: Rise of Community-Led Brand Growth
 meta_description: Discover why more and more brands are looking beyond the feed and investing in community-led growth to optimise marketing spend.
 image: "/assets/images_old/insight-header.webp"
 author: CopyHouse
-date: 24-06-25
+date: 2025-05-25
 ---
 
 ### Beyond the Feed: The Rise of Community-Led Brand Growth

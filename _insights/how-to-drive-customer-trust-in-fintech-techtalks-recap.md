@@ -38,9 +38,6 @@ Educating your audience is especially powerful when paired with content marketin
 > “Educating your target audience is probably the most cost-effective marketing tactic out there... To communicate the value proposition of your FinTech, content marketing is needed.”  
 > — *Ani Petrova, The Fintech Marketing Hub*
 
-If you’re looking for practical ways to build trust through content, check out our related insight:  
-[How to Build a B2B Customer Avatar](https://www.copyhouse.io/insights/building-your-b2b-customer-avatar)
-
 ---
 
 ## Common Mistakes Made When Marketing FinTech

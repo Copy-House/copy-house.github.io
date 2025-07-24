@@ -5,7 +5,7 @@ meta_description: "Discover how to maximise the impact of your content using soc
 image: "/assets/images_old/insight-header.webp"
 slug: "everything-you-need-to-know-about-content-dissemination"
 author: CopyHouse
-date: 2025-07-21
+date: 2025-02-10
 ---
 
 # Everything You Need To Know About Content Dissemination

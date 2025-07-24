@@ -2,3 +2,13 @@
  * @Files
  * Footer Style.
 */
+
+.footer {
+  &-link {
+    color: var(--bs-white);
+    text-shadow: 0 1px 1px rgba(var(--bs-block-rgb), 0.3);
+    &:hover {
+      color: var(--bs-orange);
+    }
+  }
+}

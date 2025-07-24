@@ -59,6 +59,10 @@ figure {
   @include font-size($font-size-sm);
 }
 
+.text-body-xs {
+  @include font-size($font-size-xs);
+}
+
 // button style
 .btn {
   &-white {

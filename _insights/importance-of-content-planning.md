@@ -1,10 +1,10 @@
 ---
 layout: insight
-title: "The Importance of Content Planning | CopyHouse"
+title: "The Importance of Content Planning"
 meta_description: "Discover how a robust content planning strategy can help tech brands stay competitive, resonate with their audience and deliver long-term results."
 image: "/assets/images_old/insight-header.webp"
 author: CopyHouse
-date: 25-06-25
+date: 25-04-25
 ---
 
 # The Importance of Content Planning

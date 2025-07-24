@@ -6,7 +6,7 @@ image: "/assets/images_old/insight-header.webp"
 slug: "choosing-content-marketing-agency-2024"
 keywords: ["content marketing agency", "B2B marketing", "agency partnerships", "2024 marketing strategy"]
 author: CopyHouse
-date: 2025-07-21
+date: 2024-04-07
 ---
 
 # The Ultimate Guide to Choosing a Content Marketing Agency in 2024

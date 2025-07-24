@@ -1,10 +1,10 @@
 ---
 layout: insight
-title: Google vs. Generative AI | CopyHouse
+title: Google vs. Generative AI
 meta_description: We take a look at how generative AI replacing Google searches affects SEO-driven content marketing, as well as Google’s new quality rating guidelines. 
 image: "/assets/images_old/insight-header.webp"
 author: CopyHouse
-date: 25-07-17
+date: 2025-05-17
 ---
 
 # Google vs. Generative AI: What the New Quality Rater Guidelines Mean for Your Content

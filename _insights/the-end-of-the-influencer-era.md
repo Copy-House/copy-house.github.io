@@ -1,10 +1,10 @@
 ---
 layout: insight
-title: "Why Brands Are Reclaiming Their Audiences | CopyHouse"
+title: "Why Brands Are Reclaiming Their Audiences"
 meta_description: "Learn about the influencer bubble could be about to burst, as brands move away from using content marketing influencers."
 image: "/assets/images_old/insight-header.webp"
 author: CopyHouse
-date: 24-06-25
+date: 2025-06-27
 ---
 
 # The end of the influencer era? Why brands are reclaiming their audiences

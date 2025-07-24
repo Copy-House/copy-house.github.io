@@ -4,7 +4,7 @@ title: "Business Marketing Can’t Succeed Without Content"
 meta_description: "Discover why business marketing cannot succeed without content that guides customers through the digital marketing funnel to long-term customer loyalty."
 image: "/assets/images_old/insight-header.webp"
 author: CopyHouse
-date: 23-01-25
+date: 2024-11-25
 ---
 
 # Why business marketing cannot succeed without content

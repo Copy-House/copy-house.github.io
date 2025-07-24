@@ -6,7 +6,7 @@ image: "/assets/images_old/insight-header.webp"
 slug: "building-your-b2b-customer-avatar"
 keywords: ["buyer persona", "customer avatar", "B2B marketing", "content marketing strategy"]
 author: CopyHouse
-date: 2025-07-21
+date: 2022-10-24
 ---
 
 # A Step-by-Step Guide on Building Your B2B Customer Avatar

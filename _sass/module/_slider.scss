@@ -1,0 +1,26 @@
+/**
+* @Files
+* Slider module Style.
+*/
+
+.slider {
+  &-track {
+    will-change: transform;
+    @include transition(transform 0.5s ease);
+  }
+  &-dot {
+    display: inline-block;
+    width: rem(10);
+    height: rem(10);
+    background-color: rgba(var(--bs-white-rgb), 0.4);
+    margin: 0 rem(12);
+    cursor: pointer;
+    &.active {
+      background: var(--bs-white);
+    }
+  }
+}
+
+.slide {
+  flex: 0 0 100%;
+}

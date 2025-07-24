@@ -1,5 +1,6 @@
 // Site Brand Color.
 $gray-100:    #f8f8f8;
+$gray-200:    #fff6f6;
 $gray-300:    #d7d9d9;
 $gray-600:    #707070;
 $gray-700:    #333333;
@@ -65,6 +66,8 @@ $theme-colors: (
 $body-color:    $white;
 $body-bg:       $gray-900;
 
+$body-secondary-color: $gray-600;
+
 // spacer-variables-maps
 $spacer: 1rem;
 $spacers: (
@@ -88,8 +91,9 @@ $font-family-sans-serif: 'Aeonik', sans-serif;
 $headings-font-weight: 700;
 
 $font-size-md:    $font-size-base * 1.375;
+$font-size-xs:    $font-size-base * 0.6875;
 
-$line-height-base:            1.25;
+$line-height-base: 1.25;
 
 $display-font-sizes: (
   1: 4.375rem,
@@ -171,6 +175,7 @@ $navbar-nav-link-padding-x:         0;
 $navbar-toggler-padding-y:          1.125rem;
 $navbar-toggler-padding-x:          1.125rem;
 $navbar-toggler-font-size:          $font-size-sm;
+$navbar-toggler-focus-width:        0.125rem;
 
 $navbar-dark-color:                 $nav-link-color;
 $navbar-dark-hover-color:           $nav-link-hover-color;
@@ -215,3 +220,6 @@ $input-bg:                              var(--#{$prefix}gray-700);
 $input-border-color:                    var(--#{$prefix}gray-600);
 
 $input-border-radius:                   10px;
+
+$input-placeholder-color:               var(--#{$prefix}gray-500);
+$input-plaintext-color:                 var(--#{$prefix}gray-600);

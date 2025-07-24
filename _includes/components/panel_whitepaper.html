@@ -1,24 +1,24 @@
-{% assign panel_whitepaper = page.panel_whitepaper %}
+{% assign whitepaper = page.whitepaper %}
 
 <section class="panel-whitepaper border-bottom border-light rounded-4 py-lg-10 py-8">
   <div class="container">
     <div class="row justify-content-center text-center">
-      <div class="col-12 col-md-8">
+      <div class="col-12 col-lg-8">
         <div class="panel-whitepaper__head text-white text-white px-lg-7">
           <h2 class="display-4">
-            {{ panel_whitepaper.heading }}
+            {{ whitepaper.heading }}
           </h2>
           <p>
-            {{ panel_whitepaper.description }}
+            {{ whitepaper.description }}
           </p>
-          <a href="{{ panel_whitepaper.cta_url}}" class="btn btn-white btn-large">
-            {{ panel_whitepaper.cta_text}}
+          <a href="{{ whitepaper.cta_url}}" class="btn btn-white btn-large">
+            {{ whitepaper.cta_text}}
           </a>
         </div>
         <figure class="panel-whitepaper__body mt-5 px-lg-7">
           <img class="rounded-3 opacity-76"
-               src="{% asset_path {{ panel_whitepaper.image }} /{{ panel_whitepaper.folder }} %}"
-               alt="{{ panel_whitepaper.image_alt }}"
+               src="{% asset_path {{ whitepaper.image }} /{{ whitepaper.folder }} %}"
+               alt="{{ whitepaper.image_alt }}"
                loading="lazy">
         </figure>
       </div>

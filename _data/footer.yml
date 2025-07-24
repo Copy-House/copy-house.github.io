@@ -1,0 +1,51 @@
+logo: CopyHouse-Logo.webp
+logo_alt: "CopyHouse logo in colour"
+
+columns:
+  - title: Company
+    links:
+      - label: What we do
+        url: /services/content-marketing-solutions
+      - label: About CopyHouse
+        url: /about-copyhouse
+      - label: Get in touch
+        url: /contact
+
+  - title: Resources
+    links:
+      - label: See our work
+        url: /case-studies
+      - label: Read our expert insights
+        url: /marketing-insights
+
+  - title: Other
+    links:
+      - label: Terms & Conditions
+        url: /terms-of-use
+      - label: Privacy Policy
+        url: /privacy-policy
+    socials:
+      - url: https://www.linkedin.com/company/copy-house-ltd
+        img: /assets/images/icons/linkedin-icon.svg
+        alt: LinkedIn
+        width: 24
+      - url: https://twitter.com/CopyHouse_
+        img: /assets/images/icons/x-icon.png
+        alt: Twitter
+        width: 20
+      - url: https://www.instagram.com/copyhouse.io/
+        img: /assets/images/icons/instagram-icon.png
+        alt: Instagram
+        width: 22
+
+newsletter:
+  action: "https://copyhouse.us6.list-manage.com/subscribe/post?u=e7204ff06ee7aba319e5205d5&id=b0795072bd&f_id=00d02fe3f0"
+  label: "Want to get our latest insights, event news and more delivered straight to your inbox? Sign up to our newsletter, we'll never spam you:"
+  placeholder: "Email"
+  submit_label: "Submit"
+  privacy_note: "You can update your preferences at any time using the unsubscribe link in the email."
+
+copyright: >
+  Copyright © 2025 CopyHouse Consulting Limited, a wholly-owned subsidiary of
+  <a href="https://cohaesus.co.uk/" class="text-primary text-decoration-none">Cohaesus Group Ltd</a>,
+  Company number 12408634. All rights reserved.

@@ -94,11 +94,19 @@ body {
       --height: calc(100% - var(--bs-header-height));
       background-color: var(--bs-black);
       width: 100%;
-      height: var(--height);
+      height: var(--height) !important;
       top: var(--bs-header-height);
       overflow-y: auto;
       padding: .5rem 1rem 0;
+      opacity: 1;
+      visibility: visible;
+      @include transition(opacity 0.15s ease-in-out, visibility 0.15s ease-in-out);
       @include fixed(left 0);
+      &.collapse:not(.show) {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+      }
     }
   }
 }

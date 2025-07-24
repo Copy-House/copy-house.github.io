@@ -1,106 +1,35 @@
-<section class="team-slider">
-  <div class="container-54">
-    <h2 class="centered-heading">Locations</h2>
-  </div>
-  <div data-delay="4000" data-animation="slide" class="team-slider-wrapper-5 w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="12" data-duration="500" data-infinite="true">
-    <div class="w-slider-mask">
-      <div class="team-slide-wrapper-5 w-slide">
-        <div class="team-block-5">
-          <img src="/assets/images_old/67b85e6f3bfe46115b17ae0c_jamaican-yard-copyhouse.webp" loading="lazy" sizes="(max-width: 1920px) 100vw, 1920px" srcset="/assets/images_old/67b85e6f3bfe46115b17ae0c_jamaican-yard-copyhouse-p-500.webp 500w, /assets/images_old/67b85e6f3bfe46115b17ae0c_jamaican-yard-copyhouse-p-800.webp 800w, /assets/images_old/67b85e6f3bfe46115b17ae0c_jamaican-yard-copyhouse-p-1080.webp 1080w, /assets/images_old/67b85e6f3bfe46115b17ae0c_jamaican-yard-copyhouse-p-1600.webp 1600w, /assets/images_old/67b85e6f3bfe46115b17ae0c_jamaican-yard-copyhouse.webp 1920w" alt=""/>
-          <div class="team-block-info-5">
-            <h3 class="team-member-name-two-5"><span class="text-span-6">Edinburgh</span></h3>
-            <p class="team-member-text"><span class="text-span-7">Jamaica Yard, 3 Jamaica Street<br/>Edinburgh, Scotland<br/>EH3 6HH</span></p>
-            <a href="https://maps.app.goo.gl/U47egb5Bpy8MgR7n9" target="_blank" class="text-link-arrow-2 w-inline-block">
-              <div>Get Directions<br/></div>
-              <div class="arrow-embed-2 w-embed"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M11.72 15L16.3472 10.357C16.7732 9.92932 16.7732 9.23603 16.3472 8.80962L11.72 4.16667L10.1776 5.71508L12.9425 8.4889H4.16669V10.6774H12.9425L10.1776 13.4522L11.72 15Z" fill="currentColor"/>
-                </svg></div>
-            </a>
+<section class="section section-location pb-10">
+  <div class="container-fluid">
+    <h2 class="text-center mb-7">{{ site.data.locations.heading }}</h2>
+    <div class="row">
+      <div class="col-12">
+        <div class="slider-container position-relative overflow-hidden mw-100 m-auto">
+          <div class="slider-track row g-lg-10 flex-nowrap">
+
+            {% for location in site.data.locations.location %}
+            <div class="col-12 col-md-6 col-lg-4 slide">
+              <div class="card rounded-4 rounded-top-0 overflow-hidden">
+                <img src="{{ location.image }}" loading="lazy" alt="{{ location.name }}" />
+                <div class="card-body p-4 bg-white text-black">
+                  <h3 class="card-title text-primary">{{ location.name }}</h3>
+                  <p class="card-text">{{ location.address }}</p>
+                  <a href="{{ location.map_link }}" target="_blank" class="btn btn-link text-dark text-decoration-none p-0">
+                    Get Directions
+                    <span class="ms-1">
+                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.72 15L16.3472 10.357C16.7732 9.92932 16.7732 9.23603 16.3472 8.80962L11.72 4.16667L10.1776 5.71508L12.9425 8.4889H4.16669V10.6774H12.9425L10.1776 13.4522L11.72 15Z" fill="currentColor"/>
+                      </svg>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+
           </div>
-        </div>
-      </div>
-      <div class="team-slide-wrapper-5 w-slide">
-        <div class="team-block-5">
-          <img src="/assets/images_old/67b8629becd4b57543dc8496_Untitled%20design%20(20).png" loading="lazy" sizes="(max-width: 1920px) 100vw, 1920px" srcset="/assets/images_old/67b8629becd4b57543dc8496_Untitled%20design%20(20)-p-500.png 500w, /assets/images_old/67b8629becd4b57543dc8496_Untitled%20design%20(20)-p-800.png 800w, /assets/images_old/67b8629becd4b57543dc8496_Untitled%20design%20(20)-p-1080.png 1080w, /assets/images_old/67b8629becd4b57543dc8496_Untitled%20design%20(20)-p-1600.png 1600w, /assets/images_old/67b8629becd4b57543dc8496_Untitled%20design%20(20).png 1920w" alt=""/>
-          <div class="team-block-info-5">
-            <h3 class="team-member-name-two-5">London</h3>
-            <p class="team-member-text">Scope, 11 Slingsby Place <br/>London, United Kingdom <br/>WC2E 9AB</p>
-            <a href="https://maps.app.goo.gl/DnD7QwmrMLMGmNkF6" target="_blank" class="text-link-arrow-2 w-inline-block">
-              <div>Get Directions</div>
-              <div class="arrow-embed-2 w-embed"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M11.72 15L16.3472 10.357C16.7732 9.92932 16.7732 9.23603 16.3472 8.80962L11.72 4.16667L10.1776 5.71508L12.9425 8.4889H4.16669V10.6774H12.9425L10.1776 13.4522L11.72 15Z" fill="currentColor"/>
-                </svg></div>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="team-slide-wrapper-5 w-slide">
-        <div class="team-block-5">
-          <img src="/assets/images_old/67b85e996fde9c26f55647e8_newyork-branch.jpg" loading="lazy" sizes="(max-width: 2880px) 100vw, 2880px" srcset="/assets/images_old/67b85e996fde9c26f55647e8_newyork-branch-p-500.jpg 500w, /assets/images_old/67b85e996fde9c26f55647e8_newyork-branch-p-800.jpg 800w, /assets/images_old/67b85e996fde9c26f55647e8_newyork-branch-p-1080.jpg 1080w, /assets/images_old/67b85e996fde9c26f55647e8_newyork-branch-p-1600.jpg 1600w, /assets/images_old/67b85e996fde9c26f55647e8_newyork-branch-p-2000.jpg 2000w, /assets/images_old/67b85e996fde9c26f55647e8_newyork-branch-p-2600.jpg 2600w, /assets/images_old/67b85e996fde9c26f55647e8_newyork-branch.jpg 2880w" alt=""/>
-          <div class="team-block-info-5">
-            <h3 class="team-member-name-two-5">New York</h3>
-            <p class="team-member-text">500 7th Avenue<br/> New York, USA<br/>NY 10018</p>
-            <a href="https://maps.app.goo.gl/DKiUe1hEWjbN2xWW8" target="_blank" class="text-link-arrow-2 w-inline-block">
-              <div>Get Directions</div>
-              <div class="arrow-embed-2 w-embed"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M11.72 15L16.3472 10.357C16.7732 9.92932 16.7732 9.23603 16.3472 8.80962L11.72 4.16667L10.1776 5.71508L12.9425 8.4889H4.16669V10.6774H12.9425L10.1776 13.4522L11.72 15Z" fill="currentColor"/>
-                </svg></div>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="team-slide-wrapper-5 w-slide">
-        <div class="team-block-5">
-          <img src="/assets/images_old/67b862dca97af0c565edf1ae_Untitled%20design%20(21).png" loading="lazy" sizes="(max-width: 1920px) 100vw, 1920px" srcset="/assets/images_old/67b862dca97af0c565edf1ae_Untitled%20design%20(21)-p-500.png 500w, /assets/images_old/67b862dca97af0c565edf1ae_Untitled%20design%20(21)-p-800.png 800w, /assets/images_old/67b862dca97af0c565edf1ae_Untitled%20design%20(21)-p-1080.png 1080w, /assets/images_old/67b862dca97af0c565edf1ae_Untitled%20design%20(21)-p-1600.png 1600w, /assets/images_old/67b862dca97af0c565edf1ae_Untitled%20design%20(21).png 1920w" alt=""/>
-          <div class="team-block-info-5">
-            <h3 class="team-member-name-two-5">Bournemouth</h3>
-            <p class="team-member-text">Smartbase, Aviation Park West <br/>Christchurch, United Kingdom<br/>BH23 6NW</p>
-            <a href="https://maps.app.goo.gl/ReJ2ddn3QPiMue4PA" target="_blank" class="text-link-arrow-2 w-inline-block">
-              <div>Get Directions</div>
-              <div class="arrow-embed-2 w-embed"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M11.72 15L16.3472 10.357C16.7732 9.92932 16.7732 9.23603 16.3472 8.80962L11.72 4.16667L10.1776 5.71508L12.9425 8.4889H4.16669V10.6774H12.9425L10.1776 13.4522L11.72 15Z" fill="currentColor"/>
-                </svg></div>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="team-slide-wrapper-5 w-slide">
-        <div class="team-block-5">
-          <img src="/assets/images_old/67b8619846115ace8305ce0a_jaipure.webp" loading="lazy" sizes="(max-width: 1920px) 100vw, 1920px" srcset="/assets/images_old/67b8619846115ace8305ce0a_jaipure-p-500.webp 500w, /assets/images_old/67b8619846115ace8305ce0a_jaipure-p-800.webp 800w, /assets/images_old/67b8619846115ace8305ce0a_jaipure-p-1080.webp 1080w, /assets/images_old/67b8619846115ace8305ce0a_jaipure-p-1600.webp 1600w, /assets/images_old/67b8619846115ace8305ce0a_jaipure.webp 1920w" alt=""/>
-          <div class="team-block-info-5">
-            <h3 class="team-member-name-two-5">Jaipur</h3>
-            <p class="team-member-text">G1 257-258,IT Park EPIP<br/>Ricco Industrial Area Jaipur, Rajasthan<br/>India, 302022</p>
-            <a href="https://maps.app.goo.gl/Rk2hmhwRvjsw4gs48" target="_blank" class="text-link-arrow-2 w-inline-block">
-              <div>Get Directions</div>
-              <div class="arrow-embed-2 w-embed"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M11.72 15L16.3472 10.357C16.7732 9.92932 16.7732 9.23603 16.3472 8.80962L11.72 4.16667L10.1776 5.71508L12.9425 8.4889H4.16669V10.6774H12.9425L10.1776 13.4522L11.72 15Z" fill="currentColor"/>
-                </svg></div>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="team-slide-wrapper-5 w-slide">
-        <div class="team-block-5">
-          <img src="/assets/images_old/67b86188aceaa50feccc13ea_katowice-branch.jpg" loading="lazy" sizes="(max-width: 1920px) 100vw, 1920px" srcset="/assets/images_old/67b86188aceaa50feccc13ea_katowice-branch-p-500.jpg 500w, /assets/images_old/67b86188aceaa50feccc13ea_katowice-branch-p-800.jpg 800w, /assets/images_old/67b86188aceaa50feccc13ea_katowice-branch-p-1080.jpg 1080w, /assets/images_old/67b86188aceaa50feccc13ea_katowice-branch-p-1600.jpg 1600w, /assets/images_old/67b86188aceaa50feccc13ea_katowice-branch.jpg 1920w" alt=""/>
-          <div class="team-block-info-5">
-            <h3 class="team-member-name-two-5">Katowice</h3>
-            <p class="team-member-text">Cluster Katowice, Stary Dworzec <br/>Katowice, Poland<br/>40-2012</p>
-            <a href="https://maps.app.goo.gl/ifsKM6opmyYx9wbX8" target="_blank" class="text-link-arrow-2 w-inline-block">
-              <div>Get Directions</div>
-              <div class="arrow-embed-2 w-embed"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M11.72 15L16.3472 10.357C16.7732 9.92932 16.7732 9.23603 16.3472 8.80962L11.72 4.16667L10.1776 5.71508L12.9425 8.4889H4.16669V10.6774H12.9425L10.1776 13.4522L11.72 15Z" fill="currentColor"/>
-                </svg></div>
-            </a>
-          </div>
+          <div class="slider-pagination text-center mt-5"></div>
         </div>
       </div>
     </div>
-    <div class="team-slider-arrow-5 w-slider-arrow-left">
-      <div class="w-icon-slider-left"></div>
-    </div>
-    <div class="team-slider-arrow-5 w-slider-arrow-right">
-      <div class="w-icon-slider-right"></div>
-    </div>
-    <div class="team-slider-nav-5 w-slider-nav"></div>
   </div>
 </section>

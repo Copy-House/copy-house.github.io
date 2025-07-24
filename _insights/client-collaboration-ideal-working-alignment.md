@@ -1,10 +1,10 @@
 ---
 layout: insight
-title: "Client Collaboration: Ideal Working Alignment | CopyHouse"
+title: "Client Collaboration: Ideal Working Alignment"
 meta_description: "Discover how content marketing agencies can achieve the ideal working alignment to enhance client collaboration."
 image: "/assets/images_old/insight-header.webp"
 author: CopyHouse
-date: 24-06-25
+date: 25-03-25
 ---
 
 # Client collaboration: achieving the ideal working alignment

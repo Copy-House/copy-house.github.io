@@ -3,7 +3,6 @@ layout: insight
 title: "How Can B2B Marketers Adapt To Gen-Z Buyers?"
 meta_description: "Discover how B2B marketers can connect with Gen-Z buyers through digital-first strategies, influencer collaboration, and purpose-driven content that speaks their language."
 image: "/assets/images_old/insight-header.webp"
-keywords: ["B2B marketing", "Gen-Z buyers", "influencer marketing", "digital strategy", "content marketing", "tech marketing"]
 author: CopyHouse
 date: 2024-11-21
 ---

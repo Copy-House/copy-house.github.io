@@ -85,6 +85,9 @@ Search intent is the reason behind a query. Are users looking for information, m
 
 Tools like [Semrush](https://www.semrush.com) categorise intent types (e.g. informational, transactional) and help you align your content accordingly.
 
+<img width="486" height="512" alt="64258141788bb4c5dc3f323e_-2u3KCJBgEFYIHuCHTfgHXEaBrszw1OvuFx2j7dtVzhyGKIoJNN22SOVGqKSihRSNFwImUBYwlp3u936JQGq53vBz6n3CkTdCFCjHNu5i3c_7UpJWDtUh1rmzEqxrU2TdCZbGaa2SyFUXeRoQZq0G6r3S5ItSdlKwc-d1MzoJMGQzTzdQ3RG-2X9" src="https://github.com/user-attachments/assets/9dfa6737-198a-4926-9109-d499af668c56" />
+
+
 ### Search Volume
 
 This tells you how many people search for the keyword each month. Higher volumes mean more potential traffic—but more competition, too.
@@ -98,6 +101,8 @@ Keyword difficulty indicates how hard it is to rank in the top 10 Google results
 - The lower the score, the easier it is to compete.
 
 Semrush offers detailed data on both difficulty and volume, so you can strike a balance between opportunity and attainability.
+
+![64258141788bb44a213f323c_Hx1ey710r7DPNUK6f0jTydB-fehyaEn1B-IkpLDPPIaiTXsYdaGKfzeh287BylCyJEQUQj-yRXewbKb0FLKogsJMCgyxKVbOkwiTo5tevHeVUC96eWGFz9tl6necLzFHPUVkZgI88ai2e7IxMd3nGm1RANh8foxPa68tZNKWqdlr-5jPCwH8IzNf](https://github.com/user-attachments/assets/c999a948-42d4-4d5b-afbf-9f13b36e440f)
 
 ---
 

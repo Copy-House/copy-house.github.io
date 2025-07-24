@@ -3,7 +3,6 @@ layout: insight
 title: "Everything You Need To Know About Content Dissemination"
 meta_description: "Discover how to maximise the impact of your content using social selling, email drip campaigns and newsletters to generate leads and boost engagement."
 image: "/assets/images_old/insight-header.webp"
-slug: "everything-you-need-to-know-about-content-dissemination"
 author: CopyHouse
 date: 2025-02-10
 ---

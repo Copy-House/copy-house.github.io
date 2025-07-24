@@ -1,6 +1,6 @@
 ---
 layout: insight
-title: "How LinkedIn’s Algorithm Works & What You Need to Know | CopyHouse"
+title: "How LinkedIn’s Algorithm Works & What You Need to Know"
 meta_description: "Learn how LinkedIn's algorithm works and how B2B marketers can optimise content for maximum visibility, engagement, and long-term thought leadership success."
 image: "/assets/images_old/insight-header.webp"
 author: CopyHouse

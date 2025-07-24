@@ -1,10 +1,10 @@
 ---
 layout: insight
-title: "5 Ways To Make Your Content Stand Out | CopyHouse"
+title: "5 Ways To Make Your Content Stand Out"
 meta_description: "Struggling to get noticed? Discover five key ways to make your content stand out in crowded B2B tech and FinTech markets."
 image: "/assets/images_old/insight-header.webp"
-author: CopyHouse
-date: 24-06-25
+author: 
+date: 24-06-24
 ---
 
 # 5 ways to make your content stand out
@@ -88,7 +88,10 @@ As Katie Street of Street Agency shared in a TechTalks episode, not everyone has
 
 - **Top of Funnel**: Blogs, infographics, thought leadership  
 - **Middle of Funnel**: Whitepapers, webinars, case studies  
-- **Bottom of Funnel**: Product guides, competitor comparisons, testimonials  
+- **Bottom of Funnel**: Product guides, competitor comparisons, testimonials
+  
+<img width="955" height="440" alt="673b1eb257bafc67dcce9575_64258141788bb4bb813f3278_6362db95ced881c15ba442cb_CMA-Niche-Marketing" src="https://github.com/user-attachments/assets/7d531ec6-9fa2-426e-bf73-e97e20e6cc0d" />
+
 
 Explore what works best for your audience and repurpose your core messages across multiple formats.
 

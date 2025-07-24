@@ -1,6 +1,6 @@
 ---
 layout: insight
-title: "How to Properly Interrogate a Content Marketing Brief"
+title: "How we Properly Interrogate a Content Marketing Brief"
 meta_description: "Learn how CopyHouse interrogates content marketing briefs to ensure effective collaboration, audience alignment, SEO optimisation, and strategic content delivery."
 image: "/assets/images_old/insight-header.webp"
 author: CopyHouse

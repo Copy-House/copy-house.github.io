@@ -24,6 +24,9 @@ Our work with Future Platforms began in 2023 with a comprehensive whitepaper exp
 
 To help reinforce this expertise, another part of our initial project together was the writing of multiple supporting blogs that discussed different aspects of the main whitepaper. Although a holistic marketing campaign has multiple parts that are treated equally, it’s still important to have central pieces of content that you can build everything around. In this instance, the whitepaper was the central pillar in a campaign that included everything from the blogs to promotional social media posts.
 
+<img width="1171" height="654" alt="66c333b0e9c082e579138d30_66c332c82095fb3df2919f4f_Screenshot%202024-08-19%20at%2012 55 39" src="https://github.com/user-attachments/assets/55a2836c-3d8d-4c14-a92e-29fdcbf16683" />
+
+
 ---
 
 ## Engaging, Business-Focused Content

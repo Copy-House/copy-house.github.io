@@ -3,8 +3,6 @@ layout: insight
 title: "How to Refresh Your Content to Improve Your SEO Rankings"
 meta_description: "Learn why refreshing your existing website content is a powerful SEO strategy. Discover how to update keywords, stats, and layout to boost rankings and user engagement."
 image: "/assets/images_old/insight-header.webp"
-slug: "refresh-content-for-seo"
-keywords: ["SEO", "content refresh", "content marketing", "B2B SEO", "website optimisation"]
 author: CopyHouse
 date: 2025-05-02
 ---

@@ -6,7 +6,7 @@ image: "/assets/images_old/insight-header.webp"
 slug: "everything-you-need-to-know-about-seo"
 keywords: ["SEO basics", "search engine optimisation", "B2B content marketing", "keyword strategy", "on-page SEO", "SEO formatting"]
 author: CopyHouse
-date: 2025-07-21
+date: 2025-06-21
 ---
 
 # Everything You Need to Know About SEO

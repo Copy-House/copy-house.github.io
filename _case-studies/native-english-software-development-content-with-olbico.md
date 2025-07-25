@@ -3,8 +3,8 @@ layout: case-study
 title: "Native English Software Development Content with Olbico"
 summary: "How CopyHouse helped Olbico refine their Dutch-to-English translations and elevate their content for a global SaaS audience."
 date: 2024-10-07
-image: "/64258141788bb437183f327e_christian-lue-oj7Z1ucRxcs-unsplash-1536x1024.jpeg"
-logo: "NOlX1ca-_400x400.jpg"
+image: "/assets/images_old/64258141788bb437183f327e_christian-lue-oj7Z1ucRxcs-unsplash-1536x1024.jpeg"
+ogo: "/assets/images_old/NOlX1ca-_400x400.jpg"
 logo_bg_color: "white"
 ---
 

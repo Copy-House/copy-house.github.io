@@ -87,9 +87,6 @@ figure {
       background-image: unset;
     }
   }
-  &-lg {
-
-  }
   &-primary {
     &:hover {
       background-color: $white;
@@ -165,4 +162,21 @@ figure {
 //opacity
 .opacity-76 {
   opacity: 0.76;
+}
+
+a.skip-main {
+  width: rem(1);
+  height: rem(1);
+  @include absolute(left -999px top auto z-index -1);
+  &:focus,
+  &:active {
+    color: $white;
+    background-color: $link-color;
+    left: auto;
+    top: auto;
+    width: auto;
+    height: auto;
+    overflow: auto;
+    z-index: 1050;
+  }
 }

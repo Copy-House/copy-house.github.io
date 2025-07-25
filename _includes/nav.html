@@ -6,7 +6,7 @@
           {{ item.name }}
         </a>
 
-        <ul class="dropdown-menu" aria-labelledby="dropdown{{ forloop.index }}">
+        <ul class="dropdown-menu mt-lg-5" aria-labelledby="dropdown{{ forloop.index }}">
           {% for sub in item.submenu %}
             {% assign sub_url = sub.url | remove: '/' %}
             {% assign sub_active = sub_url == current_url %}

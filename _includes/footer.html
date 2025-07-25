@@ -1,4 +1,9 @@
-<footer class="footer border-top border-bottom pt-5 pb-3" aria-label="Footer">
+{% if page.layout == 'homepage' %}
+  {% assign footer_class = 'border-top border-bottom pt-5' %}
+{% endif %}
+
+
+<footer class="footer {{ footer_class }} pb-3" aria-label="Footer">
   <div class="container">
     <div class="row justify-content-center justify-content-md-between">
       <div class="col-auto col-md-4 mb-5 mb-md-0">

@@ -1,7 +1,11 @@
 <section class="section contact-section largest-padding pt-lg-12">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 col-xl-9">
+      {% assign col_size = '9' %}
+      {% if page.col.size == 'full' %}
+        {% assign col_size = '11' %}
+      {% endif %}
+      <div class="col-12 col-xl-{{ col_size }}">
         <div class="p-5 p-md-7 border border-primary bg-black rounded-3">
 
           <header class="row mb-7 align-items-center">

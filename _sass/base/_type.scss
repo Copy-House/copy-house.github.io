@@ -1,0 +1,55 @@
+/**
+* @Files
+* Base Typography Style.
+*/
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  color: inherit;
+}
+
+.text-body-lg {
+  @include font-size($font-size-lg !important);
+  line-height: $line-height-lg;
+}
+
+.text-body-md {
+  @include font-size($font-size-base !important);
+  line-height: $line-height-base;
+}
+
+.text-body-sm {
+  @include font-size($font-size-sm !important);
+  line-height: $line-height-base;
+}
+
+.text-body-xs {
+  @include font-size($font-size-xs !important);
+  line-height: 1.4;
+}
+
+a {
+  color: inherit;
+
+  &:not([class]) {
+    word-wrap: break-word;
+  }
+}
+
+cite {
+  font-style: normal;
+}
+
+.text-balance {
+  text-wrap: balance;
+}

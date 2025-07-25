@@ -1,9 +1,11 @@
-<div class="section black slant full-width-container">
-  <p class="paragraph-9">As ‘<span class="gradient-2"><strong>positive disruptors</strong></span>’ who thrive on making
-    the world a better place, we’re not shy about breaking the mould and challenging the status quo.<br />‍<br />We
-    exist to facilitate the adoption of cutting-edge technology by creating <span
-      class="gradient-2"><strong>high-quality content </strong></span>that connects you with your audience, starting
-    important conversations and building better relationships.<br />‍<br /><strong>The most </strong><span
-      class="gradient-2"><strong>successful</strong></span><strong> businesses use CopyHouse to tell their stories and
-      make their voices heard.<br /></strong></p>
-</div>
+<section class="panel-intro bg-dark text-white">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10 h3 py-5">
+        {% for paragraph in page.intro_paragraphs %}
+          {{ paragraph | markdownify | strip | raw }}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,27 @@
+<ul class="navbar-nav gap-lg-5 ms-lg-auto align-items-sm-center" role="list">
+  {% for item in site.data.navigation %}
+    {% if item.submenu %}
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle {% if page.url == item.url %}current{% endif %}" href="{{ item.url }}" id="dropdown{{ forloop.index }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          {{ item.name }}
+        </a>
+
+        <ul class="dropdown-menu mt-lg-5" aria-labelledby="dropdown{{ forloop.index }}">
+          {% for sub in item.submenu %}
+            {% assign sub_url = sub.url | remove: '/' %}
+            {% assign sub_active = sub_url == current_url %}
+            <li>
+              <a class="dropdown-item {% unless forloop.last %}border-bottom{% endunless %} {% if page.url == item.url %}current{% endif %}" title="{{ sub.title }}" href="{{ sub.url }}">{{ sub.name }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+    {% else %}
+      <li class="nav-item">
+        <a href="{{ item.url }}" title="{{ item.title }}" class="{% unless forloop.last %}nav-link{% endunless %} {% if forloop.last %}btn btn-white d-none d-lg-block{% endif %} {% if page.url == item.url %}current{% endif %}">
+          {{ item.name }}
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

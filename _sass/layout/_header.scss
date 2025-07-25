@@ -1,0 +1,112 @@
+/**
+* @Files
+* Header Style.
+*/
+
+.nav {
+  --td: none;
+
+  &bar {
+    -webkit-text-fill-color: inherit;
+    background-color: var(--bs-black);
+    height: var(--#{$prefix}header-height);
+    inset: 0 0 auto;
+    padding-top: rem(18);
+    @include media-breakpoint-up(lg) {
+      background: linear-gradient(to bottom, rgba(var(--#{$prefix}black-rgb), 0.8) 36%, rgba(var(--#{$prefix}black-rgb), 0) 100%);
+      background-clip: border-box;
+    }
+    &.v2 {
+      background: linear-gradient(to bottom, var(--#{$prefix}blue), var(--#{$prefix}purple));
+    }
+
+    .dropdown-toggle {
+      &::after {
+        display: inline-block;
+        vertical-align: .155em;
+        border: 0 none;
+        border-bottom: rem(2) solid var(--bs-white);
+        border-right: rem(2) solid var(--bs-white);
+        width: rem(8);
+        height: rem(8);
+        transform: rotate(45deg);
+        transition: border-color 0.15s ease-in-out;
+      }
+    }
+    .btn {
+      --bs-border-width: 0;
+    }
+  }
+  &-item {
+    @include media-breakpoint-down(lg) {
+      width: 100%;
+      &:not(:last-child) {
+        border-bottom: rem(1) solid var(--#{$prefix}white);
+      }
+    }
+  }
+  &-link {
+    @extend %focus;
+    @include media-breakpoint-down(lg) {
+      padding-top: rem(15);
+      padding-bottom: rem(15);
+    }
+    &:hover,
+    &.show {
+      text-decoration: var(--td);
+      &::after {
+        border-color: var(--bs-orange);
+      }
+    }
+  }
+  .dropdown {
+    &-menu {
+      @include media-breakpoint-down(lg) {
+        background-color: transparent;
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+        border: 0 none;
+      }
+    }
+    &-item {
+      @include media-breakpoint-down(lg) {
+        padding: rem(12);
+        border-bottom: 0 none !important;
+      }
+    }
+  }
+}
+
+
+body {
+  &:has(.navbar-collapse.show) {
+    @include media-breakpoint-down(lg) {
+      overflow-y: hidden;
+    }
+  }
+}
+
+
+.navbar {
+  &-collapse {
+    @include media-breakpoint-down(lg) {
+      --height: calc(100% - var(--bs-header-height));
+      background-color: var(--bs-black);
+      width: 100%;
+      height: var(--height) !important;
+      top: var(--bs-header-height);
+      overflow-y: auto;
+      padding: .5rem 1rem 0;
+      opacity: 1;
+      visibility: visible;
+      @include transition(opacity 0.15s ease-in-out, visibility 0.15s ease-in-out);
+      @include fixed(left 0);
+      &.collapse:not(.show) {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+      }
+    }
+  }
+}

@@ -1,57 +1,84 @@
-<section class="footer-dark">
-  <div class="container-40">
-    <div>
-      <div class="footer-wrapper">
-        <a href="#" class="footer-brand w-inline-block"><img src="/assets/images_old/64258141788bb4df753f3050_CopyHouse-Logo.png" loading="lazy" width="229" alt="CopyHouse logo in colour" class="image-53"/></a>
-        <div class="footer-content">
-          <div id="w-node-dfd19e3d-b360-b66e-71c2-c7e03c68d725-3c68d71f" class="footer-block">
-            <div class="title-small">Company</div>
-            <a href="/services/content-marketing-solutions" class="footer-link-2">What we do</a>
-            <a href="/about-copyhouse" class="footer-link-2">About CopyHouse</a>
-            <a href="/contact" class="footer-link-2">Get in touch</a>
-          </div>
-          <div id="w-node-dfd19e3d-b360-b66e-71c2-c7e03c68d72e-3c68d71f" class="footer-block">
-            <div class="title-small">Resources</div>
-            <a href="/case-studies" class="footer-link-2">See our work</a>
-            <a href="/marketing-insights" class="footer-link-2">Read our expert insights</a>
-          </div>
-          <div id="w-node-dfd19e3d-b360-b66e-71c2-c7e03c68d737-3c68d71f" class="footer-block">
-            <div class="title-small">Other</div>
-            <a href="/terms-of-use" class="footer-link-2">Terms & Conditions</a>
-            <a href="/privacy-policy" class="footer-link-2">Privacy Policy</a>
-            <div class="footer-social-block">
-              <a href="https://www.linkedin.com/company/copy-house-ltd" class="footer-social-link w-inline-block"><img src="/assets/images_old/6593f3f756f85cda48a15206_3.png" loading="lazy" width="24" alt=""/></a>
-              <a href="https://twitter.com/CopyHouse_" class="footer-social-link w-inline-block"><img src="/assets/images_old/6593f3f8e43192544303e81c_1.png" loading="lazy" width="20" alt=""/></a>
-              <a href="https://www.instagram.com/copyhouse.io/" class="footer-social-link w-inline-block"><img src="/assets/images_old/6593f3f7cf0cae594e38d9cf_2.png" loading="lazy" width="22" alt=""/></a>
-            </div>
-          </div>
-        </div>
+{% if page.layout == 'homepage' %}
+  {% assign footer_class = 'border-top border-bottom pt-5' %}
+{% endif %}
+
+
+<footer class="footer {{ footer_class }} pb-3" aria-label="Footer">
+  <div class="container">
+    <div class="row justify-content-center justify-content-md-between">
+      <div class="col-auto col-md-4 mb-5 mb-md-0">
+        <a href="/" class="navbar-brand" aria-current="page">
+          <img
+            width="185"
+            alt="{{ site.data.footer.logo_alt }}"
+            src="{% asset_path {{ site.data.footer.logo }} %}"
+            loading="lazy">
+        </a>
+      </div>
+
+      <div class="col-12 col-md-8 col-lg-6 d-flex justify-content-between justify-content-md-end flex-wrap gap-3 gap-md-5">
+        {% for block in site.data.footer.columns %}
+          <nav class="footer-block col-md-3" aria-labelledby="footer-{{ block.title | downcase | replace: ' ', '-' }}">
+            <h2 id="footer-{{ block.title | downcase | replace: ' ', '-' }}" class="text-body-sm text-uppercase text-primary mb-4">
+              {{ block.title }}
+            </h2>
+            <ul class="list-unstyled">
+              {% for link in block.links %}
+                <li class="my-3">
+                  <a href="{{ link.url }}" class="footer-link text-body-sm text-decoration-none">{{ link.label }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+
+            {% if block.socials %}
+              <ul class="list-unstyled d-flex gap-3 align-items-center footer-block__social mt-4">
+                {% for social in block.socials %}
+                  <li>
+                    <a href="{{ social.url }}" class="footer-social-link" target="_blank" rel="noopener">
+                      <img
+                        src="{{ social.img }}"
+                        alt="{{ social.alt | default: 'Social link' }}"
+                        width="{{ social.width | default: '24' }}"
+                        loading="lazy">
+                    </a>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </nav>
+        {% endfor %}
       </div>
     </div>
-  </div>
-  <div class="footer-divider"></div>
-  <div class="columns-17 w-row">
-    <div class="w-col w-col-6">
-      <div class="w-form">
-        <form id="wf-form-Newsletter-sign-up" name="wf-form-Newsletter-sign-up" data-name="Newsletter sign up" action="https://copyhouse.us6.list-manage.com/subscribe/post?u=e7204ff06ee7aba319e5205d5&amp;id=b0795072bd&amp;f_id=00d02fe3f0" method="post" class="form-2" data-wf-page-id="65ca812e8ccc6a4f9189da3a" data-wf-element-id="7d2b1a6d-98aa-48f9-81ae-c53d195a91d9">
-          <label for="email-6" class="field-label">Want to get our latest insights, event news and more delivered straight to your inbox? Sign up to our newsletter, we'll never spam you: </label>
-          <div class="newslettersignup"></div>
-          <input class="text-field w-input" maxlength="256" name="email-5" data-name="Email 5" placeholder="Email" type="email" id="email-5" required=""/>
-          <div class="w-form-formrecaptcha recaptcha g-recaptcha g-recaptcha-error g-recaptcha-disabled g-recaptcha-invalid-key"></div>
-          <input type="submit" data-wait="Please wait..." class="submit-button-2 w-button" value="Submit"/>
-          <div class="text-block-50">You can update your preferences at any time using the unsubscribe link in the email.</div>
+
+    <div class="row mt-4">
+      <div class="col-12 border-top border-light border-opacity-25 pt-5">
+        <form id="form-Newsletter-sign-up" name="form-Newsletter-sign-up"
+              action="{{ site.data.footer.newsletter.action }}"
+              method="post"
+              class="form-newsletter col-md-8 col-lg-5"
+              aria-label="Newsletter signup">
+          <label for="newsletterEmail" class="form-label mb-2">{{ site.data.footer.newsletter.label }}</label>
+          <input
+            class="form-control"
+            maxlength="256"
+            name="newsletterEmail"
+            id="newsletterEmail"
+            type="email"
+            placeholder="{{ site.data.footer.newsletter.placeholder }}"
+            required
+            autocomplete="email">
+          <input
+            type="submit"
+            class="btn btn-primary btn-lg text-base fw-normal mt-3"
+            value="{{ site.data.footer.newsletter.submit_label }}">
+          <p class="text-body-xs form-control-plaintext mt-2">{{ site.data.footer.newsletter.privacy_note }}</p>
         </form>
-        <div class="w-form-done">
-          <div>Thank you! Your submission has been received!</div>
-        </div>
-        <div class="w-form-fail">
-          <div>Oops! Something went wrong while submitting the form.</div>
-        </div>
       </div>
+
+      <div class="col-12 mt-6 footer-copyright text-center text-body-sm text-body-secondary">
+        <p class="mb-0">{{ site.data.footer.copyright }}</p>
+      </div>
+
     </div>
-    <footer class="column-47 w-col w-col-6">
-      <div class="div-block-54"></div>
-    </footer>
   </div>
-  <div class="footer-copyright-center">Copyright © 2024 CopyHouse Consulting Limited, a wholly-owned subsidiary of <a href="https://cohaesus.co.uk/">Cohaesus Group Ltd</a>, Company number 12408634. All rights reserved.</div>
-</section>
+</footer>

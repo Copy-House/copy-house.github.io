@@ -1,0 +1,225 @@
+// Site Brand Color.
+$gray-100:    #f8f8f8;
+$gray-200:    #fff6f6;
+$gray-300:    #d7d9d9;
+$gray-600:    #707070;
+$gray-700:    #333333;
+$gray-800:    #131313;
+$gray-900:    #151515;
+$black:       #0a0a0a;
+
+$grays: (
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+);
+
+$blue:        #1a0099;
+$indigo-900:  #8000ff;
+$indigo-800:  #7e0bf7;
+$purple:      #7b1cfb;
+$orange:      #fa9527;
+
+$secondary:     $gray-300;
+
+// scss-docs-start colors-map
+$colors: (
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "pink":       $pink,
+  "red":        $red,
+  "orange":     $orange,
+  "yellow":     $yellow,
+  "green":      $green,
+  "teal":       $teal,
+  "cyan":       $cyan,
+  "black":      $black,
+  "white":      $white,
+  "gray":       $gray-600,
+  "gray-dark":  $gray-800
+);
+
+$primary:       $purple;
+$info:          $orange;
+$light:         $white;
+$dark:          $gray-900;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
+// Body
+$body-color:    $white;
+$body-bg:       $gray-900;
+
+$body-secondary-color: $gray-600;
+
+// spacer-variables-maps
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 2,
+  6: $spacer * 2.5,
+  7: $spacer * 3,
+  8: $spacer * 3.75,
+  9: $spacer * 4,
+  10: $spacer * 5,
+  11: $spacer * 5.5,
+  12: $spacer * 6.25,
+);
+
+// Fonts
+$font-family-sans-serif: 'Aeonik', sans-serif;
+$headings-font-weight: 700;
+
+$font-size-md:    $font-size-base * 1.375;
+$font-size-xs:    $font-size-base * 0.6875;
+
+$line-height-base: 1.25;
+
+$display-font-sizes: (
+  1: 4.375rem,
+  2: 3.875rem,
+  3: 4rem,
+  4: 3.125rem,
+  5: 3rem,
+  6: 2.625rem
+);
+
+$display-font-family: null;
+$display-font-style:  null;
+$display-font-weight: 700;
+$display-line-height: $headings-line-height;
+
+$h2-font-size:                $font-size-base * 2.1875;
+
+// scss-docs-start font-sizes
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size
+);
+
+// scss-docs-start border-radius-variables
+$border-radius:               0.1875rem;
+
+/* Gutter */
+$grid-gutter-width:           2.5rem;
+
+// Container padding
+$container-padding-x: $grid-gutter-width;
+
+// focus-ring-variables
+$focus-ring-width:            0.125rem;
+$focus-ring-opacity:          1;
+$focus-ring-color:            rgba(var(--#{$prefix}white-rgb), $focus-ring-opacity);
+$focus-ring-blur:             0;
+$focus-ring-box-shadow:       0 0 $focus-ring-blur $focus-ring-width $focus-ring-color;
+
+// Buttons + Forms
+$input-btn-padding-y:         0.5625rem;
+$input-btn-padding-x:         1.25rem;
+$input-btn-font-size:         $font-weight-bold;
+$input-btn-line-height:       $line-height-base;
+
+$input-btn-padding-y-lg:      0.875rem;
+$input-btn-padding-x-lg:      1.25rem;
+
+$btn-font-weight:             $font-weight-bold;
+$btn-padding-y:               $input-btn-padding-y;
+$btn-padding-x:               $input-btn-padding-x;
+$btn-line-height:             $input-btn-line-height;
+
+$btn-padding-y-lg:            $input-btn-padding-y-lg;
+$btn-padding-x-lg:            $input-btn-padding-x-lg;
+$btn-font-size-lg:            $input-btn-font-size-lg;
+$btn-border-radius-lg:        3px;
+
+// Navs
+$nav-link-padding-y:                0;
+$nav-link-padding-x:                0;
+$nav-link-font-size:                0.875rem;
+$nav-link-font-weight:              $font-weight-bold;
+$nav-link-color:                    rgba(var(--#{$prefix}white-rgb), 1);
+$nav-link-hover-color:              var(--#{$prefix}orange);
+$nav-link-active-color:             var(--#{$prefix}orange);
+$nav-link-focus-box-shadow:         $focus-ring-box-shadow;
+
+$nav-underline-border-width:        0;
+
+/* NavBar */
+$navbar-padding-y:                  $spacer * 1.25;
+$navbar-nav-link-padding-x:         0;
+
+$navbar-toggler-padding-y:          1.125rem;
+$navbar-toggler-padding-x:          1.125rem;
+$navbar-toggler-font-size:          $font-size-sm;
+$navbar-toggler-focus-width:        0.125rem;
+
+$navbar-dark-color:                 $nav-link-color;
+$navbar-dark-hover-color:           $nav-link-hover-color;
+$navbar-dark-active-color:          $nav-link-active-color;
+$navbar-dark-icon-color:            $white;
+$navbar-dark-toggler-icon-bg:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-icon-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+
+// Dropdowns
+//
+// Dropdown menu container and contents.
+$dropdown-min-width:                25rem;
+$dropdown-padding-x:                1.125rem;
+$dropdown-padding-y:                .625rem;
+$dropdown-font-size:                $nav-link-font-size;
+$dropdown-color:                    rgba(var(--#{$prefix}white-rgb), 1);
+$dropdown-bg:                       rgba(var(--#{$prefix}black-rgb), 1);
+$dropdown-border-color:             rgba(var(--#{$prefix}black-rgb), 1);
+$dropdown-border-radius:            1.125rem;
+
+$dropdown-link-color:               rgba(var(--#{$prefix}white-rgb), 1);
+$dropdown-link-hover-color:         var(--#{$prefix}orange);
+$dropdown-link-hover-bg:            var(--#{$prefix}$gray-700);
+
+$dropdown-link-active-color:        $dropdown-link-color;
+$dropdown-link-active-bg:           transparent;
+
+$dropdown-item-padding-y:           $spacer * 1.125;
+$dropdown-item-padding-x:           $spacer * 1.125;
+
+// Forms
+// scss-docs-start form-label-variables
+$form-label-margin-bottom:              .25rem;
+$form-label-font-size:                  $small-font-size;
+$form-label-color:                      $secondary;
+// scss-docs-end form-label-variables
+
+// scss-docs-start form-input-variables
+$input-font-size:                       $small-font-size;
+$input-padding-y:                       0.5rem;
+
+$input-bg:                              var(--#{$prefix}gray-700);
+$input-border-color:                    var(--#{$prefix}gray-600);
+
+$input-border-radius:                   10px;
+
+$input-placeholder-color:               var(--#{$prefix}gray-500);
+$input-plaintext-color:                 var(--#{$prefix}gray-600);

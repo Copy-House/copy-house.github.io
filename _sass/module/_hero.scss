@@ -1,0 +1,34 @@
+/**
+* @Files
+* Hero module Style.
+*/
+
+.hero-banner {
+  max-width: 100%;
+  height: rem(700);
+  max-height: rem(700);
+
+  &__video {
+    inset: 0%;
+
+    video {
+      background-position: 50%;
+      background-size: cover;
+      inset: -100%;
+      z-index: -100;
+    }
+  }
+  p {
+    line-height: 1.25;
+    max-width: rem(900);
+    margin: rem(25) auto 0;
+    @include fontSize(20);
+    @include media-breakpoint-up(md) {
+      max-width: rem(1000);
+      @include fontSize(27);
+    }
+  }
+  .btn {
+    padding: rem(15);
+  }
+}

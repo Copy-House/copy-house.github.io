@@ -1,0 +1,40 @@
+heading: Are you ready to discover the CopyHouse difference?
+description: >-
+  Meet with our digital marketing consultants today and get ready to find out why working with CopyHouse is an intelligent business decision.
+fields:
+  - label: First Name
+    id: inputFirstname
+    name: first_name
+    type: text
+    required: false
+    autocomplete: given-name
+
+  - label: Last Name
+    id: inputLastname
+    name: last_name
+    type: text
+    required: false
+    autocomplete: family-name
+
+  - label: Email
+    id: inputEmail
+    name: email
+    type: email
+    required: true
+    note: "*"
+    autocomplete: email
+
+  - label: Message
+    id: inputMessage
+    name: message
+    type: textarea
+    rows: 4
+    required: false
+
+privacy_note: >-
+  CopyHouse is committed to protecting and respecting your privacy. We'll only use your personal information to administer your account and provide the services you requested. You can unsubscribe at any time. For details, please see our <a href="/privacy-policy">Privacy Policy</a>.
+checkbox:
+  label: I'd like to stay in touch with CopyHouse updates and news.
+  name: subscribe
+  id: checkDefault
+formspree_action: https://formspree.io/f/form-id

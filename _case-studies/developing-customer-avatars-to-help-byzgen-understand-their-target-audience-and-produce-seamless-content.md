@@ -42,6 +42,9 @@ This reflection helped ByzGen better define their messaging and targeting.
 
 ByzGen had recently completed a rebrand and asked CopyHouse to create SEO-optimised landing page copy, external content, and case studies.
 
+![64258141788bb443863f3228_Untitled-presentation-1](https://github.com/user-attachments/assets/0707554a-d15c-457b-ab3c-d7ac8ea66621)
+
+
 After understanding the business and its goals, our team crafted landing pages that unified the website’s tone, message, and structure. One of their key challenges was tone of voice—especially communicating across different industries.
 
 With our expertise in tech and FinTech, we were able to simplify complex ideas and remove jargon, making their offering more accessible.

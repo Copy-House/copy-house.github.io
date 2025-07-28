@@ -14,7 +14,7 @@ hero:
 hero_video:
   mp4: "hero-video.mp4"
   webm: "hero-video.webm"
-  poster: "copyhouse-hero-poster-00001.png"
+  poster: "copyhouse-hero-poster-00001.webp"
   folder: "hero"
   autoplay: true
   loop: true
@@ -29,7 +29,7 @@ whitepaper:
   description: In an age of digital noise, misinformation spreads fast - and marketers are under pressure to act responsibly without losing momentum. Our latest whitepaper cuts through the complexity and offers a clear strategy for pushing back with integrity.
   cta_url: "https://www.linkedin.com/smart-links/AQHYi5LXqqJNcA"
   cta_text: "Download “The Mischief of Misinformation” today"
-  image: "tackle-misinformation.png"
+  image: "tackle-misinformation.webp"
   image_alt: "tackle misinformation"
   folder: "panel-whitepaper"
 

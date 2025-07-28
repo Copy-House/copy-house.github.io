@@ -2,9 +2,10 @@
 layout: insight
 title: "Global Accessibility Awareness Day: Why Inclusive Content Matters As Much As Inclusive Design"
 meta_description: "Today, 15th May, marks Global Accessibility Awareness Day (GAAD) — our vital annual reminder that the digital world must be open and usable for everyone, regardless of ability."
-image: "/assets/images_old/682b0add3adf615a47884eea_social%20(21).png"
+image: "global-accessibility-awareness.webp"
+image_alt: Global Accessibility Awareness Day
 author: CopyHouse
-date: 24-06-25
+date: 2024-06-01
 ---
 
 Founded over a decade ago by digital accessibility champions Joe Devon and Jennifer Asuncion, GAAD has spotlighted the importance of designing with inclusivity in mind. And while developers often focus on accessible design standards — such as keyboard navigation, screen reader compatibility, and colour contrast ratios — there’s another essential layer to accessibility that deserves equal attention: the content itself.

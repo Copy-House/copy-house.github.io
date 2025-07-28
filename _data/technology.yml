@@ -3,18 +3,18 @@ subtitle: We stay up-to-date on emerging technologies and make complex ideas sim
 
 technologies:
   - name: Fintech
-    image: fintech-image.png
+    image: fintech-image.webp
     alt: Technology Fintech
 
   - name: Blockchain
-    image: blockchain-image.png
+    image: blockchain-image.webp
     alt: Technology Blockchain
 
   - name: Artificial Intelligence
-    image: ai-logo.png
+    image: ai-logo.webp
     alt: Technology Artificial Intelligence
 
   - name: Software Development
-    image: software-dev.png
+    image: software-dev.webp
     alt: Technology Software Development
 

@@ -1,0 +1,32 @@
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.insights | sort: 'date' | reverse %}
+{% endif %}
+
+{% for insight in posts %}
+  <article class="mb-6 mb-lg-4 card-grid__item d-flex flex-column flex-md-row-reverse align-items-center justify-content-between gap-4 gap-lg-11">
+    <figure class="w-100 rounded-4 overflow-hidden position-relative">
+      <img src="{% asset_path {{ insight.image }} /insight %}" class="card-img-top" alt="{{ insight.image_alt }}">
+    </figure>
+    <div class="w-100 card-grid__body d-flex flex-column gap-2">
+      <span class="card-grid__category mb-0 d-block">Featured Article</span>
+      <span class="card-insight--date text-primary"><strong>{{ insight.date | date: "%b %d, %Y" }}</strong></span>
+      <h2 class="card__title h1 mb-0">{{ insight.title }}</h2>
+      <div class="featured-description">{{ insight.meta_description }}</div>
+      <a href="{{ insight.url }}" aria-label="Go to {{ insight.title }}"><span class="visually-hidden">{{ insight.title }}</span></a>
+    </div>
+  </article>
+{% endfor %}
+
+{% if paginator.total_pages > 1 %}
+<nav class="pagination d-flex justify-content-center mt-5 gap-2">
+  {% if paginator.previous_page_path %}
+    <a class="btn btn-outline-secondary" href="{{ paginator.previous_page_path }}">&lsaquo; Previous</a>
+  {% endif %}
+
+  {% if paginator.next_page_path %}
+    <a class="btn btn-outline-secondary" href="{{ paginator.next_page_path }}">Next &rsaquo;</a>
+  {% endif %}
+</nav>
+{% endif %}

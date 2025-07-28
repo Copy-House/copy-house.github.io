@@ -30,11 +30,11 @@ columns:
         alt: LinkedIn
         width: 24
       - url: https://twitter.com/CopyHouse_
-        img: /assets/images/icons/x-icon.png
+        img: /assets/images/icons/x-icon.svg
         alt: Twitter
         width: 20
       - url: https://www.instagram.com/copyhouse.io/
-        img: /assets/images/icons/instagram-icon.png
+        img: /assets/images/icons/instagram-icon.svg
         alt: Instagram
         width: 22
 

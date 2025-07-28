@@ -9,7 +9,7 @@
             {% for location in site.data.locations.location %}
             <div class="col-12 col-md-6 col-lg-4 slide">
               <div class="card rounded-4 rounded-top-0 overflow-hidden">
-                <img src="{{ location.image }}" loading="lazy" alt="{{ location.name }}" />
+                <img src="{% asset_path {{ location.image }} /location %}" loading="lazy" alt="{{ location.name }}" />
                 <div class="card-body p-4 bg-white text-black">
                   <h3 class="card-title text-primary">{{ location.name }}</h3>
                   <p class="card-text">{{ location.address }}</p>

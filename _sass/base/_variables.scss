@@ -51,6 +51,8 @@ $info:          $orange;
 $light:         $white;
 $dark:          $gray-900;
 
+$secondary-bg-subtle: $gray-100;
+
 $theme-colors: (
   "primary":    $primary,
   "secondary":  $secondary,
@@ -67,6 +69,15 @@ $body-color:    $white;
 $body-bg:       $gray-900;
 
 $body-secondary-color: $gray-600;
+
+$color-contrast-dark:      $gray-700;
+$color-contrast-light:     $white;
+
+$link-color:              $indigo-800;
+$link-decoration:         none;
+$link-shade-percentage:   0;
+$link-hover-color:        shift-color($link-color, $link-shade-percentage);
+$link-hover-decoration:   underline;
 
 // spacer-variables-maps
 $spacer: 1rem;

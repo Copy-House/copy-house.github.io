@@ -199,3 +199,23 @@ a.skip-main {
     z-index: 1050;
   }
 }
+
+.rich-text {
+  h2 {
+    &:first-of-type {
+      .insights-details & {
+        @extend .display-2;
+        line-height: 1.068;
+      }
+    }
+  }
+  p {
+    color: $black !important;
+  }
+}
+
+.case-study-details {
+  max-width: rem(1500);
+  margin-left: auto;
+  margin-right: auto;
+}

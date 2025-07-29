@@ -6,7 +6,7 @@
         <div class="row g-3 card-grid" role="list">
           {% assign latest_insights = site.insights | sort: "date" | reverse %}
           {% for entry in latest_insights limit:3 %}
-          <article role="listitem" class="col-12 col-md-4 recent-insight card-grid__item" aria-label="Featured Article: {{ entry.title }}"></article>
+          <article role="listitem" class="col-12 col-md-4 recent-insight card-grid__item" aria-label="Featured Article: {{ entry.title }}">
             <div class="card text-bg-dark h-100 position-relative border-0 rounded-4 overflow-hidden">
               <figure class="mb-0">
                 <img

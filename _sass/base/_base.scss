@@ -93,6 +93,17 @@ figure {
       color: var(--bs-purple);
     }
   }
+  &-transparent {
+    padding: rem(9) 0;
+    color: $gray-700;
+    text-transform: uppercase;
+    border-bottom: rem(1) solid transparent;
+
+    &:hover {
+      color: $gray-700;
+      border-bottom-color: $indigo-900;
+    }
+  }
 }
 
 %gradient-4,
@@ -109,6 +120,10 @@ figure {
   background-image: linear-gradient(247deg, $indigo-900, $orange);
   -webkit-background-clip: text;
   background-clip: text;
+}
+
+.gradient-dark-grey {
+  background-image: linear-gradient(to bottom, $gray-900, $gray-900)
 }
 
 .section {
@@ -156,6 +171,10 @@ figure {
       padding-top: rem(180);
       padding-bottom: rem(180);
     }
+  }
+  &.padding-x-175 {
+    padding-top: rem(175);
+    padding-bottom: rem(175);
   }
 }
 

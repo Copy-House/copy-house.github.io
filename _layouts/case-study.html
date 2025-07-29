@@ -1,11 +1,9 @@
 <!doctype html>
 <html lang="en-GB">
-
 {% include head.html %}
 
-<body>
+<body class="bg-black">
   <a class="skip-main btn" href="#main-content">Skip to main content</a>
-
   {% include header.html %}
 
   <main id="main-content">
@@ -22,9 +20,13 @@
       </div>
     </section>
 
+    {% include components/panel_case_study.html %}
+
   </main>
 
   {% include footer.html %}
+
+  <script src="{{ '/assets/js/custom.js' | relative_url }}" crossorigin="anonymous"></script>
 
 </body>
 </html>

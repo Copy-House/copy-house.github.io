@@ -1,0 +1,41 @@
+<section class="section latest-case-studies case-studies py-9" aria-labelledby="latest-case-studies-heading">
+  <div class="container-lg g-0 g-lg-6">
+    <div class="row justify-content-center g-0 g-lg-6">
+      <div class="col-12 col-lg-10">
+        <div class="slider-container position-relative overflow-hidden mw-100 m-auto rounded-4" data-fixed="true">
+          <div class="slider-track d-flex">
+            {% assign latest_case-studies = site.case-studies | sort: "date" | reverse %}
+            {% for entry in latest_case-studies limit:3 %}
+            <article role="listitem" class="slide d-flex flex-wrap flex-md-row-reverse text-bg-dark" aria-label="Featured case studies: {{ entry.title }}">
+              <figure class="mb-0 col-12 col-md-6">
+                <img
+                  src="{% asset_path {{ entry.image }} /case-studies %}"
+                  alt="{{ entry.image_alt | default: entry.title }}"
+                  loading="lazy"
+                  height="270"
+                  width="100%">
+              </figure>
+              <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-start px-5 py-7 gap-4">
+                <span class="p-2 border border-info text-info small d-inline">Case Study</span>
+                <h2 class="">{{ entry.title }}</h2>
+                <p class="">{{ entry.summary }}</p>
+                <a href="{{ entry.url }}" class="btn btn-primary text-uppercase" aria-label="Read more: {{ entry.title }} case study">Read case study</span>
+                </a>
+              </div>
+            </article>
+            {% endfor %}
+          </div>
+          <div class="slider-controls d-flex align-items-center justify-content-center justify-content-md-start gap-5 mt-6">
+            <button class="slider-prev" aria-label="Previous Slide">
+              <span class="visually-hidden">Previous slide</span>
+            </button>
+            <div class="slider-pagination"></div>
+            <button class="slider-next" aria-label="Next Slide">
+              <span class="visually-hidden">Next slide</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

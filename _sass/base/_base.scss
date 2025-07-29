@@ -205,8 +205,27 @@ a.skip-main {
     @extend .display-2;
     line-height: 1.068;
   }
+  h1, h2, h3, h4 {
+    margin-bottom: rem(20);
+  }
   p {
     color: $black !important;
+  }
+  blockquote {
+    border-left: rem(5) solid $gray-300;
+    margin: 0 0 rem(20);
+    padding: rem(10) rem(20);
+    line-height: 1.22;
+    @include fontSize(18);
+  }
+  p {
+    margin-bottom: rem(20);
+    &:has(img) {
+      text-align: center;
+    }
+  }
+  figure, img {
+    max-width: 60%;
   }
 }
 

@@ -2,7 +2,7 @@
 layout: insight
 title: "5 Tips for Creating SEO Friendly Content that Gets Your Technology or FinTech Brand Noticed"
 meta_description: "Learn five key SEO tactics to help your FinTech or tech brand improve search rankings and reach more of your target audience online."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2024-12-07
 ---

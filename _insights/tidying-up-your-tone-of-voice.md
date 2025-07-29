@@ -2,7 +2,7 @@
 layout: insight
 title: "Tidying Up Your Brand's Tone of Voice"
 meta_description: "Discover how to define, refine and implement your brand’s tone of voice to boost consistency, clarity and customer connection."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2025-05-15
 ---

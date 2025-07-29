@@ -2,7 +2,7 @@
 layout: insight
 title: "How to Drive Customer Trust in FinTech — TechTalks Recap"
 meta_description: "Discover how to drive trust in FinTech by educating your audience, avoiding overselling, and positioning your B2B brand with transparency and credibility."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2025-03-12
 ---

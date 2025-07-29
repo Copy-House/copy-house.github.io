@@ -2,7 +2,7 @@
 layout: insight
 title: "What Role Will Long-Form Content Play in the Metaverse?"
 meta_description: "Explore how long-form content adapts and thrives in the immersive, user-centric world of the metaverse—from scripting to virtual storytelling."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2024-11-12
 ---

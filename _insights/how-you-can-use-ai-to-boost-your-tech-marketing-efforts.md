@@ -2,7 +2,7 @@
 layout: insight
 title: "How You Can Use AI to Boost Your Tech Marketing Efforts"
 meta_description: "Discover how artificial intelligence (AI) can enhance tech marketing through data analysis, personalisation, content creation, and more."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2025-04-25
 ---

@@ -2,7 +2,7 @@
 layout: insight
 title: "How Has Content Marketing and Digital Consumption Changed During the Past Year?"
 meta_description: "Explore how the pandemic transformed B2B content marketing and digital behaviour, and how your brand can adapt with empathy, personalisation, and funnel-driven strategy."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2022-06-09
 ---

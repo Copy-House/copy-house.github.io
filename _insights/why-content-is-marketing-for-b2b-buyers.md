@@ -2,7 +2,7 @@
 layout: insight
 title: "Why Content is Marketing for B2B Buyers"
 meta_description: "We explore why content is marketing for B2B buyers and why the digital marketing funnel is still relevant for business marketing."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2025-03-11
 ---

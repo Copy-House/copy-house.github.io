@@ -2,7 +2,7 @@
 layout: insight
 title: "7 Strategies for Captivating B2B Audiences through Email Copywriting"
 meta_description: "Discover seven essential email copywriting strategies to boost B2B engagement, improve click-through rates, and convert leads into loyal customers."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2024-12-05
 ---

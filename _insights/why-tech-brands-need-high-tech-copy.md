@@ -2,7 +2,7 @@
 layout: insight
 title: "Why Tech Brands Need High Tech Copy"
 meta_description: "Discover why high-quality, strategic copywriting is essential for tech brands looking to stand out, engage audiences, and generate ROI. Explore five key reasons to invest in expert content marketing support."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2024-10-14
 ---

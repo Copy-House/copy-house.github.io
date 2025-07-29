@@ -2,7 +2,7 @@
 layout: insight
 title: "Why You Should Be Using Case Studies"
 meta_description: "Discover why case studies are a powerful B2B marketing tool and learn how to write effective ones that build trust and convert leads."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2024-11-28
 ---

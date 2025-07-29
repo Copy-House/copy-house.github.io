@@ -7,7 +7,7 @@
 {% for insight in posts %}
   <article role="article" class="mb-6 mb-lg-4 card-grid__item d-flex flex-column flex-md-row-reverse align-items-center justify-content-between gap-4 gap-lg-11 position-relative" aria-label="Featured Article: {{ insight.title }}">
     <figure class="w-100 rounded-4 overflow-hidden position-relative">
-      <img src="{% asset_path {{ insight.image }} /insight %}" class="card-img-top" alt="{{ insight.image_alt }}">
+      <img src="{% asset_path {{ insight.image }} /insights %}" class="card-img-top" alt="{{ insight.image_alt }}">
     </figure>
     <div class="w-100 card-grid__body d-flex flex-column gap-2">
       <span class="card-grid__category mb-0 d-block">Featured Article</span>

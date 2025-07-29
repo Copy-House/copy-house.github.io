@@ -2,7 +2,7 @@
 layout: insight
 title: "Tips and Tricks on Creating Engaging Introductions and Hooks to Entice Your Viewers"
 meta_description: "Learn how to capture your audience's attention with compelling introductions and powerful hooks that drive engagement from the first sentence."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2025-02-08
 ---

@@ -2,7 +2,7 @@
 layout: insight
 title: "How to Conduct Interviews for High-Quality Article Content"
 meta_description: "Learn how expert interviews can boost your content strategy with authenticity, authority, and shareable insights that resonate with your B2B audience."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2024-12-19
 ---

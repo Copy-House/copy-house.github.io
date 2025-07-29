@@ -2,7 +2,7 @@
 layout: insight
 title: "The 7 Most Common B2B LinkedIn Marketing Mistakes to Avoid"
 meta_description: "Avoid these 7 LinkedIn marketing mistakes that prevent B2B brands from growing. Learn how to optimise content, engagement, and profile visibility effectively."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2024-03-25
 ---

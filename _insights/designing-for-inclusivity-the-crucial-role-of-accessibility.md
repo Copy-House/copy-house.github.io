@@ -2,7 +2,7 @@
 layout: insight
 title: "Designing for Inclusivity: The Crucial Role of Accessibility"
 meta_description: "Explore the importance of designing inclusive content that’s accessible, functional, and meaningful to all users. Learn how accessibility shapes better user experiences."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2024-10-14
 ---

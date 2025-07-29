@@ -4,14 +4,13 @@
 
 <body>
   <a class="skip-main btn" href="#main-content">Skip to main content</a>
-
   {% include header.html %}
 
-  <main class="transition--fade" id="main-content">
+  <main id="main-content">
     {% include components/panel_banner.html %}
 
-    <section id="insights" class="section insights-listing bg-light card-grid text-dark py-9">
-      <h1 class="visually-hidden">{{ page.title }}</h1>
+    <section id="insights" class="section insights bg-light card-grid text-dark py-9">
+      <h2 class="visually-hidden">{{ page.title }}</h2>
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-lg-9">
@@ -20,6 +19,8 @@
         </div>
       </div>
     </section>
+
+    {% include components/panel_insights.html %}
 
     {% include components/panel_contact_form.html %}
 

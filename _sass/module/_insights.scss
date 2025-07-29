@@ -3,7 +3,7 @@
 * Insights Page Style.
 */
 
-.insights-listing {
+.insights {
   .btn {
     --bs-btn-color: var(--bs-gray-700);
     --bs-btn-border-color: var(--bs-gray-700);
@@ -17,7 +17,7 @@
         &::before {
           content: '';
           background-image: linear-gradient(0deg, $blue, rgba(var(--bs-white-rgb), 0));
-          @include overlay(1);
+          @include overlay(0);
         }
         img {
           min-height: 100%;

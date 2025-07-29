@@ -5,16 +5,18 @@
 {% endif %}
 
 {% for insight in posts %}
-  <article class="mb-6 mb-lg-4 card-grid__item d-flex flex-column flex-md-row-reverse align-items-center justify-content-between gap-4 gap-lg-11">
+  <article role="article" class="mb-6 mb-lg-4 card-grid__item d-flex flex-column flex-md-row-reverse align-items-center justify-content-between gap-4 gap-lg-11 position-relative" aria-label="Featured Article: {{ insight.title }}">
     <figure class="w-100 rounded-4 overflow-hidden position-relative">
       <img src="{% asset_path {{ insight.image }} /insight %}" class="card-img-top" alt="{{ insight.image_alt }}">
     </figure>
     <div class="w-100 card-grid__body d-flex flex-column gap-2">
       <span class="card-grid__category mb-0 d-block">Featured Article</span>
-      <span class="card-insight--date text-primary"><strong>{{ insight.date | date: "%b %d, %Y" }}</strong></span>
-      <h2 class="card__title h1 mb-0">{{ insight.title }}</h2>
+      <span class="card-insight--date text-primary" datetime="{{ insight.date | date: '%Y-%m-%d' }}"><strong>{{ insight.date | date: "%b %d, %Y" }}</strong></span>
+      <h2 id="insight-title-{{ forloop.index }}" class="card__title h1 mb-0">{{ insight.title }}</h2>
       <div class="featured-description">{{ insight.meta_description }}</div>
-      <a href="{{ insight.url }}" aria-label="Go to {{ insight.title }}"><span class="visually-hidden">{{ insight.title }}</span></a>
+      <a href="{{ insight.url }}" aria-labelledby="insight-title-{{ forloop.index }}" class="stretched-link">
+        <span class="visually-hidden">Read more about {{ insight.title }}</span>
+      </a>
     </div>
   </article>
 {% endfor %}

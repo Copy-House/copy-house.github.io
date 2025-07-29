@@ -1,30 +1,28 @@
 <!doctype html>
 <html lang="en-GB">
-
 {% include head.html %}
 
-<body class="body-2">
+<body>
+  <a class="skip-main btn" href="#main-content">Skip to main content</a>
   {% include header.html %}
 
-  <main>
+  <main id="main-content">
     {% include components/panel_banner_detail.html %}
 
-    <div class="section no-padding-bottom white-smoke">
-      <div class="container small push-60 w-container">
-        <div class="rich-text-block-5 w-richtext">
-
-          {{ content }}
-
-        </div>
-        <div class="container small w-condition-invisible w-container">
-          <div class="w-dyn-bind-empty w-video w-embed"></div>
+    <section id="insights-details" class="section insights-details text-bg-light py-5 py-sm-10 text-center text-sm-start">
+      <h2 class="visually-hidden">{{ page.title }}</h2>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-9 rich-text">
+            {{ content }}
+          </div>
         </div>
       </div>
+    </section>
 
   </main>
 
   {% include footer.html %}
 
 </body>
-
 </html>

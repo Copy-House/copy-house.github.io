@@ -1,19 +1,40 @@
-<section class="section-35">
-    <div class="div-block-58">
-        <h2 class="heading-43 left">Latest Insights</h2>
-        <div class="collection-list-wrapper-10 w-dyn-list">
-            <div role="list" class="collection-list-15 w-dyn-items w-row">
-                {% assign latest_insights = site.insights | sort: "date" | reverse %}
-                {% for entry in latest_insights limit:3 %}
-                <div role="listitem" class="recent-insight w-dyn-item w-col w-col-4">
-                    <a href="{{ entry.url }}" class="w-inline-block">
-                        <img alt="{{ entry.title }}" loading="lazy" src="{{ entry.image }}" height="270" class="image-54">
-                        <h6 class="heading-58">{{ entry.title }}</h6>
-                        <p class="paragraph-13">{{ entry.meta_description }}</p>
-                    </a>
-                </div>
-                {% endfor %}
+<section class="section section-latest-insights insights py-9 bg-secondary-subtle" aria-labelledby="latest-insights-heading">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-9">
+        <h2 id="latest-insights-heading" class="text-dark mb-4">Latest Insights</h2>
+        <div class="row g-3 card-grid" role="list">
+          {% assign latest_insights = site.insights | sort: "date" | reverse %}
+          {% for entry in latest_insights limit:3 %}
+          <article role="listitem" class="col-12 col-md-4 recent-insight card-grid__item" aria-label="Featured Article: {{ entry.title }}"></article>
+            <div class="card text-bg-dark h-100 position-relative border-0 rounded-4 overflow-hidden">
+              <figure class="mb-0">
+                <img
+                  src="{% asset_path {{ entry.image }} /insight %}"
+                  alt="{{ entry.image_alt | default: entry.title }}"
+                  loading="lazy"
+                  class="card-img"
+                  height="270"
+                  width="100%">
+              </figure>
+              <div class="card-img-overlay d-flex flex-column justify-content-end p-4 gap-3">
+                <h3 class="h4 card-title text-white mb-0">
+                  {{ entry.title }}
+                </h3>
+                <time class="card-insight--date fw-bold small" datetime="{{ entry.date | date: '%Y-%m-%d' }}">
+                  {{ entry.date | date: "%b %d, %Y" }}
+                </time>
+                <p class="card-text text-white small mb-0">{{ entry.meta_description }}</p>
+
+                <a href="{{ entry.url }}" class="stretched-link" aria-label="Read more: {{ entry.title }}">
+                  <span class="visually-hidden">Read more: {{ entry.title }}</span>
+                </a>
+              </div>
             </div>
+          </article>
+          {% endfor %}
         </div>
+      </div>
     </div>
+  </div>
 </section>

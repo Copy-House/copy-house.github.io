@@ -2,7 +2,7 @@
 layout: insight
 title: "How to Become a Thought Leader in Tech"
 meta_description: "Discover the key strategies to establish yourself as a trusted expert and thought leader in the fast-paced tech industry."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2024-11-18
 ---

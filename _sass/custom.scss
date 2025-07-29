@@ -30,6 +30,7 @@
 @import "bootstrap/dropdown";
 @import "bootstrap/nav";
 @import "bootstrap/navbar";
+@import "bootstrap/card";
 @import "bootstrap/helpers";
 
 /* Bootstrap Utilities Generator */
@@ -49,3 +50,7 @@
 @import 'module/hero';
 @import 'module/testimonial';
 @import 'module/slider';
+@import 'module/insights';
+
+/* Pages */
+@import 'pages/case-studies-listing';

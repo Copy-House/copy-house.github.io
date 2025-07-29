@@ -2,7 +2,7 @@
 layout: insight
 title: "The Importance of Harmonising Copy and Design"
 meta_description: "Explore why aligning copy and design is essential for an engaging user experience and how the two can work together to strengthen your brand message."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2024-11-13
 ---

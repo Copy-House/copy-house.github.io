@@ -2,7 +2,7 @@
 layout: insight
 title: "Everything You Need To Know About The B2B Sales Funnel"
 meta_description: "Understand the B2B sales funnel and how to use content at each stage—from awareness to purchase—to convert leads into loyal buyers."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2024-12-12
 ---

@@ -2,7 +2,7 @@
 layout: insight
 title: "Why Cleaning Your Content Infrastructure is as Crucial as Tidying Your Home"
 meta_description: "Learn how content audits can dramatically improve your SEO performance by cleaning up outdated, underperforming, or duplicate web pages."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2025-04-02
 ---

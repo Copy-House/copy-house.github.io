@@ -2,7 +2,7 @@
 layout: insight
 title: "Accessibility & Diversity in Your Marketing Strategy"
 meta_description: "Discover why accessibility and diversity are essential in B2B content marketing and how to create campaigns that resonate with all audiences."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2024-11-14
 ---

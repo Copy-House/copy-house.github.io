@@ -3,7 +3,7 @@ layout: case-study
 title: "Developing Customer Avatars to Help ByzGen Understand their Target Audience and Produce Seamless Content"
 summary: "CopyHouse helped blockchain platform ByzGen build a refined customer avatar, define its tone of voice, and overhaul its content—from SEO-optimised landing pages to lead-generating case studies."
 date: 2025-07-21
-image: "/assets/images_old/64258141788bb418d23f3243_AdobeStock_329431555-1536x1044.jpeg"
+image: "developing-customer-avatars.webp"
 logo: "/assets/images_old/64258141788bb4620e3f3227_Untitled-design-5-150x150.png"
 logo_bg_color: "white"
 ---

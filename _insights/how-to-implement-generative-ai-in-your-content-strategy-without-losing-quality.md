@@ -2,7 +2,7 @@
 layout: insight
 title: "How to Implement Generative AI in Your Content Strategy Without Losing Quality"
 meta_description: "Explore practical tips for integrating generative AI into your content marketing strategy while maintaining originality, quality and SEO value."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2025-03-04
 ---

@@ -2,7 +2,7 @@
 layout: insight
 title: "Developing a Content Marketing Strategy for Your Tech Brand"
 meta_description: "How to create a successful content marketing strategy for your tech brand, from goals to execution."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2025-03-14
 ---

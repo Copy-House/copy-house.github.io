@@ -2,7 +2,7 @@
 layout: insight
 title: "How to Build a Customer-Obsessed Marketing Team"
 meta_description: "Discover how to develop a customer-first mindset across your marketing team and boost ROI by building stronger audience connections."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2025-04-02
 ---

@@ -2,7 +2,7 @@
 layout: insight
 title: "Everything You Need to Know About SEO"
 meta_description: "Learn the fundamentals of SEO, including its role in content marketing, keyword research, formatting best practices, and how to improve your rankings."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2025-06-21
 ---

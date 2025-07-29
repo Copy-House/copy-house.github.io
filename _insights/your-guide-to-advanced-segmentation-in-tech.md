@@ -2,7 +2,7 @@
 layout: insight
 title: "Your Guide to Advanced Segmentation in Tech"
 meta_description: "Explore how advanced segmentation and data analytics can help tech marketers personalise customer journeys and increase conversions."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2025-03-11
 ---

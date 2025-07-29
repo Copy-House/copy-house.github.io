@@ -2,7 +2,7 @@
 layout: insight
 title: "Building Trust with Content: A Guide for Tech Brands"
 meta_description: "Learn how content marketing helps tech brands build trust, improve visibility and connect with audiences more meaningfully in a saturated market."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2025-04-07
 ---

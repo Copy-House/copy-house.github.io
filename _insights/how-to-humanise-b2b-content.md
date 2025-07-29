@@ -2,7 +2,7 @@
 layout: insight
 title: "How to Humanise B2B Content"
 meta_description: "Discover why humanising your B2B content is essential for connecting with modern audiences. Learn how to shift from formal to conversational communication."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2025-03-18
 ---

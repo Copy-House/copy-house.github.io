@@ -1,49 +1,32 @@
 <!doctype html>
 <html lang="en-GB">
-
 {% include head.html %}
 
 <body>
+  <a class="skip-main btn" href="#main-content">Skip to main content</a>
   {% include header.html %}
 
-  <main>
+  <main id="main-content">
     {% include components/panel_banner.html %}
 
-    <section class="section-white">
-      <div class="w-layout-blockcontainer container-48 w-container">
-        <div class="w-dyn-list">
-          <div role="list" class="w-dyn-items">
-
-            {% assign insight = site.insights | sort: "date" | reverse %}
-            {% for entry in insight %}
-
-            <div role="listitem" class="collection-item-12 w-dyn-item"><a
-                href="{{ entry.url }}" class="w-inline-block">
-                <div class="w-layout-blockcontainer container-47 w-container">
-                  <h3 class="heading-61">Featured Article</h3>
-                  <h3 class="featured-date">{{ entry.date | date: "%d %b %Y" }}</h3>
-                  <h3 class="featured-heading">{{ entry.title }}</h3>
-                  <div class="featured-description">{{ entry.meta_description }}</div>
-                </div>
-              </a><a
-                style="background-image:url('{{ entry.image }}')"
-                href="{{ entry.url }}"
-                class="featured-article-link-block w-inline-block">
-                <div class="w-layout-blockcontainer featured-article-overlay w-container"></div>
-              </a>
-            </div>
-
-            {% endfor %}
-
+    <section id="insights" class="section insights bg-light card-grid text-dark py-9">
+      <h2 class="visually-hidden">{{ page.title }}</h2>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-9">
+            {% include components/panel_insights_listing.html %}
           </div>
         </div>
       </div>
     </section>
+
+    {% include components/panel_insights.html %}
+
+    {% include components/panel_contact_form.html %}
 
   </main>
 
   {% include footer.html %}
 
 </body>
-
 </html>

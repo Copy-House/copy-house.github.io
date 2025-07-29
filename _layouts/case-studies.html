@@ -9,42 +9,43 @@
   <main>
     {% include components/panel_banner.html %}
 
-    <div class="section white-smoke">
-      <div class="container w-container">
-        <div class="collection-list-wrapper-4 w-dyn-list">
-          <div fs-cmsload-mode="load-under" fs-cmsfilter-element="list" fs-cmsload-element="list" role="list"
-            class="collection-list-6 w-dyn-items">
-
-            {% assign studies = site.case-studies | sort: "date" | reverse %}
-            {% for entry in studies %}
-
-            <div id="w-node-bb3b17bf-6c02-e01a-b57d-e2fd3eb02476-9189da40" role="listitem"
-              class="collection-item-4 w-dyn-item">
-              <div class="case-study-preview">
-                <div style="background-image:url('{{ entry.image }}')" class="preview-image">
-                  <div class="div-block-15"></div>
-                  <div style="background-color:white" class="client-logo list">
-                    <div style="background-image:url('{{ entry.logo }}')" class="client-logo-inner"></div>
+    <section class="section case-studies-listing largest-padding">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-xl-11">
+            <ul class="row list-unstyled">
+    
+              {% assign studies = site.case-studies | sort: "date" | reverse %}
+              {% for entry in studies %}
+    
+              <li class="col-lg-6 col-12 mb-5">
+                <article>
+                  <div class="case-studies-listing__img d-flex justify-content-center align-items-center rounded-4" style="background-image:url('{{ entry.image }}')">
+                    <figure class="rounded-4 p-4 d-flex justify-content-center align-items-center" style="background-color:white">
+                      <img src="{{ entry.logo }}" alt="">
+                    </figure>
                   </div>
-                </div>
-                <div class="preview-information">
-                  <div class="div-block-24">
-                    <h3 class="no-top-bottom push-30">{{ entry.title }}</h3>
-                    <div class="push-30">{{ entry.summary }}</div>
+                  <div class="case-studies-listing__content p-4 d-flex align-items-start flex-column">
+                    <h2 class="mb-5">{{ entry.title }}</h2>
+                    <p>{{ entry.summary }}</p>
+                    <a href="{{ entry.url }}" class="btn btn-primary mt-auto">Read case study</a>
                   </div>
-                  <div class="div-block-25"><a href="{{ entry.url }}" class="button invert w-button">Read case study</a>
-                  </div>
-                  <div fs-cmsfilter-field="TYPE" class="filter">Finance</div>
-                </div>
-              </div>
-            </div>
-
-            {% endfor %}
-            
+                </article>
+              </li>
+    
+              {% endfor %}
+    
+            </ul>
           </div>
         </div>
+        <div class="text-center">
+          <a href="" class="btn btn-transparent">Load More</a>
+        </div>
       </div>
-    </div>  
+    </section>
+    
+      {% include components/panel_contact_form.html class="gradient-dark-grey" %}
+
   </main>
 
   {% include footer.html %}

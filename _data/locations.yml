@@ -3,30 +3,30 @@ heading: "Location"
 location:
 - name: Edinburgh
   address: "Jamaica Yard, 3 Jamaica Street<br/>Edinburgh, Scotland<br/>EH3 6HH"
-  image: /assets/images_old/67b85e6f3bfe46115b17ae0c_jamaican-yard-copyhouse.webp
+  image: jamaican-yard-copyhouse.webp
   map_link: https://maps.app.goo.gl/U47egb5Bpy8MgR7n9
 
 - name: London
   address: "Scope, 11 Slingsby Place <br/>London, United Kingdom <br/>WC2E 9AB"
-  image: /assets/images_old/67b8629becd4b57543dc8496_Untitled%20design%20(20).png
+  image: untitled-kingdom.webp
   map_link: https://maps.app.goo.gl/U47egb5Bpy8MgR7n9
 
 - name: New York
   address: "500 7th Avenue<br/> New York, USA<br/>NY 10018"
-  image: /assets/images_old/67b85e996fde9c26f55647e8_newyork-branch.jpg
+  image: newyork-branch.webp
   map_link: https://maps.app.goo.gl/U47egb5Bpy8MgR7n9
 
 - name: Bournemouth
   address: "Smartbase, Aviation Park West <br>Christchurch, United Kingdom<br>BH23 6NW"
-  image: /assets/images_old/67b862dca97af0c565edf1ae_Untitled%20design%20(21).png
+  image: bournemouth-branch.webp
   map_link: https://maps.app.goo.gl/U47egb5Bpy8MgR7n9
 
 - name: Jaipur
   address: "G1 257-258,IT Park EPIP<br/>Ricco Industrial Area Jaipur, Rajasthan<br/>India, 302022"
-  image: /assets/images_old/67b8619846115ace8305ce0a_jaipure.webp
+  image: jaipur-branch.webp
   map_link: https://maps.app.goo.gl/U47egb5Bpy8MgR7n9
 
 - name: Katowice
   address: "Cluster Katowice, Stary Dworzec <br/>Katowice, Poland<br/>40-2012"
-  image: /assets/images_old/67b86188aceaa50feccc13ea_katowice-branch.jpg
+  image: katowice-branch.webp
   map_link: https://maps.app.goo.gl/U47egb5Bpy8MgR7n9

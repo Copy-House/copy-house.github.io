@@ -2,7 +2,7 @@
 layout: insight
 title: "The art of simplifying complex topics in content marketing"
 meta_description: "Learn how to make complex ideas accessible with strategic storytelling, audience insights, and content clarity for B2B marketing success."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2025-01-04
 ---

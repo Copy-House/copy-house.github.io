@@ -1,9 +1,8 @@
 {% if page.layout == 'homepage' %}
-  {% assign footer_class = 'border-top border-bottom pt-5' %}
+  {% assign footer_class = 'border-top border-bottom' %}
 {% endif %}
 
-
-<footer class="footer {{ footer_class }} pb-3" aria-label="Footer">
+<footer class="footer pt-5 {{ footer_class }} pb-3" aria-label="Footer">
   <div class="container">
     <div class="row justify-content-center justify-content-md-between">
       <div class="col-auto col-md-4 mb-5 mb-md-0">
@@ -11,7 +10,7 @@
           <img
             width="185"
             alt="{{ site.data.footer.logo_alt }}"
-            src="{% asset_path {{ site.data.footer.logo }} %}"
+            src="{% asset_path {{ site.data.footer.logo }} /logos %}"
             loading="lazy">
         </a>
       </div>
@@ -82,3 +81,6 @@
     </div>
   </div>
 </footer>
+
+<script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}" crossorigin="anonymous"></script>
+<script src="{{ '/assets/js/custom.js' | relative_url }}" crossorigin="anonymous"></script>

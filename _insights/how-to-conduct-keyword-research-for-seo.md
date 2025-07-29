@@ -2,7 +2,7 @@
 layout: insight
 title: "How to Conduct Keyword Research for SEO"
 meta_description: "Master the fundamentals of keyword research and learn how to optimise your content strategy for better search visibility and engagement."
-image: "/assets/images_old/insight-header.webp"
+image: "insight-header.webp"
 author: CopyHouse
 date: 2024-12-07
 ---

@@ -3,8 +3,8 @@ layout: case-study
 title: "Building Long-term Momentum with INAA"
 summary: "How CopyHouse helped INAA increase visibility, engagement, and authority through ongoing SEO and content strategy."
 date: 2024-12-03
-image: "/assets/images_old/6735f60e30eb957febb1bd6f_linkedinb2b (2)-p-1600.jpg"
-logo: "/assets/images_old/64258141788bb401ae3f3220_Untitled-design.png"
+image: "building-long-term-momentu.webp"
+logo: "inaa-group.webp"
 logo_bg_color: "white"
 ---
 

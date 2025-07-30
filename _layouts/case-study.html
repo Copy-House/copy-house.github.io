@@ -9,8 +9,8 @@
   <main id="main-content">
     {% include components/panel_banner_detail.html %}
 
-    <section id="insights" class="section case-study-details text-bg-light py-5 py-sm-10 text-center text-sm-start">
-      <h2 class="visually-hidden">{{ page.title }}</h2>
+    <section class="section case-study-details text-bg-light py-5 py-sm-10 text-center text-sm-start" aria-labelledby="case-studies-heading">
+      <h2 id="case-studies-heading" class="visually-hidden">{{ page.title }}</h2>
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-lg-9 rich-text">
@@ -20,13 +20,11 @@
       </div>
     </section>
 
-    {% include components/panel_case_study.html %}
+    {% include components/panel_related_case_study.html %}
 
   </main>
 
   {% include footer.html %}
-
-  <script src="{{ '/assets/js/custom.js' | relative_url }}" crossorigin="anonymous"></script>
 
 </body>
 </html>

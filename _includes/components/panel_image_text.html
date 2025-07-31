@@ -1,34 +1,43 @@
 {%- assign panel = page.panels_image_text[include.index] -%}
-{% if panel %}
-<section class="section-34">
-    <div class="div-block-57">
-        <div class="frame-24">
 
-            {% comment %} Check if the index is an even number {% endcomment %}
-            {% assign is_even = include.index | modulo: 2 %}
-            {% if is_even == 0 %}
+{%- if panel -%}
+	{%- assign is_even = include.index | modulo: 2 -%}
+	{%- if is_even == 0 -%}
+		{%- assign class_reverse = 'flex-md-row-reverse' -%}
+	{%- else -%}
+		{%- assign class_reverse = '' -%}
+	{%- endif -%}
 
-            {% comment %} EVEN: Text on the left, Image on the right {% endcomment %}
-            <div class="frame-22">
-                <div class="text-block-52">{{ panel.title }}</div>
-                <div class="text">{{ panel.text }}</div>
+  <section class="section section-image-text py-7" aria-labelledby="panel-title-{{ include.index }}">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-11 col-lg-9">
+          <article class="row align-items-center justify-content-between {{ class_reverse }}">
+            <div class="col-12 col-md-6">
+              <figure>
+                <img
+                  src="{% asset_path {{ panel.image }} /aboutus %}"
+                  alt="{{ panel.alt | default: panel.title | escape }}"
+                  loading="lazy"
+                  width="466"
+                  height="425"
+                  class="img-fluid"
+                >
+                {%- if panel.image_caption -%}
+                  <figcaption class="visually-hidden">{{ panel.image_caption }}</figcaption>
+                {%- endif -%}
+              </figure>
             </div>
-            <img src="{{ panel.image | relative_url }}" loading="lazy" width="466" height="425" alt="{{ panel.title }}"
-                class="untitled-design-25-1">
 
-            {% else %}
-
-            {% comment %} ODD: Image on the left, Text on the right {% endcomment %}
-            <img src="{{ panel.image | relative_url }}" loading="lazy" width="466" height="425" alt="{{ panel.title }}"
-                class="untitled-design-25-1">
-            <div class="frame-22">
-                <div class="text-block-52">{{ panel.title }}</div>
-                <div class="text">{{ panel.text }}</div>
+            <div class="col-12 col-md-5">
+              <header>
+                <h2 id="panel-title-{{ include.index }}" class="h3">{{ panel.title }}</h2>
+              </header>
+              <p>{{ panel.text }}</p>
             </div>
-
-            {% endif %}
-
+          </article>
         </div>
+      </div>
     </div>
-</section>
-{% endif %}
+  </section>
+{%- endif -%}

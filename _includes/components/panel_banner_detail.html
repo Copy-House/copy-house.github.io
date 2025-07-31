@@ -1,46 +1,40 @@
-<div style="background-image:url('{{ page.image }}')" class="section hero case-study slant">
-  <div class="container w-container">
-    <div class="case-study-hero">
-      <div class="case-study-hero-column">
-        <h1 class="heading-3">{{ page.title }}</h1>
+
+{% assign has_image = page.image %}
+{% if page.layout == "case-study" %}
+  {% assign image_folder = "case-studies" %}
+{% else %}
+  {% assign image_folder = "insights" %}
+{% endif %}
+
+<section class="section section-banner section-banner__details position-relative"
+  {% if has_image %}
+    style="background-image: url('{% asset_path {{ has_image }} {{ image_folder }} %}')"
+  {% endif %}
+  aria-label="{{ page.title | escape }}">
+
+  <div class="container mt-auto position-relative z-1">
+    <div class="row justify-content-center g-3">
+
+      <div class="col-12 col-lg-11 d-md-flex justify-content-between align-items-end mt-7">
+        <header class="col-md-6">
+          <h1 class="section-banner__title mb-5 mb-md-0">{{ page.title }}</h1>
+        </header>
+
+        {% if page.logo and page.logo != "" %}
+        <figure class="col-md-6 section-banner__logo rounded-4 px-3 px-lg-4 d-flex justify-content-center align-items-center"
+                style="background-color: {{ page.logo_bg_color | default: 'var(--bs-white)' }}">
+          <img src="{% asset_path {{ page.logo }} /case-studies/logos %}"
+               alt="{{ page.title }} logo"
+               class="img-fluid text-dark"
+               loading="lazy">
+        </figure>
+        {% endif %}
       </div>
-      {% if page.logo and page.logo != "" %}
-      <div class="case-study-hero-column">
-        <div style="background-color:white" class="client-logo">
-          <div style="background-image:url('{{ page.logo }}')" class="client-logo-inner"></div>
-        </div>
+
+      <div class="col-12 col-lg-11 mt-6">
+        {% include components/panel_social_share.html %}
       </div>
-      {% endif %}
+
     </div>
   </div>
-  <div class="purple-overlay"></div>
-  <div class="case-study-share relative-above">
-    <div class="share-buttons">
-      <div class="share-button">
-        <div class="share">Share</div><img src="/assets/images_old/64258141788bb42ffb3f30e1_twitter.svg" loading="lazy"
-          alt="" class="social-share-icon">
-        <div class="social-share-code w-embed"><a class="w-inline-block social-share-code"
-            href="https://twitter.com/intent/tweet?" target="_blank" alt="Tweet This" title="Tweet"
-            onclick="window.open('https://twitter.com/intent/tweet?text=%20Check this out! ' + encodeURIComponent(document.URL) + '&amp;t=' + encodeURIComponent(document.URL), 'targetWindow', 'toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;"></a>
-        </div>
-      </div>
-      <div class="share-button">
-        <div class="share">Share</div><img src="/assets/images_old/64258141788bb43aa33f30e2_linkedin.svg" loading="lazy"
-          alt="" class="social-share-icon">
-        <div class="social-share-code w-embed"><a class="w-inline-block social-share-code"
-            href="http://www.linkedin.com/shareArticle?mini=true&amp;url=&amp;title=&amp;summary=&amp;source="
-            target="_blank" title="Share on LinkedIn"
-            onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&amp;url=' + encodeURIComponent(document.URL) + '&amp;t=' + encodeURIComponent(document.URL), 'targetWindow', 'toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=600'); return false;">
-          </a></div>
-      </div>
-      <div class="share-button">
-        <div class="share">Share</div><img src="/assets/images_old/64258141788bb476e43f30e3_facebook.svg" loading="lazy"
-          alt="" class="social-share-icon">
-        <div class="social-share-code w-embed"><a class="w-inline-block social-share-code"
-            href="https://www.facebook.com/sharer/sharer.php?u=&amp;t=" title="Share on Facebook" target="_blank"
-            onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&amp;t=' + encodeURIComponent(document.URL), 'targetWindow', 'toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); 
-return false;"></a></div>
-      </div>
-    </div>
-  </div>
-</div>
+</section>

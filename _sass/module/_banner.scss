@@ -1,0 +1,60 @@
+/**
+* @Files
+* Banner module Style.
+*/
+
+.section-banner {
+  background-color: var(--bs-purple);
+  background-image: linear-gradient(var(--bs-blue), var(--bs-indigo-900));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: rem(140);
+  padding-bottom: rem(80);
+  min-height: rem(400);
+  &_subheading {
+    letter-spacing: rem(.1);
+    line-height: 1.5;
+  }
+  &__details {
+    padding-top: rem(168);
+    padding-bottom: rem(76);
+    @include media-breakpoint-up(sm) {
+      padding-top: rem(220);
+    }
+    &::before {
+      content: '';
+      background-image: linear-gradient(to top, var(--bs-purple), #8000ff00);
+      mix-blend-mode: normal;
+      inset: auto 0% 0%;
+      height: 100%;
+      width: 100%;
+      @include absolute(left 0 bottom 0);
+      @include media-breakpoint-up(sm) {
+        height: 80%;
+      }
+    }
+    h1 {
+      letter-spacing: .015625rem;
+      line-height: 1.125;
+      @include fontSize(40);
+    }
+  }
+  &__logo {
+    height: rem(160);
+    @include media-breakpoint-up(sm) {
+      width: rem(250);
+    }
+    img {
+      max-height: 100%;
+    }
+  }
+  &__social {
+    a {
+      @include fontSize(10);
+      img {
+        height: rem(17);
+      }
+    }
+  }
+}

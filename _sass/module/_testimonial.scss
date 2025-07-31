@@ -10,7 +10,7 @@
       background-color: var(--bs-dark);
       background-image: url(../images/icons/quote-icon.svg);
       background-repeat: no-repeat;
-      background-position: top left;
+      background-position: top center;
       width: rem(91);
       height: rem(68);
       @include absolute(top -26px left 26px);

@@ -16,11 +16,6 @@
     letter-spacing: rem(.1);
     line-height: 1.5;
   }
-  h1 {
-    letter-spacing: .015625rem;
-    line-height: 1.125;
-    @include fontSize(40);
-  }
   &__details {
     padding-top: rem(168);
     padding-bottom: rem(76);
@@ -38,6 +33,11 @@
       @include media-breakpoint-up(sm) {
         height: 80%;
       }
+    }
+    h1 {
+      letter-spacing: .015625rem;
+      line-height: 1.125;
+      @include fontSize(40);
     }
   }
   &__logo {

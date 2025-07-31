@@ -9,7 +9,7 @@
   <main id="main-content">
     {% include components/panel_banner_detail.html %}
 
-    <section class="section case-study-details text-bg-light py-5 py-sm-10 text-center text-sm-start" aria-labelledby="case-studies-heading">
+    <section class="section case-study-details text-bg-light py-5 py-sm-10" aria-labelledby="case-studies-heading">
       <h2 id="case-studies-heading" class="visually-hidden">{{ page.title }}</h2>
       <div class="container">
         <div class="row justify-content-center">
@@ -17,6 +17,11 @@
             {{ content }}
           </div>
         </div>
+
+        {% if page.author.text %}
+          {% include components/panel_case_study_author.html %}
+        {% endif %}
+
       </div>
     </section>
 

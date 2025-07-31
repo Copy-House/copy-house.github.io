@@ -6,6 +6,13 @@ date: 2024-12-03
 image: "building-long-term-momentu.webp"
 logo: "inaa-group.webp"
 logo_bg_color: "white"
+
+author:
+  text:
+    Working from end to end with Account Technologies was an extremely productive experience. We really got to know them from our initial conversations and during our brand workshop, and they also learned a lot about us. This workshop laid the foundation for the project. The insights received allowed us to create a functional, clear and crisp brand book and landing page that resonates with Account Technologies’ target audience.
+  name: Stuart Cameron, Content Strategist
+  company: CopyHouse
+
 ---
 
 ## Building Long-term Momentum with INAA

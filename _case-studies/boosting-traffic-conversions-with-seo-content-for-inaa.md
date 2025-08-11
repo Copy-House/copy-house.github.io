@@ -3,9 +3,16 @@ layout: case-study
 title: "Boosting Traffic & Conversions with SEO Content for INAA"
 summary: "How CopyHouse helped INAA expand their global reach and build credibility through expertly crafted SEO content."
 date: 2024-11-22
-image: "/assets/images_old/64258141788bb4d5d93f3252_photo-1519389950473-47ba0277781c.jpeg"
-logo: "/assets/images_old/64258141788bb401ae3f3220_Untitled-design.png"
+image: "boosting-traffic-conversions.webp"
+logo: "inaa-group.webp"
 logo_bg_color: "white"
+
+author:
+  text:
+    Working from end to end with Account Technologies was an extremely productive experience. We really got to know them from our initial conversations and during our brand workshop, and they also learned a lot about us. This workshop laid the foundation for the project. The insights received allowed us to create a functional, clear and crisp brand book and landing page that resonates with Account Technologies’ target audience.
+  name: Stuart Cameron, Content Strategist
+  company: CopyHouse
+
 ---
 
 ## Boosting Traffic & Conversions with SEO Content for INAA

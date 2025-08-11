@@ -1,0 +1,42 @@
+<section class="section section-award py-7" aria-labelledby="awards-title">
+  <div class="container-fluid g-0">
+    <h2 id="awards-title" class="text-center mb-6">Our Awards</h2>
+
+    <div class="logo-slider overflow-hidden position-relative" data-loop="true" data-auto="true">
+      <ul class="logo-slider-track row align-items-center list-unstyled g-0 flex-nowrap">
+        {% for item in site.data.awards %}
+          <li class="logo-slider-slide col-auto">
+            <figure class="text-center mb-0">
+              <img
+                src="{% asset_path {{ item.image }} /awards %}"
+                alt="{{ item.alt | default: 'Award logo' | escape }}"
+                loading="lazy"
+                width="90"
+                class="img-fluid"
+              >
+              {% if item.caption %}
+                <figcaption class="visually-hidden">{{ item.title }}</figcaption>
+              {% endif %}
+            </figure>
+          </li>
+        {% endfor %}
+        {% for item in site.data.awards %}
+          <li class="logo-slider-slide col-auto">
+            <figure class="text-center mb-0">
+              <img
+                src="{% asset_path {{ item.image }} /awards %}"
+                alt="{{ item.alt | default: 'Award logo' | escape }}"
+                loading="lazy"
+                width="90"
+                class="img-fluid"
+              >
+              {% if item.caption %}
+                <figcaption class="visually-hidden">{{ item.title }}</figcaption>
+              {% endif %}
+            </figure>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>

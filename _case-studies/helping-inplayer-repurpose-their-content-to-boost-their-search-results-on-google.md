@@ -1,5 +1,3 @@
-64258141788bb496c03f3239_facebook-brand-awareness-campaigns-626937476472d-sej.png
-64258141788bb4807c3f3222_Untitled-design-6.png
 ---
 layout: case-study
 title: "Helping InPlayer Repurpose Their Content to Boost Search Results on Google"

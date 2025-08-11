@@ -4,8 +4,8 @@ title: "Developing Customer Avatars to Help ByzGen Understand their Target Audie
 summary: "CopyHouse helped blockchain platform ByzGen build a refined customer avatar, define its tone of voice, and overhaul its content—from SEO-optimised landing pages to lead-generating case studies."
 date: 2025-07-21
 image: "developing-customer-avatars.webp"
-logo: "/assets/images_old/64258141788bb4620e3f3227_Untitled-design-5-150x150.png"
-logo_bg_color: "white"
+logo: "byzgen-logo.webp"
+logo_bg_color: "#260a48"
 ---
 
 ## Developing Customer Avatars to Help ByzGen Understand their Target Audience and Produce Seamless Content

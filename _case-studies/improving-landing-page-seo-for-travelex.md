@@ -6,6 +6,12 @@ date: 2024-02-27
 image: "/assets/images_old/650ae9e4e2a1b1fcf12a7b2f_10.png"
 logo: "/assets/images_old/64258141788bb4201e3f32c9_Travelex logo.png"
 logo_bg_color: "white"
+
+author:
+  text:
+    Working from end to end with Account Technologies was an extremely productive experience. We really got to know them from our initial conversations and during our brand workshop, and they also learned a lot about us. This workshop laid the foundation for the project. The insights received allowed us to create a functional, clear and crisp brand book and landing page that resonates with Account Technologies’ target audience.
+  name: Stuart Cameron, Content Strategist
+  company: CopyHouse
 ---
 
 # Improving Landing Page SEO for Travelex
@@ -35,9 +41,7 @@ We then tackled the copy. Our initial project involved rewriting the landing pag
 
 The results were immediate — Travelex commissioned eight more landing pages, including those for EUR and AUD. These pages not only ranked more effectively but also improved the overall customer journey on the site.
 
-> **“You’re feeding our thought process and capturing the Asda personality perfectly — it’s really refreshing for us here.”**
->  
-> — *Joanna Brunt, Travelex*
+> **Joanna Brunt, Travelex -** “You’re feeding our thought process and capturing the Asda personality perfectly — it’s really refreshing for us here.”
 
 ---
 

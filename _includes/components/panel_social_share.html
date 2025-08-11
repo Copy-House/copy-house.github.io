@@ -1,0 +1,62 @@
+<div class="section-banner__social" aria-label="Share this page on social media">
+  <ul class="list-unstyled d-flex gap-4" role="list">
+    <li role="listitem">
+      <a
+        class="btn btn-dark py-1 px-2 text-uppercase d-flex align-items-center justify-content-between"
+        href="https://twitter.com/intent/tweet?"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Share on Twitter"
+        title="Share on Twitter"
+        onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + '&url=' + encodeURIComponent(document.URL), 'targetWindow', 'toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;"
+      >
+        Share
+        <img
+          src="{% asset_path x-icon.svg /icons %}"
+          loading="lazy"
+          alt="Tweet on Twitter"
+          class="social-share-icon ms-2"
+          width="16px"
+        >
+      </a>
+    </li>
+    <li role="listitem">
+      <a
+        class="btn btn-dark py-1 px-2 text-uppercase d-flex align-items-center justify-content-between"
+        href="https://www.linkedin.com/shareArticle?mini=true"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Share on LinkedIn"
+        title="Share on LinkedIn"
+        onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' + encodeURIComponent(document.title), 'targetWindow', 'toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=600'); return false;"
+      >
+        Share
+        <img
+          src="{% asset_path linkedin-icon.svg /icons %}"
+          loading="lazy"
+          alt="Share on LinkedIn"
+          class="social-share-icon ms-2"
+        >
+      </a>
+    </li>
+    <li role="listitem">
+      <a
+        class="btn btn-dark py-1 px-2 text-uppercase d-flex align-items-center justify-content-between"
+        href="https://www.facebook.com/sharer/sharer.php?u="
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Share on Facebook"
+        title="Share on Facebook"
+        onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL), 'targetWindow', 'toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false;"
+      >
+        Share
+        <img
+          src="{% asset_path facebook-icon.svg /icons %}"
+          loading="lazy"
+          alt="Share on Facebook"
+          class="social-share-icon ms-2"
+        >
+      </a>
+    </li>
+  </ul>
+</div>

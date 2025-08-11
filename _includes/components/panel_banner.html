@@ -1,9 +1,24 @@
-<section class="inner-banner-lg padding-x-175 section" style="background-image:url('{{ page.image }}')">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-7 col-12">
-        <h1 class="display-2">{{ page.panel_banner.h1 }}</h1>
-        <p>{{ page.panel_banner.p }}</p>
+{% assign banner_image = page.panel_banner.image %}
+{% assign has_image = banner_image %}
+{% if has_image %}
+  {% assign padding_class = "padding-x-175" %}
+{% endif %}
+
+<section class="section section-banner d-flex {{ padding_class }}"
+  {% if has_image %} style="background-image:url('{% asset_path {{ banner_image }} /hero %}')" {% endif %}
+  aria-label="Intro banner">
+  <div class="container mt-auto">
+    <div class="row justify-content-center g-3">
+      <div class="col-12 {% if has_image %}col-lg-11{% else %}col-lg-8 text-center{% endif %}">
+        <div class="col-12 {% if has_image %}col-md-7 text-center text-sm-start{% else %}text-center{% endif %}">
+          <h1 class="display-2 section-banner_heading
+            {% if has_image %}mt-3 mb-0{% else %}mt-4 mb-6{% endif %}">
+            {{ page.panel_banner.h1 | markdownify | strip }}
+          </h1>
+          <p class="mb-0 section-banner_subheading">
+            {{ page.panel_banner.p }}
+          </p>
+        </div>
       </div>
     </div>
   </div>

@@ -35,15 +35,45 @@
   &-next {
     background-image: url(../images/icons/slider_right-arrow.svg);
   }
-
   &-prev:disabled,
   &-next:disabled {
     opacity: 0.3;
     cursor: default;
   }
-
+  .slide {
+    flex: 0 0 100%;
+  }
 }
 
-.slide {
-  flex: 0 0 100%;
+/* Logo Slider */
+.logo-slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  .logo-slider-track {
+    width: calc(150px * 20);
+    display: flex;
+    animation: scroll 20s linear infinite;
+    justify-content: space-between;
+  }
+  .logo-slider-slide {
+    width: 150px;
+
+    display: grid;
+    place-items: center;
+    transition:0.5s;
+    cursor:pointer;
+    &:hover{
+      transform:scale(0.8)
+    }
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(calc(-150px * 10));
+  }
 }

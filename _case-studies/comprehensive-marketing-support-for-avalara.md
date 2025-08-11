@@ -6,6 +6,13 @@ date: 2024-01-19
 image: "building-relationships-providing-comprehensive.webp"
 logo: "/assets/images_old/64faf930ab2b40299ef0c63d_avalara-logo.png"
 logo_bg_color: "white"
+
+author:
+  text:
+    Working from end to end with Account Technologies was an extremely productive experience. We really got to know them from our initial conversations and during our brand workshop, and they also learned a lot about us. This workshop laid the foundation for the project. The insights received allowed us to create a functional, clear and crisp brand book and landing page that resonates with Account Technologies’ target audience.
+  name: Stuart Cameron, Content Strategist
+  company: CopyHouse
+
 ---
 
 # Building Relationships and Providing Comprehensive Marketing Support for Avalara

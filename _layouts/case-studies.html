@@ -1,55 +1,61 @@
 <!doctype html>
 <html lang="en-GB">
-
 {% include head.html %}
 
 <body>
+  <a class="skip-main btn" href="#main-content">Skip to main content</a>
   {% include header.html %}
 
-  <main>
+  <main id="main-content">
     {% include components/panel_banner.html %}
 
-    <section class="section case-studies-listing largest-padding">
+    <section class="section case-study-listing py-6 py-lg-10" aria-labelledby="case-study-heading">
+      <h2 id="case-study-heading" class="visually-hidden">Case Studies</h2>
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-xl-11">
-            <ul class="row list-unstyled">
-    
+            <div id="case-studies" class="row g-3">
               {% assign studies = site.case-studies | sort: "date" | reverse %}
               {% for entry in studies %}
-    
-              <li class="col-lg-6 col-12 mb-5">
-                <article>
-                  <div class="case-studies-listing__img d-flex justify-content-center align-items-center rounded-4" style="background-image:url('{{ entry.image }}')">
-                    <figure class="rounded-4 p-4 d-flex justify-content-center align-items-center" style="background-color:white">
-                      <img src="{{ entry.logo }}" alt="">
-                    </figure>
-                  </div>
-                  <div class="case-studies-listing__content p-4 d-flex align-items-start flex-column">
-                    <h2 class="mb-5">{{ entry.title }}</h2>
-                    <p>{{ entry.summary }}</p>
-                    <a href="{{ entry.url }}" class="btn btn-primary mt-auto">Read case study</a>
-                  </div>
-                </article>
-              </li>
-    
+                <div class="col-lg-6 col-12 mb-3 mb-md-6 case-study-item d-none">
+                  <article class="d-flex flex-column bg-primary rounded-4 overflow-hidden h-100">
+                    <div class="case-study-listing__img d-flex justify-content-center align-items-center rounded-4 position-relative z-1"
+                        {% if entry.image %} style="background-image:url('{% asset_path {{ entry.image }} /case-studies %}')" {% endif %}>
+                      {% if entry.logo %}
+                      <figure class="rounded-4 px-3 px-lg-4 d-flex justify-content-center align-items-center text-dark"
+                              style="background-color: {{ entry.logo_bg_color | default: 'var(--bs-white)' }}">
+                        <img src="{% asset_path {{ entry.logo }} /case-studies/logos %}" alt="{{ entry.title }} logo" class="img-fluid">
+                      </figure>
+                      {% endif %}
+                    </div>
+                    <div class="case-study-listing__content py-6 px-3 p-md-6 d-flex align-items-start flex-column flex-grow-1 gap-4">
+                      <h2>{{ entry.title }}</h2>
+                      {% if entry.summary %}
+                      <p>{{ entry.summary }}</p>
+                      {% endif %}
+                      <a href="{{ entry.url }}" class="btn btn-primary mt-auto" aria-label="Read case study: {{ entry.title }}">Read case study</a>
+                    </div>
+                  </article>
+                </div>
               {% endfor %}
-    
-            </ul>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="text-center">
+              <button id="loadMoreBtn" class="btn btn-outline-primary">Load More</button>
+            </div>
+
           </div>
-        </div>
-        <div class="text-center">
-          <a href="" class="btn btn-transparent">Load More</a>
         </div>
       </div>
     </section>
-    
-      {% include components/panel_contact_form.html class="gradient-dark-grey" %}
+
+    {% include components/panel_contact_form.html class="gradient-dark-grey" %}
 
   </main>
 
   {% include footer.html %}
+  <script src="{{ '/assets/js/load-more.js' | relative_url }}" crossorigin="anonymous"></script>
 
 </body>
-
 </html>

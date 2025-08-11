@@ -3,9 +3,9 @@ layout: case-study
 title: "Providing A Comprehensive Marketing Overhaul for Future Platforms"
 summary: "Discover how CopyHouse helped Future Platforms boost visibility, thought leadership, and inbound leads through a strategic, holistic marketing campaign combining whitepapers, blogs, SEO optimisation, personal branding and social media support."
 date: 2025-07-10
-image: "/assets/images_old/66c3324e1598624a6b6604fa_pexels-pixabay-277124.jpg"
-logo: "/assets/images_old/66c3322d9906652fd203e6c2_future_platforms_logo.jpeg"
-logo_bg_color: "white"
+image: "providing-comprehensive-marketing.webp"
+logo: "future_platforms_logo.webp"
+logo_bg_color: "#e12c35"
 ---
 
 # Providing A Comprehensive Marketing Overhaul for Future Platforms

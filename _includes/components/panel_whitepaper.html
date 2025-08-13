@@ -17,7 +17,7 @@
         </div>
         <figure class="panel-whitepaper__body mt-5 px-lg-7">
           <img class="rounded-3 opacity-76"
-               src="{% asset_path {{ whitepaper.image }} /{{ whitepaper.folder }} %}"
+               src="{{ site.assets_path }}/{{ whitepaper.folder }}/{{ whitepaper.image }}"
                alt="{{ whitepaper.image_alt }}"
                loading="lazy">
         </figure>

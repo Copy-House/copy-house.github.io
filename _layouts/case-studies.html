@@ -19,10 +19,12 @@
               {% for entry in studies %}
                 <div class="col-lg-6 col-12 mb-3 mb-md-6 case-study-item d-none">
                   <article class="d-flex flex-column bg-primary rounded-4 overflow-hidden h-100">
-                    <div class="case-study-listing__img d-flex justify-content-center align-items-center rounded-4 position-relative z-1">
+                    <div class="case-study-listing__img d-flex justify-content-center align-items-center rounded-4 position-relative z-1"
+                        {% if entry.image %} style="background-image:url('{{ site.assets_path }}/case-studies/{{ entry.image }}')" {% endif %}>
                       {% if entry.logo %}
-                      <figure class="rounded-4 px-3 px-lg-4 d-flex justify-content-center align-items-center text-dark">
-                        <img src="{% asset_path {{ entry.logo }} /case-studies/logos %}" alt="{{ entry.title }} logo" class="img-fluid">
+                      <figure class="rounded-4 px-3 px-lg-4 d-flex justify-content-center align-items-center text-dark"
+                              style="background-color: {{ entry.logo_bg_color | default: 'var(--bs-white)' }}">
+                        <img src="{{ site.assets_path }}/case-studies/logos/{{ entry.logo }}" alt="{{ entry.title }} logo" class="img-fluid">
                       </figure>
                       {% endif %}
                     </div>

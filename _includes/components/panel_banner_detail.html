@@ -8,7 +8,7 @@
 
 <section class="section section-banner section-banner__details position-relative"
   {% if has_image %}
-    style="background-image: url('{% asset_path {{ has_image }} {{ image_folder }} %}')"
+    style="background-image: url('{{ site.assets_path }}/{{ image_folder }}/{{ has_image }}')"
   {% endif %}
   aria-label="{{ page.title | escape }}">
 
@@ -23,7 +23,7 @@
         {% if page.logo and page.logo != "" %}
         <figure class="col-md-6 section-banner__logo rounded-4 px-3 px-lg-4 d-flex justify-content-center align-items-center"
                 style="background-color: {{ page.logo_bg_color | default: 'var(--bs-white)' }}">
-          <img src="{% asset_path {{ page.logo }} /case-studies/logos %}"
+          <img src="{{ site.assets_path }}/case-studies/logos/{{ page.logo }}"
                alt="{{ page.title }} logo"
                class="img-fluid text-dark"
                loading="lazy">

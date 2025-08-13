@@ -9,7 +9,7 @@
             <article role="listitem" class="slide d-flex flex-wrap flex-md-row-reverse text-bg-dark" aria-label="Featured case studies: {{ entry.title }}">
               <figure class="mb-0 col-12 col-md-6">
                 <img
-                  src="{% asset_path {{ entry.image }} /case-studies %}"
+                  src="{{ site.assets_path }}/case-studies/{{ entry.image }}"
                   alt="{{ entry.image_alt | default: entry.title }}"
                   loading="lazy"
                   height="270"

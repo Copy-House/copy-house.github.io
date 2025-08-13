@@ -1,0 +1,21 @@
+/**
+* @Files
+* Insights Page Style.
+*/
+
+.our-values {
+	figure {
+		width: rem(100);
+		height: rem(100);
+		border: rem(1) solid $indigo-900;
+
+		@include media-breakpoint-up(md) {
+			width: rem(66);
+			height: rem(66);
+		}
+		
+		img {
+			max-width: rem(32);
+		}
+	}
+}

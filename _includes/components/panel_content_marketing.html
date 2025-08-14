@@ -1,0 +1,57 @@
+{% assign entries = include.data_key | default: 'content_marketing' %}
+{% assign section = page[entries] %}
+{% assign data_entries = site.data[entries] %}
+
+<section class="section section-content_marketing py-5 py-lg-7" aria-labelledby="content-marketing-heading">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-11 col-lg-9">
+        
+        <header class="row mb-4">
+          <div class="col-12 col-md-10 col-lg-10">
+            {%- if section.h2 -%}
+            <h2 id="content-marketing-heading" class="h1 mb-3 mb-lg-5">{{ section.h2 }}</h2>
+            {%- endif -%}
+
+            {%- if section.p -%}
+            <p class="col-lg-11">{{ section.p }}</p>
+            {%- endif -%}
+          </div>
+        </header>
+
+        <div class="row">
+          {% for entry in data_entries %}
+            <article class="col-12 col-md-6 mb-5" aria-labelledby="cm-{{ forloop.index }}">
+              <figure class="mb-4 border border-2 border-dark rounded-1 d-inline-block p-3">
+                <img 
+                  src="{% asset_path {{ entry.image }} /icons %}"
+                  alt="{{ entry.alt | default: entry.title | escape }}"
+                  loading="lazy"
+                  width="45"
+                  height="45">
+              </figure>
+
+              <h3 id="cm-{{ forloop.index }}" class="h4">{{ entry.title }}</h3>
+
+              <div>
+                {% for item in entry.description %}
+                  {% case item.type %}
+                    {% when 'paragraph' %}
+                      {{ item.text | markdownify | strip }}
+                    {% when 'list' %}
+                      <ul>
+                        {% for list_item in item.items %}
+                          <li>{{ list_item }}</li>
+                        {% endfor %}
+                      </ul>
+                  {% endcase %}
+                {% endfor %}
+              </div>
+            </article>
+          {% endfor %}
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,4 +1,10 @@
-{%- assign panel = page.image_text[include.index] -%}
+{%- assign panel = page.image_text_large[include.index] -%}
+
+{%- if panel.image -%}
+  {%- assign grid_class = 'col-md-8' -%}
+{%- else -%}
+  {%- assign grid_class = 'col-md-10' -%}
+{%- endif -%}
 
 {%- if panel -%}
   {%- assign image_align = panel.image_align -%}
@@ -8,21 +14,21 @@
 		{%- assign class_reverse = '' -%}
 	{%- endif -%}
 
-  <section class="section section-image-text py-5 py-lg-10" aria-labelledby="panel-title-{{ include.index }}">
+  <section class="section section-image-text__large py-5 py-lg-10" aria-labelledby="panel-title-{{ include.index }}">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-12 col-md-11 col-lg-9">
-          <article class="row align-items-center justify-content-between {{ class_reverse }}">
+        <div class="col-12 col-md-11 col-lg-9 text-dark">
+          <article class="row {{ class_reverse }}">
             {%- if panel.image -%}
-            <div class="col-12 col-md-6">
-              <figure class="rounded-4 overflow-hidden mb-3 mb-md-0">
+            <div class="col-12 col-md-4 text-center">
+              <figure>
                 <img
                   src="{% asset_path {{ panel.image }} {{ panel.image_folder }} %}"
                   alt="{{ panel.alt | default: panel.title | escape }}"
                   loading="lazy"
-                  width="466"
-                  height="425"
-                  class="w-100"
+                  width="320"
+                  height="250"
+                  class="mt-4 mb-5 mb-md-0"
                 >
                 {% if panel.image_caption %}
                   <figcaption class="visually-hidden">{{ panel.image_caption }}</figcaption>
@@ -31,9 +37,9 @@
             </div>
             {%- endif -%}
 
-            <div class="col-12 col-md-5">
+            <div class="col-12 {{ grid_class }}">
               <header>
-                <h2 id="panel-title-{{ include.index }}" class="mb-4">{{ panel.title }}</h2>
+                <h2 id="panel-title-{{ include.index }}" class="h1 mb-5">{{ panel.title }}</h2>
               </header>
 
               {% for paragraph in panel.text %}
@@ -41,7 +47,7 @@
               {% endfor %}
 
               {% if panel.CTA %}
-                <a href="{{ site.url }}{{ panel.CTA_url }}" class="btn btn-primary" title="{{ panel.CTA_title | default: 'Contact us' }}">
+                <a href="{{ site.url }}{{ panel.CTA_url }}" class="btn btn-primary" title="{{ panel.CTA_title | default: 'Get in touch' }}">
                   {{ panel.CTA | default: "Get in touch" }}
                 </a>
               {% endif %}

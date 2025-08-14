@@ -35,3 +35,5 @@ collections:
   insights:
     output: true
     permalink: /marketing-insights/:path/
+
+assets_path: "/assets/images"

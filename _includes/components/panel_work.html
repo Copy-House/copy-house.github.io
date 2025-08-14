@@ -7,7 +7,7 @@
         <div class="our-work__inner bg-black shadow rounded-3 px-4 py-5 p-lg-6 text-center">
           <figure class="mb-7">
             <img
-              src="{% asset_path {{ item.image }} /logos %}"
+              src="{{ site.assets_path }}/logos/{{ item.image }}"
               width="{{ item.width }}"
               alt="{{ item.alt }}"
               class="image-fluid"

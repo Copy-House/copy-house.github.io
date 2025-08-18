@@ -1,0 +1,42 @@
+<section class="section section-our-partners py-7" aria-labelledby="Our-Partners-title">
+  <div class="container-fluid g-0">
+    <h2 id="our-partners-title" class="text-center mb-6">Our Partners</h2>
+
+    <div class="logo-slider overflow-hidden position-relative" data-loop="true" data-auto="true">
+      <ul class="logo-slider-track row align-items-center list-unstyled g-0 flex-nowrap">
+        {% for item in site.data.our-partners %}
+          <li class="logo-slider-slide col-auto p-4">
+            <figure class="text-center mb-0">
+              <img
+                src="{% asset_path {{ item.image }} /our-partners %}"
+                alt="{{ item.alt | default: 'Award logo' | escape }}"
+                loading="lazy"
+                width="126"
+                class="img-fluid"
+              >
+              {% if item.caption %}
+                <figcaption class="visually-hidden">{{ item.title }}</figcaption>
+              {% endif %}
+            </figure>
+          </li>
+        {% endfor %}
+        {% for item in site.data.our-partners %}
+          <li class="logo-slider-slide col-auto p-4">
+            <figure class="text-center mb-0">
+              <img
+                src="{% asset_path {{ item.image }} /our-partners %}"
+                alt="{{ item.alt | default: 'Award logo' | escape }}"
+                loading="lazy"
+                width="126"
+                class="img-fluid"
+              >
+              {% if item.caption %}
+                <figcaption class="visually-hidden">{{ item.title }}</figcaption>
+              {% endif %}
+            </figure>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>

@@ -8,7 +8,7 @@
           <li class="logo-slider-slide col-auto p-4">
             <figure class="text-center mb-0">
               <img
-                src="{% asset_path {{ item.image }} /our-partners %}"
+                src="{{ site.assets_path }}/our-partners/{{ item.image }}"
                 alt="{{ item.alt | default: 'Award logo' | escape }}"
                 loading="lazy"
                 width="126"
@@ -24,7 +24,7 @@
           <li class="logo-slider-slide col-auto p-4">
             <figure class="text-center mb-0">
               <img
-                src="{% asset_path {{ item.image }} /our-partners %}"
+                src="{{ site.assets_path }}/our-partners/{{ item.image }}"
                 alt="{{ item.alt | default: 'Award logo' | escape }}"
                 loading="lazy"
                 width="126"

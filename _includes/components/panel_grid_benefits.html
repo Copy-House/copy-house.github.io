@@ -1,42 +1,43 @@
-<section class="section-40">
-    <div class="div-block-73">
-        <h1 class="heading-67">Benefits of Content Marketing Consultancy</h1>
-        <div class="div-block-75">
-            <div class="div-block-74"><img
-                    src="https://cdn.prod.website-files.com/64258141788bb46b413f301f/66316324b17edc05c19f9427_002-barrier.svg"
-                    loading="lazy" alt="" class="white-icon">
-                <div class="cardheading-light">Overcome roadblocks &amp; challenges</div>
-            </div>
-            <div class="div-block-74"><img
-                    src="https://cdn.prod.website-files.com/64258141788bb46b413f301f/6631632435dfa5a0f619add3_012-dashboard%20(1).svg"
-                    loading="lazy" alt="" class="white-icon">
-                <div class="cardheading-light">Identify opportunities for future growth</div>
-            </div>
-            <div class="div-block-74"><img
-                    src="https://cdn.prod.website-files.com/64258141788bb46b413f301f/6631632458a5cabef79188aa_002-brand%20identity%20(1).svg"
-                    loading="lazy" alt="" class="white-icon">
-                <div class="cardheading-light">Strengthen visual brand identity</div>
-            </div>
-            <div class="div-block-74"><img
-                    src="https://cdn.prod.website-files.com/64258141788bb46b413f301f/6631632436a0b7f65c603c17_007-chat.svg"
-                    loading="lazy" alt="" class="white-icon">
-                <div class="cardheading-light">Drive conversions with better online conversations</div>
-            </div>
-            <div class="div-block-74"><img
-                    src="https://cdn.prod.website-files.com/64258141788bb46b413f301f/66316324053a54ed4cf9155e_021-planning%20(1).svg"
-                    loading="lazy" alt="" class="white-icon">
-                <div class="cardheading-light">Build strong foundations for future marketing success</div>
-            </div>
-            <div class="div-block-74"><img
-                    src="https://cdn.prod.website-files.com/64258141788bb46b413f301f/663163249340237d842d61e5_007-endorsement.svg"
-                    loading="lazy" alt="" class="white-icon">
-                <div class="cardheading-light">Understand your brand &amp; target audience</div>
-            </div>
-            <div class="div-block-74"><img
-                    src="https://cdn.prod.website-files.com/64258141788bb46b413f301f/663163242450f1bc16ee3785_019-popularity%20(1).svg"
-                    loading="lazy" alt="" class="white-icon">
-                <div class="cardheading-light">Establish long-lasting relationships</div>
-            </div>
-        </div>
-    </div>
+{% assign entries = include.data_key | default: 'benefits_marketing' %}
+{% assign section = page[entries] %}
+{% assign data_entries = site.data[entries] %}
+
+{%- assign theme = section.style | default: 'gradient' -%}
+
+{% case theme %}
+  {% when 'gradient' %}
+    {% assign section_class = 'gradient-1 text-light' %}
+		{% assign border_color = 'border-light' %}
+  {% else %}
+    {% assign section_class = 'text-bg-light' %}
+		{% assign border_color = 'border-dark' %}
+{% endcase %}
+
+<section class="section section-content_marketing py-5 py-lg-7 {{ section_class }}">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-12 col-md-11 col-lg-9">
+				<div class="row mb-4">
+					<div class="col-12 col-md-10 col-lg-10">
+						<h2 class="h1 mb-3 mb-lg-5">{{ section.h2 }}</h2>
+					</div>
+				</div>
+				<div class="row">
+					{% for entry in data_entries %}
+						<div class="col-6 col-md-4 col-lg-3 mb-5">
+							<figure class="mb-4 border border-2 {{ border_color }} rounded-1 d-inline-block p-3">
+								<img 
+									src="{{ site.assets_path }}/icons/{{ entry.image }}"
+									alt="{{ entry.alt | default: entry.title | escape }}"
+									loading="lazy"
+									width="45"
+									height="45">
+							</figure>
+							<h3 class="h4">{{ entry.title }}</h3>
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
 </section>

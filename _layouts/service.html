@@ -3,21 +3,51 @@
 
 {% include head.html %}
 
-<body class="body">
+<body class="text-bg-light">
   {% include header.html %}
 
   <main>
-    {% include components/panel_banner.html %}
+    {%- if page.banner.top -%}
+      {% include components/panel_banner.html banner=page.banner.top %}
+    {%- elsif page.banner -%}
+      {% include components/panel_banner.html banner=page.banner %}
+    {%- endif -%}
 
-    {% include components/panel_banner.html %}
+    {%- if page.image_text_large -%}
+      {% assign panel_index = 0 %}
+      {% include components/panel_image_text_large.html index=panel_index %}
+    {%- endif -%}
 
-    {% include components/panel_grid_headline.html %}
+    {% assign content_keys = "content_marketing,content_PR_services,content_design_service" | split: "," %}
+    {% for key in content_keys %}
+      {% if page[key] %}
+        {% include components/panel_content_marketing.html data_key=key %}
+      {% endif %}
+    {% endfor %}
 
-    {% include components/panel_grid_benefits.html %}
+    {%- if page.banner.middle -%}
+      {% include components/panel_banner.html banner=page.banner.middle %}
+    {%- endif -%}
+    
+    {% assign benefit_keys = "benefits_marketing,benefits_PR_services,benefits_content_design,benefits_SCW_services" | split: "," %}
+    {% for key in benefit_keys %}
+      {% if page[key] %}
+        {% include components/panel_grid_benefits.html data_key=key %}
+      {% endif %}
+    {% endfor %}
 
-    {% include components/panel_image_text_cta.html %}
+    {%- if page.image_text -%}
+      {% assign panel_index = 0 %}
+      {% include components/panel_image_text.html index=panel_index %}
+    {%- endif -%}
 
+    {%- if page.testimonials_highlight -%}
     {% include components/panel_testimonials_highlight.html %}
+    {%- endif -%}
+
+    {%- if page.visual_impact -%}
+    {% include components/panel_visual_impact.html data=page.visual_impact %}
+    {%- endif -%}
 
     {% include components/panel_insights.html %}
 

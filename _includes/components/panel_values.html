@@ -7,7 +7,7 @@
         <li class="col-lg-3 col-md-6 col-12 text-center text-md-start">
             {% if entry.image %}
             <figure class="mx-md-0 mx-auto mb-4 rounded-3 p-3 d-flex justify-content-center align-items-center">
-              <img src="{% asset_path {{ entry.image }} /icons %}" alt="{{ entry.alt }} logo" class="h-100">
+              <img src="{{ site.assets_path }}/icons/{{ entry.image }}" alt="{{ entry.alt }} logo" class="h-100">
             </figure>
             {% endif %}
             <h3 class="h5">{{ entry.title }}</h3>

@@ -24,7 +24,7 @@
             <article class="col-12 col-md-6 mb-5" aria-labelledby="cm-{{ forloop.index }}">
               <figure class="mb-4 border border-2 border-dark rounded-1 d-inline-block p-3">
                 <img 
-                  src="{% asset_path {{ entry.image }} /icons %}"
+                  src="{{ site.assets_path }}/icons/{{ entry.image }}"
                   alt="{{ entry.alt | default: entry.title | escape }}"
                   loading="lazy"
                   width="45"

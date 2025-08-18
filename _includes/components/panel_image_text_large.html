@@ -23,7 +23,7 @@
             <div class="col-12 col-md-4 text-center">
               <figure>
                 <img
-                  src="{% asset_path {{ panel.image }} {{ panel.image_folder }} %}"
+                  src="{{ site.assets_path }}/{{ panel.image_folder }}/{{ panel.image }}"
                   alt="{{ panel.alt | default: panel.title | escape }}"
                   loading="lazy"
                   width="320"

@@ -16,7 +16,7 @@
             <div class="col-12 col-md-6">
               <figure>
                 <img
-                  src="{% asset_path {{ panel.image }} /aboutus %}"
+                  src="{{ site.assets_path }}/aboutus/{{ panel.image }}"
                   alt="{{ panel.alt | default: panel.title | escape }}"
                   loading="lazy"
                   width="466"

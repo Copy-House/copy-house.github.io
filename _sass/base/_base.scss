@@ -259,3 +259,9 @@ a.skip-main {
   margin-left: auto;
   margin-right: auto;
 }
+
+.section-image-text {
+  img {
+    min-height: rem(500);
+  }
+}

@@ -17,12 +17,12 @@
             <div class="col-12 col-md-6">
               <figure class="rounded-4 overflow-hidden mb-3 mb-md-0">
                 <img
-                  src="{{ site.assets_path }}/aboutus/{{ panel.image }}"
+                  src="{{ site.assets_path }}/{{ panel.image_folder }}/{{ panel.image }}"
                   alt="{{ panel.alt | default: panel.title | escape }}"
                   loading="lazy"
-                  width="466"
-                  height="425"
-                  class="w-100"
+                  width="450"
+                  height="500"
+                  class="object-fit-cover"
                 >
                 {% if panel.image_caption %}
                   <figcaption class="visually-hidden">{{ panel.image_caption }}</figcaption>
@@ -31,9 +31,9 @@
             </div>
             {%- endif -%}
 
-            <div class="col-12 col-md-5">
+            <div class="col-12 col-md-6">
               <header>
-                <h2 id="panel-title-{{ include.index }}" class="mb-4">{{ panel.title }}</h2>
+                <h2 id="panel-title-{{ include.index }}" class="h1 mb-4">{{ panel.title }}</h2>
               </header>
 
               {% for paragraph in panel.text %}

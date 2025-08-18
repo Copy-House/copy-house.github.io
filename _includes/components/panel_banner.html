@@ -7,7 +7,7 @@
 {% endif %}
 
 <section class="section section-banner d-flex {{ padding_class }}"
-  {% if has_image %} style="background-image:url('{% asset_path {{ banner_image }} /hero %}')" {% endif %}
+  {% if has_image %} style="background-image:url('{{ site.assets_path }}/hero/{{ banner_image }}')" {% endif %}
   aria-label="Intro banner">
   <div class="container mt-auto">
     <div class="row justify-content-center g-3">

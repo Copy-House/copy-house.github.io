@@ -29,10 +29,17 @@
       {% include components/panel_banner.html banner=page.banner.middle %}
     {%- endif -%}
     
-    {% assign benefit_keys = "benefits_marketing,benefits_PR_services,benefits_content_design,benefits_SCW_services" | split: "," %}
+    {% assign benefit_keys = "benefits_marketing,benefits_PR_services,benefits_content_design" | split: "," %}
     {% for key in benefit_keys %}
       {% if page[key] %}
         {% include components/panel_grid_benefits.html data_key=key %}
+      {% endif %}
+    {% endfor %}
+
+    {% assign benefit_keys = "benefits_SCW_services" | split: "," %}
+    {% for key in benefit_keys %}
+      {% if page[key] %}
+        {% include components/panel_grid_marketing_benefits.html data_key=key %}
       {% endif %}
     {% endfor %}
 

@@ -12,6 +12,9 @@
   padding-top: rem(140);
   padding-bottom: rem(80);
   min-height: rem(400);
+  &:has(+ .section-lead-stat) {
+    min-height: rem(600);
+  }
   &_subheading {
     letter-spacing: rem(.1);
     line-height: 1.5;

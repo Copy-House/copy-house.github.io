@@ -1,0 +1,30 @@
+- title: "Content Design Visual Strategy"
+  image: "core-messaging-workshops.svg"
+  alt: "Content Design Visual Strategy"
+  description:
+      - type: paragraph
+        text: Before you publish your content, you need to have a strong visual identity strategy in place. This will help harmonise your content across numerous channels and create a unified appearance.
+
+      - type: paragraph
+        text: In our customised workshop, we'll help you define the fundamental building blocks which scream your brand's name.
+
+- title: "Whitepaper & eBook Design"
+  image: "visual-identity-workshops.svg"
+  alt: "Whitepaper & eBook Design"
+  description:
+      - type: paragraph
+        text: Convert marketing leads into sales leads with stunning white papers and eBooks. Filled with illustrations, infographics and imagery, our designed long-form content brings statistics, current research and thought-provoking ideas to life.
+
+- title: "Infographics"
+  image: "tone-voice-workshops.svg"
+  alt: "Infographics"
+  description:
+      - type: paragraph
+        text: Complex information can be difficult to digest by readers if it is not broken down. However, infographics can transform data-backed insights into engaging content by implementing clever design. This helps your audience better understand and remember complex topics or instructions.
+
+- title: "Social Media Content"
+  image: "content-marketing-strategy.svg"
+  alt: "Social Media Content"
+  description:
+      - type: paragraph
+        text: Cut through the noise to grab your audiences’ attention with social media content. Our social media assets build brand awareness and engage with your audience on crowded platforms with busy feeds. We can create a social media tool kit as well as branded templates, uniquely fit for your brand and your social media channels.

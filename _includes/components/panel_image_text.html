@@ -1,39 +1,50 @@
-{%- assign panel = page.panels_image_text[include.index] -%}
+{%- assign panel = page.image_text[include.index] -%}
 
 {%- if panel -%}
-	{%- assign is_even = include.index | modulo: 2 -%}
-	{%- if is_even == 0 -%}
+  {%- assign image_align = panel.image_align -%}
+	{%- if image_align == "right" -%}
 		{%- assign class_reverse = 'flex-md-row-reverse' -%}
 	{%- else -%}
 		{%- assign class_reverse = '' -%}
 	{%- endif -%}
 
-  <section class="section section-image-text py-7" aria-labelledby="panel-title-{{ include.index }}">
+  <section class="section section-image-text py-5 py-lg-10" aria-labelledby="panel-title-{{ include.index }}">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 col-md-11 col-lg-9">
           <article class="row align-items-center justify-content-between {{ class_reverse }}">
+            {%- if panel.image -%}
             <div class="col-12 col-md-6">
-              <figure>
+              <figure class="rounded-4 overflow-hidden mb-3 mb-md-0">
                 <img
-                  src="{{ site.assets_path }}/aboutus/{{ panel.image }}"
+                  src="{{ site.assets_path }}/{{ panel.image_folder }}/{{ panel.image }}"
                   alt="{{ panel.alt | default: panel.title | escape }}"
                   loading="lazy"
-                  width="466"
-                  height="425"
-                  class="img-fluid"
+                  width="450"
+                  height="500"
+                  class="object-fit-cover"
                 >
-                {%- if panel.image_caption -%}
+                {% if panel.image_caption %}
                   <figcaption class="visually-hidden">{{ panel.image_caption }}</figcaption>
-                {%- endif -%}
+                {% endif %}
               </figure>
             </div>
+            {%- endif -%}
 
-            <div class="col-12 col-md-5">
+            <div class="col-12 col-md-6">
               <header>
-                <h2 id="panel-title-{{ include.index }}" class="h3">{{ panel.title }}</h2>
+                <h2 id="panel-title-{{ include.index }}" class="h1 mb-4">{{ panel.title }}</h2>
               </header>
-              <p>{{ panel.text }}</p>
+
+              {% for paragraph in panel.text %}
+                {{ paragraph | markdownify | strip | raw }}
+              {% endfor %}
+
+              {% if panel.CTA %}
+                <a href="{{ site.url }}{{ panel.CTA_url }}" class="btn btn-primary" title="{{ panel.CTA_title | default: 'Contact us' }}">
+                  {{ panel.CTA | default: "Get in touch" }}
+                </a>
+              {% endif %}
             </div>
           </article>
         </div>

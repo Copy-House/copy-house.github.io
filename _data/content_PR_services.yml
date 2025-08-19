@@ -1,0 +1,33 @@
+- title: "Press Material"
+  image: "core-messaging-workshops.svg"
+  alt: "Press Material"
+  description:
+      - type: paragraph
+        text: We write, edit, and disseminate all relevant press-related content, including press releases, media alerts and pitches, press kits, fact sheets, story lead pieces, and all other promotional material that forms the backbone of your campaign.
+
+- title: "Media Target Research"
+  image: "visual-identity-workshops.svg"
+  alt: "Media Target Research"
+  description:
+      - type: paragraph
+        text: We conduct primary and secondary PR research on your behalf, covering the reading habits of your designated audience, potential challenges and opportunities, as well as drawing up a wishlist of your target media publications.
+
+- title: "Organic & Paid Media Placement"
+  image: "tone-voice-workshops.svg"
+  alt: "Organic & Paid Media Placement"
+  description:
+      - type: paragraph
+        text: | 
+          <strong class="d-block mb-2">Organic:</strong>
+          Drawing on our comprehensive list of contacts in the world of media and tech, we manage all relevant press releases to the agreed contacts, who will then organically promote your business and grow your engagement.
+      - type: paragraph
+        text: | 
+          <strong class="d-block mb-2">Organic:</strong>
+          We deliver high-quality PR ad content to multiple platforms, including print media and social networking sites, via pay-per-click advertising, branded content and display ads.
+
+- title: "Awareness Outreach"
+  image: "content-marketing-strategy.svg"
+  alt: "Awareness Outreach"
+  description:
+      - type: paragraph
+        text: Take your PR to the next level through outreach events. We'll leverage our extensive network to find your relevant speaking events, podcasting opportunities, video interviews, and much more.

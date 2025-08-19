@@ -3,7 +3,7 @@
 
 {% include head.html %}
 
-<body class="body-2">
+<body class="text-bg-light">
   {% include header.html %}
 
   <main>
@@ -20,6 +20,8 @@
 
     {% include components/panel_image_text.html index=panel_index %}
     {% assign panel_index = panel_index | plus: 1 %}
+
+    {% include components/panel_our_partners.html %}
 
     {% include components/panel_values.html %}
 

@@ -49,6 +49,10 @@
     {% include components/panel_visual_impact.html data=page.visual_impact %}
     {%- endif -%}
 
+    {%- if page.portfolio -%}
+    {% include components/panel_portfolio.html data=page.portfolio %}
+    {%- endif -%}
+
     {% include components/panel_insights.html %}
 
   </main>

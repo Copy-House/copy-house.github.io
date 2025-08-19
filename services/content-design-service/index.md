@@ -32,11 +32,23 @@ image_text:
     alt: "Content Design vs Graphic Design"
     image_caption: "Content Design vs Graphic Design"
 
-content_marketing:
+content_design_service:
   h2: What We Handle at CopyHouse
 
 benefits_content_design:
   h2: Benefits of Content Design & Content Marketing
   style: "light"
+
+visual_impact:
+  h2: Why Content Design and Content Marketing Should Work Together
+
+  items:
+    - text: Did you know that 65% of people can recall visual content up to three days after viewing it?
+      image: visual-impact-65.svg
+      alt: visual impact 65
+
+    - text: Whereas only 10% of people can recall written content three days after reading it.
+      image: visual-impact-10.svg
+      alt: visual impact 10
 
 ---

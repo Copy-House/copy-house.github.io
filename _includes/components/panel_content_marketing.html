@@ -2,10 +2,16 @@
 {% assign section = page[entries] %}
 {% assign data_entries = site.data[entries] %}
 
+{% if entries == 'content_design_service' %}
+  {% assign grid_class = 'col-md-6 col-lg-4 col-xl-3' %}
+{% else %}
+  {% assign grid_class = 'col-md-6' %}
+{% endif %}
+
 <section class="section section-content_marketing py-5 py-lg-7" aria-labelledby="content-marketing-heading">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 col-md-11 col-lg-9">
+      <div class="col-12 col-lg-9">
         
         <header class="row mb-4">
           <div class="col-12 col-md-10 col-lg-10">
@@ -21,7 +27,7 @@
 
         <div class="row">
           {% for entry in data_entries %}
-            <article class="col-12 col-md-6 mb-5" aria-labelledby="cm-{{ forloop.index }}">
+            <article class="col-12 {{ grid_class }} mb-5" aria-labelledby="content-marketing-{{ forloop.index }}">
               <figure class="mb-4 border border-2 border-dark rounded-1 d-inline-block p-3">
                 <img 
                   src="{{ site.assets_path }}/icons/{{ entry.image }}"
@@ -31,7 +37,7 @@
                   height="45">
               </figure>
 
-              <h3 id="cm-{{ forloop.index }}" class="h4">{{ entry.title }}</h3>
+              <h3 id="content-marketing-{{ forloop.index }}" class="h4">{{ entry.title }}</h3>
 
               <div>
                 {% for item in entry.description %}

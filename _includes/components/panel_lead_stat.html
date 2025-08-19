@@ -1,0 +1,28 @@
+<section class="section section-lead-stat bg-dark text-light pb-8 pb-lg-12" aria-labelledby="lead-stat-heading">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12">
+
+        <div class="section-lead-stat__inner border border-primary p-3 py-md-7 rounded-3 breakout-illustration-gradient">
+          <div class="row align-items-center">
+            <div class="col-md-4 text-center p-0" role="img" aria-label="{{ include.data.aria_label }}">
+              <div class="lottie-animation" id="lottie-stat" data-w-id="lottie-stat" data-animation-type="lottie" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="4" data-duration="0"  role="presentation" aria-hidden="true"></div>
+            </div>
+
+            <div class="col-md-8 pe-md-9">
+              <header>
+                <h2 id="lead-stat-heading" class="h1 mb-4">
+                  {{ include.data.heading }}
+                </h2>
+              </header>
+              {% for paragraph in include.data.paragraphs %}
+                <p class="text-secondary">{{ paragraph }}</p>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

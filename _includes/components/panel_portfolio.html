@@ -25,7 +25,7 @@
                    aria-label="Slide {{ forloop.index }} of {{ site.data.portfolio.size }}">
                 <figure class="m-0">
                   <img
-                    src="https://placehold.co/600x400?text=Image+{{ forloop.index }}"
+                    src="{{ site.assets_path }}/services/portfolio/{{ item.image }}.webp"
                     alt="{{ item.alt | default: 'Portfolio item ' | append: forloop.index }}"
                     loading="lazy"
                     width="600"
@@ -37,21 +37,21 @@
             </div>
 
             <!-- Thumbnails -->
-            <ul class="row mt-3 g-2 list-unstyled justify-content-center" role="tablist" aria-label="Portfolio Thumbnails">
+            <ul class="row flex-nowrap mt-3 g-3 list-unstyled justify-content-center" role="tablist" aria-label="Portfolio Thumbnails">
               {%- for item in site.data.portfolio -%}
-              <li class="col-auto" role="presentation">
+              <li class="col carousel-item__thumb" role="presentation">
                 <button type="button"
                         class="border-0 bg-transparent p-0"
                         data-bs-target="#portfolioCarousel"
                         data-bs-slide-to="{{ forloop.index0 }}"
                         {% if forloop.first %} class="active" aria-current="true"{% endif %}
                         aria-label="Go to slide {{ forloop.index }}">
-                  <img src="https://placehold.co/150x100?text=Image+{{ forloop.index }}"
-                       class="img-fluid border rounded"
-                       alt=""
+                  <img src="{{ site.assets_path }}/services/portfolio/{{ item.image }}-small.webp"
+                       class="h-100 object-fit-cover rounded-1"
+                       alt="Portfolio item Thumbnails {{ forloop.index }}"
                        aria-hidden="true"
                        width="150"
-                       height="100">
+                       height="165">
                 </button>
               </li>
               {%- endfor -%}

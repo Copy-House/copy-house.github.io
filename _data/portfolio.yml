@@ -1,23 +1,38 @@
-- title: "Storytellers"
-  image: "human-touch.svg"
-  alt: "human-touch icon"
-  description: >
-    We believe that every brand has a unique story waiting to be told. Our expertise lies in uncovering and articulating these narratives in a way that resonates deeply with your audience.
+- image: "portfolio-1"
+  alt: "CopyHouse portfolio"
 
-- title: "Flexible"
-  image: "accessible.svg"
-  alt: "accessible icon"
-  description: >
-    Flexibility is key in the tech world. We continuously adapt to new trends and technologies, ensuring that our strategies and content are not just relevant, but also future-proof.
+- image: "portfolio-2"
+  alt: "CopyHouse portfolio"
 
-- title: "Authentic"
-  image: "transparency.svg"
-  alt: "transparency icon"
-  description: >
-    Authenticity is our cornerstone. We believe in transparent, genuine communication that builds trust and establishes real connections between tech brands and their audiences.
+- image: "portfolio-3"
+  alt: "CopyHouse portfolio"
 
-- title: "Purpose-Driven"
-  image: "positivity.svg"
-  alt: "positivity icon"
-  description: >
-   We are committed to producing content that not only achieves marketing goals but contributes to the broader objectives of innovation, education, and technological advancement.
+- image: "portfolio-4"
+  alt: "CopyHouse portfolio"
+
+- image: "portfolio-5"
+  alt: "CopyHouse portfolio"
+
+- image: "portfolio-6"
+  alt: "CopyHouse portfolio"
+
+- image: "portfolio-7"
+  alt: "CopyHouse portfolio"
+
+- image: "portfolio-8"
+  alt: "CopyHouse portfolio"
+
+- image: "portfolio-9"
+  alt: "CopyHouse portfolio"
+
+- image: "portfolio-10"
+  alt: "CopyHouse portfolio"
+
+- image: "portfolio-11"
+  alt: "CopyHouse portfolio"
+
+- image: "portfolio-12"
+  alt: "CopyHouse portfolio"
+
+- image: "portfolio-13"
+  alt: "CopyHouse portfolio"

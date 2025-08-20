@@ -22,12 +22,20 @@
       {% include components/panel_image_text_large.html index=panel_index %}
     {%- endif -%}
 
+    {%- if page.panel_two_col -%}
+      {% include components/panel_two_col.html %}
+    {%- endif -%}
+
     {% assign content_keys = "content_marketing,content_PR_services,content_design_service" | split: "," %}
     {% for key in content_keys %}
       {% if page[key] %}
         {% include components/panel_content_marketing.html data_key=key %}
       {% endif %}
     {% endfor %}
+
+    {%- if page.panel_content_marketing_services_listing -%}
+      {% include components/panel_content_marketing_services_listing.html %}
+    {%- endif -%}
 
     {%- if page.banner.middle -%}
       {% include components/panel_banner.html banner=page.banner.middle %}

@@ -51,4 +51,7 @@ visual_impact:
       image: visual-impact-10.svg
       alt: visual impact 10
 
+portfolio:
+  h2: Our Content Design Service Portfolio
+
 ---

@@ -13,6 +13,10 @@
       {% include components/panel_banner.html banner=page.banner %}
     {%- endif -%}
 
+    {%- if page.lead_stat -%}
+      {% include components/panel_lead_stat.html data=site.data.lead_stat %}
+    {%- endif -%}
+
     {%- if page.image_text_large -%}
       {% assign panel_index = 0 %}
       {% include components/panel_image_text_large.html index=panel_index %}
@@ -44,8 +48,8 @@
       {% endif %}
     {% endfor %}
 
-    {% assign benefit_keys = "benefits_SCW_services" | split: "," %}
-    {% for key in benefit_keys %}
+    {% assign benefit_SCW_keys = "benefits_SCW_services" | split: "," %}
+    {% for key in benefit_SCW_keys %}
       {% if page[key] %}
         {% include components/panel_grid_marketing_benefits.html data_key=key %}
       {% endif %}
@@ -64,6 +68,10 @@
     {% include components/panel_visual_impact.html data=page.visual_impact %}
     {%- endif -%}
 
+    {%- if page.portfolio -%}
+    {% include components/panel_portfolio.html data=page.portfolio %}
+    {%- endif -%}
+
     {% include components/panel_insights.html %}
 
   </main>
@@ -71,5 +79,4 @@
   {% include footer.html %}
 
 </body>
-
 </html>

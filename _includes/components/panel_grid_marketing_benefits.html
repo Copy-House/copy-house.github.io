@@ -1,32 +1,25 @@
 {% assign entries = include.data_key | default: 'benefits_marketing' %}
-<!-- {% assign section = page[entries] %}
-{% assign data_entries = site.data[entries] %} -->
+{% assign section = page[entries] %}
+{% assign data_entries = site.data[entries] %}
 
-<section class="section consultancy-benefits py-5 py-lg-7 text-center gradient-purple text-white">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-12 col-md-11 col-lg-9">
-				<div class="row mb-4 justify-content-center">
-					<div class="col-12 col-md-10 col-lg-10">
-						<h2 class="h1 mb-3 mb-lg-5">{{ section.h2 }}</h2>
-					</div>
-				</div>
-				<div class="row">
-					{% for entry in data_entries %}
-						<div class="col-6 col-md-4 col-lg-3 mb-5">
-							<figure class="mb-4 border border-1 border-primary rounded-1 d-inline-block p-3">
-								<img 
-									src="{{ site.assets_path }}/icons/{{ entry.image }}"
-									alt="{{ entry.alt | default: entry.title | escape }}"
-									loading="lazy"
-									width="45"
-									height="45">
-							</figure>
-							<p>{{ entry.title }}</p>
-						</div>
-					{% endfor %}
-				</div>
-			</div>
-		</div>
-	</div>
+<section class="section consultancy-benefits py-lg-12 text-center gradient-purple text-white section-triangle section-triangle--top section-triangle--bottom section-triangle--flip position-relative largest-padding">
+  <div class="container">
+    <h2 class="mb-3 mb-lg-5">{{ section.h2 }}</h2>
+    <div class="row">
+      {% for entry in data_entries %}
+      <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <figure class="mb-4 border border-1 border-primary rounded-1 d-inline-block">
+          <img
+          src="{{ site.assets_path }}/icons/{{ entry.image }}"
+          alt="{{ entry.alt | default: entry.title | escape }}"
+          loading="lazy"
+          width="45"
+          height="45"
+          class="object-fit-cover w-auto">
+        </figure>
+        <p class="mb-0">{{ entry.title }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
 </section>

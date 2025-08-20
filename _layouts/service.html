@@ -47,6 +47,27 @@
       {% endif %}
     {% endfor %}
 
+    {%- if page.service_stage -%}
+      {% assign service_stage_index = 0 %}
+      {% include components/panel_service_stage.html index=service_stage_index %}
+      {% assign service_stage_index = service_stage_index | plus: 1 %}
+    {%- endif -%}
+
+    {%- if page.two_col_content -%}
+      {% assign panel_index = 0 %}
+      {% include components/panel_two_col_content.html index=panel_index %}
+      {% assign panel_index = panel_index | plus: 1 %}
+    {%- endif -%}
+
+    {%- if page.service_accordion -%}
+      {% include components/panel_service_accordion.html %}
+    {%- endif -%}
+
+    {%- if page.two_col_content -%}
+      {% include components/panel_two_col_content.html index=panel_index %}
+      {% assign panel_index = panel_index | plus: 1 %}
+    {%- endif -%}
+
     {%- if page.image_text -%}
       {% assign panel_index = 0 %}
       {% include components/panel_image_text.html index=panel_index %}
@@ -64,7 +85,13 @@
     {% include components/panel_portfolio.html data=page.portfolio %}
     {%- endif -%}
 
+    {%- if page.testimonials -%}
+    {% include components/panel_testimonials.html data=site.data.testimonials.service_page %}
+    {%- endif -%}
+
+    {%- if page.insights -%}
     {% include components/panel_insights.html %}
+    {%- endif -%}
 
   </main>
 

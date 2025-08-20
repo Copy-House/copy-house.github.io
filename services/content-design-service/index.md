@@ -54,4 +54,5 @@ visual_impact:
 portfolio:
   h2: Our Content Design Service Portfolio
 
+insights: true
 ---

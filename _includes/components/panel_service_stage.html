@@ -1,0 +1,60 @@
+{%- assign panel = page.service_stage -%}
+
+{%- if panel -%}
+<section class="section section-service-stage py-5 py-lg-10 text-bg-dark">
+  <div class="container">
+
+    <ol class="row justify-content-center list-unstyled mb-0 p-0">
+      {%- for stage in site.data.service_stage.stage -%}
+        {%- assign mod = forloop.index0 | modulo: 2 -%}
+        {%- if mod == 0 -%}
+          {%- assign class_reverse = 'flex-md-row-reverse' -%}
+        {%- else -%}
+          {%- assign class_reverse = '' -%}
+        {%- endif -%}
+
+        <li class="col-12 service-stage__item mb-5" role="group" aria-labelledby="stage-title-{{ forloop.index }}">
+          <article class="row g-md-0 justify-content-center {{ class_reverse }}">
+
+            {%- if stage.image -%}
+            <div class="col-12 col-md-6 col-lg-5 service-stage__image d-flex position-relative">
+              <figure class="rounded-4 overflow-hidden mb-0 d-flex flex-fill">
+                <img
+                  src="{{ site.assets_path }}/services/stage/{{ stage.image }}"
+                  alt="{{ stage.alt | default: stage.title | escape }}"
+                  loading="lazy"
+                  width="530"
+                  height="451"
+                  class="w-100 object-fit-cover">
+              </figure>
+            </div>
+            {%- endif -%}
+
+            <div class="col-12 col-md-6 d-flex">
+              <div class="service-stage__content d-flex flex-column justify-content-start"> 
+                <header class="mb-3">
+                  <p class="stage-label mb-4">
+                    <span class="visually-hidden">Stage number</span>
+                    <span class="h1 mb-2 d-block">Stage</span>
+                    {% capture svg_file %}svg/stage_{{ forloop.index }}.html{% endcapture %}
+                    {% include {{ svg_file }} %}
+                  </p>
+                  <h2 id="stage-title-{{ forloop.index }}" class="h1 mb-0">
+                    {{ stage.title }}
+                  </h2>
+                </header>
+
+                <div class="stage-description">
+                  {% for paragraph in stage.text %}
+                    <p class="mb-3">{{ paragraph | markdownify | strip | raw }}</p>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          </article>
+        </li>
+      {%- endfor -%}
+    </ol>
+  </div>
+</section>
+{%- endif -%}

@@ -7,4 +7,6 @@ image: /assets/uploads/hero-services.webp
 
 headline: A Content Marketing Strategy and Consultancy Service Fit For Your Brand.
 headline_para: Build strong foundations for your brand with our content marketing strategy and consultancy service.
+
+insights: true
 ---

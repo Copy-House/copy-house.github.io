@@ -1,0 +1,43 @@
+{%- assign panel = site.data.two_col -%}
+
+  <section class="section section-two-col py-5 py-lg-10 text-bg-dark section-triangle section-triangle--bottom section-triangle--top">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-11">
+          <article class="row align-items-center justify-content-between {{ class_reverse }}">
+            <div class="col-12 col-md-6">
+              <h2 class="h1 mb-4 h2">{{ panel.title }}</h2>
+
+              {% for paragraph in panel.text %}
+                {{ paragraph | markdownify | strip | raw }}
+              {% endfor %}
+
+              {% if panel.CTA %}
+                <a href="{{ site.url }}{{ panel.CTA_url }}" class="btn btn-primary" title="{{ panel.CTA_title | default: 'Contact us' }}">
+                  {{ panel.CTA | default: "Get in touch" }}
+                </a>
+              {% endif %}
+            </div>
+
+            {%- if panel.image -%}
+            <div class="col-12 col-md-6">
+              <figure class="overflow-hidden mb-3 mb-md-0">
+                <img
+                  src="{{ site.assets_path }}/two-col/{{ panel.image }}"
+                  alt="{{ panel.alt | default: panel.title | escape }}"
+                  loading="lazy"
+                  width="450"
+                  height="500"
+                  class="object-fit-cover rounded-4"
+                >
+                {% if panel.image_caption %}
+                  <figcaption class="visually-hidden">{{ panel.image_caption }}</figcaption>
+                {% endif %}
+              </figure>
+            </div>
+            {%- endif -%}
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>

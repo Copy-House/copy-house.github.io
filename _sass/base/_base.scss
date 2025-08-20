@@ -156,6 +156,9 @@ h1 {
 .breakout-illustration-gradient {
   background-image: linear-gradient(to right, #151515, #333);
 }
+.gradient-black-purple {
+  background-image: linear-gradient(to top, var(--bs-primary), #5508a2 53%, var(--bs-black));
+}
 
 .text-bg-light {
   color: var(--bs-black) !important;

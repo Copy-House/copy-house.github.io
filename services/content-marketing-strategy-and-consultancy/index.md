@@ -37,4 +37,5 @@ benefits_marketing:
   h2: Benefits of Content Marketing Consultancy
 
 testimonials_highlight: true
+insights: true
 ---

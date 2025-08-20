@@ -36,4 +36,5 @@ benefits_PR_services:
   h2: Benefits of Strategic PR Services
 
 testimonials_highlight: true
+insights: true
 ---

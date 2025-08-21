@@ -1,0 +1,41 @@
+<section class="section servides-listing gradient-purple section-triangle section-triangle--top section-triangle--bottom section-triangle--flip largest-padding text-center text-md-start pt-md-12" aria-labelledby="services-heading">
+  <div class="container">
+    <h2 id="services-heading" class="text-white mb-4 mb-md-7">
+      {{ page.services_listing.h2 }}
+    </h2>
+    <div class="row g-4">
+      {%- assign panel = site.data.services_listing -%}
+      {% for entry in panel %}
+      <div class="col-md-6 col-12 d-flex">
+        <article class="servides-listing__card rounded-4 overflow-hidden d-flex flex-column text-bg-light w-100 h-100" aria-label="{{ entry.title }}">
+
+          <div class="servides-listing__image">
+            <img
+              class="object-fit-cover w-100 h-100"
+              src="{{ site.assets_path }}/services/{{ entry.image }}"
+              alt="{{ entry.alt | default: entry.title | escape }}">
+          </div>
+
+          <div class="servides-listing__content p-4 px-md-7 flex-fill d-flex flex-column align-items-md-start">
+            {% if entry.title %}
+              <h3 class="mb-4 mb-md-5 h5">{{ entry.title }}</h3>
+            {% endif %}
+
+            <div class="servides-listing__description mb-4 mb-md-6">
+              {% for paragraph in entry.description %}
+                {{ paragraph | markdownify | strip | raw }}
+              {% endfor %}
+            </div>
+
+            {% if entry.link and entry.url %}
+              <a href="{{ entry.url }}" class="btn btn-primary mt-auto text-uppercase py-3" aria-label="Read more about {{ entry.title }}">
+                {{ entry.link }}
+              </a>
+            {% endif %}
+          </div>
+        </article>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

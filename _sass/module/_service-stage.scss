@@ -30,9 +30,11 @@
       }
     }
     p {
-      margin-bottom: 0;
       line-height: 1.4;
       @include fontSize(15);
+      &:last-child {
+        margin-bottom: 0 !important;
+      }
     }
   }
 }

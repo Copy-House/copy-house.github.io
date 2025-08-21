@@ -6,7 +6,11 @@
   {% assign padding_class = "padding-x-175" %}
 {% endif %}
 
-<section class="section section-banner d-flex {{ padding_class }}"
+{% if banner.flip %}
+  {% assign flip_class = "section-triangle section-triangle--bottom section-triangle--bottom-flip" %}
+{% endif %}
+
+<section class="section section-banner d-flex {{ padding_class }} {{ flip_class }}"
   {% if has_image %} style="background-image:url('{{ site.assets_path }}/hero/{{ banner_image }}')" {% endif %}
   aria-label="Intro banner">
   <div class="container">

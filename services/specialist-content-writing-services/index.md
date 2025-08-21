@@ -34,6 +34,8 @@ two_col_content:
     url: /contact
     logo: true
 
+service_stage: true
+
 service_accordion:
   h2: What Types of Long-Form Content Services Do We Offer?
 

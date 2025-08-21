@@ -8,9 +8,16 @@ banner:
   h1: Discover our Content Marketing Services
   p: Our intelligent content marketing services are backed by a winning formula..
   image: purple-arrows-banner.webp
+  flip: true
 
-panel_two_col: true
+two_col_image: true
 
-panel_content_marketing_services_listing: true
+services_listing:
+  h2: "Discover Our Award-Winning<br> Content Marketing Services"
 
+award_approach:
+  h2: "Discover Our Award-Winning <br> Approach to Content Marketing Services"
+
+winning_formula:
+  h2: "CopyHouse's Winning Formula:"
 ---

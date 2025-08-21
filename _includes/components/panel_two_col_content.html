@@ -1,86 +1,61 @@
 {%- assign panel = page.two_col_content[include.index] -%}
 
 {%- if panel -%}
-  {%- if panel.logo -%}
-    <section class="section section-two_col_content py-5 text-bg-dark" aria-labelledby="panel-title-{{ include.index }}">
-      <div class="container">
+  {%- assign has_logo = panel.logo -%}
+  <section
+    class="section section-two_col_content
+      {% if has_logo -%} py-5 text-bg-dark{%- else -%} largest-padding pt-10 pb-lg-10 gradient-black-purple text-white section-triangle section-triangle--bottom{%- endif %}" 
+    aria-labelledby="panel-title-{{ include.index }}">
+
+    <div class="container">
+      {% if has_logo %}
         <div class="row g-3">
           <div class="col-12">
             {% include svg/flying-arrows.html %}
           </div>
-          <div class="col-12 col-md-6 mb-4">
-            <header>
-              <h2 id="panel-title-{{ include.index }}" class="mb-4">
-                {{ panel.h2 }}
-              </h2>
-            </header>
-
-            {% if panel.CTA %}
-              <a href="{{ site.url }}{{ panel.CTA_url }}"
-                class="btn btn-white text-uppercase"
-                aria-label="{{ panel.CTA_title | default: 'Contact us' }}">
-                {{ panel.CTA | default: "Get in touch" }}
-              </a>
-            {% endif %}
-          </div>
-
-          <!-- Right column -->
-          <div class="col-12 col-md-6">
-            <div class="two-col-text">
-              {% for paragraph in panel.text %}
-                {{ paragraph | markdownify | strip | raw }}
-              {% endfor %}
-            </div>
-
-            {% if panel.h3 %}
-              <h3 class="h5 mb-4">{{ panel.h3 }}</h3>
-            {% endif %}
-          </div>
-
-        </div>
-      </div>
-    </section>
-  {%- else -%}
-    <section class="section section-two_col_content largest-padding pt-10 pb-lg-10 gradient-black-purple text-white section-triangle section-triangle--bottom" aria-labelledby="panel-title-{{ include.index }}">
-      <div class="container">
+      {% else %}
         <div class="row justify-content-center">
           <div class="col-12 col-lg-9">
             <article class="row">
-              
-              <!-- Left column -->
-              <div class="col-12 col-md-6 mb-4">
-                <header>
-                  <h2 id="panel-title-{{ include.index }}" class="mb-4">
-                    {{ panel.h2 }}
-                  </h2>
-                </header>
+      {% endif %}
 
-                {% if panel.CTA %}
-                  <a href="{{ site.url }}{{ panel.CTA_url }}" 
-                    class="btn btn-white text-uppercase" 
-                    aria-label="{{ panel.CTA_title | default: 'Contact us' }}">
-                    {{ panel.CTA | default: "Get in touch" }}
-                  </a>
-                {% endif %}
-              </div>
+      <!-- Left column -->
+      <div class="col-12 col-md-6 mb-4">
+        <header>
+          <h2 id="panel-title-{{ include.index }}" class="mb-4">
+            {{ panel.h2 }}
+          </h2>
+        </header>
 
-              <!-- Right column -->
-              <div class="col-12 col-md-6">
-                <div class="two-col-text">
-                  {% for paragraph in panel.text %}
-                    {{ paragraph | markdownify | strip | raw }}
-                  {% endfor %}
-                </div>
+        {% if panel.CTA %}
+          <a href="{{ site.url }}{{ panel.CTA_url | default: panel.url }}"
+            class="btn btn-white text-uppercase"
+            aria-label="{{ panel.CTA_title | default: 'Contact us' }}">
+            {{ panel.CTA | default: "Get in touch" }}
+          </a>
+        {% endif %}
+      </div>
 
-                {% if panel.h3 %}
-                  <h3 class="h5 mb-4">{{ panel.h3 }}</h3>
-                {% endif %}
-              </div>
+      <!-- Right column -->
+      <div class="col-12 col-md-6">
+        <div class="two-col-text">
+          {% for paragraph in panel.text %}
+            {{ paragraph | markdownify | strip | raw }}
+          {% endfor %}
+        </div>
 
+        {% if panel.h3 %}
+          <h3 class="h5 mb-4">{{ panel.h3 }}</h3>
+        {% endif %}
+      </div>
+
+      {% if has_logo %}
+        </div> <!-- close row g-3 -->
+      {% else %}
             </article>
           </div>
         </div>
-      </div>
-    </section>
-  {%- endif-%}
+      {% endif %}
+    </div>
+  </section>
 {%- endif -%}

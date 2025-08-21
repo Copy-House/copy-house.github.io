@@ -22,8 +22,8 @@
       {% include components/panel_image_text_large.html index=panel_index %}
     {%- endif -%}
 
-    {%- if page.panel_two_col -%}
-      {% include components/panel_two_col.html %}
+    {%- if page.two_col_image -%}
+      {% include components/panel_two_col_image.html %}
     {%- endif -%}
 
     {% assign content_keys = "content_marketing,content_PR_services,content_design_service" | split: "," %}
@@ -33,8 +33,16 @@
       {% endif %}
     {% endfor %}
 
-    {%- if page.panel_content_marketing_services_listing -%}
-      {% include components/panel_content_marketing_services_listing.html %}
+    {%- if page.services_listing -%}
+      {% include components/panel_services_listing.html %}
+    {%- endif -%}
+
+    {%- if page.winning_formula -%}
+      {% include components/panel_winning_formula.html %}
+    {%- endif -%}
+
+    {%- if page.award_approach -%}
+      {% include components/panel_award_approach.html %}
     {%- endif -%}
 
     {%- if page.banner.middle -%}
@@ -56,15 +64,41 @@
     {% endfor %}
 
     {%- if page.service_stage -%}
-      {% assign service_stage_index = 0 %}
-      {% include components/panel_service_stage.html index=service_stage_index %}
-      {% assign service_stage_index = service_stage_index | plus: 1 %}
+    <section class="section section-service-stage pb-3 pt-5 pt-lg-10 text-bg-dark">
+      <div class="container">
+        <ol class="row justify-content-center list-unstyled mb-0 p-0">
+          {% assign index = 0 %}
+          {% for stage in site.data.service_stage.stage %}
+            {% if stage.stage_label %}
+              {% assign index = index | plus: 1 %}
+              {% include components/panel_service_stage.html stage=stage index=index %}
+            {% endif %}
+          {% endfor %}
+        </ol>
+      </div>
+    </section>
     {%- endif -%}
 
     {%- if page.two_col_content -%}
       {% assign panel_index = 0 %}
       {% include components/panel_two_col_content.html index=panel_index %}
       {% assign panel_index = panel_index | plus: 1 %}
+    {%- endif -%}
+
+    {%- if page.service_stage -%}
+    <section class="section section-service-stage pb-3 pt-5 pt-lg-10 text-bg-dark">
+      <div class="container">
+        <ol class="row justify-content-center list-unstyled mb-0 p-0">
+          {% assign index = 1 %}
+          {% for stage in site.data.service_stage.stage %}
+            {% if stage.stage_label == false %}
+              {% assign index = index | plus: 1 %}
+              {% include components/panel_service_stage.html stage=stage index=index %}
+            {% endif %}
+          {% endfor %}
+        </ol>
+      </div>
+    </section>
     {%- endif -%}
 
     {%- if page.service_accordion -%}

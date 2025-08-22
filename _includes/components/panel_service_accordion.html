@@ -24,7 +24,7 @@
 
             <div class="accordion-description">
               {% for paragraph in accordion.text %}
-                <p class="mb-3">{{ paragraph | markdownify | strip | raw }}</p>
+                {{ paragraph | replace: "<p>", "<p class='mb-3'>" | strip | raw }}
               {% endfor %}
             </div>
 

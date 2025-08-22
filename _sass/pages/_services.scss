@@ -12,6 +12,10 @@
 .section-lead-stat {
   &__inner {
     margin-top: rem(-145);
+    img {
+      max-height: rem(200);
+      width: auto;
+    }
   }
 }
 

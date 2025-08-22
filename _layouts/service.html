@@ -14,12 +14,11 @@
     {%- endif -%}
 
     {%- if page.lead_stat -%}
-      {% include components/panel_lead_stat.html data=site.data.lead_stat %}
+      {% include components/panel_lead_stat.html has_lottie=true %}
     {%- endif -%}
 
     {%- if page.image_text_large -%}
-      {% assign panel_index = 0 %}
-      {% include components/panel_image_text_large.html index=panel_index %}
+      {% include components/panel_image_text_large.html %}
     {%- endif -%}
 
     {%- if page.two_col_image -%}
@@ -85,6 +84,21 @@
       {% assign panel_index = panel_index | plus: 1 %}
     {%- endif -%}
 
+    {% if page.page_content %}
+    <section class="section page-content gradient-blue-purple text-white section-triangle section-triangle--bottom section-triangle--bottom-flip py-8 py-lg-12">
+      <div class="container">
+      {% for item in page.page_content %}
+        {% assign panel_content_index = forloop.index0 %}
+        {% include components/panel_page_content.html index=panel_content_index %}
+      {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    {%- if page.service_accordion -%}
+      {% include components/panel_service_accordion.html %}
+    {%- endif -%}
+
     {%- if page.service_stage -%}
     <section class="section section-service-stage pb-3 pt-5 pt-lg-10 text-bg-dark">
       <div class="container">
@@ -92,6 +106,28 @@
           {% assign index = 1 %}
           {% for stage in site.data.service_stage.stage %}
             {% if stage.stage_label == false %}
+              {% assign index = index | plus: 1 %}
+              {% include components/panel_service_stage.html stage=stage index=index %}
+            {% endif %}
+          {% endfor %}
+        </ol>
+      </div>
+    </section>
+    {%- endif -%}
+
+    {%- if page.service_stage_media_marketing -%}
+    <section class="section section-service-stage pb-3 pt-5 pt-lg-10 text-bg-dark">
+      <div class="container">
+        {% if site.data.service_stage_media_marketing.title %}
+          <h2 class="text-primary mb-5">{{ site.data.service_stage_media_marketing.title }}</h2>
+        {% endif %}
+        {% if site.data.service_stage_media_marketing.subtitle %}
+          <h2 class="mb-5">{{ site.data.service_stage_media_marketing.subtitle }}</h2>
+        {% endif %}
+        <ol class="row justify-content-center list-unstyled mb-0 p-0">
+          {% assign index = 0 %}
+          {% for stage in site.data.service_stage_media_marketing.stage %}
+            {% if stage.stage_label %}
               {% assign index = index | plus: 1 %}
               {% include components/panel_service_stage.html stage=stage index=index %}
             {% endif %}
@@ -110,10 +146,12 @@
       {% assign panel_index = panel_index | plus: 1 %}
     {%- endif -%}
 
-    {%- if page.image_text -%}
-      {% assign panel_index = 0 %}
-      {% include components/panel_image_text.html index=panel_index %}
-    {%- endif -%}
+    {% if page.image_text %}
+      {% for item in page.image_text %}
+        {% assign panel_image_index = forloop.index0 %}
+        {% include components/panel_image_text.html index=panel_image_index %}
+      {% endfor %}
+    {% endif %}
 
     {%- if page.testimonials_highlight -%}
     {% include components/panel_testimonials_highlight.html %}

@@ -151,7 +151,6 @@ p {
 .gradient-purple {
   background-image: linear-gradient(to bottom, $indigo-900, $blue);
 }
-
 .gradient-dark-grey {
   background-image: linear-gradient(to bottom, $gray-900, $gray-900)
 }
@@ -163,6 +162,9 @@ p {
 }
 .gradient-black-purple {
   background-image: linear-gradient(to top, var(--bs-primary), #5508a2 53%, var(--bs-black));
+}
+.gradient-blue-purple {
+  background-image: linear-gradient(to top, $indigo-900, $purple);
 }
 
 .text-bg-light {

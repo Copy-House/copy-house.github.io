@@ -1,27 +1,27 @@
 title: Our Content Marketing Solutions
 solutions:
   - name: Content Marketing Strategy
-    url: /services/content-marketing-strategy-and-consultancy
+    url: /services/content-marketing-strategy-and-consultancy/
     image: content-marketing-strategy.webp
     alt: Content Marketing Strategy
 
   - name: Specialist Content Writing
-    url: /services/content-marketing-strategy-and-consultancy
+    url: /services/specialist-content-writing-services/
     image: specialist-content-writing.webp
     alt: Specialist Content Writing
 
   - name: Social Media Marketing
-    url: /services/content-marketing-strategy-and-consultancy
+    url: /services/b2b-social-media-marketing-services/
     image: social-media-marketing.webp
     alt: Social Media Marketing
 
   - name: Branding and Design
-    url: /services/content-marketing-strategy-and-consultancy
+    url: /services/content-design-service/
     image: branding-design.webp
     alt: Branding and Design
 
   - name: PR Services
-    url: /services/content-marketing-strategy-and-consultancy
+    url: /services/pr-services/
     image: PR-services.webp
     alt: PR Services
 

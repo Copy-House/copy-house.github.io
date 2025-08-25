@@ -33,8 +33,7 @@
                     class="form-control"
                     maxlength="5000"
                     autocomplete="off"
-                    {% if field.required %}required{% endif %}>
-                  </textarea>
+                    {% if field.required %}required{% endif %}></textarea>
                 {% else %}
                   <input
                     type="{{ field.type }}"

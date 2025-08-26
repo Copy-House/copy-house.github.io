@@ -24,7 +24,7 @@
                       {% if entry.logo %}
                       <figure class="rounded-4 px-3 px-lg-4 d-flex justify-content-center align-items-center text-dark"
                               style="background-color: {{ entry.logo_bg_color | default: 'var(--bs-white)' }}">
-                        <img src="{{ site.assets_path }}/case-studies/logos/{{ entry.logo }}" alt="{{ entry.title }} logo" class="img-fluid">
+                        <img src="{{ site.assets_path }}/case-studies/logos/{{ entry.logo }}" alt="{{ entry.title }} logo" class="w-auto" width="100" height="100">
                       </figure>
                       {% endif %}
                     </div>

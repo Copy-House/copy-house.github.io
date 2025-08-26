@@ -9,18 +9,12 @@
             {% for location in site.data.locations.location %}
             <div class="col-12 col-md-6 col-lg-4 slide">
               <div class="card rounded-4 rounded-top-0 overflow-hidden">
-                <img src="{{ site.assets_path }}/location/{{ location.image }}" loading="lazy" alt="{{ location.name }}" />
+                <img src="{{ site.assets_path }}/location/{{ location.image }}" loading="lazy" alt="{{ location.name }}" width="440" height="292" />
                 <div class="card-body p-4 bg-white text-black">
                   <h3 class="card-title text-primary">{{ location.name }}</h3>
                   <p class="card-text">{{ location.address }}</p>
-                  <a href="{{ location.map_link }}" target="_blank" class="btn btn-link text-dark text-decoration-none p-0">
-                    Get Directions
-                    <span class="ms-1">
-                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.72 15L16.3472 10.357C16.7732 9.92932 16.7732 9.23603 16.3472 8.80962L11.72 4.16667L10.1776 5.71508L12.9425 8.4889H4.16669V10.6774H12.9425L10.1776 13.4522L11.72 15Z" fill="currentColor"/>
-                      </svg>
-                    </span>
-                  </a>
+
+                  <a href="{{ location.map_link }}" target="_blank" rel="noopener noreferrer" class="btn btn-link text-dark text-decoration-none p-0" aria-label="Get directions on Google Maps">Get Directions {% include svg/right-arrow.html %}</a>
                 </div>
               </div>
             </div>

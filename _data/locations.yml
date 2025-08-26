@@ -4,29 +4,29 @@ location:
 - name: Edinburgh
   address: "Jamaica Yard, 3 Jamaica Street<br/>Edinburgh, Scotland<br/>EH3 6HH"
   image: jamaican-yard-copyhouse.webp
-  map_link: https://maps.app.goo.gl/U47egb5Bpy8MgR7n9
+  map_link: https://www.google.com/maps/dir/Edinburgh+Waverley+Train+Station,+Princes+Street,+Edinburgh/Jamaica+Yard,+3+Jamaica+St,+Edinburgh+EH3+6HH/@55.9539761,-3.20127,16z/am=t/data=!4m14!4m13!1m5!1m1!1s0x4887c7c110040edb:0xae34c6f5fc238b46!2m2!1d-3.1898743!2d55.9519501!1m5!1m1!1s0x4887c713a92a605d:0xe11917f32929e44c!2m2!1d-3.2023562!2d55.9559647!3e0!5m1!1e1?coh=225988,245187&entry=tts&g_ep=EgoyMDI1MDIxOS4xIPu8ASoJLDEwMjExNDUzSAFQAw%3D%3D
 
 - name: London
   address: "Scope, 11 Slingsby Place <br/>London, United Kingdom <br/>WC2E 9AB"
   image: untitled-kingdom.webp
-  map_link: https://maps.app.goo.gl/U47egb5Bpy8MgR7n9
+  map_link: https://www.google.com/maps/dir/Covent+Garden+Underground,+Underground+Ltd,+Long+Acre,+London/Scope.Space+-+Covent+Garden,+11+Slingsby+Pl,+London+WC2E+9AB/@51.5126882,-0.1279295,17z/data=!3m2!4b1!5s0x4879adbb31956907:0x2ae2d4b69f4f879f!4m14!4m13!1m5!1m1!1s0x487604cc9188694f:0x388b51ab073ca62!2m2!1d-0.1241621!2d51.5130007!1m5!1m1!1s0x48760522d115e3fd:0x5b9ab5c6cdd33f3f!2m2!1d-0.1264989!2d51.5126175!3e2!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D
 
 - name: New York
   address: "500 7th Avenue<br/> New York, USA<br/>NY 10018"
   image: newyork-branch.webp
-  map_link: https://maps.app.goo.gl/U47egb5Bpy8MgR7n9
+  map_link: https://www.google.com/maps/dir/Madison+Square+Garden/500+7th+Ave,+New+York,+NY+10018,+USA/@40.7515767,-73.9938829,17z/data=!3m1!5s0x4879adbb31956907:0x2ae2d4b69f4f879f!4m14!4m13!1m5!1m1!1s0x89c25a21fb011c85:0x33df10e49762f8e4!2m2!1d-73.9934387!2d40.7505045!1m5!1m1!1s0x89c259ac7b941903:0xcb0a4d6a0e42963e!2m2!1d-73.9897431!2d40.7533664!3e2!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D
 
 - name: Bournemouth
   address: "Smartbase, Aviation Park West <br>Christchurch, United Kingdom<br>BH23 6NW"
   image: bournemouth-branch.webp
-  map_link: https://maps.app.goo.gl/U47egb5Bpy8MgR7n9
+  map_link: https://www.google.com/maps/dir/Bournemouth+Train+Station,+Holdenhurst+Road,+Bournemouth/SmartBase,+Aviation+Park+West,+Target+Road,+East+Parley,+Christchurch/@50.7552635,-1.9338107,12z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x4873a1e09b190161:0x50bfa71ec8f16880!2m2!1d-1.8641023!2d50.7272168!1m5!1m1!1s0x48739915461afcaf:0x643b3c92a17dbc9e!2m2!1d-1.8459146!2d50.7855182!3e0!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D
 
 - name: Jaipur
   address: "G1 257-258,IT Park EPIP<br/>Ricco Industrial Area Jaipur, Rajasthan<br/>India, 302022"
   image: jaipur-branch.webp
-  map_link: https://maps.app.goo.gl/U47egb5Bpy8MgR7n9
+  map_link: https://maps.app.goo.gl/P5PtVQVoRTJXwshS8
 
 - name: Katowice
   address: "Cluster Katowice, Stary Dworzec <br/>Katowice, Poland<br/>40-2012"
   image: katowice-branch.webp
-  map_link: https://maps.app.goo.gl/U47egb5Bpy8MgR7n9
+  map_link: https://www.google.com/maps/dir/Katowice,+plac+Marii+i+Lecha+Kaczy%C5%84skich+2,+40-000+Katowice,+Poland/CLUSTER+Stary+Dworzec,+Biuro+Serwisowane+%26+Coworking,+Dworcowa,+Katowice,+Poland/@50.2562541,19.0149587,1022m/data=!3m2!1e3!4b1!4m14!4m13!1m5!1m1!1s0x4716ce47917bd465:0x85002e5bc308fd4!2m2!1d19.0170979!2d50.2576047!1m5!1m1!1s0x4716cf74eec50427:0x6c3ff6e2fc4c86f9!2m2!1d19.0231193!2d50.2572242!3e0!5m1!1e1?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D

@@ -1,6 +1,9 @@
 ---
 layout: about
 
+title: About CopyHouse- Tech Specialist Content Marketing Agency
+meta_description: Meet the creative and inspiring team behind the fast-growing tech specialist Content Marketing Agency, CopyHouse.
+
 banner:
   h1: About Us
   p: We're a friendly bunch of creatives and technology specialists.

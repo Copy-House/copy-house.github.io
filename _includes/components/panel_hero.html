@@ -5,21 +5,22 @@
     data-poster-url="{{ site.assets_path }}/{{ video.folder }}/{{ video.poster }}"
     data-video-urls="{{ site.assets_path }}/{{ video.folder }}/{{ video.mp4 }}"
     data-autoplay="{{ video.autoplay }}"
-    data-loop="{{ video.loop }}"
-    data-wf-ignore="true">
+    data-loop="{{ video.loop }}">
 
     <video
       autoplay
       loop
       muted
       playsinline
+      aria-hidden="true"
+      role="presentation"
       class="object-fit-cover w-100 h-100 m-auto position-absolute"
-      poster="{{ site.assets_path }}/{{ video.folder }}/{{ video.poster }}"
-      data-wf-ignore="true">
+      poster="{{ site.assets_path }}/{{ video.folder }}/{{ video.poster }}">
 
-      <source src="{{ site.assets_path }}/{{ video.folder }}/{{ video.mp4 }}" type="video/mp4" data-wf-ignore="true">
-      <source src="{{ site.assets_path }}/{{ video.folder }}/{{ video.webm }}" type="video/webm" data-wf-ignore="true">
+      <source src="{{ site.assets_path }}/{{ video.folder }}/{{ video.mp4 }}" type="video/mp4">
+      <source src="{{ site.assets_path }}/{{ video.folder }}/{{ video.webm }}" type="video/webm">
     </video>
+
   </div>
 
   <div class="hero-banner__content container">
@@ -27,7 +28,7 @@
       {{ page.hero.heading }} <span class="gradient-4">{{ page.hero.highlight }}</span>
     </h1>
     <p>{{ page.hero.subheading }}</p>
-    <a href="{{ page.hero.cta_url }}" title="{{ page.hero.cta_text }}" class="btn btn-white text-uppercase mt-6">
+    <a href="{{ page.hero.cta_url }}" class="btn btn-white text-uppercase mt-6">
       {{ page.hero.cta_text }}
     </a>
   </div>

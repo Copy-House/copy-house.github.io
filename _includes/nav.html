@@ -22,7 +22,7 @@
           {% for sub in item.submenu %}
             {% assign sub_url = sub.url | replace: 'index.html', '' %}
             <li>
-              <a class="dropdown-item {% unless forloop.last %}border-bottom{% endunless %} {% if current_url == sub_url %}current{% endif %}" title="{{ sub.title }}" href="{{ sub.url }}">{{ sub.name }}</a>
+              <a class="dropdown-item {% unless forloop.last %}border-bottom{% endunless %} {% if current_url == sub_url %}current{% endif %}" href="{{ sub.url }}">{{ sub.name }}</a>
             </li>
           {% endfor %}
         </ul>
@@ -31,7 +31,7 @@
     {% else %}
       {% assign item_url = item.url | replace: 'index.html', '' %}
       <li class="nav-item">
-        <a href="{{ item.url }}" title="{{ item.title }}" class="{% unless forloop.last %}nav-link{% endunless %} {% if forloop.last %}btn btn-white d-none d-lg-block{% endif %} {% if current_url == item_url %}current{% endif %}">
+        <a href="{{ item.url }}" class="{% unless forloop.last %}nav-link{% endunless %} {% if forloop.last %}btn btn-white d-none d-lg-block{% endif %} {% if current_url == item_url %}current{% endif %}">
           {{ item.name }}
         </a>
       </li>

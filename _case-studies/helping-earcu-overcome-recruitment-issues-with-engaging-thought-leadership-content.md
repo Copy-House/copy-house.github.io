@@ -3,8 +3,8 @@ layout: case-study
 title: "Helping eArcu Overcome Recruitment Issues with Engaging Thought Leadership Content"
 summary: "CopyHouse supported talent acquisition platform eArcu with accessible, SEO-driven thought leadership and infographic content—breaking down complex topics to boost credibility and engagement."
 date: 2025-05-12
-image: "/assets/images_old/64258141788bb4c66c3f3287_headway-5QgIuuBxKwM-unsplash-1536x1024.jpeg"
-logo: "/assets/images_old/64258141788bb4a83c3f3225_Untitled-design-11.png"
+image: "eArcu-overcome-recruitment-Issues-engaging-leadership.webp"
+logo: "arcu-logo.webp"
 logo_bg_color: "white"
 ---
 

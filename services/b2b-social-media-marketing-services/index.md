@@ -6,7 +6,7 @@ description: "Connect with your audience on a personal level with our social med
 
 banner:
   h1: Social Media Marketing Services
-  p: Build strong foundations for your brand with our content marketing strategy and consultancy service.
+  p: Connect with your audience on a personal level with our social media marketing services. This human-first approach is perfect for your tech brand.
   image: marketing-services.webp
 
 lead_stat:
@@ -47,11 +47,13 @@ two_col_content:
         text: Strategies include a range of diversified topics, such as&#58;
       - type: list
         items:
-          - Brand essence & personality
-          - Values and ethos
-          - What your customers/clients want to hear
-          - Your personal messaging
-          - Tone of voice
+          - <strong>Company culture</strong>
+          - <strong>New technology trends</strong>
+          - <strong>Company awards and achievements</strong>
+          - <strong>Topical content</strong>
+          - <strong>New offerings</strong>
+          - <strong>Case studies</strong>
+          - <strong>Thought leadership content</strong>
       - type: paragraph
         text: A diverse strategy will allow you to speak directly to your audience and connect them with the people behind the brand — emphasising a human-first approach.
 

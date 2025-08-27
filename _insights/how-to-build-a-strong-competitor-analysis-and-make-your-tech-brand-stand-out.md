@@ -2,7 +2,7 @@
 layout: insight
 title: "How to Build a Strong Competitor Analysis and Make Your Tech Brand Stand Out"
 meta_description: "Discover how to conduct a comprehensive competitor analysis to sharpen your market position, boost your tech brand, and uncover growth opportunities."
-image: "/assets/images_old/insight-competitor-analysis.webp"
+image: "how-to-build-a-strong-competitor-analysis-and-make-your-tech-brand-stand-out.webp"
 author: CopyHouse
 date: 2025-04-18
 ---

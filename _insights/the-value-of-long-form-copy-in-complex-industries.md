@@ -2,7 +2,7 @@
 layout: insight
 title: "The Value of Long-Form Copy in Complex Industries"
 meta_description: "Discover why long-form content is essential for businesses in complex industries and how it supports detailed communication, thought leadership, and customer trust."
-image: "insight-header.webp"
+image: "the-value-of-long-form-copy-in-complex-industries.webp"
 author: CopyHouse
 date: 2024-12-12
 ---

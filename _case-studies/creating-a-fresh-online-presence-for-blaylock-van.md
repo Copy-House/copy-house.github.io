@@ -3,8 +3,8 @@ layout: case-study
 title: "Creating a Fresh Online Presence for Blaylock Van"
 summary: "Discover how CopyHouse helped Blaylock Van — the oldest continuously operating African-American-owned investment bank in the U.S. — revitalise their website, boost traffic, and double their domain authority through strategic design and SEO-led content."
 date: 2024-04-18
-image: "/assets/images_old/66c32fe64226b5c530746e8d_pexels-minan1398-1599969.jpg"
-logo: "/assets/images_old/66c32f4fc3023e5a6e0010f1_1631338033211.jpeg"
+image: "creating-fresh-online-presence-blaylock-van.webp"
+logo: "blaylock-van-logo.webp"
 logo_bg_color: "white"
 ---
 

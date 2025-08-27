@@ -2,7 +2,7 @@
 layout: insight
 title: "Why Personal Branding is Important in Tech"
 meta_description: "Discover how personal branding can boost trust, credibility and visibility for tech leaders, with practical steps for building your own brand identity."
-image: "insight-header.webp"
+image: "why-personal-branding-is-important-in-tech.webp"
 author: CopyHouse
 date: 2025-06-09
 ---

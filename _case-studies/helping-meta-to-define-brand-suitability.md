@@ -3,8 +3,8 @@ layout: case-study
 title: "Helping Meta to Define ‘Brand Suitability’"
 summary: "Discover how CopyHouse collaborated with Meta to define brand suitability and create a high-impact white paper to clarify the difference between brand safety and suitability."
 date: 2024-06-04
-image: "/assets/images_old/64ccc701d5ec72a3a2e5c998_marvin-meyer-SYTO3xs06fU-unsplash.jpg"
-logo: "/assets/images_old/64cbadba64215baea563a735_Screenshot-2021-11-03-at-12.14.11.png"
+image: "meta-define-brand-suitability.webp"
+logo: "meta-logo.webp"
 logo_bg_color: "white"
 ---
 

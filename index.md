@@ -1,8 +1,8 @@
 ---
 layout: homepage
 
-title: "Content Marketing Agency for Tech & FinTech | CopyHouse"
-meta_description: "CopyHouse is the award-winning content marketing agency for tech and FinTech. We build content strategies and create compelling content to drive measurable growth."
+title: "Global Content Marketing Agency for Tech &amp; Complex Industries | CopyHouse"
+meta_description: "CopyHouse is an award-winning content marketing agency specialising in technology marketing for innovative B2C or B2B brands."
 
 hero:
   heading: "Technology"

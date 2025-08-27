@@ -3,8 +3,8 @@ layout: case-study
 title: "Helping InPlayer Repurpose Their Content to Boost Search Results on Google"
 summary: "Discover how CopyHouse helped InPlayer improve their SEO strategy, repurpose outdated content, and drive more organic traffic in a competitive streaming market."
 date: 2025-04-10
-image: "/assets/images_old/inplayer-case-study.jpg"
-logo: "/assets/images_old/inplayer-logo.png"
+image: "inPlayer-boost-search-results-google.webp"
+logo: "inplayer-logo.webp"
 logo_bg_color: "white"
 ---
 

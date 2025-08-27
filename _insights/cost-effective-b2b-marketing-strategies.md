@@ -2,7 +2,7 @@
 layout: insight
 title: "Cost‑Effective Marketing Strategies to Help Your B2B Brand Survive the Recession"
 meta_description: "Smart, budget-friendly marketing tactics for B2B brands to thrive during economic downturns."
-image: "insight-header.webp"
+image: "cost-effective-b2b-marketing-strategies.webp"
 author: CopyHouse
 date: 2025-06-12
 ---

@@ -2,7 +2,7 @@
 layout: insight
 title: "5 Benefits of Content Writing Services"
 meta_description: "Discover how content writing services fuel your marketing success—from SEO to thought leadership and creative edge."
-image: "insight-header.webp"
+image: "5-benefits-of-content-writing-services.webp"
 author: CopyHouse
 date: 2025-06-15
 ---

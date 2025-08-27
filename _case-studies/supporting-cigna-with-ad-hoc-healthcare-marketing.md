@@ -3,8 +3,8 @@ layout: case-study
 title: "Supporting Cigna With Healthcare Marketing"
 summary: "Discover how CopyHouse provided flexible and fast-turnaround digital marketing support for global healthcare provider Cigna, helping to deliver 50+ projects across three years."
 date: 2024-02-12
-image: "/assets/images_old/national-cancer-institute-NFvdKIhxYlU-unsplash.webp"
-logo: "/assets/images_old/64258141788bb40c1b3f32c6_Cigna﹪20logo-p-1080.jpeg"
+image: "supporting-cigna-healthcare-marketing.webp"
+logo: "cigno-logo.webp"
 logo_bg_color: "white"
 ---
 

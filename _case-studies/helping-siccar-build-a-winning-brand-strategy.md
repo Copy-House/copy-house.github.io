@@ -3,8 +3,8 @@ layout: case-study
 title: "Helping SICCAR Build A Winning Brand Strategy"
 summary: "Discover how CopyHouse’s all-day brand workshop empowered SICCAR to develop a focused, impactful marketing strategy that resonates with their ideal customers."
 date: 2024-12-15
-image: "/assets/images_old/64258141788bb485853f3266_sergey-zolkin-_UeY8aTI6d0-unsplash-1536x1024.jpeg"
-logo: "/assets/images_old/64258141788bb43aa63f321f_siccar-1.png"
+image: "SICCAR-build-winning-brand-strategy.webp"
+logo: "inaa-group.webp"
 logo_bg_color: "white"
 ---
 

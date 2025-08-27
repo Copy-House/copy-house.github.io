@@ -3,8 +3,8 @@ layout: case-study
 title: "Creating an SEO-Friendly Website to Support the Growth of Atech"
 summary: "How CopyHouse helped Atech modernise their brand messaging and website content to support growth, improve SEO, and attract mid-market clients."
 date: 2024-03-12
-image: "/assets/images_old/64258141788bb4a0283f328b_b2b-intent-data.jpeg"
-logo: "/assets/images_old/64258141788bb4d7183f322a_Untitled-design-14.png"
+image: "SEO-friendly-website-support-growth-atech.webp"
+logo: "atech-logo.webp"
 logo_bg_color: "white"
 ---
 

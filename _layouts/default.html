@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en-GB">
+{% include head.html %}
+
+<body>
+  <a class="skip-main btn" href="#main-content">Skip to main content</a>
+  {% include header.html %}
+
+  <main id="main-content">
+
+    <section class="site-content">
+      <div class="largest-padding pb-4 bg-black">
+        <div class="container">
+          <div class="col-12">
+            <h1 class="no-top-bottom">{{ page.headline }}</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="py-8">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 text-secondary">
+              {{ content }}
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+  {% include footer.html %}
+</body>
+</html>

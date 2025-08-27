@@ -1,0 +1,41 @@
+{%- assign panel = page.winning_formula -%}
+{%- assign data_entries = site.data.services_winning_formula -%}
+
+{%- if panel -%}
+  <section class="section section-winning-formula pt-10 pb-8 text-bg-dark" aria-labelledby="winning-formula-title-{{ include.index }}">
+    <div class="container">
+      <div class="row justify-content-center g-md-0">
+        <div class="col-12 col-md-10 mb-8">
+          <h2 id="winning-formula-title-{{ include.index }}" class="text-center mb-8">
+            <span class="d-block mb-3">{{ panel.h2 }}</span>
+            {%- for title in data_entries.title -%}
+              {{ title }}
+              {%- unless forloop.last -%}
+                <span class="my-3 my-sm-0 mx-5 d-block d-sm-inline-block">{% include svg/plus.html %}</span>
+              {%- endunless -%}
+            {%- endfor -%}
+          </h2>
+
+          <div class="row align-items-center">
+            <div class="col-md-6 text-center mb-4 mb-md-0">
+              <img src="{{ site.assets_path }}/ai-images/{{ data_entries.image }}" width="235" alt="">
+            </div>
+            <div class="col-md-6 text-center text-sm-start">
+              {% for paragraph in data_entries.text %}
+                {{ paragraph | markdownify | strip | raw }}
+              {% endfor %}
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12">
+          <div class="border border-primary bg-black text-center p-6 rounded-4">
+            <h3>{{ data_entries.result_subtitle }}</h3>
+            <h4 class="h2 text-primary my-5">{{ data_entries.result_title }}</h4>
+            <p class="text-secondary col-md-10 mx-auto">{{ data_entries.result_text }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{%- endif -%}

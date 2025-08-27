@@ -1,4 +1,4 @@
-<section class="our-values pt-7 pb-12">
+<section class="our-values pt-4 pt-lg-7 pb-4 pb-lg-12">
   <div class="container">
     <h2 class="mb-7">Our Values</h2>
     <ul class="row list-unstyled row-gap-3">
@@ -7,7 +7,7 @@
         <li class="col-lg-3 col-md-6 col-12 text-center text-md-start">
             {% if entry.image %}
             <figure class="mx-md-0 mx-auto mb-4 rounded-3 p-3 d-flex justify-content-center align-items-center">
-              <img src="{{ site.assets_path }}/icons/{{ entry.image }}" alt="{{ entry.alt }} logo" class="h-100">
+              <img src="{{ site.assets_path }}/icons/{{ entry.image }}" alt="{{ entry.alt }} logo" width="32" height="32" class="h-100">
             </figure>
             {% endif %}
             <h3 class="h5">{{ entry.title }}</h3>

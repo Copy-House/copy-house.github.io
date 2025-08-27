@@ -4,16 +4,15 @@
 */
 
 .testimonial-section {
-  blockquote {
-    &::before {
-      content: '';
-      background-color: var(--bs-dark);
-      background-image: url(../images/icons/quote-icon.svg);
-      background-repeat: no-repeat;
-      background-position: top center;
-      width: rem(91);
-      height: rem(68);
-      @include absolute(top -26px left 26px);
+  legend {
+    float: none;
+    width: auto;
+    margin-bottom: 0;
+    svg {
+      @include media-breakpoint-down(md) {
+        width: rem(36);
+        height: rem(36);
+      }
     }
   }
 }

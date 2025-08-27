@@ -1,0 +1,63 @@
+{%- assign mod = index | minus: 1 | modulo: 2 -%}
+{%- if mod == 0 -%}
+  {%- assign class_reverse = 'flex-md-row-reverse' -%}
+{%- else -%}
+  {%- assign class_reverse = '' -%}
+{%- endif -%}
+{%- unless stage.stage_label -%}
+  {%- assign align_class = 'align-items-center' -%}
+{%- endunless -%}
+
+<li class="col-12 service-stage__item mb-5" role="group" aria-labelledby="stage-title-{{ index }}">
+  <article class="row g-md-0 justify-content-center {{ align_class }} {{ class_reverse }}">
+
+    {%- if stage.image -%}
+    <div class="col-12 col-md-6 service-stage__image d-flex position-relative">
+      <figure class="rounded-4 overflow-hidden mb-0 d-flex flex-fill">
+        <img
+          src="{{ site.assets_path }}/services/stage/{{ stage.image }}"
+          alt="{{ stage.alt | default: stage.title | escape }}"
+          loading="lazy"
+          width="530"
+          height="451"
+          class="w-100 object-fit-cover">
+      </figure>
+    </div>
+    {%- endif -%}
+
+    <div class="col-12 col-md-6 d-flex">
+      <div class="service-stage__content d-flex flex-column justify-content-start">
+        <header class="mb-5">
+          {%- if stage.stage_label -%}
+          <p class="stage-label mb-4">
+            <span class="visually-hidden">Stage number</span>
+            <span class="h1 mb-2 d-block">Stage</span>
+            {% capture svg_file %}svg/stage_{{ index }}.html{% endcapture %}
+            {% include {{ svg_file }} %}
+          </p>
+          {%- endif -%}
+          <h2 id="stage-title-{{ index }}" class="mb-0">
+            {{ stage.title }}
+          </h2>
+        </header>
+
+        {%- if stage.text -%}
+        <div class="stage-description">
+          {% for item in stage.text %}
+            {% case item.type %}
+              {% when 'paragraph' %}
+                {{ item.text | markdownify | replace: "<p>", "<p class='mb-3'>"  | strip | raw }}
+              {% when 'list' %}
+                <ul>
+                  {% for list_item in item.items %}
+                    <li>{{ list_item }}</li>
+                  {% endfor %}
+                </ul>
+            {% endcase %}
+          {% endfor %}
+        </div>
+        {%- endif -%}
+      </div>
+    </div>
+  </article>
+</li>

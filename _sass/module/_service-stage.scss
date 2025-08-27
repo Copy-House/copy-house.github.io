@@ -1,0 +1,41 @@
+/**
+* @Files
+* Service Stage module Style.
+*/
+
+.service-stage {
+  &__content {
+    background-image: linear-gradient(to right, var(--bs-black), var(--bs-gray-700));
+    flex-direction: column;
+    padding: rem(40) rem(20);
+    margin-top: rem(-12);
+    @include border-radius(0 0 12px 12px);
+    @include media-breakpoint-up(md) {
+      margin-top: 0;
+      margin-left: rem(-12);
+      @include border-radius(0 12px 12px 0);
+    }
+    @include media-breakpoint-up(lg) {
+      padding: rem(50) rem(50) rem(40) rem(70);
+    }
+    .flex-md-row-reverse & {
+      background-image: linear-gradient(270deg, var(--bs-black), var(--bs-gray-700));
+      @include media-breakpoint-up(md) {
+        margin-right: rem(-12);
+        margin-left: 0;
+        @include border-radius(12px 0 0 12px);
+      }
+      @include media-breakpoint-up(lg) {
+        padding: rem(50) rem(70) rem(40) rem(50);
+      }
+    }
+    p {
+      line-height: 1.4;
+      @include fontSize(15);
+      &:last-child {
+        margin-bottom: 0 !important;
+      }
+    }
+  }
+}
+

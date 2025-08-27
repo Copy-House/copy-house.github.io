@@ -11,4 +11,9 @@
       color: var(--bs-orange);
     }
   }
+  .footer-social-link {
+    &:hover {
+      filter: brightness(0) saturate(100%) invert(84%) sepia(32%) saturate(7038%) hue-rotate(341deg) brightness(100%) contrast(97%);
+    }
+  }
 }

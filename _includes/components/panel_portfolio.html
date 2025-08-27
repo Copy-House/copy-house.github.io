@@ -1,0 +1,64 @@
+{%- assign block = include.data -%}
+{%- if block -%}
+  {%- assign heading_id = block.h2 | default: 'Portfolio' | slugify -%}
+
+  <section class="section section-portfolio py-5 py-lg-7" aria-labelledby="{{ heading_id }}">
+    <div class="container text-center">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <header class="mb-6">
+            <h2 class="h1" id="{{ heading_id }}">{{ block.h2 }}</h2>
+          </header>
+
+          <div id="portfolioCarousel"
+               class="carousel slide"
+               data-bs-ride="false"
+               aria-roledescription="carousel"
+               aria-label="Portfolio Carousel">
+
+            <!-- Slides -->
+            <div class="carousel-inner">
+              {%- for item in site.data.portfolio -%}
+              <div class="carousel-item {% if forloop.first %}active{% endif %}" 
+                   role="group" 
+                   aria-roledescription="slide" 
+                   aria-label="Slide {{ forloop.index }} of {{ site.data.portfolio.size }}">
+                <figure class="m-0">
+                  <img
+                    src="{{ site.assets_path }}/services/portfolio/{{ item.image }}.webp"
+                    alt="{{ item.alt | default: 'Portfolio item ' | append: forloop.index }}"
+                    loading="lazy"
+                    width="600"
+                    height="400"
+                    class="d-block w-100">
+                </figure>
+              </div>
+              {%- endfor -%}
+            </div>
+
+            <!-- Thumbnails -->
+            <ul class="row flex-nowrap mt-3 g-3 list-unstyled justify-content-center" role="tablist" aria-label="Portfolio Thumbnails">
+              {%- for item in site.data.portfolio -%}
+              <li class="col carousel-item__thumb" role="presentation">
+                <button type="button"
+                        class="border-0 bg-transparent p-0"
+                        data-bs-target="#portfolioCarousel"
+                        data-bs-slide-to="{{ forloop.index0 }}"
+                        {% if forloop.first %} class="active" aria-current="true"{% endif %}
+                        aria-label="Go to slide {{ forloop.index }}">
+                  <img src="{{ site.assets_path }}/services/portfolio/{{ item.image }}-small.webp"
+                       class="h-100 object-fit-cover rounded-1"
+                       alt="Portfolio item Thumbnails {{ forloop.index }}"
+                       aria-hidden="true"
+                       width="150"
+                       height="165">
+                </button>
+              </li>
+              {%- endfor -%}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{%- endif -%}

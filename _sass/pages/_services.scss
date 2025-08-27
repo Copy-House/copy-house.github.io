@@ -1,0 +1,70 @@
+/**
+* @Files
+* Service Pages Style.
+*/
+
+.section-image-text {
+  img {
+    min-height: rem(500);
+  }
+}
+
+.section-lead-stat {
+  &__inner {
+    margin-top: rem(-145);
+    img {
+      max-height: rem(200);
+      width: auto;
+    }
+  }
+}
+
+.consultancy-benefits {
+  figure {
+    width: rem(66);
+    height: rem(66);
+    padding: rem(10);
+  }
+}
+
+.servides-listing {
+  &__image {
+    height: rem(200);
+  }
+}
+
+.section-two-col {
+  @include media-breakpoint-down(md) {
+    figure {
+      height: rem(300);
+      @include relative;
+    }
+    img {
+      @include absolute(bottom 0 left 0);
+    }
+  }
+}
+
+.section-award-approach {
+  figcaption {
+    @include relative;
+    &::before {
+      content: '';
+      width: rem(150);
+      height: rem(1);
+      background-color: var(--bs-white);
+      top: 0;
+      @include align(false, true, absolute);
+      @include media-breakpoint-up(md) {
+        width: rem(300);
+      }
+    }
+  }
+}
+
+.section-winning-formula {
+  svg {
+    width: rem(40);
+    height: rem(40);
+  }
+}

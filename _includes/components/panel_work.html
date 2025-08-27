@@ -9,14 +9,15 @@
             <img
               src="{{ site.assets_path }}/logos/{{ item.image }}"
               width="{{ item.width }}"
-              alt="{{ item.alt }}"
+              height="100"
+              alt="{{ item.alt }} in white"
               class="image-fluid"
               loading="lazy"
             />
           </figure>
           <h3 class="mb-6">{{ item.title | markdownify | remove: '<p>' | remove: '</p>' }}</h3>
           <p class="text-start">{{ item.description }}</p>
-          <a href="{{ item.url }}" class="btn btn-white d-md-inline-block d-block text-uppercase mt-4">Read More</a>
+          <a href="{{ item.url }}" class="btn btn-white d-md-inline-block d-block text-uppercase mt-4">Read More <span class="visually-hidden">{{ item.title }}</span></a>
         </div>
       </article>
       {% endfor %}

@@ -1,23 +1,50 @@
-<section class="section testimonial-section pt-5">
+{%- assign panel = include.data -%}
+
+{%- if page.layout == "homepage" -%}
+  {%- assign class_bg = "pt-5" -%}
+  {%- assign class_icon_bg = "--bg: var(--bs-body-bg)" -%}
+{%- elsif page.layout == "service" -%}
+  {%- assign class_bg = "gradient-purple section-triangle section-triangle--top section-triangle--bottom largest-padding" -%}
+  {%- assign class_icon_bg = "--bg: #6900E8" -%}
+{%- endif -%}
+
+{%- if panel and panel.size > 0 -%}
+<section class="section testimonial-section {{ class_bg }} text-white" aria-labelledby="testimonial-heading">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-12 col-md-11 col-lg-9">
-        <div class="row justify-content-between g-9 g-md-6">
-          {% for item in site.data.testimonials %}
-          <div class="col-12 col-lg-6 d-flex">
-            <blockquote class="d-flex flex-column mb-0 border border-white rounded-3 p-6 position-relative">
-              <div class="blockquote_body text-body-md fw-bold mb-4">
-                <p>{{ item.text }}</p>
-              </div>
-              <div class="blockquote_footer fs-6 text-uppercase mt-auto">
-                <span class="blockquote_author d-block fw-bold">{{ item.author }}</span>
-                <span class="blockquote_company d-block">{{ item.company }}</span>
-              </div>
-            </blockquote>
+      <div class="col-12 col-lg-10">
+
+        <header class="text-center mb-6 visually-hidden">
+          <h2 id="testimonial-heading" class="h1">What our clients say</h2>
+        </header>
+
+        <div class="row justify-content-between">
+          {%- for item in panel -%}
+          <div class="col-12 col-lg-6 d-flex mb-9 mb-lg-0">
+            <fieldset class="d-flex mb-0 border border-white rounded-3 position-relative">
+              <legend class="ms-4 px-md-3 p-2">{%- include svg/quote-icon.html -%}</legend>
+              <blockquote class="d-flex flex-column mb-0 p-6 pt-0 position-relative flex-fill" style="{{ class_icon_bg }}">
+
+                <div class="blockquote_body text-body-md fw-bold mb-4">
+                  <p>{{ item.text }}</p>
+                </div>
+
+                <footer class="blockquote_footer fs-6 text-uppercase mt-auto">
+                  <span class="blockquote_author d-block fw-bold">{{ item.author }}</span>
+                  {%- if item.company -%}
+                    <span class="blockquote_company d-block">{{ item.company }}</span>
+                  {%- elsif item.post -%}
+                    <span class="blockquote_post d-block">{{ item.post }}</span>
+                  {%- endif -%}
+                </footer>
+              </blockquote>
+            </fieldset>
           </div>
-          {% endfor %}
+          {%- endfor -%}
         </div>
+
       </div>
     </div>
   </div>
 </section>
+{%- endif -%}

@@ -7,37 +7,37 @@
 {% case theme %}
   {% when 'gradient' %}
     {% assign section_class = 'gradient-1 text-light' %}
-		{% assign border_color = 'border-light' %}
+    {% assign border_color = 'border-light' %}
   {% else %}
     {% assign section_class = 'text-bg-light' %}
-		{% assign border_color = 'border-dark' %}
+    {% assign border_color = 'border-dark' %}
 {% endcase %}
 
 <section class="section section-content_marketing py-5 py-lg-7 {{ section_class }}">
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-12 col-md-11 col-lg-9">
-				<div class="row mb-4">
-					<div class="col-12 col-md-10 col-lg-10">
-						<h2 class="h1 mb-3 mb-lg-5">{{ section.h2 }}</h2>
-					</div>
-				</div>
-				<div class="row">
-					{% for entry in data_entries %}
-						<div class="col-6 col-md-4 col-lg-3 mb-5">
-							<figure class="mb-4 border border-2 {{ border_color }} rounded-1 d-inline-block p-3">
-								<img 
-									src="{{ site.assets_path }}/icons/{{ entry.image }}"
-									alt="{{ entry.alt | default: entry.title | escape }}"
-									loading="lazy"
-									width="45"
-									height="45">
-							</figure>
-							<h3 class="h4">{{ entry.title }}</h3>
-						</div>
-					{% endfor %}
-				</div>
-			</div>
-		</div>
-	</div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10">
+        <div class="row mb-4">
+          <div class="col-12 col-md-10 col-lg-10">
+            <h2 class="h1 mb-3 mb-lg-5">{{ section.h2 }}</h2>
+          </div>
+        </div>
+        <div class="row">
+          {% for entry in data_entries %}
+          <div class="col-6 col-md-4 col-lg-3 mb-5">
+            <figure class="mb-4 border border-2 {{ border_color }} rounded-1 d-inline-block p-3">
+              <img
+              src="{{ site.assets_path }}/icons/{{ entry.image }}"
+              alt="{{ entry.alt | default: entry.title | escape }}"
+              loading="lazy"
+              width="45"
+              height="45">
+            </figure>
+            <h3 class="h4">{{ entry.title }}</h3>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
 </section>

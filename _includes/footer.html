@@ -9,6 +9,7 @@
         <a href="/" class="navbar-brand" aria-current="page">
           <img
             width="185"
+            height="36"
             alt="{{ site.data.footer.logo_alt }}"
             src="{{ site.assets_path }}/logos/{{ site.data.footer.logo }}"
             loading="lazy">
@@ -38,6 +39,7 @@
                         src="{{ social.img }}"
                         alt="{{ social.alt | default: 'Social link' }}"
                         width="{{ social.width | default: '24' }}"
+                        height="24"
                         loading="lazy">
                     </a>
                   </li>
@@ -83,4 +85,7 @@
 </footer>
 
 <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}" crossorigin="anonymous"></script>
+{%- if page.lead_stat -%}
+<script src="{{ '/assets/js/lottie.min.js' | relative_url }}" crossorigin="anonymous"></script>
+{%- endif -%}
 <script src="{{ '/assets/js/custom.js' | relative_url }}" crossorigin="anonymous"></script>

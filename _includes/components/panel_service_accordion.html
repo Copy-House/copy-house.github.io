@@ -1,0 +1,37 @@
+{%- assign panel = page.service_accordion -%}
+
+{%- if panel -%}
+<section class="section section-service-accordion py-5 text-bg-dark" aria-labelledby="service-accordion-title">
+  <div class="container">
+    <header class="row justify-content-center mb-6">
+      <div class="col-lg-11">
+        <h2 id="service-accordion-title" class="h1 text-primary">
+          {{ panel.h2 }}
+        </h2>
+      </div>
+    </header>
+
+    <ol class="row justify-content-center list-unstyled mb-0 p-0 g-3">
+      {%- for accordion in site.data.service_accordion.accordion -%}
+
+        <li class="col-12 col-md-6 service-accordion__item mb-1 d-flex">
+          <div class="service-accordion__content text-bg-light px-4 py-5 px-md-7 py-md-6 rounded-3 d-flex flex-column justify-content-start text-center text-md-start">
+
+            <h3 class="h5 mb-3 text-primary d-flex justify-content-center justify-content-md-between">
+              <span class="flex-fill">{{ accordion.title }}</span>
+              {%- include svg/arrow-chevron-down.html aria-hidden="true" -%}
+            </h3>
+
+            <div class="accordion-description">
+              {% for paragraph in accordion.text %}
+                {{ paragraph | replace: "<p>", "<p class='mb-3'>" | strip | raw }}
+              {% endfor %}
+            </div>
+
+          </div>
+        </li>
+      {%- endfor -%}
+    </ol>
+  </div>
+</section>
+{%- endif -%}

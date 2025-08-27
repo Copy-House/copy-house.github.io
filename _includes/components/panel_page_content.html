@@ -1,0 +1,39 @@
+{%- assign panel = page.page_content[include.index] -%}
+
+{%- if panel -%}
+  <article class="col-12 text-center mb-8" role="region" aria-labelledby="section-title-{{ include.index }}">
+
+    {%- if panel.title -%}
+      <h2 id="section-title-{{ include.index }}" class="mb-3 h1">{{ panel.title }}</h2>
+    {%- endif -%}
+
+    {%- if panel.subtitle -%}
+      <p class="h5">{{ panel.subtitle }}</p>
+    {%- endif -%}
+
+    {%- if panel.image -%}
+      <figure class="my-4">
+        <img
+          src="{{ site.assets_path }}/services/{{ panel.image }}"
+          alt="{{ panel.image_alt | default: panel.title | escape }}"
+          class="img-fluid"
+        >
+        {%- if panel.image_alt -%}
+          <figcaption class="visually-hidden">{{ panel.image_alt }}</figcaption>
+        {%- endif -%}
+      </figure>
+    {%- endif -%}
+
+    {%- if panel.text -%}
+      <div class="page-content-description">
+        {%- for paragraph in panel.text -%}
+          {%- assign clean_paragraph = paragraph | strip | strip_newlines -%}
+          {%- if clean_paragraph != "" -%}
+            <p class="mb-4">{{ clean_paragraph | raw }}</p>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+
+  </article>
+{%- endif -%}

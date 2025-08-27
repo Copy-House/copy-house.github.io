@@ -11,20 +11,16 @@
 
     {% include components/panel_awards.html %}
 
-    {% assign panel_index = 0 %}
-    {% include components/panel_image_text.html index=panel_index %}
-    {% assign panel_index = panel_index | plus: 1 %}
-
-    {% include components/panel_image_text.html index=panel_index %}
-    {% assign panel_index = panel_index | plus: 1 %}
-
-    {% include components/panel_image_text.html index=panel_index %}
-    {% assign panel_index = panel_index | plus: 1 %}
+    {% if page.image_text %}
+      {% for item in page.image_text %}
+        {% assign panel_index = forloop.index0 %}
+        {% include components/panel_image_text.html index=panel_index %}
+      {% endfor %}
+    {% endif %}
 
     {% include components/panel_our_partners.html %}
 
     {% include components/panel_values.html %}
-
 
     {% include components/panel_insights.html %}
 

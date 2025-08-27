@@ -52,11 +52,15 @@
       padding-bottom: rem(15);
     }
     &:hover,
-    &.show {
+    &.show,
+    &.current {
       text-decoration: var(--td);
       &::after {
         border-color: var(--bs-orange);
       }
+    }
+    &.current {
+      color: var(--bs-orange);
     }
   }
   .dropdown {
@@ -73,6 +77,9 @@
       @include media-breakpoint-down(lg) {
         padding: rem(12);
         border-bottom: 0 none !important;
+      }
+      &.current {
+        color: var(--bs-orange);
       }
     }
   }

@@ -1,0 +1,75 @@
+{%- assign panel = page.two_col_content[include.index] -%}
+
+{%- if panel -%}
+  {%- assign has_logo = panel.logo -%}
+  {%- assign has_subtitle = panel.subtitle -%}
+  <section
+    class="section section-two_col_content {% if has_logo or has_subtitle %}py-5 text-bg-dark{% else %} largest-padding pt-10 pb-lg-10 gradient-black-purple text-white section-triangle section-triangle--bottom{% endif %}" 
+    aria-labelledby="panel-title-{{ include.index }}">
+
+    <div class="container">
+      {%- if has_logo or has_subtitle -%}
+        <div class="row g-3">
+          {%- if has_logo -%}
+          <div class="col-12">
+            {%- include svg/flying-arrows.html -%}
+          </div>
+          {%- endif -%}
+      {%- else -%}
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-10">
+            <article class="row">
+      {%- endif -%}
+
+      <div class="col-12 col-md-6 mb-4">
+        <header>
+          {%- if has_subtitle -%}
+          <h2 class="mb-4 pe-lg-4 text-primary">
+            {{ panel.subtitle }}
+          </h2>
+          {%- endif -%}
+          <h2 id="panel-title-{{ include.index }}" class="mb-4 pe-lg-4">
+            {{ panel.title }}
+          </h2>
+        </header>
+
+        {%- if panel.CTA -%}
+          <a href="{{ site.url }}{{ panel.CTA_url | default: panel.url }}"
+            class="btn btn-white text-uppercase"
+            aria-label="{{ panel.CTA_title | default: 'Contact us' }}">
+            {{ panel.CTA | default: "Get in touch" }}
+          </a>
+        {%- endif -%}
+      </div>
+
+      <div class="col-12 col-md-6">
+        <div class="two-col-text">
+          {% for item in panel.text %}
+            {% case item.type %}
+              {% when 'paragraph' %}
+                {{ item.text | markdownify | replace: "<p>", "<p class='mb-4'>" | strip | raw }}
+              {% when 'list' %}
+                <ul>
+                  {% for list_item in item.items %}
+                    <li>{{ list_item }}</li>
+                  {% endfor %}
+                </ul>
+            {% endcase %}
+          {% endfor %}
+        </div>
+
+        {%- if panel.h3 -%}
+          <h3 class="h5 my-4">{{ panel.h3 }}</h3>
+        {%- endif -%}
+      </div>
+
+      {%- if has_logo -%}
+        </div> <!-- close row g-3 -->
+      {%- else -%}
+            </article>
+          </div>
+        </div>
+      {%- endif -%}
+    </div>
+  </section>
+{%- endif -%}

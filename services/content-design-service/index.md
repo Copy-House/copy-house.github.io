@@ -15,10 +15,10 @@ banner:
     p: Which is why good content marketing needs to deliver excellent copy and creative design combined
 
 image_text_large:
-  - title: Discover Content Design Services from CopyHouse
-    text:
-      - Have you heard the saying “a picture is worth a thousand words”?
-      - Well, that’s certainly true with CopyHouse’s content design service. Our service combines cleverly worded content with refreshing visuals and imagery to push your brand’s content further, make it more engaging and present it in the best light possible.
+  title: Discover Content Design Services from CopyHouse
+  text:
+    - Have you heard the saying “a picture is worth a thousand words”?
+    - Well, that’s certainly true with CopyHouse’s content design service. Our service combines cleverly worded content with refreshing visuals and imagery to push your brand’s content further, make it more engaging and present it in the best light possible.
 
 image_text:
   - title: "Content Design vs Graphic Design"
@@ -51,4 +51,8 @@ visual_impact:
       image: visual-impact-10.svg
       alt: visual impact 10
 
+portfolio:
+  h2: Our Content Design Service Portfolio
+
+insights: true
 ---

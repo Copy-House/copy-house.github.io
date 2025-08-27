@@ -31,6 +31,7 @@
 @import "bootstrap/nav";
 @import "bootstrap/navbar";
 @import "bootstrap/card";
+@import "bootstrap/carousel";
 @import "bootstrap/helpers";
 
 /* Bootstrap Utilities Generator */
@@ -53,6 +54,9 @@
 @import 'module/slider';
 @import 'module/insights';
 @import 'module/our-values';
+@import 'module/portfolio';
+@import 'module/service-stage';
 
 /* Pages */
 @import 'pages/case-studies-listing';
+@import 'pages/services';

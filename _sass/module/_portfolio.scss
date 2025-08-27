@@ -1,0 +1,20 @@
+/**
+* @Files
+* Portfolio module Style.
+*/
+
+.section-portfolio {
+  .carousel-item {
+    img {
+      height: rem(570);
+      object-fit: cover;
+      object-position: center;
+      @include border-radius(20px);
+    }
+    &__thumb {
+      button {
+        height: rem(165);
+      }
+    }
+  }
+}

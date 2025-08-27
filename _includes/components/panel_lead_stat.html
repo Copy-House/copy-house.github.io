@@ -1,0 +1,35 @@
+{%- assign panel = page.lead_stat -%}
+{%- assign has_image = panel.image -%}
+
+<section class="section section-lead-stat bg-dark text-light {% unless has_image %}pb-8 pb-lg-12{% else %}pb-3{% endunless %}" aria-labelledby="lead-stat-heading">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12">
+
+        <div class="section-lead-stat__inner border border-primary p-3 py-md-7 rounded-3{% if has_image %} bg-black bg-opacity-75{% else %} breakout-illustration-gradient{% endif %}">
+          <div class="row align-items-center">
+            <div class="col-md-4 text-center p-0" role="img" aria-label="{{ panel.aria_label }}">
+              {%- if has_image -%}
+              <img src="{{ site.assets_path }}/services/{{ panel.image }}" width="370" height="200" alt="{{ panel.alt | default: 'user icon' | escape }}">
+              {%- else -%}
+              <div class="lottie-animation" id="lottie-stat" data-w-id="lottie-stat" data-animation-type="lottie" data-loop="1" data-direction="1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="4" data-duration="0"  role="presentation" aria-hidden="true"></div>
+              {%- endif -%}
+            </div>
+
+            <div class="col-md-8 pe-md-9">
+              <header>
+                <h2 id="lead-stat-heading" class="h1 mb-4">
+                  {{ panel.heading }}
+                </h2>
+              </header>
+              {% for paragraph in panel.paragraphs %}
+                <p class="text-secondary">{{ paragraph }}</p>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

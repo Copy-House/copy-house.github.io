@@ -2,7 +2,7 @@
 layout: insight
 title: "The Art of Audience Communication with Visual Content"
 meta_description: "Discover how integrating copy and design helps brands communicate clearly, build trust, and create content that connects and converts."
-image: "/assets/images_old/insight-visual-communication.webp"
+image: "the-art-of-audience-communication-with-visual-content.webp"
 author: CopyHouse
 date: 2025-04-14
 ---

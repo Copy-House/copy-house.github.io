@@ -2,7 +2,7 @@
 layout: insight
 title: "Picking The Right Content Marketing Agency For Your Tech Brand"
 meta_description: "Explore five must-have traits in a B2B content marketing agency to ensure your technology brand attracts, engages and converts the right audience."
-image: "insight-header.webp"
+image: "picking-the-right-content-marketing-agency-for-your-tech-brand.webp"
 author: CopyHouse
 date: 2024-12-08
 ---

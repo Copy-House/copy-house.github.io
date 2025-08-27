@@ -2,7 +2,7 @@
 layout: insight
 title: "7 Marketing Actions for CMOs to Get More Sales Leads"
 meta_description: "Explore seven actionable strategies for CMOs to generate high-quality sales leads and drive long-term revenue growth."
-image: "insight-header.webp"
+image: "7-marketing-actions-for-cmos-to-get-more-sales-leads.webp"
 author: CopyHouse
 date: 2024-10-26
 ---

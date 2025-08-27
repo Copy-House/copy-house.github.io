@@ -3,8 +3,8 @@ layout: case-study
 title: "How CopyHouse Helped Opticore Become Tech Industry Thought Leaders"
 summary: "Discover how CopyHouse partnered with tech and cloud consultancy Opticore in their first-ever agency-run content marketing campaign."
 date: 2025-06-24
-image: "/assets/images_old/66cdc2599601fbe81e35298b_pexels-myleskuo-2399840.jpg"
-logo: "/assets/images_old/66cdc1f0deec0ad712ee25c8_blue.png"
+image: "become-tech-industry-leaders.webp"
+logo: "pticore-logo.webp"
 logo_bg_color: "white"
 ---
 

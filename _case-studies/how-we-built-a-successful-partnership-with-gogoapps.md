@@ -3,9 +3,9 @@ layout: case-study
 title: "How We Built A Successful Partnership with GogoApps"
 summary: "Discover how CopyHouse partnered with GogoApps to deliver high-quality, technical SEO content that speaks to both developers and non-technical audiences alike."
 date: 2025-03-06
-image: "/assets/images_old/64258141788bb440663f3289_scott-graham-5fNmWej4tAA-unsplash-1536x1025.jpeg"
-logo: "64258141788bb473c03f3104_gogo.png"
-logo_bg_color: "white"
+image: "partnership-gogoApps.webp"
+logo: "gogo-logo.webp"
+logo_bg_color: "#ff4f39"
 ---
 
 

@@ -3,8 +3,8 @@ layout: case-study
 title: "Promoting Positive Values in the Tech Industry with GearedApp"
 summary: "How CopyHouse helped GearedApp grow their digital presence and communicate their ‘Tech for Good’ ethos through strategic, SEO-friendly content."
 date: 2024-10-09
-image: "/assets/images_old/64258141788bb400b53f3236_New brand.png"
-logo: "/assets/images_old/64258141788bb477553f321e_Geared-App-logo.jpeg"
+image: "promoting-positive-values.webp"
+logo: "geared-app-logo.webp"
 logo_bg_color: "white"
 ---
 

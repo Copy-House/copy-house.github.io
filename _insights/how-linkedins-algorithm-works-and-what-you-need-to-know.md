@@ -2,7 +2,7 @@
 layout: insight
 title: "How LinkedIn’s Algorithm Works & What You Need to Know"
 meta_description: "Learn how LinkedIn's algorithm works and how B2B marketers can optimise content for maximum visibility, engagement, and long-term thought leadership success."
-image: "insight-header.webp"
+image: "how-linkedins-algorithm-works-and-what-you-need-to-know.webp"
 author: CopyHouse
 date: 2024-11-25
 ---

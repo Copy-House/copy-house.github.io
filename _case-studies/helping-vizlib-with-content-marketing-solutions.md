@@ -3,9 +3,9 @@ layout: case-study
 title: "Helping Vizlib With Content Marketing Solutions"
 summary: "Discover how CopyHouse supported Vizlib and its US sub-brand, Astrato, with high-quality SEO content to scale global brand awareness and boost search performance across two distinct markets."
 date: 2024-03-12
-image: "/assets/images_old/64ff5463fc39d53b13fe8a6b_pexels-fauxels-3183170.jpg"
-logo: "/assets/images_old/64ff51bc22a16d146b35b1bd_fev7kcvuwurbsfds8dhx.webp"
-logo_bg_color: "#373da7"
+image: "helping-vizlib-content-marketing-solutions.webp"
+logo: "vizlib-logo.webp"
+logo_bg_color: "#3c43b7"
 ---
 
 # Content Across the Pond: Helping a Global SaaS Vendor With SEO Content Marketing Services

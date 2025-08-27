@@ -16,7 +16,7 @@ sass:
 pagination:
   enabled: true
   per_page: 6
-  permalink: '/marketing-insights/page/:num/'
+  permalink: '/page/:num/'
   title: ':title - page :num'
   sort_field: 'date'
   sort_reverse: true
@@ -34,6 +34,6 @@ collections:
     permalink: /work/:path/
   insights:
     output: true
-    permalink: /marketing-insights/:path/
+    permalink: /insights/:path/
 
 assets_path: "/assets/images"

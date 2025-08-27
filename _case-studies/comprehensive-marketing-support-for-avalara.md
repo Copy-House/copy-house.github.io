@@ -3,8 +3,8 @@ layout: case-study
 title: "Building Relationships and Providing Comprehensive Marketing Support for Avalara"
 summary: "Discover how CopyHouse partnered with tax compliance software leader Avalara to deliver scalable content marketing support, from short-form blogs to content strategy and social media."
 date: 2024-01-19
-image: "building-relationships-providing-comprehensive.webp"
-logo: "/assets/images_old/64faf930ab2b40299ef0c63d_avalara-logo.png"
+image: "eArcu-overcome-recruitment-Issues-engaging-leadership.webp"
+logo: "avalara-logo.webp"
 logo_bg_color: "white"
 
 author:

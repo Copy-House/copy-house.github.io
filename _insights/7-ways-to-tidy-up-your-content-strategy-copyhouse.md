@@ -2,7 +2,7 @@
 layout: insight
 title: "7 Ways to Tidy Up Your Content Strategy"
 meta_description: "Feeling behind on your content plan? Discover 7 practical ways to audit, streamline, and refresh your content strategy for maximum impact."
-image: "insight-header.webp"
+image: "7-ways-to-tidy-up-your-content-strategy-copyhouse.webp"
 author: CopyHouse
 date: 2025-03-25
 ---

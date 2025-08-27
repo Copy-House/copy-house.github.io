@@ -2,7 +2,7 @@
 layout: insight
 title: "Content Marketing Consultancy: Why is It Important?"
 meta_description: "Discover why content marketing consultancy matters, what consultants do, and how your business can benefit from strategic support to improve ROI, SEO, and content performance."
-image: "insight-header.webp"
+image: "content-marketing-consultancy-why-is-it-important.webp"
 author: CopyHouse
 date: 2025-05-16
 ---

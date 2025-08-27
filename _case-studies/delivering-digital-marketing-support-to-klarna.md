@@ -3,9 +3,9 @@ layout: case-study
 title: "Delivering Digital Marketing Support to Klarna"
 summary: "Explore how CopyHouse partnered with Klarna to boost its SEO, build thought leadership, and deliver scalable B2B content marketing during a critical period of growth and transformation."
 date: 2024-02-15
-image: "/assets/images_old/64ff50db5c423bd238e77e15_jonas-leupe-0IVop5v4MMU-unsplash.jpg"
-logo: "/assets/images_old/64ff4f1393f2cb6ffd8089f4_62b32650b223544c209f5eb6.png"
-logo_bg_color: "white"
+image: "delivering-digital-marketing-support-klarna.webp"
+logo: "klarna-logo.webp"
+logo_bg_color: "#ffb3c7"
 ---
 
 # How We Delivered Expert Digital Marketing Support to Klarna

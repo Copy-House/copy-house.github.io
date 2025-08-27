@@ -1,8 +1,8 @@
 ---
 layout: case-studies
 
-title: "Tech & FinTech Case Studies | CopyHouse Success Stories"
-description: "Discover how CopyHouse has driven growth for leading technology and FinTech brands. Explore our case studies to see the real-world impact of our expert content marketing strategies."
+title: "Case Studies | Content Marketing Agency for Global Tech Brands"
+description: "See how CopyHouse has empowered leading tech brands through content marketing excellence in the past."
 
 banner:
   image: "copyhouse-hero-poster-00001.webp"

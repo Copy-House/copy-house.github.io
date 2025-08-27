@@ -2,7 +2,7 @@
 layout: insight
 title: "Our Quick-Start Guide to Thought Leadership for Tech Brands"
 meta_description: "Thought leadership helps tech brands stand out as industry experts — but it takes strategy, clarity, and consistency. Discover six essential tips to start building your authority today."
-image: "insight-header.webp"
+image: "our-quick-start-guide-to-thought-leadership-for-tech-brands.webp"
 author: CopyHouse
 date: 2025-02-14
 ---

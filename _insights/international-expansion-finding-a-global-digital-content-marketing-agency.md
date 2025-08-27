@@ -2,7 +2,7 @@
 layout: insight
 title: "International Expansion: Finding a Global Digital Content Marketing Agency"
 meta_description: "Discover how hiring a global content marketing agency can drive cost-effective, customer-centric growth for your international brand."
-image: "insight-header.webp"
+image: "international-expansion-finding-a-global-digital-content-marketing-agency.webp"
 author: CopyHouse
 date: 2024-11-04
 ---

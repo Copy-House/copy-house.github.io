@@ -2,7 +2,7 @@
 layout: insight
 title: "Our Foolproof Guide to Personalised Content"
 meta_description: "Discover how personalised content can transform your B2B marketing strategy. Learn what it is, why it matters, and how to do it right."
-image: "insight-header.webp"
+image: "our-foolproof-guide-to-personalised-content.webp"
 author: CopyHouse
 date: 2025-03-14
 ---

@@ -37,4 +37,4 @@ checkbox:
   label: I'd like to stay in touch with CopyHouse updates and news.
   name: subscribe
   id: checkDefault
-formspree_action: https://formspree.io/f/form-id
+formspree_action: https://formspree.io/f/xnnzjlbv

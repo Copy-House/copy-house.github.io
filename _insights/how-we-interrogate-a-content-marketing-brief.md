@@ -9,7 +9,7 @@ date: 2025-07-25
 
 # How to properly interrogate a content marketing brief
 
-According to findings from SEMrush, 36% of brand marketers have been disappointed with content from outsourced copywriting agencies because the output required too much editing. Despite this, only two-thirds of marketers polled provided an adequate content marketing brief in the first instance.
+According to findings from [SEMrush](https://contentmarketinginstitute.com/content-distribution-promotion/hot-take-look-outside-your-team-for-great-content-marketing){:target="_blank"}, 36% of brand marketers have been disappointed with content from outsourced copywriting agencies because the output required too much editing. Despite this, only two-thirds of marketers polled provided an adequate content marketing brief in the first instance.
 
 Could there be a correlation here? We certainly believe that communication breakdowns can undermine even the best content strategies. At CopyHouse, we prioritise understanding our clients’ and audience’s needs so we can tick all the right content planning boxes.
 
@@ -32,14 +32,16 @@ Once personas are locked in, we tailor each brief to suit specific segments. For
 We assess where your brief fits within the B2B sales funnel:
 
 - **Top of Funnel (Awareness)**: Educates audiences about problems they face, even if they’re unfamiliar with your brand.
+
 - **Middle of Funnel (Consideration)**: Demonstrates your solution’s benefits and builds trust with real-world examples.
+
 - **Bottom of Funnel (Purchase)**: Focuses on your unique value proposition and guides leads to action.
 
 Clarifying funnel positioning ensures your content meets readers at the right stage in their journey.
 
 ### How can your content planning ensure maximum SEO impact?
 
-A 2021 survey showed only 64.71% of briefs included relevant keywords — a missed opportunity. Keywords help you meet audiences where they’re already searching.
+A 2021 survey showed only [64.71%](https://seowind.io/content-brief/#:~:text=According%20to%20SEMrush's%20survey%20results%2C%20marketers%20prioritize%20the%20most%20basic,their%20writing%20for%20search%20engines!){:target="_blank"} of briefs included relevant keywords — a missed opportunity. Keywords help you meet audiences where they’re already searching.
 
 If your brief doesn’t include keywords, we’ll conduct keyword research on your behalf. We assess:
 
@@ -47,7 +49,7 @@ If your brief doesn’t include keywords, we’ll conduct keyword research on yo
 - Keyword difficulty
 - Relevance to your target audience
 
-This ensures we optimise your content for visibility and intent. Learn more about our keyword research process [in this article](#).
+This ensures we optimise your content for visibility and intent. Learn more about our keyword research process [in this article](/insights/how-to-conduct-keyword-research-for-seo).
 
 ### How we define the project scope in content marketing planning
 

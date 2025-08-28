@@ -11,7 +11,7 @@ date: 2025-03-11
 
 Is the traditional marketing funnel dead?
 
-Many marketers believe it is, with the rise of social media shopping drastically reducing consumers' consideration time before they make a purchase.
+Many [marketers believe it is](https://adage.com/article/digitalnext/today-s-digital-world-sales-funnel-dead/303301){:target="_blank"}, with the rise of social media shopping drastically reducing consumers' consideration time before they make a purchase.
 
 In recent years, many of us have seen an ad on social media, clicked the link, and added the product to our cart within seconds. No checking customer reviews, no finding out more about the brand, or searching for a lower competitor price point — we've skipped over the awareness and consideration stages of the digital marketing funnel and gone straight to checkout.
 
@@ -38,7 +38,7 @@ These differences highlight that, while content is essential in both B2C and B2B
 
 The proliferation of digital touchpoints helps B2B brands spread their message far and wide. But at the same time, it introduces competitor noise and conflicting views, adding more time and complexity to B2B buyers’ decision-making processes.
 
-According to findings in 2024, B2B buyers have covered almost 70% of their purchasing journey before contact is made with sales. This underscores the need for marketers to produce versatile content that's capable of simultaneously capturing the reader's attention and shortening the sales cycle through informative copy.
+According to findings in 2024, [B2B buyers have covered almost 70%](https://finance.yahoo.com/news/6sense-launches-2024-buyer-experience-213000268.html?utm_source=chatgpt.com&guce_referrer=aHR0cHM6Ly9jaGF0Z3B0LmNvbS8&guce_referrer_sig=AQAAADbBPayIb9BFjN7Q5JNc11sgAhUbV4i6FRSTMwpo4qrljUpYRD3wwLkGvjp5tDN_NQQq4RdksuoOZreUYAw4Ta1TT09lUTo6GiTSiQvTUtYIeZHjbI5bGawtfuyuY6AQ3p_fVezQgJYL14FxWuDd5OYggzs6mLrTYbeoGYe0L8WW&guccounter=2){:target="_blank"} of their purchasing journey before contact is made with sales. This underscores the need for marketers to produce versatile content that's capable of simultaneously capturing the reader's attention and shortening the sales cycle through informative copy.
 
 To effectively compress the digital marketing funnel across various digital channels, B2B marketers should tailor their approach as follows:
 
@@ -46,19 +46,19 @@ To effectively compress the digital marketing funnel across various digital chan
 
 Your brand website must act as your digital shop window; it needs to draw B2B buyers' eyes while articulating your value proposition clearly and concisely. Don't just list your products — show visitors how you can solve their problems.
 
-Display your top case studies on your homepage to prove you've helped others like them. Add demo videos to show your product in action, and clear pricing to help them make decisions. Your goal should be to guide potential customers smoothly from "just browsing" to "ready to buy".
+Display your top [case studies](/insights/why-you-should-be-using-case-studies) on your homepage to prove you've helped others like them. Add demo videos to show your product in action, and clear pricing to help them make decisions. Your goal should be to guide potential customers smoothly from "just browsing" to "ready to buy".
 
 ### LinkedIn: Share valuable insights to draw a loyal following
 
-LinkedIn is the world's leading professional networking platform, so your marketing goal should prioritise LinkedIn networking over selling. This means embracing a blended approach incorporating thought leadership content and striking up genuine conversations with decision-makers in your field.
+LinkedIn is the world's leading professional networking platform, so your marketing goal should [prioritise LinkedIn networking](/insights/how-linkedins-algorithm-works-and-what-you-need-to-know) over selling. This means embracing a blended approach incorporating [thought leadership content](/insights/personal-branding-and-thought-leadership-blueprint-2024) and striking up genuine conversations with decision-makers in your field.
 
 Offer fresh perspectives on market trends and mix in some targeted ads to reach the right people. Experiment with different content forms, like short-form videos (spanning 1–3 minutes), polls, and infographics, to provide valuable information and gather customer feedback to refine your proposition.
 
 ### Email marketing: Personalise your elevator pitch
 
-In a cookieless world, email marketing success hinges on leveraging first-party and zero-party data to craft hyper-personalised experiences. First-party data comprises the information gathered from website visits, while zero-party data might include information gathered from customer surveys, reviews, etc.
+In a [cookieless world](https://www.enzuzo.com/blog/cookieless-world){:target="_blank"}, email marketing success hinges on leveraging first-party and zero-party data to craft hyper-personalised experiences. First-party data comprises the information gathered from website visits, while zero-party data might include information gathered from customer surveys, reviews, etc.
 
-So, use automated emailing tools to tailor dynamic content based on behavioural triggers, and advanced segmentation techniques, to deliver highly relevant messages across the buyer's journey. This can help brands drive conversions within a compressed digital marketing funnel that respects users’ privacy.
+So, use automated emailing tools to tailor dynamic content based on behavioural triggers, and [advanced segmentation techniques](/insights/your-guide-to-advanced-segmentation-in-tech), to deliver highly relevant messages across the buyer's journey. This can help brands drive conversions within a compressed digital marketing funnel that respects users’ privacy.
 
 ### Whitepapers and eBooks: Address all customer pain points to build trust
 

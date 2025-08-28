@@ -9,11 +9,11 @@ date: 2025-03-25
 
 # Client collaboration: achieving the ideal working alignment
 
-Around half of all brands currently outsource some, or all, of their content to outsourced agencies, delivering them a host of benefits.
+Around [half of all brands currently outsource](https://www.ketchup-marketing.co.uk/a-z-of-marketing/what-is-outsourced-marketing-a-guide-for-b2b-businesses/#:~:text=According%20to%20recent%20outsourcing%20statistics,specialist%20skills%20and%20industry%20knowledge.){:target="_blank"} some, or all, of their content to outsourced agencies, delivering them a host of benefits.
 
 Firstly, these clients get access to copywriters and designers, all boasting years of experience working with brands in their industry. Secondly, brands can alleviate the burden of creating ‘always on’ content, allowing internal marketing teams to focus their time on more strategic tasks.
 
-Yet, survey findings from SEMrush reveal that 41% of companies are less than satisfied with the quality of outsourced content. This general dissatisfaction may be due to several reasons, including insufficient briefing materials, a lack of consideration for the target audience, or even a complete absence of relevant keywords.
+Yet, survey findings from SEMrush reveal that [41%](https://www.contentgrip.com/50-of-brands-outsource-content-but-quality-remains-a-sticking-point/){:target="_blank"} of companies are less than satisfied with the quality of outsourced content. This general dissatisfaction may be due to several reasons, including insufficient briefing materials, a lack of consideration for the target audience, or even a complete absence of relevant keywords.
 
 Still, these criticisms all boil down to one key issue: a misalignment in communication hindering the project’s success.
 
@@ -25,9 +25,9 @@ Here at CopyHouse, we have a tried-and-tested method for staying in tune with ou
 
 Content marketing agencies work with a wide range of clients and may have extensive experience writing for specific industries.
 
-But if the product or service is highly complex, some agencies may struggle to grasp the more technical aspects of the value proposition, potentially hindering their ability to create persuasive content.
+But if the [product or service is highly complex](/insights/the-art-of-simplifying-complex-topics-in-content-marketing), some agencies may struggle to grasp the more technical aspects of the value proposition, potentially hindering their ability to create persuasive content.
 
-To ensure alignment in client understanding, content marketers may need time to thoroughly research the company, using previous content examples and in-depth client discovery workshops to get on track. A detailed brief will also help copywriters hit the ground running on the first assignment.
+To ensure alignment in client understanding, content marketers may need time to thoroughly research the company, using previous content examples and in-depth client discovery workshops to get on track. [A detailed brief](/insights/6-ingredients-to-crafting-the-perfect-creative-brief) will also help copywriters hit the ground running on the first assignment.
 
 ### Agreeing on the project scope
 
@@ -49,7 +49,7 @@ That said, respecting confidentiality is essential. If certain details can’t b
 
 Many clients turn to content marketing agencies to help them craft a cohesive and consistent tone of voice. However, if this isn’t established early, the agency may default to analysing past content and making educated guesses — which can lead to misalignment.
 
-At CopyHouse, we run brand messaging workshops that combine competitor analysis, audience insights, and SEO research to build or refine your brand’s identity. After the session, we share a findings report so your internal teams can align around a consistent tone across all marketing activity.
+At CopyHouse, we run [brand messaging workshops](/services/content-marketing-strategy-and-consultancy) that combine competitor analysis, audience insights, and SEO research to build or refine your brand’s identity. After the session, we share a findings report so your internal teams can align around a consistent tone across all marketing activity.
 
 ### Handling revisions and feedback
 

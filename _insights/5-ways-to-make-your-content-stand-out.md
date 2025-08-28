@@ -2,7 +2,7 @@
 layout: insight
 title: "5 Ways To Make Your Content Stand Out"
 meta_description: "Struggling to get noticed? Discover five key ways to make your content stand out in crowded B2B tech and FinTech markets."
-image: "insight-header.webp"
+image: "5-ways-to-make-your-content-stand-out.webp"
 author: CopyHouse
 date: 2024-06-24
 ---

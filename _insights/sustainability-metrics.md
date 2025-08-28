@@ -2,7 +2,7 @@
 layout: insight
 title: "Decoding Sustainability Metrics to Drive Meaningful Change"
 meta_description: "Explore how tech companies can drive real environmental change by tracking meaningful sustainability metrics and aligning internal behaviours."
-image: "insight-header.webp"
+image: "sustainability-metrics.webp"
 author: CopyHouse
 date: 2024-11-18
 ---

@@ -3,8 +3,8 @@ layout: case-study
 title: "Increasing Trust and Traffic Through Personalised Content for 365 Business Finance"
 summary: "How CopyHouse helped 365 Business Finance build long-term trust and increase traffic with a strategic, personalised content marketing approach."
 date: 2025-04-15
-image: "/assets/images_old/64258141788bb462433f3262_photo-1497493292307-31c376b6e479.jpeg"
-logo: "/assets/images_old/KuShPhu-e1602511463550.webp"
+image: "traffic-personalised-365-business-finance.webp"
+logo: "365-logo.webp"
 logo_bg_color: "white"
 ---
 

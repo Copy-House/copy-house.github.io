@@ -2,7 +2,7 @@
 layout: insight
 title: "Tips On Generating B2B Leads With Social Media"
 meta_description: "Learn how to generate B2B leads through social media with platform-specific strategies and best practices to attract and convert business audiences."
-image: "insight-header.webp"
+image: "tips-on-generating-b2b-leads-with-social-media.webp"
 author: CopyHouse
 date: 2024-11-28
 ---

@@ -2,7 +2,7 @@
 layout: insight
 title: "Why Brands in Complex Industries Need a Content Marketing Agency"
 meta_description: "Discover how partnering with a content marketing agency helps brands in complex industries simplify messaging, connect with their audience, and drive growth."
-image: "insight-header.webp"
+image: "why-brands-in-complex-industries-need-a-content-marketing-agency.webp"
 author: CopyHouse
 date: 2024-11-03
 ---

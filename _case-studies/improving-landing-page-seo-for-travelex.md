@@ -3,8 +3,8 @@ layout: case-study
 title: "Improving Landing Page SEO for Travelex"
 summary: "Discover how CopyHouse helped Travelex improve SEO performance across Asda’s currency exchange pages with a strategy-led, content-first approach that enhanced search rankings and customer engagement."
 date: 2024-02-27
-image: "/assets/images_old/650ae9e4e2a1b1fcf12a7b2f_10.png"
-logo: "/assets/images_old/64258141788bb4201e3f32c9_Travelex logo.png"
+image: "improving-landing-SEO-travelex.webp"
+logo: "travelex-money-logo.webp"
 logo_bg_color: "white"
 
 author:

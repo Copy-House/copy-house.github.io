@@ -1,8 +1,8 @@
 ---
 layout: service
 
-title: Tech & FinTech Content Marketing Services | CopyHouse
-description: "CopyHouse is an award-winning content marketing agency specializing in services for the technology and FinTech sectors. We deliver content strategy, writing, design, and social media marketing to drive growth."
+title: Content Marketing &amp; Strategy | Content Marketing Agency for Tech &amp; Complex Industries
+description: "Take your tech brands content marketing strategy to new heights with our made to perfection content marketing consultancy service."
 
 banner:
   h1: A Content Marketing Strategy and Consultancy Service Fit For Your Brand

@@ -2,7 +2,7 @@
 layout: insight
 title: "Why Webinars are Pivotal to Marketing Strategy"
 meta_description: "Discover why webinars remain one of the most effective tools in a modern marketing strategy. Learn how they support lead generation, customer engagement, and brand authority."
-image: "insight-header.webp"
+image: "why-webinars-are-pivotal-to-marketing-strategy.webp"
 author: CopyHouse
 date: 2024-11-12
 ---

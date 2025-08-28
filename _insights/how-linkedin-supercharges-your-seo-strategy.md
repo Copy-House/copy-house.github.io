@@ -2,7 +2,7 @@
 layout: insight
 title: "How LinkedIn Supercharges Your SEO Strategy"
 meta_description: "Discover how LinkedIn can supercharge your SEO strategy with actionable tips to improve reach, visibility, and qualified B2B lead generation."
-image: "insight-header.webp"
+image: "how-linkedin-supercharges-your-seo-strategy.webp"
 author: CopyHouse
 date: 2025-06-18
 ---

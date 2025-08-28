@@ -2,7 +2,7 @@
 layout: insight
 title: "How AI is Shaping Content Marketing"
 meta_description: "Explore how artificial intelligence is transforming the future of content marketing, from personalisation to productivity tools, and why human creativity still matters."
-image: "/assets/images_old/ai-content-marketing-header.webp"
+image: "how-ai-is-shaping-content-marketing.webp"
 author: CopyHouse
 date: 2024-12-10
 ---

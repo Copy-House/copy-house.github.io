@@ -2,7 +2,7 @@
 layout: insight
 title: "Creating Personalised Experiences with Marketing"
 meta_description: "Discover why hyper-personalisation is crucial for marketing success in tech industries. Learn how leading CMOs adapted post-pandemic to connect with audiences authentically."
-image: "insight-header.webp"
+image: "creating-personalised-experiences-with-marketing.webp"
 author: CopyHouse
 date: 2024-12-14
 ---

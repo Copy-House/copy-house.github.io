@@ -5,8 +5,8 @@ redirect_from:
   - /insights/
   - /marketing-insights/
 
-title: Content Marketing Insights for Tech & FinTech | CopyHouse
-description: "Explore the latest insights and expert analysis from CopyHouse. Our blog covers cutting-edge trends in content marketing, technology, and FinTech to help you stay ahead."
+title: Expert Insights from CopyHouse B2B &amp; B2C Tech Marketing Agency
+description: "Learn industry insights straight from the technology content marketing experts at CopyHouse."
 
 banner:
   h1: "Marketing Insights"

@@ -3,8 +3,8 @@ layout: case-study
 title: "Creating High-Quality SEO Content For GearedApp"
 summary: "Discover how CopyHouse helped GearedApp turn complex tech topics into engaging, SEO-optimised content that drives consistent site traffic."
 date: 2024-12-20
-image: "/assets/images_old/64258141788bb4a8fd3f3265_mediensturmer-aWf7mjwwJJo-unsplash-1536x1022.jpeg"
-logo: "/assets/images_old/64258141788bb477553f321e_Geared-App-logo.jpeg"
+image: "high-quality-SEO-content-gearedApp.webp"
+logo: "geared-app-logo.webp"
 logo_bg_color: "white"
 ---
 

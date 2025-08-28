@@ -2,7 +2,7 @@
 layout: insight
 title: "Everything You Need to Know About Creating Infographics"
 meta_description: "Discover how to create compelling infographics that boost engagement, build brand credibility, and make your content more accessible."
-image: "insight-header.webp"
+image: "everything-you-need-to-know-about-creating-infographics.webp"
 author: CopyHouse
 date: 2024-11-10
 ---

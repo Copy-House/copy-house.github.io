@@ -3,8 +3,8 @@ layout: case-study
 title: "Increasing LinkedIn Impressions by 4,706% for Pastdue"
 summary: "How CopyHouse transformed Pastdue’s digital presence through strategic branding and a targeted LinkedIn content plan."
 date: 2024-06-12
-image: "/assets/images_old/6453d1e982c5fe3d071fbb04_pexels-soumil-kumar-735911.jpg"
-logo: "/assets/images_old/6453c75ffd315add122fd9da_Screenshot 2023-05-04 at 15.55.19.png"
+image: "increasing-linkedIn-impressions-pastdue.webp"
+logo: "pastdue-logo.webp"
 logo_bg_color: "white"
 ---
 

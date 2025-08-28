@@ -3,7 +3,7 @@ layout: case-study
 title: "Supporting Digital Realty’s Social Media Content"
 summary: "Learn How CopyHouse provided Digital Realty with a new social media strategy while also managing their company social accounts in this new case study."
 date: 2025-07-10
-image: "building-relationships-providing-comprehensive.webp"
+image: "digital-social-media-content.webp"
 logo: "digital-realty-logo.webp"
 logo_bg_color: "white"
 ---

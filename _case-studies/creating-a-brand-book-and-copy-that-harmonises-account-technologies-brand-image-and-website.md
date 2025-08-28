@@ -3,8 +3,8 @@ layout: case-study
 title: "Creating a Brand Book and Copy that Harmonises Account Technologies' Brand Image and Website"
 summary: "How CopyHouse delivered a cohesive brand book and website copy that reflect Account Technologies’ values and connect with their audience."
 date: 2024-04-18
-image: "/assets/images_old/64258141788bb41d283f3284_charlesdeluvio-Lks7vei-eAg-unsplash-1536x1024.jpeg"
-logo: "/assets/images_old/64258141788bb40eee3f322b_Untitled-design-29.png"
+image: "harmonises-account-technologies-brand-image-website.webp"
+logo: "account-technologies-logo.webp"
 logo_bg_color: "white"
 ---
 

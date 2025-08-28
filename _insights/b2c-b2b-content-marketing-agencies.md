@@ -2,7 +2,7 @@
 layout: insight
 title: "B2C & B2B Content Marketing Agencies: What’s the Difference?"
 meta_description: "Understand the key differences between B2B and B2C content marketing agencies—from messaging and tone to relationship-building and buyer intent."
-image: "insight-header.webp"
+image: "b2c-b2b-content-marketing-agencies.webp"
 author: Copyhouse
 date: 2024-11-21
 ---

@@ -3,8 +3,8 @@ layout: case-study
 title: "Turning Blockchain Insights Into High-Performing Content with Anyblock Analytics"
 summary: "Discover how CopyHouse helped Anyblock Analytics boost organic traffic and SEO rankings by turning complex blockchain services into accessible, high-ranking landing pages."
 date: 2024-12-22
-image: "/assets/images_old/64258141788bb41ea13f326f_nick-morrison-FHnnjk1Yj7Y-unsplash-1536x1152.jpeg"
-logo: "/assets/images_old/64258141788bb45e463f321d_anyblock.png"
+image: "blockchain-insights-high-performing.webp"
+logo: "any-block-logo.webp"
 logo_bg_color: "white"
 ---
 

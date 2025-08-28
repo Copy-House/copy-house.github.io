@@ -2,16 +2,16 @@
 layout: insight
 title: "Business Marketing Can’t Succeed Without Content"
 meta_description: "Discover why business marketing cannot succeed without content that guides customers through the digital marketing funnel to long-term customer loyalty."
-image: "global-accessibility-awareness.webp"
+image: "succeed-without-content.webp"
 author: CopyHouse
 date: 2024-11-25
 ---
 
 # Why business marketing cannot succeed without content
 
-Did you know that content marketing costs 62% less than traditional marketing strategies and generates three times as many leads? Pretty impressive, right?
+Did you know that content marketing costs [62%](https://contentmarketinginstitute.com/content-marketing-strategy/9-stats-that-will-make-you-want-to-invest-in-content-marketing){:target="_blank"} less than traditional marketing strategies and generates three times as many leads? Pretty impressive, right?
 
-But, despite these amazing gains, 26% of content marketers say they still struggle to convert their campaigns into leads. Why is this?
+But, despite these amazing gains, [26%](https://www.sproutworth.com/b2b-content-marketing-statistics/){:target="_blank"} of content marketers say they still struggle to convert their campaigns into leads. Why is this?
 
 Creating attention-grabbing content is one thing, but turning interaction into conversions is a whole different ballgame. Many businesses face this challenge, so how do you cut through the noise and make your content work harder for you?
 
@@ -27,32 +27,39 @@ Google's focus on E-E-A-T directly impacts how well marketing campaigns rank in 
 Here’s an overview of E-E-A-T content characteristics:
 
 - **Experience**: Demonstrates first-hand knowledge, including customer testimonials, tutorials, FAQs and product demos.
+
 - **Expertise**: Offers in-depth, educational or technical content that showcases deep understanding of the topic.
+
 - **Authoritativeness**: Adds credibility through industry studies, expert quotes, affiliations or guest posts on reputable websites.
+
 - **Trustworthiness**: Delivers accurate, up-to-date, and transparent content, with clear contact info and editorial standards.
 
 These principles guide customers through the digital marketing funnel — the journey from awareness to conversion and beyond.
 
 ## Top-of-the-funnel content: Building awareness and engaging your audience
 
-Building a strong online presence begins with top-of-funnel content to generate brand awareness across organic and social channels. According to recent studies, 87% of B2B brands have used content marketing to build awareness in the past year. Key formats include:
+Building a strong online presence begins with top-of-funnel content to generate brand awareness across organic and social channels. According to recent studies, [87%](https://contentmarketinginstitute.com/b2b-research/b2b-content-marketing-trends-research#:~:text=Content%20and%20marketing%20goals,in%20the%20last%2012%20months.){:target="_blank"} of B2B brands have used content marketing to build awareness in the past year. Key formats include:
 
-- **Informative blog posts**: Optimised long-reads (700–3,000 words) help build credibility and trust. Including relevant keywords can increase click-through rates by up to 45%.
-- **Social media posts**: Short, engaging posts (especially on LinkedIn and Instagram) are perfect for reaching new audiences. According to LinkedIn, 84% of B2B buyers now use social media to inform their decisions.
-- **Infographics and video**: Visual content distils complex information and boosts reach. Forbes reports that 87% of marketers credit video for driving awareness and growth.
+- **Informative blog posts**: Optimised long-reads (700–3,000 words) help build credibility and trust. Including relevant keywords can increase click-through rates by up to [45%](https://www.semrush.com/blog/seo-statistics/){:target="_blank"}.
+
+- **Social media posts**: Short, engaging posts (especially on LinkedIn and Instagram) are perfect for reaching new audiences. According to LinkedIn, [84%](https://business.linkedin.com/content/dam/business/sales-solutions/global/en_US/c/pdfs/idc-wp-247829.pdf){:target="_blank"} of B2B buyers now use social media to inform their decisions.
+
+- **Infographics and video**: Visual content distils complex information and boosts reach. [Forbes](https://www.forbes.com/advisor/business/software/content-marketing-statistics/){:target="_blank"} reports that 87% of marketers credit video for driving awareness and growth.
 
 ## Middle-of-the-funnel content: Nurturing leads and building relationships
 
 Once your brand is on a prospect’s radar, content should focus on providing deeper value to encourage them through the funnel. Consider:
 
-- **eBooks and whitepapers**: Long-form gated content (2,000–20,000 words) showcases E-E-A-T. Notably, 76% of B2B buyers will share their details for a whitepaper — versus only 19% for video.
-- **Email marketing campaigns**: Personalised email newsletters keep leads engaged. Targeted campaigns generate 2.5× more clicks and are 6× more likely to convert.
+- **eBooks and whitepapers**: Long-form gated content (2,000–20,000 words) showcases E-E-A-T. Notably, [76%](https://pipeline.zoominfo.com/marketing/content-marketing-statistics){:target="_blank"} of B2B buyers will share their details for a whitepaper — versus only 19% for video.
+
+- **Email marketing campaigns**: Personalised email newsletters keep leads engaged. Targeted [campaigns generate 2.5× more clicks](https://www.campaignmonitor.com/blog/email-marketing/how-personalization-and-automation-can-supercharge-email-conversions/){:target="_blank"} and are 6× more likely to convert.
 
 ## Bottom-of-the-funnel content: Attracting conversions and lifetime customers
 
 At the final stage of the funnel, content should build confidence and prompt action — while laying the groundwork for loyalty. Proven formats include:
 
-- **Case studies and customer testimonials**: Nothing builds trust like real stories. 89% of marketers cite testimonials as their most effective content for converting leads.
+- **Case studies and customer testimonials**: Nothing builds trust like real stories. [89%](https://wyzowl.com/power-of-testimonials/){:target="_blank"} of marketers cite testimonials as their most effective content for converting leads.
+
 
 ## CopyHouse: Taking your business marketing to the next level
 

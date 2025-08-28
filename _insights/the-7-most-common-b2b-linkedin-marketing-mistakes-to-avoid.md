@@ -11,7 +11,7 @@ date: 2024-03-25
 
 Consistency is key to B2B LinkedIn marketing success. Posting sporadic updates or reposting old content isn’t enough. Your content must resonate with your target audience and provide real value consistently.
 
-Recent LinkedIn research reveals that **75% of B2B buyers use social media to inform their buying decisions** — making every post a chance to demonstrate your expertise and grow your business.
+Recent LinkedIn research reveals that **[75%](https://business.linkedin.com/sales-solutions/social-selling){:target="_blank"} of B2B buyers use social media to inform their buying decisions** — making every post a chance to demonstrate your expertise and grow your business.
 
 Yet, many B2B brands fail to maximise LinkedIn’s potential, wasting time and resources on content that’s forgotten minutes after it appears. If you want your LinkedIn strategy to deliver results in 2025, here are seven common mistakes to avoid.
 
@@ -21,7 +21,7 @@ Yet, many B2B brands fail to maximise LinkedIn’s potential, wasting time and r
 
 Many marketers believe paid campaigns are the key to visibility. While LinkedIn Ads can amplify messaging, building a strong **organic presence** is often more cost-effective and sustainable.
 
-📊 According to the Content Marketing Institute, **77% of B2B marketers achieve their best results through organic strategies**.
+📊 According to the [Content Marketing Institute](https://www.slideshare.net/slideshow/12th-annual-b2b-content-marketing-benchmarks-budgets-and-trends-insights-for-2022/250420634#30){:target="_blank"}, **77% of B2B marketers achieve their best results through organic strategies**.
 
 So, your LinkedIn profile should act as a content hub — regularly showcasing your value through educational content, social proof, and industry insights.
 
@@ -29,7 +29,7 @@ So, your LinkedIn profile should act as a content hub — regularly showcasing y
 
 ## 2. Lack of a Clear LinkedIn Content Strategy
 
-Posting without a strategy is like building without blueprints. The result? Low dwell time, low engagement, and high bounce rates.
+Posting without a strategy is like building without [blueprints](/insights/personal-branding-and-thought-leadership-blueprint-2024). The result? Low [dwell time](https://blog.waalaxy.com/en/linkedins-dwell-time-explained/){:target="_blank"}, low engagement, and high bounce rates.
 
 Every LinkedIn content strategy should include:
 
@@ -37,7 +37,7 @@ Every LinkedIn content strategy should include:
 - Targeted value propositions  
 - Timely, conversion-oriented messaging  
 
-💡 Use LinkedIn Analytics to determine optimal posting times and audience preferences. Your first hour of engagement is critical, so time posts strategically to maximise visibility.
+💡 Use [LinkedIn Analytics](https://www.linkedin.com/help/linkedin/answer/a547077){:target="_blank"} to determine optimal posting times and audience preferences. Your first hour of engagement is critical, so time posts strategically to maximise visibility.
 
 ---
 
@@ -67,7 +67,7 @@ LinkedIn rewards active users, not just posters. Engage beyond your own content:
 
 ## 5. Underestimating the Power of B2B Branding
 
-Strong branding helps you stay top of mind. Research shows that **71% of B2B marketers achieve their highest conversion rates from LinkedIn referrals**.
+Strong branding helps you stay top of mind. Research shows that **[71%](https://www.linkedin.com/pulse/why-b2b-referral-marketing-so-powerful-sanee-sunny-shinde/){:target="_blank"} of B2B marketers achieve their highest conversion rates from LinkedIn referrals**.
 
 Effective LinkedIn branding includes:
 
@@ -75,13 +75,13 @@ Effective LinkedIn branding includes:
 - Alignment with trending topics and sector-specific challenges  
 - Diverse content formats that reflect your brand’s values  
 
-🧠 Tip: Visit LinkedIn Marketing Labs for a free 60-minute brand-building workshop.
+🧠 Tip: Visit [LinkedIn Marketing Labs](https://training.marketing.linkedin.com/){:target="_blank"} for a free 60-minute brand-building workshop.
 
 ---
 
 ## 6. Not Utilising Video Content
 
-Video reigns supreme. Native LinkedIn videos drive **5x more engagement** than text or image posts.
+Video reigns supreme. Native LinkedIn videos drive **[5x more engagement](https://vidico.com/news/linkedin-video-statistics/){:target="_blank"}** than text or image posts.
 
 You don’t need a Hollywood budget. Try:
 
@@ -98,7 +98,7 @@ You don’t need a Hollywood budget. Try:
 Think of your profile as your **digital business card**. Optimise it by:
 
 - Creating a custom LinkedIn URL  
-- Enabling Creator Mode to tag interests and track performance  
+- Enabling [Creator Mode](https://members.linkedin.com/create){:target="_blank"} to tag interests and track performance  
 - Using strong banners, profile images, and CTAs that reflect your value proposition  
 
 ---

@@ -9,19 +9,19 @@ date: 2025-06-18
 
 # How LinkedIn supercharges your SEO strategy
 
-LinkedIn, now boasting over 70 million businesses across 200 countries, has evolved from a professional networking platform into a marketing machine — offering unprecedented access to B2B buyers and the pulse of industry conversations.
+LinkedIn, now boasting over [70 million businesses](https://propellergroup.com/how-to-win-on-linkedin-propeller-x-linkedin-masterclass/){:target="_blank"} across 200 countries, has evolved from a professional networking platform into a marketing machine — offering unprecedented access to B2B buyers and the pulse of industry conversations.
 
-Since its mid-2023 algorithm update, LinkedIn posts have been taking up more real estate on Google’s first page. B2B marketers are taking note: LinkedIn’s enhanced visibility significantly boosts organic SEO traffic. In fact, recent studies show that LinkedIn posts are 277% more effective for lead generation than content from X.com (formerly Twitter) or Facebook.
+Since its mid-2023 algorithm update, LinkedIn posts have been taking up more real estate on Google’s first page. B2B marketers are taking note: LinkedIn’s enhanced visibility significantly boosts organic SEO traffic. In fact, recent studies show that LinkedIn posts are [277%](https://www.mdgsolutions.com/learn-about-multi-location-marketing/linkedin-is-277-more-effective-for-lead-generation-than-facebook-and-twitter/){:target="_blank"} more effective for lead generation than content from X.com (formerly Twitter) or Facebook.
 
 This article explores how LinkedIn can supercharge your SEO strategy — and offers actionable tips for making the most of it.
 
 ## What is LinkedIn SEO?
 
-In 2023, LinkedIn rolled out new SEO functionality that allows users to add optimised titles and meta descriptions via the Publishing Menu.
+In 2023, LinkedIn rolled out new SEO functionality that allows users to add optimised titles and meta descriptions via the [Publishing Menu](https://www.linkedin.com/help/linkedin/answer/a522427#:~:text=Click%20Write%20article%20in%20the,you%20to%20the%20publishing%20tool.){:target="_blank"}.
 
 By incorporating relevant keywords into publishing tags and body text, users make posts indexable by Google — improving visibility in search results. This makes LinkedIn an integral part of your broader SEO strategy.
 
-As a result, marketers have significantly increased content output. Articles on LinkedIn’s advice pages jumped from 38,000 to 295,000 in the last 12 months, with traffic soaring from 73,000 to 1.2 million.
+As a result, marketers have significantly increased content output. Articles on [LinkedIn’s advice pages](https://venturestream.co.uk/blog/can-linkedin-help-you-rank-higher-in-the-serps/){:target="_blank"} jumped from 38,000 to 295,000 in the last 12 months, with traffic soaring from 73,000 to 1.2 million.
 
 But simply reposting your blog’s “how-to” articles on LinkedIn won’t cut it. Since canonical tagging isn’t yet supported by Google, LinkedIn doesn’t recognise your site as the content’s original source. You need a refreshed SEO approach to turn LinkedIn into a lead-driving engine.
 
@@ -43,24 +43,24 @@ Always link back to the original content on your website to establish ownership 
 
 Blend both long- and short-tail keywords across your profile and content. Long-tail keywords help potential clients find your brand through search, while short-tail keywords improve your visibility on LinkedIn itself.
 
-⚠️ Tip: 97% of visitors won’t click ‘See more’ on your About section, so lead with your most relevant keywords.
+⚠️ Tip: [97%](https://www.linkedin.com/posts/richardvanderblom_ctr-linkedinbyrichardvanderblom-socialselling-activity-7041327323597418496-eVTp/?originalSubdomain=sk){:target="_blank"} of visitors won’t click ‘See more’ on your About section, so lead with your most relevant keywords.
 
 Avoid keyword stuffing — LinkedIn’s spam filters penalise overuse. Instead, focus on natural phrasing that mirrors how your audience speaks and searches.
 
 ### Activate Creator Mode to diversify your content
 
-LinkedIn’s Creator Mode boosts content discoverability and unlocks new features like:
+[LinkedIn’s Creator Mode](https://members.linkedin.com/linkedin-creators-home){:target="_blank"} boosts content discoverability and unlocks new features like:
 
 - **Newsletters**  
-- **Live Streams** — which get 24x more comments than standard posts
+- **Live Streams** — which get [24x more comments](https://blog.hubspot.com/marketing/linkedin-live#:~:text=In%20fact%2C%20LinkedIn%20Live%20videos%20get%2C%20on,native%20video%20produced%20by%20the%20same%20broadcasters.){:target="_blank"} than standard posts
 
 Creator Mode also reshuffles your profile layout to prioritise high-value content. Use bold graphics and headlines that directly address your audience’s business challenges.
 
 ### Utilise LinkedIn Analytics to improve your SSI
 
-Your **Social Selling Index (SSI)** is a key metric. Aim for a score of 70+ to show LinkedIn’s algorithm that you’re a trustworthy and active profile.
+Your [**Social Selling Index (SSI)**](https://www.linkedin.com/help/linkedin/answer/a547077){:target="_blank"} is a key metric. Aim for a score of 70+ to show LinkedIn’s algorithm that you’re a trustworthy and active profile.
 
-Users with high SSI scores enjoy up to 45% more visibility.
+Users with high SSI scores enjoy up to [45%](https://www.linkedin.com/pulse/power-ssi-why-your-linkedin-social-selling-index-chris-marsal-oliv%C3%A9/){:target="_blank"} more visibility.
 
 To boost your SSI:
 

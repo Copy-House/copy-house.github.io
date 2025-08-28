@@ -21,21 +21,21 @@ So, if you want to avoid spending countless hours re-prompting and fact-checking
 
 ## The devil is in the detail when it comes to copywriting briefs
 
-If you submitted a written copywriting brief, you should first go back and check the details. Did you know that around half of content marketing agencies work with companies that provide only very basic briefs? Therefore, if your copywriting brief was little more than a snapshot (i.e., a short paragraph), your writer could be forgiven for taking the information they were given and running with it.
+If you submitted a written copywriting brief, you should first go back and check the details. Did you know that [around half of content marketing agencies](https://contentmarketinginstitute.com/content-distribution-promotion/hot-take-look-outside-your-team-for-great-content-marketing){:target="_blank"} work with companies that provide only very basic briefs? Therefore, if your copywriting brief was little more than a snapshot (i.e., a short paragraph), your writer could be forgiven for taking the information they were given and running with it.
 
 However, this isn't always the case if you have been working with them for a long time, they have previously written great first drafts, and they know your business inside out.
 
 Suppose you feel you're at the stage where they 'get' what you want from them, and you can hand over spoken or very brief briefs. In that case, you should look to understand where this piece deviated from what you normally send to establish the context from your end — essentially pinpointing where things might have gone wrong with the input you provided.
 
-Did you send over your business's tone of voice document? Previous examples you're happy with? Even simple guidance on how you want readers to feel about, or what to do with, your content marketing piece? If you feel like you did all these things and more, ask your writer if they need more information to clarify the briefing details. A simple collaborative conversation could be enough to provide them with the guidance they need to turn out a fantastic second draft.
+Did you send over your business's tone of voice document? Previous examples you're happy with? Even simple guidance on how you want readers to feel about, or what to do with, your [content marketing piece](/insights/business-marketing-cant-succeed-without-content-copyhouse)? If you feel like you did all these things and more, ask your writer if they need more information to clarify the briefing details. A simple [collaborative conversation](/insights/client-collaboration-achieving-the-ideal-working-alignment) could be enough to provide them with the guidance they need to turn out a fantastic second draft.
 
 ## What to do if you're not sure what's needed but you know this isn't it
 
-Sending a three-page copywriting brief is all well and good. Still, a content strategy meeting may be needed if you're unsure about your company’s direction, what your competitors are doing and need more information on the latest and best approach to search engine optimisation (SEO).
+Sending a [three-page copywriting brief](/insights/6-ingredients-to-crafting-the-perfect-creative-brief) is all well and good. Still, a content strategy meeting may be needed if you're unsure about your company’s direction, what your competitors are doing and need more information on the latest and best approach to search engine optimisation (SEO).
 
-Approach your marketing agency with a request to meet to iron out the kinks in your content marketing plan, as this can help you understand what's needed to tune up the copy in the second draft. Marketing strategy meetings dive deep into your long-term business goals, ideal customer profile and commercial goal for each piece of content.
+Approach your marketing agency with a request to meet to iron out the kinks in your content marketing plan, as this can help you understand what's needed to tune up the copy in the second draft. [Marketing strategy meetings](/services/content-marketing-strategy-and-consultancy) dive deep into your long-term business goals, ideal customer profile and commercial goal for each piece of content.
 
-At the end of this session, you will be given a document covering the agency's findings, including a keyword list, tone of voice document, and marketing persona profiles. Crucially, they will also provide a customer journey map, outlining where its content fits into the buyer's journey alongside recommendations for the precise sales messages that will most likely resonate at each stage of the buyer’s journey.
+At the end of this session, you will be given a document covering the agency's findings, including a keyword list, tone of voice document, and marketing persona profiles. Crucially, they will also provide a [customer journey map](https://www.salesforce.com/uk/learning-centre/marketing/what-is-customer-journey-mapping/){:target="_blank"}, outlining where its content fits into the buyer's journey alongside recommendations for the precise sales messages that will most likely resonate at [each stage of the buyer’s journey](/insights/everything-you-need-to-know-about-the-b2b-sales-funnel).
 
 ## How article outlines can speed up content approval processes
 

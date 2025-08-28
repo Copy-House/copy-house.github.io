@@ -9,11 +9,11 @@ date: 2024-11-25
 
 # How LinkedIn’s algorithm works & what you need to know
 
-LinkedIn is the titan of B2B marketing, with 91% of B2B marketers sharing content and 80% of social media-generated leads originating from the platform.
+LinkedIn is the titan of B2B marketing, with [91%](https://www.socialpilot.co/linkedin-statistics){:target="_blank"} of B2B marketers sharing content and [80%](https://www.omnicoreagency.com/linkedin-statistics/){:target="_blank"} of social media-generated leads originating from the platform.
 
-Despite its one billion-strong user base and 310 million monthly active users, there’s often a disconnect between what B2B marketers expect from the platform and how LinkedIn’s algorithm actually works.
+Despite its one [billion-strong](https://about.linkedin.com/){:target="_blank"} user base and 310 million monthly active users, there’s often a disconnect between what B2B marketers expect from the platform and how LinkedIn’s algorithm actually works.
 
-While companies post frequently and invest heavily in content, average engagement rates still hover at just 1.1% per post.
+While companies post frequently and invest heavily in content, average engagement rates still hover at just [1.1%](https://news.linkedin.com/about-us#Statistics){:target="_blank"} per post.
 
 Why? Because LinkedIn no longer rewards superficial reach. Instead, it prioritises **relevance, expertise, and relationship-building** over vanity metrics.
 
@@ -33,15 +33,17 @@ Your feed isn’t chronological — it’s tailored. LinkedIn’s algorithm surf
 
 ### Every post is sorted into one of three categories:
 
-1. **Great content**: Relevant, valuable, high-dwell-time posts that spark conversation. These are promoted more widely — especially when comments exceed 15 words.
+1. **Great content**: Relevant, valuable, [high-dwell-time](https://web.swipeinsight.app/posts/linkedin-rolling-out-new-average-dwell-time-metric-to-more-advertisers-8284){:target="_blank"} posts that spark conversation. These are promoted more widely — especially when [comments exceed 15 words](https://medium.com/@FleurWillemijn/linkedin-in-2024-its-all-about-comments-dc7d5fabaebc#:~:text=It's%20good%20to%20know%20that,insights%20and%20points%20of%20view.){:target="_blank"}.
+
 2. **Low-quality content**: Vague, overly self-promotional, or too broad to connect with specific audiences.
+
 3. **Spam**: Violations of LinkedIn’s community guidelines — including overt sales, emoji spam, connection farming, or engagement pods.
 
-### The “Golden Hour” test
+### The “[Golden Hour](https://www.linkedin.com/pulse/linkedin-algorithm-explained-how-make-work-you-digitalstoryteller-gezkc/){:target="_blank"}” test
 
 When you post, LinkedIn shows your content to a small test group for 60 minutes. If engagement is strong, your reach increases. If not, the post fades.
 
-⚠️ Tactic to avoid: Artificially boosting engagement (e.g. asking colleagues to like/comment immediately). LinkedIn now penalises engagement pods and suspicious behaviour.
+⚠️ Tactic to avoid: Artificially boosting engagement (e.g. asking colleagues to like/comment immediately). LinkedIn now penalises [engagement pods](https://expandi.io/blog/linkedin-engagement-pods/){:target="_blank"} and suspicious behaviour.
 
 ---
 
@@ -58,10 +60,10 @@ Native LinkedIn videos drive **5x more engagement** and **20x more shares** than
 
 ### Prioritise social search and relevance
 
-LinkedIn now uses **semantic search** to show relevant content — hashtags matter less than intent.
+LinkedIn now uses **[semantic search](https://www.linkedin.com/blog/engineering/search/introducing-semantic-capability-in-linkedins-content-search-engine){:target="_blank"}** to show relevant content — hashtags matter less than intent.
 
 - Optimise for **long-tail keywords**, but focus more on **industry terminology** and educational value
-- High-quality posts can remain discoverable for months through **suggested post feeds**
+- High-quality posts can remain discoverable for months through **[suggested post feeds](https://straight-in.co/blog/linkedin-algorithm-2024/){:target="_blank"}**
 
 ### Foster authentic engagement
 
@@ -75,9 +77,9 @@ Avoid one-word replies. Instead, reply with context, insights, or follow-up ques
 
 ### Time your posts to maximise the Golden Hour
 
-Use LinkedIn Analytics or third-party tools (like Hootsuite or Sprout Social) to discover when your audience is most active.
+Use [LinkedIn Analytics](https://www.linkedin.com/help/linkedin/answer/a547077){:target="_blank"} or third-party tools (like Hootsuite or Sprout Social) to discover when your audience is most active.
 
-📅 **Best UK times to post** (according to Sprout Social):  
+📅 **Best UK times to post** (according to [Sprout Social](https://sproutsocial.com/insights/best-times-to-post-on-linkedin/){:target="_blank"}):  
 **Tuesday to Thursday, 10am–12pm** — but test your own audience for accuracy.
 
 ---

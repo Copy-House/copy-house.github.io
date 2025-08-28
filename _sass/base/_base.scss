@@ -260,7 +260,8 @@ a.skip-main {
 }
 
 .rich-text {
-  h1 {
+  h1,
+  h2:first-child {
     @extend .display-2;
     line-height: 1.068;
   }
@@ -268,7 +269,7 @@ a.skip-main {
     margin-bottom: rem(20);
   }
   p {
-    color: $black !important;
+    color: $gray-700 !important;
   }
   blockquote {
     border-left: rem(5) solid $gray-300;

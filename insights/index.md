@@ -4,6 +4,10 @@ permalink: /marketing-insights/
 redirect_from:
   - /insights/
 
+pagination:
+  enabled: true
+  collection: insights
+
 title: Expert Insights from CopyHouse B2B &amp; B2C Tech Marketing Agency
 description: "Learn industry insights straight from the technology content marketing experts at CopyHouse."
 

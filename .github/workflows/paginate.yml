@@ -1,21 +1,29 @@
-name: Build and Deploy Jekyll site
+name: Build and Deploy
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
-  build-deploy:
+  jekyll:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v3
-      - uses: ruby/setup-ruby@v1
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.1
+          ruby-version: 3.2
+          bundler-cache: true
+
       - name: Install dependencies
         run: bundle install
-      - name: Build the site
+
+      - name: Build site
         run: bundle exec jekyll build
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:

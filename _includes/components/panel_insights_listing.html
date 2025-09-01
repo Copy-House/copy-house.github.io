@@ -5,7 +5,7 @@
 {% endif %}
 
 {% for insight in posts %}
-  <article role="article" class="mb-6 mb-lg-4 card-grid__item d-flex flex-column flex-md-row-reverse align-items-center justify-content-between gap-4 gap-lg-11 position-relative" aria-label="Featured Article: {{ insight.title }}">
+  <article role="article" class="mb-6 mb-lg-4 article-item card-grid__item flex-column flex-md-row-reverse align-items-center justify-content-between gap-4 gap-lg-11 position-relative" aria-label="Featured Article: {{ insight.title }}">
     <figure class="w-100 rounded-4 overflow-hidden position-relative">
       <img src="{{ site.assets_path }}/insights/{{ insight.image }}" class="card-img-top" width="453" height="400" alt="{{ insight.image_alt | default: 'Insight image' }}">
     </figure>
@@ -21,14 +21,8 @@
   </article>
 {% endfor %}
 
-{% if paginator.total_pages > 1 %}
-<nav class="pagination d-flex justify-content-center mt-5 gap-2">
-  {% if paginator.previous_page_path %}
-    <a class="btn btn-outline-secondary" href="{{ paginator.previous_page_path }}">&lsaquo; Previous</a>
-  {% endif %}
-
-  {% if paginator.next_page_path %}
-    <a class="btn btn-outline-secondary" href="{{ paginator.next_page_path }}">Next &rsaquo;</a>
-  {% endif %}
+<nav class="pagination d-flex justify-content-center align-items-center mt-5 gap-2">
+  <button id="prev-btn" class="btn btn-outline-secondary">&lsaquo; Previous</button>
+  <span id="page-indicator" class="mx-3"></span>
+  <button id="next-btn" class="btn btn-outline-secondary">Next &rsaquo;</button>
 </nav>
-{% endif %}

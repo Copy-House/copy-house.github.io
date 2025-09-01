@@ -88,4 +88,10 @@
 {%- if page.lead_stat -%}
 <script src="{{ '/assets/js/lottie.min.js' | relative_url }}" crossorigin="anonymous"></script>
 {%- endif -%}
+{%- if page.layout == 'homepage' -%}
+<script src="{{ '/assets/js/slider.js' | relative_url }}" crossorigin="anonymous"></script>
+{%- endif -%}
+{%- if page.layout == 'insights' -%}
+<script src="{{ '/assets/js/pagination.js' | relative_url }}" crossorigin="anonymous"></script>
+{%- endif -%}
 <script src="{{ '/assets/js/custom.js' | relative_url }}" crossorigin="anonymous"></script>

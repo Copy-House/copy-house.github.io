@@ -2,7 +2,7 @@
   <div class="container">
     <h2 class="mb-7">Our Values</h2>
     <ul class="row list-unstyled row-gap-3">
-      {% assign our-values = site.data.our-values %}
+      {% assign our-values = page.our_values | default: site.data['our-values'] %}
       {% for entry in our-values %}
         <li class="col-lg-3 col-md-6 col-12 text-center text-md-start">
             {% if entry.image %}

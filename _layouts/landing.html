@@ -10,16 +10,12 @@
     {% include components/panel_hero.html %}
     {% include components/panel_intro.html %}
 
-    {% assign panel_index = 0 %}
-    {% include components/panel_image_text.html index=panel_index %}
-
-    {% assign panel_index = 1 %}
-    {% include components/panel_image_text.html index=panel_index %}
+    {% include components/panel_image_text.html index=0 %}
+    {% include components/panel_image_text.html index=1 %}
 
     {% include components/panel_values.html %}
 
-    {% assign panel_index = 2 %}
-    {% include components/panel_image_text.html index=panel_index %}
+    {% include components/panel_image_text.html index=2 %}
 
     {% include components/panel_contact_form.html %}
 

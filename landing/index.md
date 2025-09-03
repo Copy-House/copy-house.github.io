@@ -35,8 +35,6 @@ image_text:
     image: "aboutus.webp"
     alt: "Two colleagues brainstorming"
     image_caption: "Team members collaborating"
-
-image_text:
   - title: "Our content strategy services"
     text:
       - Content audit. We'll analyse your existing content to identify what's working and what's not, so you can max out on what you have already.
@@ -48,8 +46,6 @@ image_text:
     image: "aboutus.webp"
     alt: "Two colleagues brainstorming"
     image_caption: "Team members collaborating"
-
-image_text:
   - title: "Why you’ll love working with us"
     text:
       - Apart from being incisive and getting to the heart of your business needs, we’re really easy to get along with. We’re journalists first, so we assume nothing and research everything. Which means we’ll ask questions, get to know you, become almost obsessed with your target audiences and only recommend approaches that we can hang our hat on. 

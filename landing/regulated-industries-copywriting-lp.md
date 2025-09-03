@@ -69,7 +69,7 @@ our_values:
     alt: "Financial services icon"
   - title: "Technology"
     description: "We love nothing more than getting our teeth into a niche technology client, where our job is to convey their offer to prospects and investors in a way that's enticing while respecting regulatory obligations."
-    image: "visual-identity-workshop.svg"
+    image: "accessible.svg"
     alt: "Technology sector icon"
   - title: "Healthcare"
     description: "We've helped NHS trusts, private healthcare providers and medtech firms navigate compliance with ease, while harnessing the power of communications to galvanise teams, secure investment and engage audiences."
@@ -77,7 +77,7 @@ our_values:
     alt: "Healthcare industry icon"
   - title: "Manufacturing"
     description: "Dogged rules and regulations need not restrict creativity in manufacturing comms. Similarly, we also know when functional copy needs to be functional, so we develop everything from spec sheets to creative campaigns for our clients."
-    image: "brand-identity.svg"
+    image: "planning-icon-dark.svg"
     alt: "Manufacturing sector icon"
 
 contact:

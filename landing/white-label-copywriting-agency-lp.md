@@ -68,11 +68,11 @@ our_values:
     alt: "Case studies icon"
   - title: "Website copywriting"
     description: "We have the skill and the scale to turn out high quality website copy at pace, with keyword research baked in, facilitating your SEO and GEO efforts."
-    image: "content-marketing.svg"
+    image: "core-messaging-workshops.svg"
     alt: "Website copywriting icon"
   - title: "Social media copywriting"
     description: "Often the unloved child of business communications, we've helped many a company produce consistent and compelling social media content, which is on-brand, impactful and commercially savvy."
-    image: "conversations.svg"
+    image: "tone-voice-workshops.svg"
     alt: "Social media icon"
 
 contact:

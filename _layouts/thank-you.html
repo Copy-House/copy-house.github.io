@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en-GB">
+{% include head.html %}
+
+<body class="text-bg-light">
+  <a class="skip-main btn" href="#main-content">Skip to main content</a>
+  {% include header.html %}
+
+  <main id="main-content">
+
+    {%- comment -%}
+      Hero / Banner
+      Uses the existing "detail" banner so you can control title/strapline via front matter:
+      ---
+      layout: thank_you
+      title: "Thanks — we’ve got your message"
+      subtitle: "Our team will be in touch shortly."
+      ---
+    {%- endcomment -%}
+    {% include components/panel_banner_detail.html %}
+
+    {%- comment -%}
+      Confirmation copy
+      Renders the page’s body content so editors can add tailored next steps or links.
+    {%- endcomment -%}
+    <section class="section py-5 py-sm-10" aria-labelledby="thank-you-heading">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-9">
+            <h2 id="thank-you-heading" class="visually-hidden">{{ page.title }}</h2>
+
+            <div class="rich-text">
+              {{ content }}
+            </div>
+
+            {%- comment -%}
+              Optional CTAs — set in front matter:
+              cta_primary_text: "Explore our services"
+              cta_primary_url: "/services/"
+              cta_secondary_text: "Read our insights"
+              cta_secondary_url: "/insights/"
+            {%- endcomment -%}
+            {% if page.cta_primary_text or page.cta_secondary_text %}
+            <div class="mt-4 d-flex flex-wrap gap-3">
+              {% if page.cta_primary_text and page.cta_primary_url %}
+                <a class="btn btn-primary btn-lg" href="{{ page.cta_primary_url }}">{{ page.cta_primary_text }}</a>
+              {% endif %}
+              {% if page.cta_secondary_text and page.cta_secondary_url %}
+                <a class="btn btn-outline-primary btn-lg" href="{{ page.cta_secondary_url }}">{{ page.cta_secondary_text }}</a>
+              {% endif %}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {%- comment -%}
+      Partners (optional) — handy social proof after a form submit.
+      Disable by setting `show_partners: false` in front matter.
+    {%- endcomment -%}
+    {% if page.show_partners != false %}
+      {% include components/panel_our_partners.html %}
+    {% endif %}
+
+    {%- comment -%}
+      Latest insights / blog — your existing component handles layout & querying.
+      Disable by setting `show_insights: false` in front matter.
+    {%- endcomment -%}
+    {% if page.show_insights != false %}
+      {% include components/panel_insights.html %}
+    {% endif %}
+
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>

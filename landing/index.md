@@ -37,7 +37,7 @@ image_text:
     image_caption: "Team members collaborating"
   - title: "Our content strategy services"
     text:
-      - Content audit. We'll analyse your existing content to identify what's working and what's not, so you can max out on what you have already.
+      - <strong>Content audit</strong>. We'll analyse your existing content to identify what's working and what's not, so you can max out on what you have already.
       - Audience & competitor research. We’ll uncover key insights about your target audience and the market to ensure your content not only stands out but hits the mark with the people you want to talk about you and buy from you.
       - SEO & GEO strategy. We'll identify high-impact keywords and build a content plan that gets you discovered by those who matter the most. While laying out the cornerstone for thought leadership and authentic content that generative AI loves, cites and ranks.
       - Editorial calendars. We’ll provide a clear, easy-to-follow plan for your content production, so you always know what's next, whether you plan to develop the content yourself or hand the reins to us while you sign off finished pieces.
@@ -55,6 +55,9 @@ image_text:
     alt: "Two colleagues brainstorming"
     image_caption: "Team members collaborating"
         
+
+
+
 contact:
   heading: "No more half cooked content. Chat to us today and wave goodbye to mediocrity."
   description: "Our initial discovery is always free and without obligation. Contact us today to unlock genuine commercial opportunities from your content strategy and copywriting delivery."

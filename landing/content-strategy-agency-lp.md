@@ -22,7 +22,7 @@ hero_video:
 
 intro_paragraphs:
   - <span class="gradient-2">Strategy</span>. It’s an overused word, bandied about as a smokescreen for vagueness.
-  - When done right, however, it’s <span class="gradient-2">transformative</span>. Welcome to CopyHouse. We live, breathe and dream content and copywriting
+  - When done right, however, it’s <span class="gradient-2">transformative</span>. Welcome to CopyHouse. We live, breathe and dream content and copywriting.
   - And it starts with a strategy tied as tightly to your <span class="gradient-2">commercial</span> goals as your sales strategy.
 
 image_text:
@@ -65,7 +65,7 @@ image_text:
         
 our_values:
   - title: "Financial services"
-    description: "From fintech to insurance, we develop content strategies for starts ups, scale ups and established players in the sector."
+    description: "From fintech to insurance, we develop content strategies for start-ups, scale-ups and established players in the sector."
     image: "diagram-icon.svg"
     alt: "Custom alt text"
   - title: "Technology"
@@ -82,7 +82,7 @@ our_values:
     alt: "Another alt text"
 
 contact:
-  heading: "No more half cooked content. Chat to us today and wave goodbye to mediocrity."
+  heading: "No more half-cooked content. Chat to us today and wave goodbye to mediocrity."
   description: "Our initial discovery is always free and without obligation. Contact us today to unlock genuine commercial opportunities from your content strategy and copywriting delivery."
 
 ---

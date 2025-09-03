@@ -59,7 +59,7 @@ image_text:
       - Readily achieved deadlines
       - Kept promises
     image_folder: "landing/strategy"
-    image: "love.webp"
+    image: "team-collaboration.webp"
     alt: "Two colleagues brainstorming"
     image_caption: "Team members collaborating"
         

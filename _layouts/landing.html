@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en-GB">
+
+{% include head.html %}
+
+<body class="text-bg-light">
+  {% include header.html %}
+
+  <main>
+    {% include components/panel_banner.html %}
+
+    {% include components/panel_awards.html %}
+
+    {% if page.image_text %}
+      {% for item in page.image_text %}
+        {% assign panel_index = forloop.index0 %}
+        {% include components/panel_image_text.html index=panel_index %}
+      {% endfor %}
+    {% endif %}
+
+    {% include components/panel_our_partners.html %}
+
+    {% include components/panel_values.html %}
+
+    {% include components/panel_insights.html %}
+
+    {% include components/panel_contact_form.html %}
+
+  </main>
+
+  {% include footer.html %}
+
+</body>
+
+</html>

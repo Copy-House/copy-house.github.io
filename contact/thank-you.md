@@ -1,7 +1,6 @@
 ---
 layout: thank-you
-title: Thank You
-image: assets/images/hero/copyhouse-hero-poster-00001.webp
+image: assets/images/aboutus/aboutus.webp
 header_box: relative
 ---
 

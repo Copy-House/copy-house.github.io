@@ -49,7 +49,7 @@ image_text:
   - title: "Why you’ll love working with us"
     text:
       - Apart from being incisive and getting to the heart of your business needs, we’re really easy to get along with. We’re journalists first, so we assume nothing and research everything. Which means we’ll ask questions, get to know you, become almost obsessed with your target audiences and only recommend approaches that we can hang our hat on. 
-      - <strong>When you work with us, you can expect</strong>... Strategy that’s actionable | Insight that’s insightful | Delivery that fulfils the strategy | Accurate pricing | Readily achieved deadlines | Kept promises
+      - "<strong>When you work with us, you can expect</strong>... Strategy that’s actionable | Insight that’s insightful | Delivery that fulfils the strategy | Accurate pricing | Readily achieved deadlines | Kept promises"
     image_folder: aboutus
     image: "aboutus.webp"
     alt: "Two colleagues brainstorming"

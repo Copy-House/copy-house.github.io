@@ -10,17 +10,16 @@
     {% include components/panel_hero.html %}
     {% include components/panel_intro.html %}
 
-    {% if page.image_text %}
-      {% for item in page.image_text %}
-        {% assign panel_index = forloop.index0 %}
-        {% include components/panel_image_text.html index=panel_index %}
-      {% endfor %}
-    {% endif %}
+    {% assign panel_index = 0 %}
+    {% include components/panel_image_text.html index=panel_index %}
+
+    {% assign panel_index = 1 %}
+    {% include components/panel_image_text.html index=panel_index %}
 
     {% include components/panel_values.html %}
 
-    {% assign next_index = panel_index | plus: 1 %}
-    {% include components/panel_image_text.html index=next_index %}
+    {% assign panel_index = 2 %}
+    {% include components/panel_image_text.html index=panel_index %}
 
     {% include components/panel_contact_form.html %}
 

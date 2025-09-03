@@ -19,7 +19,8 @@
 
     {% include components/panel_values.html %}
 
-    {% include components/panel_image_text.html index=panel_index+1 %}
+    {% assign next_index = panel_index | plus: 1 %}
+    {% include components/panel_image_text.html index=next_index %}
 
     {% include components/panel_contact_form.html %}
 

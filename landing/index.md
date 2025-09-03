@@ -65,19 +65,19 @@ image_text:
 our_values:
   - title: "Financial services"
     description: "From fintech to insurance, we develop content strategies for starts ups, scale ups and established players in the sector."
-    image: "assets/images/icons/diagram-icon.svg"
+    image: "diagram-icon.svg"
     alt: "Custom alt text"
   - title: "Technology"
     description: "We love nothing more than getting our teeth into a niche technology client, where our job is to convey their offer to prospects and investors in a way that’s enticing while respecting regulatory obligations."
-    image: "assets/images/icons/accessible.svg"
+    image: "accessible.svg"
     alt: "Another alt text"
   - title: "Healthcare"
     description: "We’ve helped NHS trusts, private healthcare providers and medtech firms navigate the largest and most niche of comms challenges, while harnessing the power of communications to galvanise teams, secure investment and engage audiences."
-    image: "assets/images/icons/graphic-tablet.svg"
+    image: "graphic-tablet.svg"
     alt: "Another alt text"
   - title: "Manufacturing"
     description: "Dogged rules and regulations need not restrict creativity in manufacturing comms. Similarly, we also know when functional copy needs to be functional, so we develop strategies to cover everything from spec sheets to creative campaigns for our clients."
-    image: "assets/images/icons/planning-icon-dark.svg"
+    image: "planning-icon-dark.svg"
     alt: "Another alt text"
 
 contact:

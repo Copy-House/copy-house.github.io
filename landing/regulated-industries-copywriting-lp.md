@@ -65,19 +65,19 @@ image_text:
 our_values:
   - title: "Financial services"
     description: "From fintech to insurance, we develop sales collateral, marketing campaigns and personally branded thought leadership pieces for start ups, scale ups and established players in the sector."
-    image: "finance-icon.svg"
+    image: "planning-icon-dark.svg"
     alt: "Financial services icon"
   - title: "Technology"
     description: "We love nothing more than getting our teeth into a niche technology client, where our job is to convey their offer to prospects and investors in a way that's enticing while respecting regulatory obligations."
-    image: "technology-icon.svg"
+    image: "visual-identity-workshop.svg"
     alt: "Technology sector icon"
   - title: "Healthcare"
     description: "We've helped NHS trusts, private healthcare providers and medtech firms navigate compliance with ease, while harnessing the power of communications to galvanise teams, secure investment and engage audiences."
-    image: "healthcare-icon.svg"
+    image: "human-touch.svg"
     alt: "Healthcare industry icon"
   - title: "Manufacturing"
     description: "Dogged rules and regulations need not restrict creativity in manufacturing comms. Similarly, we also know when functional copy needs to be functional, so we develop everything from spec sheets to creative campaigns for our clients."
-    image: "manufacturing-icon.svg"
+    image: "brand-identity.svg"
     alt: "Manufacturing sector icon"
 
 contact:

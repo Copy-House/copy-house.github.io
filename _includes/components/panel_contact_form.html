@@ -9,8 +9,8 @@
         <div class="p-5 p-md-7 border border-primary bg-black rounded-3">
 
           <header class="row mb-7 align-items-center">
-            <h2 class="col-md-5 mb-4 mb-lg-0">{{ site.data.contact.heading }}</h2>
-            <p class="col-md-7 px-md-8 px-lg-12 text-secondary">{{ site.data.contact.description }}</p>
+            <h2 class="col-md-5 mb-4 mb-lg-0">{{ page.contact.heading | default: site.data.contact.heading }}</h2>
+            <p class="col-md-7 px-md-8 px-lg-12 text-secondary">{{ page.contact.description | default: site.data.contact.description }}</p>
           </header>
 
           <form class="row g-3" method="POST" action="{{ site.data.contact.formspree_action }}">

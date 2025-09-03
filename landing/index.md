@@ -36,5 +36,31 @@ image_text:
     alt: "Two colleagues brainstorming"
     image_caption: "Team members collaborating"
 
+image_text:
+  - title: "Our content strategy services"
+    text:
+      - Content audit. We'll analyse your existing content to identify what's working and what's not, so you can max out on what you have already.
+      - Audience & competitor research. We’ll uncover key insights about your target audience and the market to ensure your content not only stands out but hits the mark with the people you want to talk about you and buy from you.
+      - SEO & GEO strategy. We'll identify high-impact keywords and build a content plan that gets you discovered by those who matter the most. While laying out the cornerstone for thought leadership and authentic content that generative AI loves, cites and ranks.
+      - Editorial calendars. We’ll provide a clear, easy-to-follow plan for your content production, so you always know what's next, whether you plan to develop the content yourself or hand the reins to us while you sign off finished pieces.
+      - Content distribution planning. We'll help land your content in front of the right people, whether through paid media, social media, email marketing or programmatic.
+    image_folder: aboutus
+    image: "aboutus.webp"
+    alt: "Two colleagues brainstorming"
+    image_caption: "Team members collaborating"
+
+image_text:
+  - title: "Why you’ll love working with us"
+    text:
+      - Apart from being incisive and getting to the heart of your business needs, we’re really easy to get along with. We’re journalists first, so we assume nothing and research everything. Which means we’ll ask questions, get to know you, become almost obsessed with your target audiences and only recommend approaches that we can hang our hat on. 
+
+    image_folder: aboutus
+    image: "aboutus.webp"
+    alt: "Two colleagues brainstorming"
+    image_caption: "Team members collaborating"
+        
+contact:
+  heading: "No more half cooked content. Chat to us today and wave goodbye to mediocrity."
+  description: "Our initial discovery is always free and without obligation. Contact us today to unlock genuine commercial opportunities from your content strategy and copywriting delivery."
 
 ---

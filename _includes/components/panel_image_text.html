@@ -40,6 +40,15 @@
                 {{ paragraph | markdownify | strip | raw }}
               {% endfor %}
 
+              {% if panel.list_intro %}
+                <p><strong>{{ panel.list_intro }}</strong>...</p>
+                <ul>
+                  {% for item in panel.list_items %}
+                    <li>{{ item }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+
               {% if panel.CTA %}
                 <a href="{{ site.url }}{{ panel.CTA_url }}" class="btn btn-primary" title="{{ panel.CTA_title | default: 'Contact us' }}">
                   {{ panel.CTA | default: "Get in touch" }}

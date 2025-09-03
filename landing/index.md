@@ -7,7 +7,7 @@ meta_description: Strategy. It’s an overused word, bandied about as a smokescr
 hero:
   heading: "Content strategy for"
   highlight: "successful businesses"
-  subheading: "Start growing with content strategy."
+  subheading: "Start growing with content strategy. And say goodbye to random acts of content"
   cta_text: "Get in touch"
   cta_url: "/contact"
 
@@ -21,8 +21,8 @@ hero_video:
 
 intro_paragraphs:
   - <span class="gradient-2">Strategy</span>. It’s an overused word, bandied about as a smokescreen for vagueness.
-  - When done right, however, it’s transformative. Welcome to CopyHouse. We live, breathe and dream content and copywriting
-  - And it starts with a strategy tied as tightly to your commercial goals as your sales strategy.
+  - When done right, however, it’s <span class="gradient-2">transformative</span>. Welcome to CopyHouse. We live, breathe and dream content and copywriting
+  - And it starts with a strategy tied as tightly to your <span class="gradient-2">commercial</span> goals as your sales strategy.
 
 image_text:
   - title: "Growth-oriented content strategy"
@@ -49,7 +49,14 @@ image_text:
   - title: "Why you’ll love working with us"
     text:
       - Apart from being incisive and getting to the heart of your business needs, we’re really easy to get along with. We’re journalists first, so we assume nothing and research everything. Which means we’ll ask questions, get to know you, become almost obsessed with your target audiences and only recommend approaches that we can hang our hat on. 
-      - <strong>When you work with us, you can expect</strong>... Strategy that’s actionable &#124; Insight that’s insightful &#124; Delivery that fulfils the strategy &#124; Accurate pricing &#124; Readily achieved deadlines &#124; Kept promises
+    list_intro: "When you work with us, you can expect"
+    list_items:
+      - Strategy that's actionable
+      - Insight that's insightful
+      - Delivery that fulfils the strategy
+      - Accurate pricing
+      - Readily achieved deadlines
+      - Kept promises
     image_folder: aboutus
     image: "aboutus.webp"
     alt: "Two colleagues brainstorming"

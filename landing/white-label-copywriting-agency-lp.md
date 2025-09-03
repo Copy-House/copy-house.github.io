@@ -29,7 +29,7 @@ image_text:
     text:
       - Our white label copywriting services take the headache away from you when it comes to finding speedy, reliable and downright brilliant copywriters to bring your clients' brands, campaigns and collateral to life.
       - We're adept at dealing with clients and working behind the scenes – and we'll integrate seamlessly into your teams and workflows to get the job done. We speak fluent agency, so our aim is twofold - to provide excellent copywriting while making life easier for you.
-    image_folder: "whitelabel"
+    image_folder: "landing/whitelabel"
     image: "copywriting-agencies.webp"
     alt: "Agency team collaborating on copywriting"
     image_caption: "Seamless integration with your agency"
@@ -39,7 +39,7 @@ image_text:
       - <strong>1. Onboard your client or project.</strong> Bring on a new client or start a new project with an existing client. You'll determine their content needs, just like you normally would. We can ask questions in the background to fuel your discovery phase.
       - <strong>2. Task your white label copywriting team.</strong> You'll provide us with the project brief – and away we go! We'll write your content, from research to ideation through to the finished product, including revisions.
       - <strong>3. Delight your client.</strong> You'll deliver the final, polished content to your client, under your own agency's brand and name. And we'll start to create your client's communication model, to accelerate delivery for the next project.
-    image_folder: "whitelabel"
+    image_folder: "landing/whitelabel"
     image: "scaling-services.webp"
     alt: "Process flow diagram"
     image_caption: "Simple, scalable process"
@@ -52,7 +52,7 @@ image_text:
       - Accurate pricing
       - Readily achieved deadlines
       - Kept promises
-    image_folder: "whitelabel"
+    image_folder: "landing/whitelabel"
     image: "team-collaboration.webp"
     alt: "White label copywriting team"
     image_caption: "Your extended team"
@@ -60,19 +60,19 @@ image_text:
 our_values:
   - title: "Thought leadership & articles"
     description: "We distil complex topics and razor sharp insights from experts into market leading reports, data analyses and positioning pieces."
-    image: "thought-leadership-icon.svg"
+    image: "vision.svg"
     alt: "Thought leadership icon"
   - title: "Case studies"
     description: "Clients come to us with plenty of proof points but no written evidence – so we transform their shop window into a case study nirvana with written evidence in abundance."
-    image: "case-study-icon.svg"
+    image: "visual-identity-workshops.svg"
     alt: "Case studies icon"
   - title: "Website copywriting"
     description: "We have the skill and the scale to turn out high quality website copy at pace, with keyword research baked in, facilitating your SEO and GEO efforts."
-    image: "website-copy-icon.svg"
+    image: "content-marketing.svg"
     alt: "Website copywriting icon"
   - title: "Social media copywriting"
     description: "Often the unloved child of business communications, we've helped many a company produce consistent and compelling social media content, which is on-brand, impactful and commercially savvy."
-    image: "social-media-icon.svg"
+    image: "conversations.svg"
     alt: "Social media icon"
 
 contact:

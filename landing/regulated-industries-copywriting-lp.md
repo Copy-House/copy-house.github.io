@@ -31,7 +31,7 @@ image_text:
       - In highly regulated sectors – such as finance, technology and legal – every word matters. Your content has to work extra hard and that's where our journalist-trained team comes in. We write and produce content that's not only persuasive but meticulously compliant with your industry's standards and legal requirements.
       - But compliance doesn't have to be the death of creativity! We tread on the right side of the fine line between compelling copywriting and regulatory risk all day, every day. It's a challenge we love to take on for our clients.
       - When you work with CopyHouse, we make sure that we land the right messages with your stakeholders, customers, investors and prospects, while doing so in a way that doesn't compromise your regulatory obligations.
-    image_folder: "compliance"
+    image_folder: "landing/compliance"
     image: "compliance-copywriting.webp"
     alt: "Professional reviewing compliance documents"
     image_caption: "Ensuring regulatory compliance in every word"
@@ -43,7 +43,7 @@ image_text:
       - Expert writers, with deep sector expertise and trained to examine, understand and adhere to complex, sector-specific regulations
       - Meticulous research, to ensure all claims and data are accurate, verifiable and appropriately cited
       - A compliance review, to pre-flag potential regulatory issues at first and second draft stages, so you can consult with your internal teams to secure buy-in and reduce go-live times
-    image_folder: "compliance"
+    image_folder: "landing/compliance"
     image: "compliance-process.webp"
     alt: "Team collaborating on compliance review"
     image_caption: "Rigorous compliance review process"
@@ -57,7 +57,7 @@ image_text:
       - Accurate pricing
       - Readily achieved deadlines
       - Kept promises
-    image_folder: "team"
+    image_folder: "landing/compliance"
     image: "team-collaboration.webp"
     alt: "CopyHouse team working together"
     image_caption: "Expert team delivering compliance with creativity"

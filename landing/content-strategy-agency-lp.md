@@ -32,8 +32,8 @@ image_text:
       - Developing a deep knowledge of your key target audiences, we’ll lay out our research in a workshop with you, identifying their touchpoints with your brand or business – and getting real about where there’s a genuine opportunity to talk to them.
       - We’ll then wrap up our time with you into an actionable strategy, only ever written in plain English. And if you need a partner to deliver the writing advised by the strategy, our expert team of journalist-trained writers can fulfil as much or as little as you need.
       - Clients who work with us often comment that our strategies save them time, budget and effort. Because we cut through the unnecessary to focus on quick wins and longer term goals. Without fluff, bluster or waste.
-    image_folder: aboutus
-    image: "aboutus.webp"
+    image_folder: "landing/strategy"
+    image: "growth.webp"
     alt: "Two colleagues brainstorming"
     image_caption: "Team members collaborating"
   - title: "Our content strategy services"
@@ -43,8 +43,8 @@ image_text:
       - <strong>SEO & GEO strategy</strong>. We'll identify high-impact keywords and build a content plan that gets you discovered by those who matter the most. While laying out the cornerstone for thought leadership and authentic content that generative AI loves, cites and ranks.
       - <strong>Editorial calendars</strong>. We’ll provide a clear, easy-to-follow plan for your content production, so you always know what's next, whether you plan to develop the content yourself or hand the reins to us while you sign off finished pieces.
       - <strong>Content distribution planning</strong>. We'll help land your content in front of the right people, whether through paid media, social media, email marketing or programmatic.
-    image_folder: aboutus
-    image: "aboutus.webp"
+    image_folder: "landing/strategy"
+    image: "content.webp"
     alt: "Two colleagues brainstorming"
     image_caption: "Team members collaborating"
   - title: "Why you’ll love working with us"
@@ -58,8 +58,8 @@ image_text:
       - Accurate pricing
       - Readily achieved deadlines
       - Kept promises
-    image_folder: aboutus
-    image: "aboutus.webp"
+    image_folder: "landing/strategy"
+    image: "love.webp"
     alt: "Two colleagues brainstorming"
     image_caption: "Team members collaborating"
         

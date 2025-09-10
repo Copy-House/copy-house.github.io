@@ -15,6 +15,8 @@ sass:
 collections:
   addresses:
     output: true
+  services:
+    output: true
   about-copyhouse:
     output: false
   case-studies:

@@ -1,5 +1,5 @@
 ---
-layout: service
+layout: services
 
 title: Content Marketing &amp; Strategy | Content Marketing Agency for Tech &amp; Complex Industries
 description: "Take your tech brands content marketing strategy to new heights with our made to perfection content marketing consultancy service."

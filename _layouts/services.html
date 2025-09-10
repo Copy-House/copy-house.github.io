@@ -47,7 +47,7 @@
     {%- if page.banner.middle -%}
       {% include components/panel_banner.html banner=page.banner.middle %}
     {%- endif -%}
-    
+
     {% assign benefit_keys = "benefits_marketing,benefits_PR_services,benefits_content_design" | split: "," %}
     {% for key in benefit_keys %}
       {% if page[key] %}

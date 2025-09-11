@@ -9,7 +9,7 @@ banner:
   p: Build strong foundations for your brand with our content marketing strategy and consultancy service.
 
 image_text_large:
-  title: Great Content Marketing Starts with Strong Strategy
+  title: Great Content Marketing Starts with Tough Strategy
   text:
     - At CopyHouse, we specialise in creating the perfect content marketing strategy that aligns your marketing goals with your business objectives.
     - Our work is founded on a rigorous understanding of your intentions and your target audience’s buying habits. We also dive into any challenges your business and your audience face by creating a strategy to propel your business into the future.

@@ -1,51 +1,51 @@
 ---
 layout: service
 
-title: Specialist Content Writing Agency for Tech &amp; Complex Industries
-description: "With our specialist content writing service, you can become a technology industry leader by sharing thought leadership content that puts you ahead of your competition."
+title: Specialist Content Audit Service for Tech & Complex Industries
+description: "Our content audit service helps technology companies and complex industries uncover hidden opportunities, eliminate gaps, and maximise ROI from their existing content library."
 
 banner:
-  h1: Specialist Content Writing
-  p: Become a market leader by producing long-form, thought leadership content with our specialist content writing services.
-  image: specialist-content-writing-services.webp
+  h1: Specialist Content Audit
+  p: Strengthen your market position by auditing and optimising your existing content with our expert content audit service.
+  image: specialist-content-audit-services.webp
 
 lead_stat:
-  heading: Did you know that the average article generates 9x more leads than short-form content?
+  heading: Did you know that regular content audits can increase content effectiveness by up to 60%?
   paragraphs:
-    - Investing in content marketing helps you build brand equity, boost online exposure and establish your company as a leading force in the industry.
-    - Whether you're a cutting-edge B2B startup or an established technology firm, content marketing services unlock endless benefits.
-    - Here at CopyHouse, we specialise in delivering effective content marketing strategies to help your business seize new growth opportunities. We thrive on helping founders connect with their audience and empower positive change through cleverly crafted copy and design.
-  aria_label: "9 times more leads from long-form content"
+    - A well-executed content audit ensures your messaging stays relevant, accurate, and aligned with business goals.
+    - By identifying underperforming assets and highlighting high-value opportunities, audits save time, reduce waste, and improve engagement.
+    - At CopyHouse, we specialise in content audits for technology-driven businesses. Our tailored audits empower leaders to refine strategy, improve discoverability, and drive measurable growth.
+  aria_label: "60% improvement in content effectiveness from regular audits"
 
 benefits_SCW_services:
-  h2: Benefits of Content Marketing Consultancy
+  h2: Benefits of a Specialist Content Audit
   title_center: center
 
 service_stage: true
 
 two_col_content:
-  - title: Enjoy Dedicated Support From Our Content Marketing Team
+  - title: Gain Clear Insights Into Your Content Performance
     text:
       - type: paragraph
-        text: Here at CopyHouse, we’re committed to providing a personal touch to our article writing services.
+        text: At CopyHouse, we combine human expertise with data-led analysis to give you a complete picture of your content library.
       - type: paragraph
-        text: Our specialist copywriters take the time to understand your specific needs and tailor our approach to guarantee an unrivalled experience. We have a dedicated project manager to communicate detailed briefs with our internal team and a highly-experienced senior account manager to liaise with you — the client.
-    h3: We maintain open lines of communication and aim to respond to all emails within 24 hours and all phone calls within a few hours on weekdays.
+        text: We assess quality, tone, relevance, SEO alignment, and conversion potential — providing you with a clear roadmap to improve your marketing outcomes.
+    h3: Our audits highlight exactly what to keep, update, repurpose, or retire, so your team can focus on content that drives results.
     CTA: Get in touch
     url: /contact
 
-  - title: Discover How to Generate Leads with CopyHouse
+  - title: Turn Insights Into Actionable Strategy
     text:
       - type: paragraph
-        text: Adopting a data-driven approach is vital to monitor the impact of your content and justify the expenditure on our services.
+        text: Beyond analysis, we provide practical recommendations and strategic guidance on how to amplify your content’s impact.
       - type: paragraph
-        text: We’ll create data-driven reports using Google Analytics & Semush to present transparent representations of your progress and suggest ideas to further improve the reach of your content.
+        text: Using tools like Google Analytics and Semrush, we produce transparent reports that reveal performance trends and pinpoint opportunities to elevate your content strategy.
     CTA: Get in touch
     url: /contact
     logo: true
 
 service_accordion:
-  h2: What Types of Long-Form Content Services Do We Offer?
+  h2: What’s Included in Our Content Audit Service?
 
 testimonials: true
 insights: false

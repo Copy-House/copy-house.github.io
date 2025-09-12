@@ -1,5 +1,5 @@
 ---
-layout: services
+layout: service
 
 title: Social Media Marketing Services | CopyHouse
 description: "Connect with your audience on a personal level with our social media marketing service. This human-first approach is perfect for your tech brand."

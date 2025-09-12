@@ -1,5 +1,5 @@
 ---
-layout: services
+layout: service
 
 title: PR Services | Content Marketing Agency for Tech &amp; Complex Industries
 description: "Take your tech brands to new heights with our PR services."

@@ -1,5 +1,5 @@
 ---
-layout: services
+layout: service
 
 title: Specialist Content Writing Agency for Tech &amp; Complex Industries
 description: "With our specialist content writing service, you can become a technology industry leader by sharing thought leadership content that puts you ahead of your competition."

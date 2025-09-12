@@ -5,7 +5,7 @@ columns:
   - title: Company
     links:
       - label: What we do
-        url: /services/content-marketing-solutions
+        url: /services
       - label: About CopyHouse
         url: /about-copyhouse
       - label: Get in touch

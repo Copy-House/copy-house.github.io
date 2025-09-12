@@ -1,5 +1,5 @@
 ---
-layout: services
+layout: service
 
 title: Content Design Agency for Tech &amp; Complex Industries
 description: "Clever content meets well-crafted visuals with CopyHouse’s content design service and unique workshops."

@@ -5,6 +5,8 @@
 
 .nav {
   --td: none;
+  --bs-btn-hover-bg: var(--bs-white);
+  --bs-btn-hover-color: var(--bs-purple);
 
   &bar {
     -webkit-text-fill-color: inherit;
@@ -55,12 +57,13 @@
     &.show,
     &.current {
       text-decoration: var(--td);
+      color: var(--bs-orange);
       &::after {
         border-color: var(--bs-orange);
       }
     }
-    &.current {
-      color: var(--bs-orange);
+    &:focus {
+      color: var(--bs-white);
     }
   }
   .dropdown {

@@ -21,7 +21,7 @@ collections:
     output: false
   case-studies:
     output: true
-    permalink: /work/:path/
+    permalink: /case-studies/:path/
   insights:
     output: true
     permalink: /insights/:path/

@@ -2,7 +2,7 @@
 layout: insight
 title: "From Viral to Valuable: Why Micro-Communities Matter"
 meta_description: "Explore why micro-communities matter in modern marketing. Learn how small, focused groups build trust, loyalty, and stronger brand engagement."
-image: "5-benefits-of-content-writing-services.webp"
+image: "microcommunities.webp"
 author: CopyHouse
 date: 2025-09-17
 ---

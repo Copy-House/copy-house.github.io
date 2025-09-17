@@ -8,6 +8,7 @@ date: 2025-09-22
 ---
 
 <h1>Original or Outranked: How to Survive Google’s Content Quality Standards</h1>
+
 It’s a fact that modern content marketing lives and dies on search engines, and that means catering to the ever-changing whims of companies like Google’s algorithms and content standards.
 In today’s age, when the ubiquity of AI summaries has had a serious impact on the way internet users search for information (and by that same token, the visibility of online campaigns) understanding the various ins and outs of Google content guidelines is absolutely critical for any content marketer who wants to succeed in an increasingly competitive landscape. 
 In this article, we’re going to break down what Google’s new content quality standards actually are, our SEO content best practices, and how you can use them to craft more compelling, effective content and reach a wider audience than ever before. Read on to learn more. 

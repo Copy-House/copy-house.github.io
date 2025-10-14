@@ -32,22 +32,10 @@
       {% endif %}
     {% endfor %}
 
-    {%- if page.services_listing -%}
-      {% include components/panel_services_listing.html %}
-    {%- endif -%}
-
-    {%- if page.winning_formula -%}
-      {% include components/panel_winning_formula.html %}
-    {%- endif -%}
-
-    {%- if page.award_approach -%}
-      {% include components/panel_award_approach.html %}
-    {%- endif -%}
-
     {%- if page.banner.middle -%}
       {% include components/panel_banner.html banner=page.banner.middle %}
     {%- endif -%}
-    
+
     {% assign benefit_keys = "benefits_marketing,benefits_PR_services,benefits_content_design" | split: "," %}
     {% for key in benefit_keys %}
       {% if page[key] %}

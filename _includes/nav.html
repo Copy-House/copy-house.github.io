@@ -8,15 +8,13 @@
     {% if item.submenu %}
       {%- for sub in item.submenu -%}
         {% assign sub_url = sub.url | replace: 'index.html', '' %}
-        {% if current_url == sub_url %}
+        {% if current_url == item.url or current_url contains item.url -%}
           {% assign is_parent_active = true %}
         {% endif %}
       {%- endfor -%}
 
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle {% if is_parent_active %}current{% endif %}" href="{{ item.url }}" id="dropdown{{ forloop.index }}" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          {{ item.name }}
-        </a>
+        <button class="nav-link dropdown-toggle {% if is_parent_active %}current{% endif %}" id="dropdown{{ forloop.index }}" data-bs-toggle="dropdown" aria-expanded="false">{{ item.name }} </button>
 
         <ul class="dropdown-menu mt-lg-5" aria-labelledby="dropdown{{ forloop.index }}">
           {% for sub in item.submenu %}

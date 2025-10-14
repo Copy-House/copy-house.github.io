@@ -6,21 +6,11 @@ plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-feed
-  - jekyll-paginate-v2
 
 sass:
   load_paths:
     - _sass
   style: compressed
-
-pagination:
-  enabled: true
-  per_page: 6
-  permalink: '/page/:num/'
-  title: ':title - page :num'
-  sort_field: 'date'
-  sort_reverse: true
-  collection: insights
 
 collections:
   addresses:
@@ -31,7 +21,7 @@ collections:
     output: false
   case-studies:
     output: true
-    permalink: /work/:path/
+    permalink: /case-studies/:path/
   insights:
     output: true
     permalink: /insights/:path/

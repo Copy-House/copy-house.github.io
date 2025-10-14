@@ -1,12 +1,23 @@
 ---
 layout: services
 
-title: Tech & FinTech Content Marketing Services | CopyHouse
-description: "CopyHouse is an award-winning content marketing agency specializing in services for the technology and FinTech sectors. We deliver content strategy, writing, design, and social media marketing to drive growth."
-image: /assets/uploads/hero-services.webp
+title: Content Marketing Agency for Tech &amp; Complex Industries | CopyHouse
+description: "CopyHouse specialise in content marketing services for B2B &amp; B2C technology brands looking to elevate their marketing. Discover our wide range of services including content strategy, content writing, content design and social media marketing."
 
-headline: A Content Marketing Strategy and Consultancy Service Fit For Your Brand.
-headline_para: Build strong foundations for your brand with our content marketing strategy and consultancy service.
+banner:
+  h1: Discover our Content Marketing Services
+  p: Our intelligent content marketing services are backed by a winning formula..
+  image: purple-arrows-banner.webp
+  flip: true
 
-insights: true
+two_col_image: true
+
+services_listing:
+  h2: "Discover Our Award-Winning<br> Content Marketing Services"
+
+award_approach:
+  h2: "Discover Our Award-Winning <br> Approach to Content Marketing Services"
+
+winning_formula:
+  h2: "CopyHouse's Winning Formula:"
 ---

@@ -32,4 +32,4 @@ Internal teams can fall into creative ruts. External agencies, with their broad 
 **CopyHouse Content Marketing Agency: Your Secret Weapon**  
 We’re an award-winning UK-based copywriting agency working with leading tech brands worldwide. From infographics and eBooks to social media assets, our writers, strategists, and designers deliver content that connects and converts.
 
-📩 Want a free consultation? [Get in touch now](https://www.copyhouse.io/services/content-marketing-solutions).
+📩 Want a free consultation? [Get in touch now](https://www.copyhouse.io/services).

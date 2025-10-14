@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en-GB">
+
+{% include head.html %}
+
+<body class="text-bg-light">
+  {% include header.html %}
+
+  <main>
+    {%- if page.banner.top -%}
+      {% include components/panel_banner.html banner=page.banner.top %}
+    {%- elsif page.banner -%}
+      {% include components/panel_banner.html banner=page.banner %}
+    {%- endif -%}
+
+    {%- if page.two_col_image -%}
+      {% include components/panel_two_col_image.html %}
+    {%- endif -%}
+
+    {%- if page.services_listing -%}
+      {% include components/panel_services_listing.html %}
+    {%- endif -%}
+
+    {%- if page.winning_formula -%}
+      {% include components/panel_winning_formula.html %}
+    {%- endif -%}
+
+    {%- if page.award_approach -%}
+      {% include components/panel_award_approach.html %}
+    {%- endif -%}
+  </main>
+
+  {% include footer.html %}
+
+</body>
+</html>

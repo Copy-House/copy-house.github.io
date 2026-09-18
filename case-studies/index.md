@@ -4,6 +4,9 @@ layout: case-studies
 title: "Case Studies | Content Marketing Agency for Global Tech Brands"
 description: "See how CopyHouse has empowered leading tech brands through content marketing excellence in the past."
 
+redirect_from:
+  - /work/supporting-digital-realtys-social-media-content/
+
 banner:
   image: "copyhouse-hero-poster-00001.webp"
   h1: "Tech Marketing Case Studies"
